@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+   <entry name="/Metadata.metadataembedded">
+      <DataModel>
+         <Node can-overwrite="true"
+               data-type="TEXT"
+               hierarchical="FLAT"
+               meta-restype="1"
+               meta-restype-docinst="1"
+               multiple="false"
+               name="Mandant"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="LIST">
+                  <Values>
+                     <Value content="sam" valId="1"/>
+                     <Value content="sam.energy" valId="2"/>
+                  </Values>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node can-overwrite="true"
+               data-type="TEXT"
+               hierarchical="FLAT"
+               meta-restype="1"
+               meta-restype-docinst="0"
+               multiple="false"
+               name="auswählbar"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="LIST">
+                  <Values>
+                     <Value content="Ja" valId="1"/>
+                     <Value content="Nein" valId="2"/>
+                  </Values>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </DataModel>
+   </entry>
+   <entry name="/dataProviders/Metadata">
+      <SerializedDataProvider providerClass="de.kwsoft.mtext.format.dataprovider.MetadataNodeInstance">
+         <DataModelResourceName name="~\Metadata.metadataembedded"/>
+         <NodeInst name="Metadata" value="">
+            <Children>
+               <NodeInst name="Mandant" value=""/>
+               <NodeInst name="auswählbar" value=""/>
+            </Children>
+         </NodeInst>
+      </SerializedDataProvider>
+   </entry>
+</content>

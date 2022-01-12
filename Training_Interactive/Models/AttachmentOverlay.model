@@ -1,0 +1,37 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Anlagen" title-en_US="attachments" dataNode="$freetext_data.Attachment.Show_Attachment"></ContentLink>
+   <ContentLink title="Anlagen auswählen" title-en_US="choose attachments" targetId="" dataNode="$freetext_data.Attachment.Attachment_Explanation">
+    <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
+   </ContentLink>
+  </GuideArea>
+  <InputArea>
+   <Field title="Anlagen anzeigen" title-en_US="Show Attachments" dataNode="$freetext_data.Attachment.Show_Attachment"></Field>
+   <Field title="Erläuterungen Strom" title-en_US="Explanation Energy" dataNode="$freetext_data.Attachment.Attachment_Explanation">
+    <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
+   </Field>
+   <Field title="Energiemix Anlage" title-en_US="Energy mix for the Easy Öko" dataNode="$freetext_data.Attachment.Attachment_EnergyMix">
+    <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
+   </Field>
+   <Field title="GVV Anlage" title-en_US="BSO - Basic Supply Ordinance" dataNode="$freetext_data.Attachment.Attachment_GVV">
+    <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
+   </Field>
+   <Field title="Preisliste Anlage" title-en_US="Electricity tariff price sheet" dataNode="$freetext_data.Attachment.Attachment_Pricelist">
+    <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
+   </Field>
+  </InputArea>
+ </UIContribution>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+</DocumentPart>

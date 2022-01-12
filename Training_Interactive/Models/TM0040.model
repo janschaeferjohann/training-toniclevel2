@@ -1,0 +1,109 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>15000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>WHAT IS THE COMPOSITION OF THE ELECTRICITY MIX IN GERMANY?</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>WIE SETZT SICH DER STROMMIX IN DEUTSCHLAND ZUSAMMEN?</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle></FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>In 2020, net electricity generation was around 488.7 TWh. The share of renewable energies in the overall German electricity mix rose to over 50 % for the first time in 2020. Renewable energy sources thus accounted for 241.65 TWh.</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="TextAbstandNach_12pt">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle></FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Im Jahr 2020 lag die Nettostromerzeugung bei etwa 488,7 TWh. Der Anteil erneuerbarer Energien am gesamtdeutschen Strommix stieg 2020 erstmals auf über 50 %. Erneuerbare Energiequellen brachten es damit auf 241,65 TWh.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>15000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>GROSS ELECTRICITY GENERATION VERSUS NET ELECTRICITY GENERATION?</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style>
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>BRUTTOSTROMERZEUGUNG VERSUS NETTOSTROMERZEUGUNG?</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle></FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>While gross electricity generation also includes the power plants' own electricity requirements, net electricity generation refers exclusively to electricity that is actually fed into the public grid - and thus ultimately also flows out of the domestic socket (minus transmission losses).</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="TextAbstandNach_12pt">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle></FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Während die Bruttostromerzeugung auch den eigenen Strombedarf der Kraftwerke einbezieht, ist mit der Nettostromerzeugung ausschließlich Strom gemeint, der tatsächlich ins öffentliche Netz eingespeist wird – und so letztlich auch aus der heimischen Steckdose fließt (abzüglicher der Übertragungsverluste).
+</Text>
+  </Span>
+ </Par>
+</ContainerPart>

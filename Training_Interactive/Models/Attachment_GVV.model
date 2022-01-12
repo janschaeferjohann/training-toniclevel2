@@ -1,0 +1,44 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Style>
+  <AttachmentSectionStyle>
+   <PageLayouts parentRef="\library\Framework_Training\Framework\DocumentParts\Attachment\Attachment_letter.pageLayouts"></PageLayouts>
+  </AttachmentSectionStyle>
+ </Style>
+ <DocumentPart>
+  <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "en_US"]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <AttachmentSection url="\\Framework_Training\Graphics\BSO - Basic Supply Ordinance.pdf">
+   <StaticContainer>
+    <Style>
+     <RegionRef>letterinfo</RegionRef>
+    </Style>
+    <Par>
+     <Span>
+      <Marker name="Anlagen">
+       <Text>BSO - Basic Supply Ordinance</Text>
+      </Marker>
+     </Span>
+    </Par>
+   </StaticContainer>
+  </AttachmentSection>
+ </DocumentPart>
+ <DocumentPart>
+  <VisibleIf><![CDATA[else]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <AttachmentSection url="\\Framework_Training\Graphics\GVV - Grundversorgungs-Verordnung.pdf">
+   <StaticContainer>
+    <Style>
+     <RegionRef>letterinfo</RegionRef>
+    </Style>
+    <Par>
+     <Span>
+      <Marker name="Anlagen">
+       <Text>GVV - Grundversorgungsverordnung</Text>
+      </Marker>
+     </Span>
+    </Par>
+   </StaticContainer>
+  </AttachmentSection>
+ </DocumentPart>
+</DocumentPart>

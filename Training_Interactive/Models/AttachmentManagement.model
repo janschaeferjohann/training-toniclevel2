@@ -1,0 +1,28 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <DocumentPart>
+  <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_Explanation.valueOf()]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <DocumentPartRef uri="Models\Attachment_Explanation.model"></DocumentPartRef>
+ </DocumentPart>
+ <DocumentPart>
+  <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_EnergyMix.valueOf()]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <DocumentPartRef uri="Models\Attachment_EnergyMix.model"></DocumentPartRef>
+ </DocumentPart>
+ <DocumentPart>
+  <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_GVV.valueOf()]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <DocumentPartRef uri="Models\Attachment_GVV.model"></DocumentPartRef>
+ </DocumentPart>
+ <DocumentPart>
+  <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_Pricelist.valueOf()]]></VisibleIf>
+  <DataDefinition></DataDefinition>
+  <DocumentPartRef uri="Models\Attachment_Pricelist.model"></DocumentPartRef>
+ </DocumentPart>
+</DocumentPart>

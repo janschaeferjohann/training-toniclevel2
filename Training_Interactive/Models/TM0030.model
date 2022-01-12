@@ -1,0 +1,469 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>15000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>GERMANY'S ELECTRICITY MIX: THIS WAS THE NET ELECTRICITY GENERATION IN 2020.</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>STROMMIX DEUTSCHLAND: DAS WAR DIE NETTOSTROMERZEUGUNG IM JAHR 2020.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>Throughout the year</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>2020</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>were around</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>489</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>Terrawatt hours</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>(TWh)</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>Nettostrom</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>generated. What is striking here: the</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>share of renewable energies</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>of the total German electricity mix increased to</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>50,5 %</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>. Since 2002, net electricity generation from renewable energies has thus increased more than</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <FontStyle>bold</FontStyle>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>six times</Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text> </Text>
+    </Span>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>11000.0mpt</FontSize>
+      <TextColor>rgb(0,0,0)</TextColor>
+     </Style>
+     <Text>(from approx. 42 TWh in 2002 to 247 TWh in 2020)! That from conventional sources, on the other hand, fell from 479 TWh to approx. 242 TWh in the same period.</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style>
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Über das gesamte Jahr</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>2020</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>wurden rund</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>489</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Terrawattstunden</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>(TWh)</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Nettostrom</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>erzeugt. Auffällig dabei: Der</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Anteil erneuerbarer Energien</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>am gesamtdeutschen Strommix stieg dabei auf</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>50,5 %</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>. Seit 2002 hat sich die Nettostromerzeugung aus erneuerbaren Energien damit mehr als</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>versechsfacht</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>(von ca. 42 TWh im Jahr 2002 bis auf 247 TWh im Jahr 2020)! Jene aus konventionellen Quellen hingegen sank im gleichen Zeitraum von 479 TWh auf ca. 242 TWh.</Text>
+  </Span>
+ </Par>
+</ContainerPart>

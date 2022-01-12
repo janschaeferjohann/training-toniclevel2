@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Show_Attachment"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_Explanation"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_EnergyMix"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_GVV"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_Pricelist"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node data-type="TEXT"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_Listing"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input/>
+            <Output/>
+         </Format>
+         <Script>var Listing = 'Start' + $Attachment_Explanation + $Attachment_EnergyMix + $Attachment_GVV + $Attachment_Pricelist;
+var result = 'false';
+
+if (Listing.indexOf('true') != -1) {
+   result = 'true';
+} else {
+   result = 'false';
+}
+result;</Script>
+      </Settings>
+   </Node>
+</DataModel>

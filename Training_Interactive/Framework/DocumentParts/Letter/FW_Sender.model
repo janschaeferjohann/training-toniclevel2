@@ -1,0 +1,14 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Sender" ref="\\Framework\Data\Sender.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="FW_SenderAddress"></Style>
+  <Span>
+   <Text>sam.energy - Alfred-Döplin-Platz 59 - 79000 Freiburg</Text>
+  </Span>
+ </Par>
+</ContainerPart>

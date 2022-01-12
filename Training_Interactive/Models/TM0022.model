@@ -1,0 +1,26 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Style>
+      <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+      <FontSize>12000.0mpt</FontSize>
+      <TextColor>rgb(68,68,68)</TextColor>
+     </Style>
+     <Text>However, the electricity mix of each individual consumer depends on the respective supplier. However, according to § 42 para. 1 of the Energy Industry Act (EnWG), the supplier is obliged to label the electricity mix, i.e. the end consumer must be able to see the proportionate distribution of the energy sources from which the purchased electricity is generated.</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>12000.0mpt</FontSize>
+    <TextColor>rgb(68,68,68)</TextColor>
+   </Style>
+   <Text>Der Strommix eines jeden einzelnen Verbrauchers ist jedoch abhängig vom jeweiligen Versorger. Für diesen besteht dabei nach § 42 Abs. 1 Energiewirtschaftsgesetz (EnWG) jedoch Kennzeichnungspflicht: das heißt, für den Endverbraucher muss die anteilmäßige Aufteilung der Energieträger, aus denen der bezogene Strom erzeugt wird, erkennbar sein.</Text>
+  </Span>
+ </Par>
+</ContainerPart>

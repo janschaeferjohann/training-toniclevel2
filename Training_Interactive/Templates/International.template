@@ -1,0 +1,157 @@
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Interactive\Templates\International.template" title="Interaktive Freitext Vorlage" title-en_US="interactiv Freetext template" description="Freitextvorlage für Sam AG und sam.energy - Mehrsprachig" description-en_US="Free text template for Sam AG and sam.energy - multilanguage">
+ <DataDefinition>
+  <ParamDef name="TaskControl" ref="Data\TaskControl.datamodel" dataMappingRef="Data\TaskControl.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" dataSourceName="TaskControl" dataMappingRef="Data\freetext_data.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <DataNodeDef name="Subject1">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="false" label="Subject line #1">
+    <Values></Values>
+    <ErrorMessage>Please enter at least one subject line!</ErrorMessage>
+   </Validation>
+  </DataNodeDef>
+  <DataNodeDef name="Subject2">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true">
+    <Values></Values>
+   </Validation>
+  </DataNodeDef>
+  <DataNodeDef name="Subject3">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true">
+    <Values></Values>
+   </Validation>
+  </DataNodeDef>
+  <DataNodeDef name="Zeige_Betreff" data-type="boolean">
+   <Description></Description>
+   <Input true-value="true" false-value="false"></Input>
+   <Output true-value="true" false-value="false"></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Zeige Betreff" label-en_US="show subject">
+    <Values></Values>
+    <ErrorMessage translation-en_US="no valid value">Kein gültiger Wert eingetragen</ErrorMessage>
+   </Validation>
+  </DataNodeDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Text bearbeiten" title-en_US="edit text" targetId="Freetext" dataNode=""></ContentLink>
+   <ActionLink title="Sprache Wechseln" title-en_US="change language" inputAreaGroupID="">
+    <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
+    <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
+	case 'en_US':
+	$context.setDataValue($Metadata.DocumentLanguage, '')
+	break;
+	default:
+	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+}]]></Script>
+   </ActionLink>
+   <ActionLink title="change language" inputAreaGroupID="">
+    <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
+    <Script><![CDATA[
+    switch ($Metadata.DocumentLanguage.toString()) {
+	case '':
+	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+	break;
+	default:
+	$context.setDataValue($Metadata.DocumentLanguage, '')
+}
+    ]]></Script>
+   </ActionLink>
+  </GuideArea>
+  <InputArea>
+   <Field title="Betreff Bearbeiten" title-en_US="enter subject" dataNode="$Zeige_Betreff"></Field>
+   <Group title="Subject">
+    <VisibleIf><![CDATA[$Zeige_Betreff.valueOff()]]></VisibleIf>
+    <Field title="Subject line #1" dataNode="$Subject1"></Field>
+    <Field title="Betreff Zeile 2" title-en_US="subject #2" dataNode="$Subject2"></Field>
+    <Field title="Betreff Zeile 3" title-en_US="subject #3" dataNode="$Subject3"></Field>
+   </Group>
+  </InputArea>
+ </UIContribution>
+ <Style>
+  <ParStyle>
+   <SpanStyle>
+    <FontSize>11.0pt</FontSize>
+   </SpanStyle>
+  </ParStyle>
+ </Style>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Document>
+  <OutputSettings staple="false">
+   <Parameters></Parameters>
+   <DataDefinition></DataDefinition>
+   <RendererMetadata></RendererMetadata>
+   <UserData></UserData>
+   <Target medium="EMAIL">
+    <Replacements></Replacements>
+    <Parameter name="MAIL_FROM"><![CDATA[$freetext_data.mail.Sender]]></Parameter>
+    <Parameter name="MAIL_TO"><![CDATA[$freetext_data.mail.Recipient]]></Parameter>
+    <Parameter name="MAIL_SUBJECT"><![CDATA[$freetext_data.mail.Subject]]></Parameter>
+   </Target>
+  </OutputSettings>
+  <DocumentPartRef uri="DocumentControls\Message.model">
+   <Extensions>
+    <DocumentExtension id="Message Content">
+     <DocumentPartRef uri="DocumentControls\CoverLetter.model">
+      <Extensions>
+       <ContainerExtension id="CoverLetter Content">
+        <Container id="Freetext"></Container>
+        <ContainerPartRef uri="Framework\DocumentParts\Letter\FW_SalutatoryAddress.model"></ContainerPartRef>
+        <ContainerPartRef uri="Models\AttachmentListing.model">
+         <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_Listing.toString() == 'true']]></VisibleIf>
+        </ContainerPartRef>
+        <ContainerPartRef uri="Models\TM0001.model">
+         <Param name="Text">$freetext_data.template.Text</Param>
+        </ContainerPartRef>
+        <ContainerPartRef uri="Models\AdditionalInformations.model"></ContainerPartRef>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+        <ContainerPartRef uri="Framework/DocumentParts/Letter/FW_ComplimentaryClose.model">
+         <Param name="user">$freetext_data.user</Param>
+        </ContainerPartRef>
+       </ContainerExtension>
+      </Extensions>
+      <Param name="Message"></Param>
+      <Param name="Instance"></Param>
+      <Param name="Subject2"></Param>
+      <Param name="Subject3"></Param>
+     </DocumentPartRef>
+    </DocumentExtension>
+   </Extensions>
+   <Param name="Message">$TaskControl.Message.instance(0)</Param>
+   <Param name="Subject2"></Param>
+   <Param name="Subject3"></Param>
+  </DocumentPartRef>
+  <DocumentPartRef uri="Models\AttachmentOverlay.model"></DocumentPartRef>
+  <DocumentPartRef uri="Models\AttachmentManagement.model">
+   <Param name="freetext_data">$freetext_data</Param>
+  </DocumentPartRef>
+ </Document>
+</RootPart>

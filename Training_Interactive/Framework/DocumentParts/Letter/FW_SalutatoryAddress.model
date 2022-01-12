@@ -1,0 +1,22 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Recipient" ref="Data\Recipient.datamodel" provided="true">
+   <Description></Description>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="EDIT,INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Par>
+  <Style parentName="FW_SalutatoryAddress"></Style>
+  <Span>
+   <Data>$Recipient.SalutatoryAddress</Data>
+   <Text>, </Text>
+  </Span>
+ </Par>
+</ContainerPart>

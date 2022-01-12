@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node multiple="false"
+         name="basedata"
+         ref="\\Framework_Training\Data\basedata.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="items"
+         ref="\\Framework_Training\Data\items.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="anticipated_payments"
+         ref="\\Framework_Training\Data\anticipated_payments.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="recipient"
+         ref="\\Framework_Training\Data\Recipient.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="User"
+         ref="\\Training_Interactive\Data\user.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="Attachment"
+         ref="\\Training_Interactive\Data\Attachment.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="mail"
+         ref="\\Framework_Training\Data\mail.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false" name="template">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="DATETIME"
+            hierarchical="FLAT"
+            multiple="false"
+            name="Date"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input date-format="MMM d, yyyy h:mm:ss a"/>
+               <Output date-format="dd.MM.yyyy HH:mm:ss"
+                       date-style="1"
+                       date-type="DATE"
+                       use-current-locale="true"/>
+            </Format>
+            <Script>new Date();</Script>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="Salutation_local"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script>var Gender = $freetext_data.recipient.Partner.Salutation.toString();
+var out = '';
+var Language = '';
+
+	if ($document.Metadata) {
+		Language = $document.Metadata.DocumentLanguage.toString();
+	}
+
+switch (Language) {
+case 'ENG':
+	switch (Gender) {
+	case 'M':
+		out = 'Dear Mr ' + Surname;
+		break;
+	case 'F':
+		out = 'Dear Ms ' + Surname;
+		break;
+	case 'D':
+		out = 'Dear ' + Firstname + ' ' + Surname;
+		break;
+	default:
+		out = 'Hello';
+		break;
+	}
+	break;
+default: 
+	switch (Gender) {
+	case 'M':
+		out = 'Sehr geehrter Herr ' + Surname + ',';
+		break;
+	case 'F':
+		out = 'Sehr geehrte Frau ' + Surname + ',';
+		break;
+	case 'D':
+		out = 'Hallo ' + Firstname + ' ' + Surname + ',';
+		break;
+	default:
+		out = 'Guten Tag,';
+		break;
+	}
+	break;
+}
+
+out;</Script>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="Salutation"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="LIST">
+               <Values>
+                  <Value content="M" valId="1"/>
+                  <Value content="D" valId="2"/>
+                  <Value content="W" valId="3"/>
+                  <Value content="X" valId="4"/>
+               </Values>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node multiple="false"
+            name="Text"
+            ref="\\Training_Interactive\Data\text.datamodel">
+         <Settings>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+</DataModel>

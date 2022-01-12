@@ -1,0 +1,189 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Ueberschrift_blau"></Style>
+  <Span>
+   <Data>$Metadata.Mandant</Data>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Text>Your personal contact: </Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="FW_InfobereichFett"></Style>
+  <Span>
+   <Text>Ihre Ansprechnpartner/in:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_InfobereichFett"></Style>
+ </Par>
+ <Par>
+  <Style parentName="FW_InfobereichFett"></Style>
+ </Par>
+ <Par>
+  <Style parentName="FW_InfobereichFett"></Style>
+ </Par>
+ <Par>
+  <Style parentName="FW_Infobereich"></Style>
+  <Span>
+   <Text></Text>
+   <Data>$freetext_data.User.Position</Data>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_Infobereich"></Style>
+  <Span>
+   <Data>$freetext_data.User.User</Data>
+   <Text> </Text>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>42442.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleMatrixSmallPadding"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Translations>
+       <Translation>
+        <Language language="en" country="US" variant=""></Language>
+        <Span>
+         <Text>Phone:</Text>
+        </Span>
+       </Translation>
+      </Translations>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>Telefon:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Data>$freetext_data.User.Phone</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Translations>
+       <Translation>
+        <Language language="en" country="US" variant=""></Language>
+        <Span>
+         <Text>Fax:</Text>
+        </Span>
+       </Translation>
+      </Translations>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>Telefax:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Data>$freetext_data.User.Fax</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Translations>
+       <Translation>
+        <Language language="en" country="US" variant=""></Language>
+        <Span>
+         <Text>E-mail:</Text>
+        </Span>
+       </Translation>
+      </Translations>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>E-Mail:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text></Text>
+       <Text> </Text>
+       <Data>$freetext_data.User.EMail</Data>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Text>Date:</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="FW_InfobereichFett"></Style>
+  <Span>
+   <Text>Datum:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Data>$freetext_data.template.Date</Data>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

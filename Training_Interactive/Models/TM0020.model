@@ -1,0 +1,21 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom" title="DankeText" title-en_US="Thank you text" description="Allgemeiner Text - Vielen Dank für dein Interesse" description-en_US="General text - Thank you for your interest">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Text>Thank you very much for your interest, we are sending you lots of material enclosed. The best thing is to buy a stove where you can burn the material, then you also save on heating costs!</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Span>
+   <Text>Vielen Dank für Dein Interesse, anbei schicken wir dir ganz viel Material. Am besten einen Ofen kaufen, da kann das Material verbrannt werden, dann sparst du auch Heizkosten!</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

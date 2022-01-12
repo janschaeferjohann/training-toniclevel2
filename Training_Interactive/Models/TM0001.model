@@ -1,0 +1,36 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Text" ref="\\Framework_Training\Data\text.datamodel" provided="true">
+   <Description></Description>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Text>Our new environmental campaign:</Text>
+    </Span>
+   </Translation>
+  </Translations>
+  <Style parentName="TextAbstandVorUndNach_12pt"></Style>
+  <Span>
+   <Text>Unsere neue Umwelt-Kampagne:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="Ueberschrift_blau1"></Style>
+  <Span>
+   <Text>WE ARE GREEN!</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandVorUndNach_12pt"></Style>
+  <Span>
+   <Data editable="true" spellchecking="true">$Text.green_text</Data>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>
