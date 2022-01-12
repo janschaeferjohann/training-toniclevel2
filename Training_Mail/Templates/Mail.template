@@ -1,0 +1,67 @@
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" title="sam Mailvorlage" description="Standard Mail Vorlage">
+ <DataDefinition>
+  <ParamDef name="Mail" ref="\\Framework_Training\Data\mail.datamodel" dataMappingRef="">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Empfänger bearbeiten" targetId="" dataNode="$Mail.Customer.Salutation"></ContentLink>
+   <ContentLink title="Text bearbeiten" targetId="Mailtext" dataNode=""></ContentLink>
+  </GuideArea>
+  <InputArea>
+   <Group title="Empfänger" title-en_GB="reciever">
+    <Field dataNode="$Mail.Recipient"></Field>
+    <Field dataNode="$Mail.Customer.Salutation"></Field>
+    <Field dataNode="$Mail.Customer.Title"></Field>
+    <Field dataNode="$Mail.Customer.Firstname"></Field>
+    <Field dataNode="$Mail.Customer.Surname"></Field>
+   </Group>
+  </InputArea>
+ </UIContribution>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="EDIT,INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Document>
+  <OutputSettings staple="false">
+   <Parameters></Parameters>
+   <DataDefinition></DataDefinition>
+   <RendererMetadata></RendererMetadata>
+   <UserData></UserData>
+   <Target medium="EMAIL">
+    <Replacements></Replacements>
+    <Parameter name="MAIL_FROM"><![CDATA[$Mail.Sender]]></Parameter>
+    <Parameter name="MAIL_TO"><![CDATA[$Mail.Recipient]]></Parameter>
+    <Parameter name="MAIL_SUBJECT"><![CDATA[$Mail.Subject]]></Parameter>
+   </Target>
+  </OutputSettings>
+  <Section>
+   <Style parentName="Mail"></Style>
+   <Container>
+    <Par>
+     <Style parentName="TextAbstandNach"></Style>
+     <Span>
+      <Text></Text>
+     </Span>
+    </Par>
+   </Container>
+   <Container id="Mailtext">
+    <Par id="">
+     <Style parentName="TextNormal"></Style>
+     <Span>
+      <Text></Text>
+     </Span>
+    </Par>
+   </Container>
+   <SectionPartRef uri="Models\MailGreeting.model">
+    <Param name="Mail">$Mail</Param>
+   </SectionPartRef>
+  </Section>
+ </Document>
+</RootPart>

@@ -1,0 +1,87 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Training_Freitext">
+   <DocumentDescription></DocumentDescription>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" valueChanged="fromDataSource">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="manually">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" valueChanged="manually">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
+       <Value><![CDATA[string:\library\Training_Mail\Templates\Mail.template]]></Value>
+      </DataNode>
+     </DataNode>
+     <DataNode name="Mail">
+      <DataNode name="Sender">
+       <Value><![CDATA[string:k.reutlinger@sam.web]]></Value>
+      </DataNode>
+      <DataNode name="User" valueChanged="manually">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="EMail">
+        <Value><![CDATA[string:k.reutlinger@sam.web]]></Value>
+       </DataNode>
+       <DataNode name="User">
+        <Value><![CDATA[string:Karolina Reutlinger]]></Value>
+       </DataNode>
+       <DataNode name="Role">
+        <Value><![CDATA[string:Role]]></Value>
+       </DataNode>
+       <DataNode name="Position">
+        <Value><![CDATA[string:Kundenservice]]></Value>
+       </DataNode>
+       <DataNode name="Fax">
+        <Value><![CDATA[string:0815/47114249]]></Value>
+       </DataNode>
+       <DataNode name="Phone">
+        <Value><![CDATA[string:0815/47111234]]></Value>
+       </DataNode>
+       <DataNode name="Name">
+        <Value><![CDATA[string:Karolina Reutlinger]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="Customer">
+       <DataNode name="Salutation_local">
+        <Value><![CDATA[string:Guten Tag,]]></Value>
+       </DataNode>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <SectionPartInstance partIndex="0">
+     <Data>
+      <DataNode name="Greeting">
+       <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+      </DataNode>
+      <DataNodeRef ref="$Mail" name="Mail"></DataNodeRef>
+     </Data>
+     <SectionPartInstance partIndex="0"></SectionPartInstance>
+    </SectionPartInstance>
+   </RootPartInstance>
+  </Root>
+  <DataSourceProperties>
+   <Property value="" name="Mail.FILE_NAME"></Property>
+  </DataSourceProperties>
+ </TestCase>
+</TestCases>

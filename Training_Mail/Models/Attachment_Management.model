@@ -1,0 +1,19 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Mail" ref="\\Framework_Training\Data\mail.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Anlagen auswählen" title-en_GB="choose attachments" targetId="" dataNode="$Mail.Attachment.Attachment_AVB"></ContentLink>
+  </GuideArea>
+  <InputArea>
+   <Field title="AVB - Allgemeine Versorgungsbedingungen" title-en_GB="GCS - General Conditions of Supply" dataNode="$Mail.Attachment.Attachment_AVB"></Field>
+   <Field title="Energiemix Anlage" title-en_GB="Energy mix for the &quot;Easy Öko" dataNode="$Mail.Attachment.Attachment_EnergyMix"></Field>
+   <Field title="GVV Anlage" title-en_GB="BSO - Basic Supply Ordinance" dataNode="$Mail.Attachment.Attachment_GVV"></Field>
+   <Field title="Preisliste Anlage" title-en_GB="Electricity tariff price sheet" dataNode="$Mail.Attachment.Attachment_Pricelist"></Field>
+  </InputArea>
+ </UIContribution>
+</DocumentPart>

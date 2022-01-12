@@ -1,0 +1,32 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Text>Sonderkondition für deinen Vertrag:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Text>Halbe Leistung und doppelte Kosten!</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+  <Span>
+   <Text>Reibungshitze erzeugt auch Wärme!</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

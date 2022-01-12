@@ -1,0 +1,18 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Span>
+   <Text>Vertragscenter 1</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

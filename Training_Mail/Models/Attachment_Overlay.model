@@ -1,0 +1,22 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Mail" ref="\\Framework_Training\Data\mail.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Anlagen" targetId="" dataNode="$Mail.Attachment.Show_Attachment"></ContentLink>
+  </GuideArea>
+  <InputArea>
+   <Field title="Anlagen anzeigen" dataNode="$Mail.Attachment.Show_Attachment"></Field>
+  </InputArea>
+ </UIContribution>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+</DocumentPart>

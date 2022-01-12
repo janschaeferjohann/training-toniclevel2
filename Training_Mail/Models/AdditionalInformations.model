@@ -1,0 +1,29 @@
+<SectionPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Container>
+  <Par>
+   <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text>Weitere Informationen finden Sie auf unserer </Text>
+   </Span>
+   <Span>
+    <Text>Webseite</Text>
+   </Span>
+   <Span>
+    <Text>.</Text>
+   </Span>
+  </Par>
+  <Par>
+   <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text>Sie können uns auch per </Text>
+   </Span>
+   <Span>
+    <Text>Mail</Text>
+   </Span>
+   <Span>
+    <Text> erreichen.</Text>
+   </Span>
+  </Par>
+ </Container>
+</SectionPart>

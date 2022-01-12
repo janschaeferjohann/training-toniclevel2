@@ -1,0 +1,50 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Training_Freitext">
+   <DocumentDescription></DocumentDescription>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="true">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding">
+       <Value><![CDATA[string:\library\Training_Freitext\Bausteine\Attachment_Management.model.template]]></Value>
+      </DataNode>
+      <DataNode name="Mandant">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <DocumentPartInstance partIndex="0">
+     <Data>
+      <DataNode name="Mail"></DataNode>
+     </Data>
+     <DocumentPartInstance partIndex="0"></DocumentPartInstance>
+    </DocumentPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

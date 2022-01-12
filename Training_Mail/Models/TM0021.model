@@ -1,0 +1,8 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Span>
+   <Text>Textbaustein 2</Text>
+  </Span>
+ </Par>
+</ContainerPart>

@@ -1,0 +1,13 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Span>
+   <Text>Vielen Dank für Dein Interesse, anbei schicken wir dir ganz viel Material. Am besten einen Ofen kaufen, da kann das Material verbrannt werden, dann sparst du auch Heizkosten!</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

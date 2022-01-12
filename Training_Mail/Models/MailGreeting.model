@@ -1,0 +1,77 @@
+<SectionPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Mail" ref="\\Framework_Training\Data\mail.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+  <DataNodeDef name="Greeting">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script><![CDATA['Mit freundlichen Grüßen']]></Script>
+  </DataNodeDef>
+ </DataDefinition>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied>
+   <ModificationRight role="_EVERYONE_" operations="EDIT"></ModificationRight>
+  </Denied>
+ </ModificationRights>
+ <Container id="Greeting">
+  <Style>
+   <RegionRef>Body</RegionRef>
+  </Style>
+  <Par>
+   <Style>
+    <SpaceBefore>0.3cm</SpaceBefore>
+    <SpaceAfter resolution="combine">0.4cm</SpaceAfter>
+    <KeepWithPrevious>true</KeepWithPrevious>
+   </Style>
+   <Span>
+    <Data>$Greeting</Data>
+   </Span>
+  </Par>
+  <Par>
+   <Style parentName="TextAbstandVor">
+    <KeepWithPrevious>true</KeepWithPrevious>
+   </Style>
+   <Span>
+    <Text></Text>
+   </Span>
+  </Par>
+  <Par>
+   <Span>
+    <Text></Text>
+   </Span>
+  </Par>
+  <Par>
+   <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text></Text>
+   </Span>
+  </Par>
+  <Par>
+  <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text>E-Mail: </Text>
+   </Span>
+  </Par>
+  <Par>
+  <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text>Telefon: </Text>
+    <Text></Text>
+   </Span>
+  </Par>
+  <Par>
+  <Style parentName="TextNormal"></Style>
+   <Span>
+    <Text>Fax: </Text>
+    <Text></Text>
+    <Text> </Text>
+   </Span>
+  </Par>
+ </Container>
+</SectionPart>

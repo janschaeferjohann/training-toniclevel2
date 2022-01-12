@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+   <entry name="/dataProviders/Metadata">
+      <SerializedDataProvider providerClass="de.kwsoft.mtext.format.dataprovider.MetadataNodeInstance">
+         <DataModelResourceName name=""/>
+         <NodeInst name="Metadata" value="">
+            <Children>
+               <NodeInst name="ModelRoles"
+                         uuid="fe1de202-2762-4055-8794-a6e2c2ecb85d"
+                         value="-_everyone_"/>
+               <NodeInst name="ModelRoles"
+                         uuid="d0bb2905-6060-440d-9bce-d5221c942360"
+                         value="MText.Kundenservice"/>
+               <NodeInst name="ModelRoles"
+                         uuid="356d67a7-e34d-4d02-9ca9-1d48bd666821"
+                         value="MText.Leitung"/>
+            </Children>
+         </NodeInst>
+      </SerializedDataProvider>
+   </entry>
+</content>
