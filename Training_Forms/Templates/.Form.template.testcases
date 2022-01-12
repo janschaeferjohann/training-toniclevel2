@@ -1,0 +1,99 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="&lt;Standard&gt;">
+ <TestCase name="&lt;Standard&gt;" includeInRegressionTool="false">
+  <Root base="Training_Forms">
+   <DocumentDescription></DocumentDescription>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" valueChanged="fromDataSource">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="manually">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" valueChanged="fromDataSource">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
+       <Value><![CDATA[string:\library\Training_Forms\Templates\Form.template]]></Value>
+      </DataNode>
+      <DataNode name="Mandant" valueChanged="fromDataSource">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="Language">
+       <Value><![CDATA[string:de]]></Value>
+      </DataNode>
+     </DataNode>
+     <DataNode name="Form">
+      <DataNode name="deliveryAddress">
+       <DataNode name="mrs" valueChanged="manually">
+        <Value><![CDATA[bool:false]]></Value>
+       </DataNode>
+       <DataNode name="mr" valueChanged="manually">
+        <Value><![CDATA[bool:false]]></Value>
+       </DataNode>
+       <DataNode name="company" valueChanged="manually">
+        <Value><![CDATA[bool:false]]></Value>
+       </DataNode>
+       <DataNode name="other" valueChanged="manually">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="postalCode" valueChanged="manually">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="paymentMethod">
+       <DataNode name="paymentDue">
+        <DataNode name="first_Of_Month" valueChanged="manually">
+         <Value><![CDATA[bool:false]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="paymentVia">
+        <DataNode name="directDebit" valueChanged="manually">
+         <Value><![CDATA[bool:false]]></Value>
+        </DataNode>
+        <DataNode name="transfer_cash" valueChanged="manually">
+         <Value><![CDATA[bool:false]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="tariffSelection">
+       <DataNode name="wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg" valueChanged="manually">
+        <Value><![CDATA[bool:false]]></Value>
+       </DataNode>
+       <DataNode name="wohlfuelstrom_Oeko_Loerrach" valueChanged="manually">
+        <Value><![CDATA[bool:false]]></Value>
+       </DataNode>
+       <DataNode name="wohlfuelstrom_Oeko_Bonndorf_Feldberg" valueChanged="manually">
+        <Value><![CDATA[bool:true]]></Value>
+       </DataNode>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    <ContainerPartInstance partIndex="1">
+     <Data>
+      <DataNodeRef ref="$Form" name="Form"></DataNodeRef>
+     </Data>
+     <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

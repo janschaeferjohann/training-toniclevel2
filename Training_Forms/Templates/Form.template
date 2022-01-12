@@ -1,0 +1,1936 @@
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Forms\Templates\Form.template">
+ <DataDefinition>
+  <DataNodeDef name="Form" ref="\\Framework_Training\Data\FormData.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </DataNodeDef>
+ </DataDefinition>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Document>
+  <Section>
+   <Style parentName="Form">
+    <ContainerStyle>
+     <ParStyle name="FormularTextFett">
+      <SpanStyle>
+       <FontSize>9000.0mpt</FontSize>
+       <FontStyle>bold</FontStyle>
+      </SpanStyle>
+     </ParStyle>
+    </ContainerStyle>
+    <ContainerStyle>
+     <ParStyle name="FormularText">
+      <SpanStyle>
+       <FontSize>9000.0mpt</FontSize>
+      </SpanStyle>
+     </ParStyle>
+    </ContainerStyle>
+    <ContainerStyle>
+     <ParStyle name="FormularTextKlein">
+      <SpanStyle>
+       <FontSize>7500.0mpt</FontSize>
+      </SpanStyle>
+     </ParStyle>
+    </ContainerStyle>
+    <ContainerStyle>
+     <ParStyle name="FormularTextRegion">
+      <SpanStyle>
+       <FontSize>9000.0mpt</FontSize>
+      </SpanStyle>
+     </ParStyle>
+    </ContainerStyle>
+   </Style>
+   <StaticContainer>
+    <Style>
+     <RegionRef>Logo</RegionRef>
+    </Style>
+    <Image uri="mtx://Framework_Training/Graphics/sam.energy-logo.png"></Image>
+   </StaticContainer>
+   <StaticContainer>
+    <Style>
+     <RegionRef>Footer</RegionRef>
+    </Style>
+    <Image uri="mtx://Framework_Training/Graphics/sam.energy-footerEven.png"></Image>
+   </StaticContainer>
+   <StaticContainer>
+    <Style>
+     <RegionRef>Barcode</RegionRef>
+    </Style>
+   </StaticContainer>
+   <Container>
+    <Style>
+     <RegionRef>Body</RegionRef>
+    </Style>
+    <Table id="Art_Lieferantenwechsel">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>111437.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>83237.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>94299.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>32049.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>95050.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleMatrixNoPadding">
+      <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
+     </Style>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="overwrite">0.5cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextFett"></Style>
+         <Span>
+          <InlineField dataNode="$Form.type.change_Of_Supplier"></InlineField>
+         </Span>
+         <Span>
+          <Style>
+           <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+          </Style>
+          <Text> Lieferantenwechsel</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularText"></Style>
+         <Span>
+          <Text>Aktueller Lieferant:</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style>
+          <Border>
+           <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+          </Border>
+         </Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularText"></Style>
+         <Span>
+          <Text>Kundennummer dort:</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style>
+          <Border>
+           <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+          </Border>
+         </Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Art_Einzug">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>50541.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>62728.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>64871.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>19247.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>69497.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>62747.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>63747.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>19158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleMatrixNoPadding">
+      <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
+     </Style>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.8cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextFett"></Style>
+         <Span>
+          <Style>
+           <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+          </Style>
+          <!-- <Data>$Form.Art.Einzug</Data> -->
+          <InlineField dataNode="$Form.type.moveIn"></InlineField>
+          <Text> Einzug</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularText"></Style>
+         <Span>
+          <Text>Einzugsdatum:</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style>
+          <Border>
+           <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+          </Border>
+         </Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextFett"></Style>
+         <Span>
+          <Style>
+           <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+          </Style>
+          <!-- <Data>$Form.Art.Neuanlage</Data> -->
+          <InlineField dataNode="$Form.type.new_Installation"></InlineField>
+          <Text> Neuanlage</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularText"></Style>
+         <Span>
+          <Text>Einbaudatum:</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style>
+          <Border>
+           <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+          </Border>
+         </Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>last</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularText"></Style>
+         <Span>
+          <Style>
+           <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+          </Style>
+          <InlineField dataNode="$Form.type.change_Of_Tariff"></InlineField>
+          <Text> Tarifwechsel</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Wohlfühlstrom_Öko">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>30655.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>16908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>100904.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Row>
+      <Style>
+       <BackgroundColor>rgb(242,242,242)</BackgroundColor>
+      </Style>
+      <Cell>
+       <Style>
+        <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
+       </Style>
+       <Container>
+        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-strom.png">
+         <Style>
+          <FillContainerWidth>true</FillContainerWidth>
+          <FillContainerHeight>false</FillContainerHeight>
+          <Stretch>original_size</Stretch>
+         </Style>
+        </Image>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_Oeko"></InlineField>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Wohlfühlstrom Öko</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Table>
+         <Columns>
+          <Column id="">
+           <Style>
+            <ColumnWidth>17666.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>234416.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>52916.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>auto</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.0cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oeko_Loerrach"></InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Stadtgebiet Freiburg </Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text> (Netzgebiet des sam.net - Stadtverbundes)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>27,35 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>8,75 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oeko_Bonndorf_Feldberg"></InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Umlandgemeinden Breisgau</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text></Text>
+             </Span>
+             <Span>
+              <Text>(Netzgebiet der WackyNet AG)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>28,10 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>10,41 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Wohlfühlstrom_Ökofix2022">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>30655.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>16908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>100904.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Row>
+      <Style>
+       <BackgroundColor>rgb(242,242,242)</BackgroundColor>
+      </Style>
+      <Cell>
+       <Style>
+        <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
+       </Style>
+       <Container>
+        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-strom.png">
+         <Style>
+          <FillContainerWidth>true</FillContainerWidth>
+          <Stretch>original_size</Stretch>
+         </Style>
+        </Image>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Wohlfühlstrom Ökofix 2022</Text>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Table>
+         <Columns>
+          <Column>
+           <Style>
+            <ColumnWidth>17902.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>234912.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>50037.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>auto</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022_Loerrach"></InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Stadtgebiet Freiburg</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>(Netzgebiet des sam.net - Stadtverbundes)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>28,08 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>8,75 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.0cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022_Bonndorf_Feldberg">
+               <Style>
+                <Margin top="0.2cm" right="0.0cm" bottom="0.0mpt" left="0.0mpt"></Margin>
+               </Style>
+              </InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Style>
+               <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Margin>
+              </Style>
+              <Text>Umlandgemeinden Breisgau</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>(Netzgebiet der WackyNet AG)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>28,99 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>10,45 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Wohlfühlstrom_Öko_mobil">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>30655.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>16908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>100904.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleFormularTarifauswahl">
+      <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
+     </Style>
+     <Row>
+      <Style>
+       <BackgroundColor>rgb(201,201,201)</BackgroundColor>
+      </Style>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+        <Image uri="mtx://Framework_Training/Graphics/Icons/autostrom.png">
+         <Style>
+          <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
+          <FillContainerWidth>true</FillContainerWidth>
+          <Stretch>original_size</Stretch>
+         </Style>
+        </Image>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Wohlfühlstrom</Text>
+         </Span>
+        </Par>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Öko mobil</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Table>
+         <Columns>
+          <Column>
+           <Style>
+            <ColumnWidth>20152.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>234912.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>50037.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>auto</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil_Loerrach"></InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Stadtgebiet Freiburg</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>(Netzgebiet des sam.net - Stadtnetzverbundes)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>28,08 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>8,75 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+         <Row>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Span>
+              <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg">
+               <Style>
+                <Margin top="0.2cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Margin>
+               </Style>
+              </InlineField>
+              <Text></Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Umlandgemeinden Breisgau</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>(Netzgebiet der WackyNet AG)</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Arbeitspreis</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Grundpreis</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+          <Cell>
+           <Style>
+            <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.1cm"></Margin>
+           </Style>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>28,99 ct/kWh</Text>
+             </Span>
+            </Par>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>10,45 €/Monat</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Lieferanschrift_Anrede">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>17658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>24408.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>16158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>22158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>17658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>28158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>14152.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>31908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>67158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>44658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>52908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>20658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>58158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>22658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>58158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Row>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.mrs"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein">
+          <Align>left</Align>
+         </Style>
+         <Span>
+          <Text>Frau</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.mr"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Herr</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.company"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Firma</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.other"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Andere:</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style>
+          <Border>
+           <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+          </Border>
+         </Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Zahlung am</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.paymentMethod.paymentDue.first_Of_Month"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>1. des Monats</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.paymentMethod.paymentVia.directDebit"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>15. des Monats</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table>
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>239658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>43908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>52908.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>20658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>58158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>22658.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>58158.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Row>
+      <Cell>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Zahlung per</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.paymentMethod.paymentVia.transfer_cash"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Überweisung</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.company"></InlineField>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Lastschrift</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Lieferanschrift">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>243862.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>41362.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleMatrixSmallPadding"></Style>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.name_surname">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <PdfOnBlur>
+if (!/^([ \u00c0-\u01ffa-zA-Z\.' \-]{3,})+$/.test(event.value)) {
+    event.target.textColor = color.red;
+    app.alert({cMsg: "Bitte einen gültigen Namen eingeben!", cTitle: "Name Validierung" });
+}    
+else {
+    event.target.textColor = color.black;
+} </PdfOnBlur>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Name, Vorname</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell rowSpan="2">
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <Text>Der nachstehend genannte Kontoinhaber ermächtigt Zahlungen von dessen Konto der sam Bank Lastschrift einzuziehen. Zugleich weist er sein Kreditinstitut an,
+diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.street_houseNumber">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Straße, Hausnummer</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Cell></Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.bank_name">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Kontoinhaber / in (Name, Vorname)</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.phone_number">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Geburtsdatum</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.IBAN">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Name der Bank</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+     <Row>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.phone_number">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Telefonnummer</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell></Cell>
+     </Row>
+     <Row>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.mailAdress">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <PdfOnBlur>
+if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(event.value)) {
+	event.target.textColor = color.red;
+	app.alert({cMsg: "Bitte eine valide Emailadresse eingeben!", cTitle: "Email Validierung" });
+}     
+else {
+	event.target.textColor = color.black;
+}   
+        </PdfOnBlur>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>E-Mail</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container></Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Table id="Zählernummer">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>243862.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>41362.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleMatrixSmallPadding">
+      <RowStyle>
+       <CellStyle>
+        <Border></Border>
+       </CellStyle>
+      </RowStyle>
+      <Padding top="0.0mpt" right="0.0mpt" bottom="-0.4cm" left="0.0mpt"></Padding>
+      <SpaceAfter resolution="combine">0.9cm</SpaceAfter>
+     </Style>
+     <Row>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.mailAdress">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Zählernummer</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FormularTextKlein"></Style>
+         <Span>
+          <InlineField dataNode="$Form.deliveryAddress.mailAdress">
+           <Style>
+            <Border>
+             <Bottom width="426.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+            </Border>
+            <FieldBorderColor>rgb(255,255,255)</FieldBorderColor>
+            <Height>0.5cm</Height>
+           </Style>
+          </InlineField>
+          <Text>Zählerstand</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+    <Container>
+     <Style>
+      <SpaceAfter resolution="combine">0.9cm</SpaceAfter>
+     </Style>
+     <ContainerPartRef uri="\\Framework_Training\Models\ZählpunktNr.model">
+      <Param name="Form">$Form</Param>
+     </ContainerPartRef>
+    </Container>
+    <Table id="Unterschrift">
+     <Columns>
+      <Column>
+       <Style>
+        <ColumnWidth>242362.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>42862.0mpt</ColumnWidth>
+       </Style>
+      </Column>
+      <Column>
+       <Style>
+        <ColumnWidth>auto</ColumnWidth>
+       </Style>
+      </Column>
+     </Columns>
+     <Style parentName="TabelleMatrixSmallPadding"></Style>
+     <Row>
+      <Cell>
+       <Container>
+        <Table>
+         <Columns>
+          <Column>
+           <Style>
+            <ColumnWidth>240379.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TableLinieObenRandlos"></Style>
+         <Row>
+          <Cell>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Datum, Ort</Text>
+             </Span>
+            </Par>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Table>
+         <Columns>
+          <Column>
+           <Style>
+            <ColumnWidth>223029.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TableLinieObenRandlos"></Style>
+         <Row>
+          <Cell>
+           <Container>
+            <Par>
+             <Style parentName="FormularTextKlein"></Style>
+             <Span>
+              <Text>Unterschrift</Text>
+             </Span>
+            </Par>
+            <Image uri="mtx://Framework_Training/Graphics/Icons/Ankreuz.PNG">
+             <Style>
+              <Padding top="-1.1cm" right="0.0mpt" bottom="0.0mpt" left="-0.5cm"></Padding>
+              <Width>0.6cm</Width>
+              <Stretch>keep_aspect_ratio</Stretch>
+              <VerticalAlignment>first</VerticalAlignment>
+              <HorizontalAlignment>first</HorizontalAlignment>
+             </Style>
+            </Image>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </Container>
+      </Cell>
+     </Row>
+    </Table>
+   </Container>
+  </Section>
+ </Document>
+</RootPart>
