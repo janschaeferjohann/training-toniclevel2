@@ -1,0 +1,7 @@
+<PageLayouts xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DefaultPageLayout parentRef="Framework\DocumentParts\Mail\Mail_Standard_Seite.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <Landscape>true</Landscape>
+  <RendererMetadata></RendererMetadata>
+ </DefaultPageLayout>
+</PageLayouts>

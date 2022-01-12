@@ -1,0 +1,34 @@
+<PageLayout xmlns="urn:kwsoft:mtext:tonic:dom">
+ <PageSize name="A4"></PageSize>
+ <RendererMetadata></RendererMetadata>
+ <Region name="smalllogo">
+  <Left distance="282329.0mpt" anchorSide="same"></Left>
+  <Top distance="18425.0mpt" anchorSide="same"></Top>
+  <Right distance="42521.0mpt" anchorSide="same"></Right>
+  <Bottom distance="769039.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Body">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="83797.0mpt" anchorSide="same"></Top>
+  <Right distance="42521.0mpt" anchorSide="same"></Right>
+  <Bottom distance="42628.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Infofeld">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="18425.0mpt" anchorSide="same"></Top>
+  <Right distance="333355.0mpt" anchorSide="same"></Right>
+  <Bottom distance="769040.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="FooterLogo">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="28.2cm" anchorSide="same"></Top>
+  <Right distance="94.0mpt" anchorSide="same"></Right>
+  <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="letterinfo" contentRotation="90">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="523275.0mpt" anchorSide="same"></Top>
+  <Right distance="538548.0mpt" anchorSide="same"></Right>
+  <Bottom distance="42520.0mpt" anchorSide="same"></Bottom>
+ </Region>
+</PageLayout>

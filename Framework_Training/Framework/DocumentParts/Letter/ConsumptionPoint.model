@@ -1,0 +1,96 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="basedata" ref="\\Framework_Training\Data\basedata.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Container>
+  <Table>
+   <Headers>
+    <Header>
+     <Row>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Verbrauchsstelle</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+      <Cell>
+       <Container>
+        <Par>
+         <Style parentName="FW_InfobereichFett"></Style>
+         <Span>
+          <Text>Vertragskonto</Text>
+         </Span>
+        </Par>
+       </Container>
+      </Cell>
+     </Row>
+    </Header>
+   </Headers>
+   <Columns>
+    <Column>
+     <Style>
+      <ColumnWidth>344004.0mpt</ColumnWidth>
+     </Style>
+    </Column>
+    <Column>
+     <Style>
+      <ColumnWidth>auto</ColumnWidth>
+     </Style>
+    </Column>
+   </Columns>
+   <Style parentName="TabelleHeaderFooterBlau"></Style>
+   <Row>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Data>$basedata.section.consumption_point.appartment</Data>
+        <Text> </Text>
+        <Data>$basedata.section.consumption_point.street</Data>
+        <Text> </Text>
+        <Data>$basedata.section.consumption_point.houseno</Data>
+        <Text> </Text>
+       </Span>
+      </Par>
+      <Par>
+       <Span>
+        <Data>$basedata.section.consumption_point.addresssupplement</Data>
+        <Text> </Text>
+       </Span>
+      </Par>
+      <Par>
+       <Span>
+        <Data>$basedata.section.consumption_point.zip</Data>
+        <Text> </Text>
+        <Data>$basedata.section.consumption_point.city</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Data>$basedata.contractsID</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+      <Par>
+       <Style parentName="FW_Infobereich"></Style>
+       <Span>
+        <Text>(Bei Zahlungen bitte stets angeben)</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </Table>
+ </Container>
+</ContainerPart>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapping>
+   <DataModel root-path="">\\Framework_Training\Data\basedata.datamodel</DataModel>
+   <Rules>
+      <Rule copySubtree="false"
+            name="/basedata"
+            xpath="/taskcontrol/message/instance/casedata/billing/basedata"/>
+      <Rule copySubtree="false"
+            name="/basedata/bank_account"
+            xpath="/taskcontrol/message/instance/recipient/Partner/bank_account"/>
+      <Rule copySubtree="false" name="/basedata/bank_account/bank" xpath="bank"/>
+      <Rule copySubtree="false" name="/basedata/bank_account/bic" xpath="bic"/>
+      <Rule copySubtree="false" name="/basedata/bank_account/iban" xpath="iban"/>
+      <Rule copySubtree="false"
+            name="/basedata/bank_account/owner"
+            xpath="owner"/>
+      <Rule copySubtree="false"
+            name="/basedata/bank_account/sepa"
+            xpath="/taskcontrol/message/instance/recipient/Partner/Sepa"/>
+      <Rule copySubtree="true"
+            name="/basedata/bank_account/sepa/direct_debit"
+            xpath="direct_debit"/>
+      <Rule copySubtree="true" name="/basedata/billingno" xpath="billingno"/>
+      <Rule copySubtree="true"
+            name="/basedata/contact_type"
+            xpath="contact_type"/>
+      <Rule copySubtree="true" name="/basedata/contractsID" xpath="contractsId"/>
+      <Rule copySubtree="true" name="/basedata/partnerid" xpath="partnerid"/>
+      <Rule copySubtree="false" name="/basedata/section" xpath="section"/>
+      <Rule copySubtree="true"
+            name="/basedata/section/billing_text"
+            xpath="billing_text"/>
+      <Rule copySubtree="true"
+            name="/basedata/section/consumption_point"
+            xpath="consumption_point"/>
+      <Rule copySubtree="true"
+            name="/basedata/section/contracts"
+            xpath="contracts"/>
+      <Rule copySubtree="true" name="/basedata/summary" xpath="summary"/>
+      <Rule copySubtree="true" name="/basedata/time_data" xpath="time_data"/>
+   </Rules>
+   <Params/>
+   <Namespaces/>
+</Mapping>

@@ -1,0 +1,12 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Section>
+  <Container>
+   <Par>
+    <Span>
+     <Text></Text>
+    </Span>
+   </Par>
+  </Container>
+ </Section>
+</DocumentPart>

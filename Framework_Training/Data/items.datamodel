@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node multiple="true" name="item">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="name"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="usage"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="44" thousand-separator="46"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="2"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="unit"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="DATETIME"
+            hierarchical="FLAT"
+            multiple="false"
+            name="periodfrom"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="DATE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input date-format="dd.MM.yyyy"/>
+               <Output date-format="dd.MM.yyyy HH:mm:ss"
+                       date-style="2"
+                       date-type="DATE"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="DATETIME"
+            hierarchical="FLAT"
+            multiple="false"
+            name="periodtilldate"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="DATE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input date-format="dd.MM.yyyy"/>
+               <Output date-format="dd.MM.yyyy HH:mm:ss"
+                       date-style="2"
+                       date-type="DATE"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="countfrom"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="46" thousand-separator="44"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="-1"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="counttilldate"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="46" thousand-separator="44"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="-1"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="netamount"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="44" thousand-separator="46"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="2"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="salestax"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="44" thousand-separator="46"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="2"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="presum"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="44" thousand-separator="46"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="2"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="NUMBER"
+            hierarchical="FLAT"
+            multiple="false"
+            name="tax"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input decimal-separator="44" thousand-separator="46"/>
+               <Output currency-format="BEFORE_WITH_SPACE"
+                       currency-symbol="€"
+                       decimal-separator="44"
+                       formatting-type="NUMBER"
+                       fractional-digits="0"
+                       leading-zeros="1"
+                       text-prefix=""
+                       text-suffix=""
+                       thousand-separator="46"
+                       use-current-locale="true"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="tax_unit"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node multiple="false" name="basic_price">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="unit"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="netamount"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="price"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+      <Node multiple="false" name="work_price">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="unit"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="to_price"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="to_netamount"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="from_price"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE"/>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="NUMBER"
+               hierarchical="FLAT"
+               multiple="false"
+               name="from_netamount"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE"/>
+               <Format>
+                  <Input decimal-separator="44" thousand-separator="46"/>
+                  <Output currency-format="BEFORE_WITH_SPACE"
+                          currency-symbol="€"
+                          decimal-separator="44"
+                          formatting-type="NUMBER"
+                          fractional-digits="2"
+                          leading-zeros="1"
+                          text-prefix=""
+                          text-suffix=""
+                          thousand-separator="46"
+                          use-current-locale="true"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+   </Node>
+</DataModel>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node multiple="false" name="billing">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node multiple="false"
+            name="basedata"
+            ref="\\Framework_Training\Data\basedata.datamodel">
+         <Settings>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node multiple="false" name="billdata">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node multiple="false"
+               name="anticipated_payments"
+               ref="\\Framework_Training\Data\anticipated_payments.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false" name="billsum">
+            <Settings>
+               <Script/>
+            </Settings>
+            <Node data-type="NUMBER"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="netamount"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input decimal-separator="44" thousand-separator="46"/>
+                     <Output currency-format="AFTER_WITH_SPACE"
+                             currency-symbol="€"
+                             decimal-separator="44"
+                             formatting-type="CURRENCY"
+                             fractional-digits="2"
+                             leading-zeros="1"
+                             text-prefix=""
+                             text-suffix=""
+                             thousand-separator="46"
+                             use-current-locale="false"/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="NUMBER"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="salestax"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input decimal-separator="44" thousand-separator="46"/>
+                     <Output currency-format="AFTER_WITH_SPACE"
+                             currency-symbol="€"
+                             decimal-separator="44"
+                             formatting-type="CURRENCY"
+                             fractional-digits="2"
+                             leading-zeros="1"
+                             text-prefix=""
+                             text-suffix=""
+                             thousand-separator="46"
+                             use-current-locale="false"/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="NUMBER"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="sum"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input decimal-separator="44" thousand-separator="46"/>
+                     <Output currency-format="AFTER_WITH_SPACE"
+                             currency-symbol="€"
+                             decimal-separator="44"
+                             formatting-type="CURRENCY"
+                             fractional-digits="2"
+                             leading-zeros="1"
+                             text-prefix=""
+                             text-suffix=""
+                             thousand-separator="46"
+                             use-current-locale="false"/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="NUMBER"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="anticipated_paymentsum"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input decimal-separator="44" thousand-separator="46"/>
+                     <Output currency-format="AFTER_WITH_SPACE"
+                             currency-symbol="€"
+                             decimal-separator="44"
+                             formatting-type="CURRENCY"
+                             fractional-digits="2"
+                             leading-zeros="1"
+                             text-prefix=""
+                             text-suffix=""
+                             thousand-separator="46"
+                             use-current-locale="false"/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="NUMBER"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="endsum"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input decimal-separator="44" thousand-separator="46"/>
+                     <Output currency-format="AFTER_WITH_SPACE"
+                             currency-symbol="€"
+                             decimal-separator="44"
+                             formatting-type="CURRENCY"
+                             fractional-digits="2"
+                             leading-zeros="1"
+                             text-prefix=""
+                             text-suffix=""
+                             thousand-separator="46"
+                             use-current-locale="false"/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="TEXT"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="sumArt"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input/>
+                     <Output/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+         </Node>
+         <Node multiple="true"
+               name="billposition"
+               ref="\\Framework_Training\Data\billposition.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false"
+               name="items"
+               ref="\\Framework_Training\Data\items.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false" name="difference">
+            <Settings>
+               <Script>	var varDiffBetrag = '';
+	var BetragA = 0;
+	var BetragB = 0;
+	var Z = ''
+
+	Z = $current.add($current.Diff, "");
+	
+	for (var i=0; i &lt; $anticipated_payments.paidanticipated_payments.amount.instanceCount(i); i++) {
+		BetragA = $anticipated_payments.paidanticipated_payments.amount.instance(i).presum;
+		BetragB = $items.item.instance(i).presum;
+
+		BetragA = BetragA.toString().replace(".", "");
+		BetragA = BetragA.toString().replace(",", ".");
+		BetragB = BetragB.toString().replace(".", "");
+		BetragB = BetragB.toString().replace(",", ".");
+
+		varDiffBetrag = BetragA - BetragB;
+		
+		Z.add(Z.Betrag, varDiffBetrag);
+	};	
+</Script>
+            </Settings>
+            <Node multiple="false" name="Diff">
+               <Settings>
+                  <Script/>
+               </Settings>
+               <Node data-type="NUMBER"
+                     hierarchical="FLAT"
+                     multiple="true"
+                     name="Amount"
+                     searchable="false">
+                  <Settings>
+                     <Validation allow-empty-value="true"
+                                 dialog-field=""
+                                 label=""
+                                 operator="ANY"
+                                 validation-type="ANY_VALUE">
+                        <Values/>
+                     </Validation>
+                     <Format>
+                        <Input decimal-separator="46" thousand-separator="44"/>
+                        <Output currency-format="BEFORE_WITH_SPACE"
+                                currency-symbol="€"
+                                decimal-separator="44"
+                                formatting-type="NUMBER"
+                                fractional-digits="2"
+                                leading-zeros="1"
+                                text-prefix=""
+                                text-suffix=""
+                                thousand-separator="46"
+                                use-current-locale="true"/>
+                     </Format>
+                     <Script/>
+                  </Settings>
+               </Node>
+            </Node>
+         </Node>
+      </Node>
+      <Node multiple="false"
+            name="reference"
+            ref="\\Framework_Training\Data\reference.datamodel">
+         <Settings>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node multiple="false"
+            name="energymix"
+            ref="\\Framework_Training\Data\energymix.datamodel">
+         <Settings>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node multiple="false" name="template">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node multiple="false" name="contract">
+         <Settings>
+            <Script>	var start_electricity = '0';
+	var start_gas = '0';
+	var start_water = '0';
+	var start_heat = '0';
+	var contractAll = $billing_data.billing.basedata.section.contracts.contract;
+	
+	for (var i=0; i &lt; contractAll.instanceCount(); i++) 	{
+		if (contractAll.instance(i).name.toString() == 'Strom' &amp;&amp; start_electricity == '0') {
+			start_electricity = '1';
+		}
+		if (contractAll.instance(i).name.toString() == 'Gas' &amp;&amp; start_gas == '0') {
+
+			start_gas = '1';
+		}
+		if (contractAll.instance(i).name.toString() == 'Wasser' &amp;&amp; start_water == '0') {
+
+			start_water = '1';
+		}
+		if (contractAll.instance(i).name.toString() == 'Waerme' &amp;&amp; start_heat == '0') {
+
+			start_heat = '1';
+		}
+
+	};
+
+	$contract.add($contract.flag_electricity, start_electricity);
+	$contract.add($contract.flag_gas, start_gas);	
+	$contract.add($contract.flag_water, start_water);
+	$contract.add($contract.flag_heat, start_heat);	
+</Script>
+         </Settings>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="flag_electricity"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="flag_gas"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="flag_water"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="TEXT"
+               hierarchical="FLAT"
+               multiple="false"
+               name="flag_heat"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input/>
+                  <Output/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+      <Node multiple="false" name="billlines">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node multiple="true"
+               name="electricity"
+               ref="\\Framework_Training\Data\billposition.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="gas"
+               ref="\\Framework_Training\Data\billposition.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="water"
+               ref="\\Framework_Training\Data\billposition.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="heat"
+               ref="\\Framework_Training\Data\billposition.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+      <Node multiple="false" name="Tablelines">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node multiple="false"
+               name="electricity"
+               ref="\\Framework_Training\Data\billing_lines.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false"
+               name="gas"
+               ref="\\Framework_Training\Data\billing_lines.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false"
+               name="water"
+               ref="\\Framework_Training\Data\billing_lines.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="false"
+               name="heat"
+               ref="\\Framework_Training\Data\billing_lines.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+      <Node multiple="false" name="prepaymentslist">
+         <Settings>
+            <Script>	var varprepaidLine = '';
+	var dataPath = $billing_data.billing.billdata.anticipated_payments.nextanticipated_payments;
+	var varamountLines = dataPath.anticipated_paymentsliste.count();
+	var varColumn = 1
+	var yearOutput = '';
+	var dateDMunformatted = '';
+	var dateOutput = '';
+		
+	for (var i=0; i &lt; varamountLines; i++) {
+		varprepaidLine = dataPath.anticipated_paymentsliste.get(i);	
+		dateDMunformatted = varprepaidLine.toString().split(".");
+		dateOutput =  dateDMunformatted[0] + '.' + dateDMunformatted[1] + '.';
+		yearOutput =  dateDMunformatted[2];
+		
+		if (varColumn == 1) {
+			A = $current.add($current.column1, "");
+			A.add(A.Datum, dateOutput);
+			A.add(A.Betrag, dataPath.next_amount);
+			A.add(A.Monat, yearOutput);
+		};
+		if (varColumn == 2) {
+			B = $current.add($current.column2, "");
+			B.add(B.Datum, dateOutput);		
+			B.add(B.Betrag, dataPath.next_amount);
+			B.add(B.Monat, yearOutput);
+		};
+		if (varColumn == 3) {
+			C = $current.add($current.column3, "");
+			C.add(C.Datum, dateOutput);		
+			C.add(C.Betrag, dataPath.next_amount);
+			C.add(C.Monat, yearOutput);
+		};
+		if (varColumn == 4) {
+			D = $current.add($current.column4, "");
+			D.add(D.Datum, dateOutput);		
+			D.add(D.Betrag, dataPath.next_amount);
+			D.add(D.Monat, yearOutput);
+		};		
+
+		varColumn = varColumn + 1;
+		if (varColumn == 5) {
+			varColumn = 1;
+		};
+
+	};</Script>
+         </Settings>
+         <Node multiple="true"
+               name="column1"
+               ref="\\Framework_Training\Data\column.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="column2"
+               ref="\\Framework_Training\Data\column.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="column3"
+               ref="\\Framework_Training\Data\column.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node multiple="true"
+               name="column4"
+               ref="\\Framework_Training\Data\column.datamodel">
+            <Settings>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+   </Node>
+</DataModel>

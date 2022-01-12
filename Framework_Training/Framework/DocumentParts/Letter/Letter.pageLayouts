@@ -1,0 +1,23 @@
+<PageLayouts xmlns="urn:kwsoft:mtext:tonic:dom">
+ <First parentRef="Framework\DocumentParts\Letter\Letter_FirstPage.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <Landscape>false</Landscape>
+  <RendererMetadata></RendererMetadata>
+  <RegionOrder>
+   <RegionRef>recipientaddress</RegionRef>
+   <RegionRef>senderaddress</RegionRef>
+   <RegionRef>contactinformation</RegionRef>
+   <RegionRef>Body</RegionRef>
+   <RegionRef>subject</RegionRef>
+   <RegionRef>logo</RegionRef>
+   <RegionRef>recipientspezifikation</RegionRef>
+   <RegionRef>letterinfo</RegionRef>
+   <RegionRef>FooterLogo</RegionRef>
+   <RegionRef>consumption_point</RegionRef>
+  </RegionOrder>
+ </First>
+ <DefaultPageLayout parentRef="Framework\DocumentParts\Letter\Letter_StandardPage.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <RendererMetadata></RendererMetadata>
+ </DefaultPageLayout>
+</PageLayouts>

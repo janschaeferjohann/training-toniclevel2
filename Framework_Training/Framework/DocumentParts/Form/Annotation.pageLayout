@@ -1,0 +1,16 @@
+<PageLayout xmlns="urn:kwsoft:mtext:tonic:dom">
+ <PageSize name="A4"></PageSize>
+ <RendererMetadata></RendererMetadata>
+ <Region name="FooterLogo">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="28.2cm" anchorSide="same"></Top>
+  <Right distance="94.0mpt" anchorSide="same"></Right>
+  <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Body">
+  <Left distance="15590.0mpt" anchorSide="same"></Left>
+  <Top distance="13606.0mpt" anchorSide="same"></Top>
+  <Right distance="25229.0mpt" anchorSide="same"></Right>
+  <Bottom distance="140032.0mpt" anchorSide="same"></Bottom>
+ </Region>
+</PageLayout>

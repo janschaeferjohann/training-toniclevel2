@@ -1,0 +1,11 @@
+<PageLayouts>
+    <DefaultPageLayout name="default">
+         <Region name="Body">
+             <Left distance="2.0cm" anchorSide="same"></Left>
+             <Top distance="1.0cm" anchorSide="same"></Top>
+             <Right distance="1.0cm" anchorSide="same"></Right>
+             <Bottom distance="1.0cm" anchorSide="same"></Bottom>
+         </Region>    
+         <PageSize name="A4" width="210.0mm" height="297.0mm"></PageSize>
+    </DefaultPageLayout>
+</PageLayouts>

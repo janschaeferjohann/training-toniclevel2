@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node multiple="false"
+         name="basedata"
+         ref="\\Framework_Training\Data\basedata.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="items"
+         ref="\\Framework_Training\Data\items.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="anticipated_payments"
+         ref="\\Framework_Training\Data\anticipated_payments.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false"
+         name="recipient"
+         ref="\\Framework_Training\Data\Recipient.datamodel">
+      <Settings>
+         <Script/>
+      </Settings>
+   </Node>
+   <Node multiple="false" name="template">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node multiple="false" name="paymentslist">
+         <Settings>
+            <Script>	var rowValue = '';
+	var dataPath = $contract_data.anticipated_payments.nextanticipated_payments;
+	var rowCount = dataPath.anticipated_paymentsliste.count();
+	var dataprovider = '';
+	var yearOutput = '';
+	var dateDMunformatted = '';
+	var dateOutput = '';
+	
+	for (var i=0; i &lt; rowCount; i++) {
+		dataprovider = $current.add($current.payment, "");	
+		rowValue = dataPath.anticipated_paymentsliste.get(i);	
+		
+		dateDMunformatted = rowValue.toString().split(".");
+		dateOutput =  dateDMunformatted[0] + '.' + dateDMunformatted[1] + '.';
+		yearOutput =  dateDMunformatted[2];
+		
+		dataprovider.add(dataprovider.date, dateOutput);
+		dataprovider.add(dataprovider.value, dataPath.next_amount);
+		dataprovider.add(dataprovider.year, yearOutput);
+	};</Script>
+         </Settings>
+         <Node multiple="true" name="payment">
+            <Settings>
+               <Script/>
+            </Settings>
+            <Node data-type="TEXT"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="date"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input/>
+                     <Output/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="TEXT"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="value"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input/>
+                     <Output/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+            <Node data-type="TEXT"
+                  hierarchical="FLAT"
+                  multiple="false"
+                  name="year"
+                  searchable="false">
+               <Settings>
+                  <Validation allow-empty-value="true"
+                              dialog-field=""
+                              label=""
+                              operator="ANY"
+                              validation-type="ANY_VALUE">
+                     <Values/>
+                  </Validation>
+                  <Format>
+                     <Input/>
+                     <Output/>
+                  </Format>
+                  <Script/>
+               </Settings>
+            </Node>
+         </Node>
+      </Node>
+   </Node>
+</DataModel>

@@ -1,0 +1,11 @@
+<PageLayout xmlns="urn:kwsoft:mtext:tonic:dom">
+ <PageSize name="A4"></PageSize>
+ <Landscape>true</Landscape>
+ <RendererMetadata></RendererMetadata>
+ <Region name="Body">
+  <Left distance="16440.0mpt" anchorSide="same"></Left>
+  <Top distance="12472.0mpt" anchorSide="same"></Top>
+  <Right distance="10205.0mpt" anchorSide="same"></Right>
+  <Bottom distance="14174.0mpt" anchorSide="same"></Bottom>
+ </Region>
+</PageLayout>

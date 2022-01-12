@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapping>
+   <DataModel root-path="">\\Framework_Training\Data\items.datamodel</DataModel>
+   <Rules>
+      <Rule copySubtree="true"
+            name="/items"
+            xpath="/taskcontrol/message/instance/casedata/billing/billdata/items"/>
+   </Rules>
+   <Params/>
+   <Namespaces/>
+</Mapping>

@@ -1,0 +1,19 @@
+<PageLayouts xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DefaultPageLayout>
+  <PageSize name="A5"></PageSize>
+  <Landscape>true</Landscape>
+  <RendererMetadata></RendererMetadata>
+  <Region name="Body">
+   <Left distance="0.0mpt" anchorSide="same"></Left>
+   <Top distance="0.0mpt" anchorSide="same"></Top>
+   <Right distance="0.0mpt" anchorSide="same"></Right>
+   <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+  </Region>
+  <Region name="letterinfo">
+   <Left distance="0.0mpt" anchorSide="same"></Left>
+   <Top distance="0.0mpt" anchorSide="same"></Top>
+   <Right distance="100.0mpt" anchorSide="same"></Right>
+   <Bottom distance="1.0mpt" anchorSide="same"></Bottom>
+  </Region>
+ </DefaultPageLayout>
+</PageLayouts>

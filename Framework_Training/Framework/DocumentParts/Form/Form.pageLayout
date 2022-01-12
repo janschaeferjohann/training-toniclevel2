@@ -1,0 +1,28 @@
+<PageLayout xmlns="urn:kwsoft:mtext:tonic:dom">
+ <PageSize name="A4"></PageSize>
+ <RendererMetadata></RendererMetadata>
+ <Region name="Logo">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="0.0cm" anchorSide="same"></Top>
+  <Right distance="0.0mpt" anchorSide="same"></Right>
+  <Bottom distance="733323.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Body">
+  <Left distance="57590.0mpt" anchorSide="same"></Left>
+  <Top distance="128976.0mpt" anchorSide="same"></Top>
+  <Right distance="27449.0mpt" anchorSide="same"></Right>
+  <Bottom distance="72000.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Footer">
+  <Left distance="57543.0mpt" anchorSide="same"></Left>
+  <Top distance="784062.0mpt" anchorSide="same"></Top>
+  <Right distance="72898.0mpt" anchorSide="same"></Right>
+  <Bottom distance="23245.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Barcode">
+  <Left distance="528377.0mpt" anchorSide="same"></Left>
+  <Top distance="784062.0mpt" anchorSide="same"></Top>
+  <Right distance="26363.0mpt" anchorSide="same"></Right>
+  <Bottom distance="23248.0mpt" anchorSide="same"></Bottom>
+ </Region>
+</PageLayout>

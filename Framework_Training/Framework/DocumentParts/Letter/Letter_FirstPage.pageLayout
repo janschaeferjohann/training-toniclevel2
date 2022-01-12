@@ -1,0 +1,58 @@
+<PageLayout xmlns="urn:kwsoft:mtext:tonic:dom">
+ <PageSize name="A4"></PageSize>
+ <RendererMetadata></RendererMetadata>
+ <Region name="recipientaddress">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="191905.0mpt" anchorSide="same"></Top>
+  <Right distance="297639.0mpt" anchorSide="same"></Right>
+  <Bottom distance="575433.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="senderaddress">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="141732.0mpt" anchorSide="same"></Top>
+  <Right distance="297639.0mpt" anchorSide="same"></Right>
+  <Bottom distance="685984.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="contactinformation">
+  <Left distance="411024.0mpt" anchorSide="same"></Left>
+  <Top distance="141732.0mpt" anchorSide="same"></Top>
+  <Right distance="42519.0mpt" anchorSide="same"></Right>
+  <Bottom distance="472093.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="Body">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="377574.0mpt" anchorSide="same"></Top>
+  <Right distance="42575.0mpt" anchorSide="same"></Right>
+  <Bottom distance="42520.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="subject">
+  <Left distance="56125.0mpt" anchorSide="same"></Left>
+  <Top distance="321324.0mpt" anchorSide="same"></Top>
+  <Right distance="198993.0mpt" anchorSide="same"></Right>
+  <Bottom distance="472093.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="logo">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="0.0mpt" anchorSide="same"></Top>
+  <Right distance="0.0mpt" anchorSide="same"></Right>
+  <Bottom distance="733323.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="recipientspezifikation">
+  <Left distance="56692.0mpt" anchorSide="same"></Left>
+  <Top distance="155904.0mpt" anchorSide="same"></Top>
+  <Right distance="297640.0mpt" anchorSide="same"></Right>
+  <Bottom distance="649985.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="letterinfo" contentRotation="90">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="523275.0mpt" anchorSide="same"></Top>
+  <Right distance="538548.0mpt" anchorSide="same"></Right>
+  <Bottom distance="42520.0mpt" anchorSide="same"></Bottom>
+ </Region>
+ <Region name="FooterLogo">
+  <Left distance="0.0mpt" anchorSide="same"></Left>
+  <Top distance="28.2cm" anchorSide="same"></Top>
+  <Right distance="94.0mpt" anchorSide="same"></Right>
+  <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+ </Region>
+</PageLayout>

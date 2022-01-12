@@ -1,0 +1,40 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="Form" ref="\\Framework_Training\Data\FormData.datamodel">
+   <Description></Description>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Formfield_Label"></Style>
+  <Span>
+   <InlineField fieldId="Zaehlpunktbezeichnung" dataNode="$Form.paypointTitle">
+    <Style>
+     <FieldBackgroundColor>rgb(255,255,255)</FieldBackgroundColor>
+     <Transparent>true</Transparent>
+     <MaxLength>33</MaxLength>
+     <Comb>true</Comb>
+     <CombFirstLineHeight>15.0pt</CombFirstLineHeight>
+     <CombFirstLineWidth>2.0pt</CombFirstLineWidth>
+     <CombLastLineHeight>15.0pt</CombLastLineHeight>
+     <CombLastLineWidth>2.0pt</CombLastLineWidth>
+     <CombZones>11,22,33</CombZones>
+     <CombZoneLineWidth>2.0pt</CombZoneLineWidth>
+     <CombZoneLineHeight>12.0pt</CombZoneLineHeight>
+     <CombLineHeight>8.0pt</CombLineHeight>
+     <CombLineWidth>1.0pt</CombLineWidth>
+     <Width>12.0cm</Width>
+     <Height>16.0pt</Height>
+    </Style>
+   </InlineField>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="Infotext_klein"></Style>
+  <Span>
+   <Text>Zählpunktbezeichnung</Text>
+  </Span>
+ </Par>
+</ContainerPart>

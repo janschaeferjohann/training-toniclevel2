@@ -1,0 +1,25 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Style>
+  <AttachmentSectionStyle>
+   <PageLayouts parentRef="\library\Framework_Training\Framework\DocumentParts\Attachment\Attachment_letter.pageLayouts"></PageLayouts>
+  </AttachmentSectionStyle>
+ </Style>
+ <DocumentPart>
+  <DataDefinition></DataDefinition>
+   <AttachmentSection url="mtx://Framework_Training/Graphics/GVV - Grundversorgungs-Verordnung.pdf">
+  <StaticContainer>
+   <Style>
+    <RegionRef>letterinfo</RegionRef>
+   </Style>
+   <Par>
+    <Span>
+     <Marker name="Anlagen">
+      <Text>GVV - Grundversorgungsverordnung</Text>
+     </Marker>
+    </Span>
+   </Par>
+  </StaticContainer>
+ </AttachmentSection>
+ </DocumentPart> 
+</DocumentPart>

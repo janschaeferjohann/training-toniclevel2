@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapping>
+   <DataModel root-path="">\\Framework_Training\Data\anticipated_payments.datamodel</DataModel>
+   <Rules>
+      <Rule copySubtree="false"
+            name="/anticipated_payments"
+            xpath="/taskcontrol/message/instance/casedata/billing/billdata/anticipated_payments"/>
+      <Rule copySubtree="false"
+            name="/anticipated_payments/nextanticipated_payments"
+            xpath="nextanticipated_payments"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/nextanticipated_payments/amount"
+            xpath="amount"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/nextanticipated_payments/amount_anticipated_payments"
+            xpath="amount_anticipated_payments"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/nextanticipated_payments/anticipated_paymentsliste"
+            xpath="anticipated_paymentsliste"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/nextanticipated_payments/next_amount"
+            xpath="next_amount"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/nextanticipated_payments/next_sum"
+            xpath="next_sum"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/paideanticipated_payments"
+            xpath="paideanticipated_payments"/>
+      <Rule copySubtree="true"
+            name="/anticipated_payments/payment_text"
+            xpath="payment_text"/>
+   </Rules>
+   <Params/>
+   <Namespaces/>
+</Mapping>

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node multiple="false" name="type">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="change_Of_Supplier"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="moveIn"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="new_Installation"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="change_Of_Tariff"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node multiple="false" name="tariffSelection">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuehlstrom_Oeko"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_Oeko_Loerrach"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_Oeko_Bonndorf_Feldberg"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_Oekofix2022"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_Oekofix2022_Loerrach"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_Oekofix2022_Bonndorf_Feldberg"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_OekoWaerme"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_OekoWaerme_Loerrach"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuelstrom_OekoWaerme_Bonndorf_Feldberg"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuehlstrom_OekoMobil"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuehlstrom_OekoMobil_Loerrach"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node multiple="false" name="deliveryAddress">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="mrs"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="mr"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="company"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="other"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="mailAdress"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="name_surname"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="street_houseNumber"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="postalCode"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="city"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="date_Of_Birth"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="phone_number"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="email"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="accountHolder"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="bank_name"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="IBAN"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="city_signature"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node multiple="false" name="paymentMethod">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node multiple="false" name="paymentDue">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node data-type="BOOLEAN"
+               hierarchical="FLAT"
+               multiple="false"
+               name="first_Of_Month"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input false-value="false" true-value="true"/>
+                  <Output true-value="X"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="BOOLEAN"
+               hierarchical="FLAT"
+               multiple="false"
+               name="fifteenth_Of_Month"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input false-value="false" true-value="true"/>
+                  <Output true-value="X"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+      <Node multiple="false" name="paymentVia">
+         <Settings>
+            <Script/>
+         </Settings>
+         <Node data-type="BOOLEAN"
+               hierarchical="FLAT"
+               multiple="false"
+               name="transfer_cash"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input false-value="false" true-value="true"/>
+                  <Output true-value="X"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+         <Node data-type="BOOLEAN"
+               hierarchical="FLAT"
+               multiple="false"
+               name="directDebit"
+               searchable="false">
+            <Settings>
+               <Validation allow-empty-value="true"
+                           dialog-field=""
+                           label=""
+                           operator="ANY"
+                           validation-type="ANY_VALUE">
+                  <Values/>
+               </Validation>
+               <Format>
+                  <Input false-value="false" true-value="true"/>
+                  <Output true-value="X"/>
+               </Format>
+               <Script/>
+            </Settings>
+         </Node>
+      </Node>
+   </Node>
+   <Node multiple="false" name="pointOfConsumption">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="TEXT"
+            hierarchical="FLAT"
+            multiple="false"
+            name="measuringLocation"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input/>
+               <Output/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node multiple="false" name="other">
+      <Settings>
+         <Script/>
+      </Settings>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="deviantBillingAdress"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="invoicePerMail"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="sharedCapture_yes"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="sharedCapture_no"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+      <Node data-type="BOOLEAN"
+            hierarchical="FLAT"
+            multiple="false"
+            name="personalData_DirectAdvertisement"
+            searchable="false">
+         <Settings>
+            <Validation allow-empty-value="true"
+                        dialog-field=""
+                        label=""
+                        operator="ANY"
+                        validation-type="ANY_VALUE">
+               <Values/>
+            </Validation>
+            <Format>
+               <Input false-value="false" true-value="true"/>
+               <Output true-value="X"/>
+            </Format>
+            <Script/>
+         </Settings>
+      </Node>
+   </Node>
+   <Node data-type="TEXT"
+         hierarchical="FLAT"
+         multiple="false"
+         name="paypointTitle"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input/>
+            <Output/>
+         </Format>
+         <Script/>
+      </Settings>
+   </Node>
+</DataModel>

@@ -1,0 +1,236 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Framework_Training">
+   <DocumentDescription></DocumentDescription>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="true">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding">
+       <Value><![CDATA[string:\library\Framework_Training\Framework\DocumentParts\Letter\FW_ContactInformations.model.template]]></Value>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0">
+     <Data>
+      <DataNode name="Sender">
+       <DataNode name="SenderAddress">
+        <Value><![CDATA[string:SenderAddress]]></Value>
+       </DataNode>
+       <DataNode name="ReturnAddress">
+        <DataNode name="isValid">
+         <Value><![CDATA[string:isValid]]></Value>
+        </DataNode>
+        <DataNode name="Partner">
+         <DataNode name="Signature">
+          <Value><![CDATA[string:Signature]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="SalutatoryAddress">
+         <Value><![CDATA[string:SalutatoryAddress]]></Value>
+        </DataNode>
+        <DataNode name="NameFirstname">
+         <Value><![CDATA[string:NameFirstname]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="User">
+        <DataNode name="Signature">
+         <Value><![CDATA[string:Signature]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="basedata">
+       <DataNode name="partnerid_formatted">
+        <Value><![CDATA[string:partnerid_formatted]]></Value>
+       </DataNode>
+       <DataNode name="section">
+        <DataNode name="Sparten"></DataNode>
+        <DataNode name="Rechnungstext"></DataNode>
+       </DataNode>
+       <DataNode name="bank_account">
+        <DataNode name="iban_formatted">
+         <Value><![CDATA[string:iban_formatted]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="Message">
+       <DataNode name="PrimaryInstance">
+        <DataNode name="Instance">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="No">
+          <Value><![CDATA[number:1]]></Value>
+         </DataNode>
+         <DataNode name="Type">
+          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
+         </DataNode>
+         <DataNode name="Sender">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="SenderAddress">
+           <Value><![CDATA[string: <A00b7>  <A00b7>  ]]></Value>
+          </DataNode>
+          <DataNode name="ReturnAddress">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Partner">
+            <Value><![CDATA[string:]]></Value>
+            <DataNode name="Signature">
+             <Value><![CDATA[string:]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="isValid">
+            <Value><![CDATA[bool:false]]></Value>
+           </DataNode>
+           <DataNode name="SalutatoryAddress">
+            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           </DataNode>
+           <DataNode name="NameFirstname">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="User">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="Recipient">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:false]]></Value>
+          </DataNode>
+          <DataNode name="Partner">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="RecipientProxy">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:false]]></Value>
+          </DataNode>
+          <DataNode name="Partner">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="Instances">
+        <DataNode name="Instance">
+         <DataNode name="No">
+          <Value><![CDATA[number:1]]></Value>
+         </DataNode>
+         <DataNode name="Type">
+          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
+         </DataNode>
+         <DataNode name="Sender">
+          <DataNode name="SenderAddress">
+           <Value><![CDATA[string: <A00b7>  <A00b7>  ]]></Value>
+          </DataNode>
+          <DataNode name="ReturnAddress">
+           <DataNode name="Partner">
+            <DataNode name="Signature">
+             <Value><![CDATA[string:]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="isValid">
+            <Value><![CDATA[bool:false]]></Value>
+           </DataNode>
+           <DataNode name="SalutatoryAddress">
+            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           </DataNode>
+           <DataNode name="NameFirstname">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="User">
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="Recipient">
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:false]]></Value>
+          </DataNode>
+          <DataNode name="Partner">
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="RecipientProxy">
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:false]]></Value>
+          </DataNode>
+          <DataNode name="Partner">
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="No">
+        <Value><![CDATA[number:1]]></Value>
+       </DataNode>
+      </DataNode>
+     </Data>
+     <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

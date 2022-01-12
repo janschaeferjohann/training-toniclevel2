@@ -1,0 +1,28 @@
+<PageLayouts xmlns="urn:kwsoft:mtext:tonic:dom">
+ <First parentRef="Framework\DocumentParts\Attachment\Attachment_letter.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <Landscape>false</Landscape>
+  <RendererMetadata></RendererMetadata>
+  <RegionOrder>
+   <RegionRef>Body</RegionRef>
+   <RegionRef>FooterLogo</RegionRef>
+   <RegionRef>letterinfo</RegionRef>
+  </RegionOrder>
+ </First>
+ <DefaultPageLayout>
+  <PageSize name="A4"></PageSize>
+  <RendererMetadata></RendererMetadata>
+  <Region name="FooterLogo">
+   <Left distance="0.0mpt" anchorSide="same"></Left>
+   <Top distance="28.2cm" anchorSide="same"></Top>
+   <Right distance="94.0mpt" anchorSide="same"></Right>
+   <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+  </Region>
+  <Region name="Body">
+   <Left distance="0.0mpt" anchorSide="same"></Left>
+   <Top distance="0.0mpt" anchorSide="same"></Top>
+   <Right distance="0.0mpt" anchorSide="same"></Right>
+   <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
+  </Region>
+ </DefaultPageLayout>
+</PageLayouts>

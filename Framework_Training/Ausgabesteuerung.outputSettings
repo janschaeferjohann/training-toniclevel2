@@ -1,0 +1,12 @@
+<OutputSettings xmlns="urn:kwsoft:mtext:tonic:dom" staple="false">
+ <Parameters></Parameters>
+ <DataDefinition></DataDefinition>
+ <RendererMetadata></RendererMetadata>
+ <UserData></UserData>
+ <Target medium="EMAIL">
+  <Replacements></Replacements>
+  <Parameter name="MAIL_FROM"><![CDATA[$freetext_data.mail.Sender]]></Parameter>
+  <Parameter name="MAIL_TO"><![CDATA[$freetext_data.mail.Recipient]]></Parameter>
+  <Parameter name="MAIL_SUBJECT"><![CDATA[$freetext_data.mail.Subject]]></Parameter>
+ </Target>
+</OutputSettings>

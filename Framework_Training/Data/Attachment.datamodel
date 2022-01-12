@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node data-type="BOOLEAN"
+         hierarchical="FLAT"
+         multiple="false"
+         name="Attachment_Listing"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input false-value="false" true-value="true"/>
+            <Output false-value="false" true-value="true"/>
+         </Format>
+         <Script>var Listing = 'Start' + $Attachment_Explanation + $Attachment_EnergyMix + $Attachment_GVV + $Attachment_Pricelist;
+var result = new Boolean(false);
+
+if (Listing.indexOf('true') != -1) {
+   result = new Boolean(true);
+} else {
+   result = new Boolean(false);
+}
+result;</Script>
+      </Settings>
+   </Node>
+</DataModel>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel>
+   <Node data-type="TEXT"
+         hierarchical="FLAT"
+         multiple="false"
+         name="green_text"
+         searchable="false">
+      <Settings>
+         <Validation allow-empty-value="true"
+                     dialog-field=""
+                     label=""
+                     operator="ANY"
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
+         <Format>
+            <Input/>
+            <Output/>
+         </Format>
+         <Script>var Language = $document.Metadata.DocumentLanguage.toString();
+
+if ((Language == 'GER') || (Language == 'de_DE')) {
+	out = "Emissionfrei in eine grüne Zukunft - Ein schonungsvoller und bewusster Umgang mit unserer Umwelt sowie die nachhaltige Nutzung von Ressourcen sind wichtige Aufgaben, mit denen wir uns bei der sam.energy schon seit vielen Jahren befassen. Nicht umsonst lautet unsere Umweltphilosophie: 'Dem Menschen, der Natur und der Region verpflichtet'."    	
+    } else {	
+	out = "Emission-free into a green future - A careful and conscious handling of our environment as well as the sustainable use of resources are important tasks that we at sam.energy have been dealing with for many years. It is not for nothing that our environmental philosophy is: 'Committed to people, nature and the region'."
+		}
+	}
+}
+out;</Script>
+      </Settings>
+   </Node>
+</DataModel>

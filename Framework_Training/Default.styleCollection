@@ -1,0 +1,376 @@
+<StyleCollection xmlns="urn:kwsoft:mtext:tonic:dom">
+ <ParStyle>
+  <SpanStyle>
+   <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+   <FontSize>10000.0mpt</FontSize>
+  </SpanStyle>
+  <Role>P</Role>
+  <Align>left</Align>
+  <LeftIndent>0.0mpt</LeftIndent>
+  <RightIndent>0.0mpt</RightIndent>
+ </ParStyle>
+  <TableStyle name="TabelleFormularTarifauswahlInnen">
+  <RowStyle>
+   <CellStyle>
+    <Border>
+     <Left width="500.0mpt" color="rgb(0,0,0)" style="none"></Left>
+     <Top width="500.0mpt" color="rgb(0,0,0)" style="none"></Top>
+     <Right width="500.0mpt" color="rgb(255,255,255)" style="solid"></Right>
+     <Bottom width="500.0mpt" color="rgb(255,255,255)" style="solid"></Bottom>
+    </Border>
+    <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
+   </CellStyle>
+  </RowStyle>
+ </TableStyle>
+ <SectionStyle name="SamLetter">
+  <PageLayouts parentRef="Framework\DocumentParts\Sam\SamLetter.pageLayouts"></PageLayouts>
+ </SectionStyle>
+ <SectionStyle name="Attachment">
+  <PageLayouts parentRef="Framework\DocumentParts\Attachment\Attachment.pageLayouts"></PageLayouts>
+ </SectionStyle>
+ <SectionStyle name="Form">
+  <PageLayouts parentRef="Framework\DocumentParts\Form\Form.pageLayouts"></PageLayouts>
+ </SectionStyle>
+ <CellStyle name="CellWithoutBottomLine">
+  <Margin top="0.0mpt" right="0.1cm" bottom="0.0mpt" left="0.1cm"></Margin>
+ </CellStyle>
+ <CellStyle name="CellWithBottomLine">
+  <Margin top="0.0mpt" right="0.1cm" bottom="0.0mpt" left="0.1cm"></Margin>
+  <Border>
+   <Left width="500.0mpt" color="rgb(0,0,0)" style="none"></Left>
+   <Top width="500.0mpt" color="rgb(0,0,0)" style="none"></Top>
+   <Right width="500.0mpt" color="rgb(0,0,0)" style="none"></Right>
+   <Bottom width="500.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+  </Border>
+ </CellStyle>
+ <CellStyle name="CellWithBackgroundColor">
+  <BackgroundColor>rgb(120,192,239)</BackgroundColor>
+  <Margin></Margin>
+  <Padding></Padding>
+  <Border>
+   <Bottom width="5000.0mpt" color="rgb(0,113,187)" style="solid"></Bottom>
+  </Border>
+ </CellStyle>
+ <CellStyle name="CellWithBackgroundColorLight">
+  <BackgroundColor>rgb(228,243,252)</BackgroundColor>
+  <Margin></Margin>
+  <Padding></Padding>
+  <Border>
+   <Bottom width="5000.0mpt" color="rgb(120,192,239)" style="solid"></Bottom>
+  </Border>
+ </CellStyle>
+ <TableStyle name="TabelleInnen">
+  <RowStyle>
+   <CellStyle>
+    <Border>
+     <Left width="500.0mpt" color="rgb(0,0,0)" style="none"></Left>
+     <Top width="0.02cm" color="rgb(0,0,0)" style="none"></Top>
+     <Right width="0.02cm" color="rgb(0,0,0)" style="none"></Right>
+     <Bottom width="500.0mpt" color="rgb(0,0,0)" style="none"></Bottom>
+    </Border>
+   </CellStyle>
+   <Border>
+    <Top width="426.0mpt" color="rgb(0,0,0)" style="none"></Top>
+   </Border>
+  </RowStyle>
+  <Border>
+   <Left width="0.0cm" color="rgb(0,0,0)" style="none"></Left>
+   <Top width="0.0cm" color="rgb(0,0,0)" style="none"></Top>
+   <Right width="0.0cm" color="rgb(0,0,0)" style="none"></Right>
+   <Bottom width="0.0cm" color="rgb(0,0,0)" style="none"></Bottom>
+  </Border>
+  <SpaceBefore resolution="overwrite">0.0cm</SpaceBefore>
+  <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
+ </TableStyle>
+ <TableStyle name="TabelleMatrixStandard">
+  <RowStyle>
+   <CellStyle>
+    <Padding top="0.05cm" right="0.05cm" bottom="0.05cm" left="0.3cm"></Padding>
+    <Border>
+     <Left width="0.0mpt" color="rgb(0,0,0)" style="none"></Left>
+     <Top width="0.0mpt" color="rgb(0,0,0)" style="none"></Top>
+     <Right width="0.0mpt" color="rgb(0,0,0)" style="none"></Right>
+     <Bottom width="0.0mpt" color="rgb(0,0,0)" style="none"></Bottom>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+  <SpaceBefore resolution="combine">0.5cm</SpaceBefore>
+  <SpaceAfter resolution="combine">0.5cm</SpaceAfter>
+ </TableStyle>
+ <TableStyle name="TabelleMatrixNoPadding" parentName="TabelleMatrixStandard">
+  <RowStyle>
+   <CellStyle>
+    <Margin top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Margin>
+    <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+    <Border>
+     <Left width="0.02cm" color="rgb(0,0,0)" style="none"></Left>
+     <Top width="0.02cm" color="rgb(0,0,0)" style="none"></Top>
+     <Right width="0.02cm" color="rgb(0,0,0)" style="none"></Right>
+     <Bottom width="500.0mpt" color="rgb(0,0,0)" style="none"></Bottom>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+  <Margin top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Margin>
+  <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+  <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
+  <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
+ </TableStyle>
+ <TableStyle name="TabelleMatrixSmallPadding">
+  <RowStyle>
+   <CellStyle>
+    <Padding top="0.04cm" right="0.04cm" bottom="0.04cm" left="0.03cm"></Padding>
+    <Border>
+     <Left width="0.0mpt" color="rgb(0,0,0)" style="none"></Left>
+     <Top width="0.0mpt" color="rgb(0,0,0)" style="none"></Top>
+     <Right width="0.0mpt" color="rgb(0,0,0)" style="none"></Right>
+     <Bottom width="0.0mpt" color="rgb(0,0,0)" style="none"></Bottom>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+  <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
+ </TableStyle>
+ <TableStyle name="TabelleZebraFarbe" parentName="TabelleMatrixSmallPadding">
+  <RowStyle>
+   <CellStyle>
+    <Border>
+     <Top width="1600.0mpt" color="rgb(255,255,255)" style="solid"></Top>
+     <Bottom width="1600.0mpt" color="rgb(255,255,255)" style="solid"></Bottom>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+  <TableHeaderStyle>
+   <RowStyle>
+    <BackgroundColor>rgb(120,192,239)</BackgroundColor>
+   </RowStyle>
+  </TableHeaderStyle>
+  <TableFooterStyle>
+   <RowStyle>
+    <BackgroundColor>rgb(122,193,240)</BackgroundColor>
+   </RowStyle>
+  </TableFooterStyle>
+  <RowStyle index="even">
+   <BackgroundColor>rgb(228,243,252)</BackgroundColor>
+  </RowStyle>
+  <RowStyle index="odd">
+   <BackgroundColor>rgb(180,220,246)</BackgroundColor>
+  </RowStyle>
+  <SpaceBefore resolution="overwrite">0.0cm</SpaceBefore>
+  <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
+ </TableStyle>
+ <TableStyle name="TabelleHeaderFooterBlau" parentName="TabelleWeiß">
+  <TableHeaderStyle>
+   <RowStyle>
+    <BackgroundColor>rgb(228,243,252)</BackgroundColor>
+   </RowStyle>
+  </TableHeaderStyle>
+  <TableFooterStyle>
+   <RowStyle>
+    <BackgroundColor>rgb(228,243,252)</BackgroundColor>
+   </RowStyle>
+  </TableFooterStyle>
+ </TableStyle>
+ <TableStyle name="TabelleZebraGrau" parentName="TabelleMatrixSmallPadding">
+  <RowStyle>
+   <CellStyle>
+    <Border>
+     <Left width="1600.0mpt" color="rgb(255,255,255)" style="solid"></Left>
+     <Right width="1600.0mpt" color="rgb(255,255,255)" style="solid"></Right>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+  <TableHeaderStyle>
+   <RowStyle>
+    <BackgroundColor>rgb(135,144,150)</BackgroundColor>
+   </RowStyle>
+  </TableHeaderStyle>
+  <RowStyle index="even">
+   <BackgroundColor>rgb(193,198,201)</BackgroundColor>
+  </RowStyle>
+  <RowStyle index="odd">
+   <BackgroundColor>rgb(230,233,237)</BackgroundColor>
+  </RowStyle>
+ </TableStyle>
+ <TableStyle name="TabelleWeiß" parentName="TabelleMatrixSmallPadding">
+  <TableHeaderStyle>
+   <Border>
+    <Bottom width="500.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+   </Border>
+  </TableHeaderStyle>
+  <TableFooterStyle>
+   <Border>
+    <Top width="500.0mpt" color="rgb(0,0,0)" style="solid"></Top>
+    <Bottom width="500.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
+   </Border>
+  </TableFooterStyle>
+  <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
+ </TableStyle>
+ <ParStyle name="TextNormal" parentName="Standard">
+  <SpanStyle>
+   <FontSize>10000.0mpt</FontSize>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Standard_Artifact" parentName="Standard">
+  <SpanStyle>
+   <FontSize>11000.0mpt</FontSize>
+  </SpanStyle>
+  <Role>Artifact</Role>
+ </ParStyle>
+ <ParStyle name="Infotext" parentName="Standard">
+  <SpanStyle>
+   <FontSize>9000.0mpt</FontSize>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Infotext_klein" parentName="Standard">
+  <SpanStyle>
+   <FontSize>7500.0mpt</FontSize>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Adresstext" parentName="Standard">
+  <SpanStyle>
+   <FontSize>10000.0mpt</FontSize>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Ueberschrift" parentName="Standard">
+  <SpanStyle>
+   <FontStyle>bold</FontStyle>
+  </SpanStyle>
+  <SpaceBefore resolution="combine">0.15cm</SpaceBefore>
+  <SpaceAfter resolution="combine">0.15cm</SpaceAfter>
+ </ParStyle>
+ <ParStyle name="Ueberschrift_blau" parentName="Ueberschrift">
+  <SpanStyle>
+   <FontFamily>SERIF</FontFamily>
+   <TextColor>rgb(0,80,180)</TextColor>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Ueberschrift_blau1" parentName="Ueberschrift">
+  <SpanStyle>
+   <FontSize>14000.0mpt</FontSize>
+   <FontFamily>SERIF</FontFamily>
+   <FontStyle>bold</FontStyle>
+   <TextColor>rgb(0,114,188)</TextColor>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Überschrift1" parentName="Ueberschrift">
+  <Role>H1</Role>
+ </ParStyle>
+ <ParStyle name="Überschrift2" parentName="Ueberschrift">
+  <Role>H2</Role>
+ </ParStyle>
+ <ParStyle name="Überschrift3" parentName="Ueberschrift">
+  <Role>H3</Role>
+ </ParStyle>
+ <ParStyle name="Überschrift4" parentName="Ueberschrift">
+  <Role>H4</Role>
+ </ParStyle>
+ <ParStyle name="infotext_Artifact" parentName="Infotext">
+  <Role>Artifact</Role>
+ </ParStyle>
+ <ParStyle name="infotext_klein_Artifact" parentName="Infotext_klein">
+  <Role>Artifact</Role>
+ </ParStyle>
+ <TableStyle name="TabelleUmrandung" parentName="TabelleMatrixSmallPadding">
+  <TableHeaderStyle></TableHeaderStyle>
+  <TableFooterStyle></TableFooterStyle>
+  <Border>
+   <Left width="426.0mpt" color="rgb(0,114,188)" style="solid"></Left>
+   <Top width="426.0mpt" color="rgb(0,114,188)" style="solid"></Top>
+   <Right width="426.0mpt" color="rgb(0,114,188)" style="solid"></Right>
+   <Bottom width="426.0mpt" color="rgb(0,113,187)" style="solid"></Bottom>
+  </Border>
+  <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
+ </TableStyle>
+ <ParStyle name="Art_Fett" parentName="Standard">
+  <SpanStyle>
+   <FontSize>11000.0mpt</FontSize>
+   <FontStyle>bold</FontStyle>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="FW_Rot" parentName="FW_InfobereichFett">
+  <SpanStyle>
+   <TextColor>rgb(200,0,0)</TextColor>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="FW_Gruen" parentName="FW_InfobereichFett">
+  <SpanStyle>
+   <TextColor>rgb(0,200,0)</TextColor>
+  </SpanStyle>
+ </ParStyle>
+ <ParStyle name="Tarifauswahl_Fett" parentName="Standard">
+  <SpanStyle>
+   <FontSize>10000.0mpt</FontSize>
+   <FontStyle>bold</FontStyle>
+  </SpanStyle>
+ </ParStyle>
+ <TableStyle name="TabelleFormularTarifauswahl" parentName="TabelleMatrixNoPadding">
+  <RowStyle>
+   <CellStyle>
+    <Border>
+     <Left width="2000.0mpt" color="rgb(255,255,255)" style="solid"></Left>
+     <Top width="2000.0mpt" color="rgb(255,255,255)" style="solid"></Top>
+     <Right width="2000.0mpt" color="rgb(255,255,255)" style="solid"></Right>
+     <Bottom width="2000.0mpt" color="rgb(255,255,255)" style="solid"></Bottom>
+    </Border>
+    <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
+   </CellStyle>
+  </RowStyle>
+ </TableStyle>
+ <NumberingStyle name="BulletWithIndent">
+  <Levels>
+   <Level number="1" firstLineIndent="-0.5cm" indent="0.5cm">
+    <Symbol>bullet</Symbol>
+    <Tab position="0.0cm" tabType="left" underlineStyle="default"></Tab>
+   </Level>
+  </Levels>
+ </NumberingStyle>
+ <TableStyle name="TableLinieObenRandlos">
+  <RowStyle>
+   <CellStyle>
+    <ContainerStyle>
+     <ParStyle parentName="Standard">
+      <SpanStyle>
+       <FontSize>8000.0mpt</FontSize>
+      </SpanStyle>
+     </ParStyle>
+    </ContainerStyle>
+    <Padding left="0.5cm"></Padding>
+    <Border>
+     <Top width="1.0mpt" color="rgb(0,0,0)" style="solid"></Top>
+    </Border>
+   </CellStyle>
+  </RowStyle>
+ </TableStyle>
+ <ImageStyle name="Chart">
+  <charts:ChartStyle xmlns:charts="urn:kwsoft:mtext:tonic:charts">
+   <charts:DefaultFontSize>9000.0mpt</charts:DefaultFontSize>
+   <DefaultFontFamily>STANDARD</DefaultFontFamily>
+   <charts:BackgroundColor>rgb(255,255,255)</charts:BackgroundColor>
+   <charts:LegendPosition>none</charts:LegendPosition>
+  </charts:ChartStyle>
+ </ImageStyle>
+ <AttachmentSectionStyle name="Anlage_AVB">
+  <PageLayouts parentRef="Framework\DocumentParts\Attachment\Attachment_letter.pageLayouts"></PageLayouts>
+ </AttachmentSectionStyle>
+ <ParStyle name="TextAbstandNach_12pt" parentName="Standard">
+  <Role>P</Role>
+  <SpaceAfter>12000.0mpt</SpaceAfter>
+  <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
+ </ParStyle>
+ <ParStyle name="TextAbstandVor_12pt" parentName="Standard">
+  <Role>P</Role>
+  <SpaceBefore>12000.0mpt</SpaceBefore>
+  <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
+ </ParStyle>
+ <ParStyle name="TextAbstandVorUndNach_12pt" parentName="Standard">
+  <Role>P</Role>
+  <SpaceBefore>12000.0mpt</SpaceBefore>
+  <SpaceAfter>12000.0mpt</SpaceAfter>
+  <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
+ </ParStyle>
+ <ParStyle name="TextAbstandNach" parentName="Standard">
+  <SpaceAfter>0.15cm</SpaceAfter>
+ </ParStyle>
+ <ParStyle name="TextAbstandVor" parentName="Standard">
+  <SpaceBefore>0.15cm</SpaceBefore>
+ </ParStyle>
+</StyleCollection>

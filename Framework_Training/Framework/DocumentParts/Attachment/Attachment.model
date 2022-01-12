@@ -1,0 +1,54 @@
+<DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Section>
+  <Style parentName="Attachment"></Style>
+  <StaticContainer>
+   <Style>
+    <RegionRef>Infofeld</RegionRef>
+   </Style>
+   <Par>
+    <Style parentName="TextNormal"></Style>
+    <Span>
+     <Style>
+      <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
+     </Style>
+     <Text>Seite </Text>
+     <PageNumber></PageNumber>
+     <Text> von </Text>
+     <PageCount></PageCount>
+    </Span>
+   </Par>
+   <Par>
+    <Span>
+     <Text></Text>
+    </Span>
+   </Par>
+  </StaticContainer>
+  <StaticContainer>
+   <Style>
+    <RegionRef>smalllogo</RegionRef>
+   </Style>
+  </StaticContainer>
+  <Container>
+   <ContainerExtensionDef id="Attachment Content"></ContainerExtensionDef>
+  </Container>
+  <StaticContainer>
+   <Style>
+    <RegionRef>letterinfo</RegionRef>
+   </Style>
+   <Par>
+    <Span>
+     <PageNumber scope="document"></PageNumber>
+     <Text> - </Text>
+     <PageCount scope="document"></PageCount>
+    </Span>
+   </Par>
+  </StaticContainer>
+  <StaticContainer>
+   <Style>
+    <RegionRef>FooterLogo</RegionRef>
+   </Style>
+   <Image uri="mtx://Framework_Training/Graphics/sam.energy-footerEven.png"></Image>
+  </StaticContainer>
+ </Section>
+</DocumentPart>

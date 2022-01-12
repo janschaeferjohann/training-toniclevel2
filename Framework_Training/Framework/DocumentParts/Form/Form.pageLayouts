@@ -1,0 +1,11 @@
+<PageLayouts xmlns="urn:kwsoft:mtext:tonic:dom">
+ <First parentRef="Framework\DocumentParts\Form\Form.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <Landscape>false</Landscape>
+  <RendererMetadata></RendererMetadata>
+ </First>
+ <DefaultPageLayout parentRef="Framework\DocumentParts\Form\Annotation.pageLayout">
+  <PageSize name="A4"></PageSize>
+  <RendererMetadata></RendererMetadata>
+ </DefaultPageLayout>
+</PageLayouts>
