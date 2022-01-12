@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARCHIV>
+	<field>
+		<name>EMPFAENGER_ID</name>
+		<value>%(M,ARCHIVE_RECIPIENT_ID,Character,,m=org.apache.commons.lang.StringEscapeUtils#escapeXml)</value>
+	</field>
+</ARCHIV>

@@ -1,0 +1,1 @@
+{"compoundMin":3,"maxEditDistanceSuggestions":2147483647,"suggestingMapping":[{"pattern":"^daß$","replacement":"dass"},{"pattern":"^daß$","replacement":"das"}],"compoundFlagUsed":false,"inputConversionTable":{},"outputConversionTable":{},"checkCompoundCase":false,"compoundRules":[],"checkSharps":false}

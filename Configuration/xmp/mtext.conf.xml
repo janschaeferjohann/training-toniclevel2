@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- M/TEXT Formatter configuration -->
+<configuration
+	xmlns="http://www.kwsoft.de/mtext-formatter/conf">
+
+	<!-- Global information about the input format, valid for all destinations. 
+		Replaces M/TEXT environment (used to be in the edit.lib) -->
+	<global>
+		<long-date-format>dd.MM.yyyy</long-date-format>
+		<short-date-format>dd.MM.yy</short-date-format>
+		<time-format>HH:mm:ss</time-format>
+		<decimal-separator>,</decimal-separator>
+		<thousands-separator>.</thousands-separator>
+		<minus-at-number-start>true</minus-at-number-start>
+
+		<default-language>GER</default-language>
+		<sign-password-checked>true</sign-password-checked>
+		<!-- Default value for .OCL PAGE_CONTROL TEXT_OFFSET_X/Y, default units 
+			(without postfix) are mgraf units - 1/100 mm, other possible units are millipoints 
+			with postfix 'mtp' e.g. 42520mtp or cm, mm. -->
+		<default-text-offset
+			top="1cm"
+			left="2cm" />
+
+		<available-editor-fonts>
+			<font-family name="SERIF" />
+			<font-family name="SANS" />
+
+			<font-family name="MONO" />
+
+
+		</available-editor-fonts>
+	</global>
+	<destinations>
+		<!-- Default setting that will be used for each destination if not overridden 
+			at destination level -->
+		<destination-defaults>
+			<!-- absolute offset of all elements (text + graphics) on the page, default 
+				units (without postfix) are mgraf units - 1/100 mm, other possible units 
+				are millipoints with postfix 'mtp' e.g. 42520mtp or cm, mm. -->
+			<page-pos />
+			<!-- renderer -->
+			<renderer
+				mime-type="application/X-mtext-intermediate-format"
+				xmlns:renderer="http://www.kwsoft.de/mtext/ext/renderer/mtext-intermediate-format">
+				<renderer:enable-metrics-correction>true</renderer:enable-metrics-correction>
+			</renderer>
+			<!-- font set reference, defined bellow -->
+			<font-set name="ttf-fonts" />
+			<!-- Defines barcode engine used for generating barcode. Possible values 
+				are : native barcode4j -->
+			<barcode-engine>barcode4j</barcode-engine>
+			<!-- Target resolution in dpi (dots/pixels per inch) for specifying the 
+				target resolution for generated bitmaps, default: 72dpi -->
+			<target-resolution>300</target-resolution>
+			<keys>
+				<key
+					name="Titel"
+					type="String"
+					description="Beispiel für das Setzen eines Titels im PDF">${TitelWert}</key>
+			</keys>
+		</destination-defaults>
+		<!-- Destination with reserved name "preview" is used for preview. This 
+			special destination ignores renderer and post-processor settings, and uses 
+			the font settings only for formatting, for rendering always the AWT fonts 
+			on the client are used -->
+		<destination name="preview" />
+
+		<!-- Destination with reserved name prefix "export-" + target format name 
+			is used for exporting into the target format. -->
+		<destination name="export-application/pdf">
+			<renderer
+				mime-type="application/X-kw-pdf"
+				xmlns:renderer="http://www.kwsoft.de/mtext/ext/renderer/pdf" />
+
+			<!-- example of key handler, used to pass .KEY elements to an external 
+				handler <key-handler class="de.kwsoft.mtext.format.config.DummyKeyHandler"/> -->
+		</destination>
+		<!-- Destination with reserved name prefix "export-" + target format name 
+			is used for exporting into the target format. -->
+
+		<!-- Destination with reserved name prefix "export-" + target format name 
+			is used for exporting into the target format. -->
+		<!-- Destination with reserved name prefix "export-" + target format name 
+			is used for exporting into the target format. -->
+		<!-- This example destination shows the OMS integration -->
+		<destination name="OMS">
+			<ocl-handler
+				class="de.kwsoft.moms.client.ocl.converter.OCLCommandHandler"
+				xmlns:ocl-handler="http://www.kwsoft.de/mtext/ext/ocl-handler/oms" />
+			<post-processor
+				class="de.kwsoft.moms.client.postprocessor.OmsPostProcessor"
+				xmlns:post-processor="http://www.kwsoft.de/mtext/ext/post-processor/oms" />
+		</destination>
+		<destination name="pdfMText">
+			<renderer
+				mime-type="application/X-kw-pdf"
+				xmlns:renderer="http://www.kwsoft.de/mtext/ext/renderer/pdf">
+				<renderer:version>1.6</renderer:version>
+				<renderer:metadata
+					type="xmp"
+					occurrence="document">
+					<renderer:item
+						uri="mtx://Configuration/xmp/titelSetzen.xmp" />
+				</renderer:metadata>
+			</renderer>
+			<!-- example of key handler, used to pass .KEY elements to an external 
+				handler <key-handler class="de.kwsoft.mtext.format.config.DummyKeyHandler"/> -->
+
+		</destination>
+		<destination name="pdfOMS">
+			<renderer
+				mime-type="application/X-kw-pdf"
+				xmlns:renderer="http://www.kwsoft.de/mtext/ext/renderer/pdf">
+				<renderer:version>1.6</renderer:version>
+				<renderer:metadata
+					type="xmp"
+					occurrence="job">
+					<renderer:item
+						uri="mtx://Configuration/xmp/titelSetzen.xmp" />
+				</renderer:metadata>
+			</renderer>
+			<!-- example of key handler, used to pass .KEY elements to an external 
+				handler <key-handler class="de.kwsoft.mtext.format.config.DummyKeyHandler"/> -->
+		</destination>
+	</destinations>
+	<!-- Font set definitions -->
+	<fonts>
+		<font-set name="ttf-fonts">
+			<font
+				xmlns="http://www.kwsoft.de/mtext/ext/renderer/font/ttf"
+				embed-url="DejaVuSansCondensed.ttf">
+				<font-triplet
+					name="DejaVu Sans Condensed"
+					style="normal"
+					weight="normal" />
+			</font>
+			<font
+				xmlns="http://www.kwsoft.de/mtext/ext/renderer/font/ttf"
+				embed-url="DejaVuSansCondensed-Bold.ttf">
+				<font-triplet
+					name="DejaVu Sans Condensed"
+					style="normal"
+					weight="bold" />
+			</font>
+			<font
+				xmlns="http://www.kwsoft.de/mtext/ext/renderer/font/ttf"
+				embed-url="DejaVuSansCondensed-Oblique.ttf">
+				<font-triplet
+					name="DejaVu Sans Condensed"
+					style="italic"
+					weight="normal" />
+			</font>
+			<font
+				xmlns="http://www.kwsoft.de/mtext/ext/renderer/font/ttf"
+				embed-url="DejaVuSansCondensed-BoldOblique.ttf">
+				<font-triplet
+					name="DejaVu Sans Condensed"
+					style="italic"
+					weight="bold" />
+			</font>
+
+			<font-base>mtx://Fonts/TTF</font-base>
+			<font-name-alias
+				from-name="SANS"
+				to-name="DejaVu Sans Condensed" />
+			<font-name-alias
+				from-name="ARIAL"
+				to-name="DejaVu Sans Condensed" />
+			<font-name-alias
+				from-name="TIMES"
+				to-name="DejaVu Serif Condensed" />
+			<font-name-alias
+				from-name="COURIER"
+				to-name="DejaVu Sans Mono" />
+
+		</font-set>
+	</fonts>
+	<!-- Renderer specific configuration valid for all destinations, if not 
+		overriden at destination level -->
+	<renderers>
+		<renderer
+			mime-type="application/X-kw-pdf"
+			xmlns:renderer="http://www.kwsoft.de/mtext/ext/renderer/pdf">
+			<renderer:pdf-a-mode>PDF/A disabled</renderer:pdf-a-mode>
+		</renderer>
+	</renderers>
+</configuration>

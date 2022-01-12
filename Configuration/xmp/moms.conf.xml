@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<Configuration
+	xmlns="http://www.kwsoft.de/moms/conf"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	collectRootFolderName="/opt/serie-m/Dokumente/oms/collectwork"
+	timestampFormat="dd.MM.yyyy HH:mm:ss">
+	<DateParsePatterns>
+		<DateParsePattern pattern="dd.MM.yyyy HH:mm:ss" />
+		<DateParsePattern pattern="dd.MM.yyyy" />
+		<DateParsePattern pattern="yyyy-MM-dd'T'HH:mm:ss" />
+	</DateParsePatterns>
+	<Stacks>
+
+
+
+		<!-- @info: An example archive stack-extension-configuration including 
+			the new mdms-client. @author: Patrick Uzer -->
+		<Stack
+			name="PRINT_PDF"
+			maxDocumentCollectionSheetCount="0"
+			maxDocumentCollectionDocumentCount="80"
+			maxFirstDocumentCollectionSheetCount="0"
+			maxFirstDocumentCollectionDocumentCount="0"
+			documentDistributionMode="FULL_REST"
+			tolerance="100"
+			maxParallelStacks="0"
+			processDocCollectionParallel="true"
+			continueOnDocumentError="true"
+			onlineStackSleepSeconds="0"
+			allowToUpdateDocuments="true"
+			isReprintStack="false"
+			splitDocumentStatus="PRINTED"
+			persistControlJob="true"
+			description="Einzeldokumente PDF erzeugen">
+
+
+
+
+			<Select>
+				<Equal
+					logicalOperator="AND"
+					parameterName="KW_MEDIUM"
+					value="PRINT" />
+				<Equal
+					logicalOperator="AND"
+					parameterName="KW_STATUS"
+					value="WAIT_FOR_STACK_PROCESSING" />
+			</Select>
+
+			<SortParameters>
+				<SortParameter
+					name="KW_INPUT_ID"
+					order="asc" />
+			</SortParameters>
+
+			<StackExtensions>
+				<!-- <ExtensionPackReference extensionPackName="mdo+supplement"></ExtensionPackReference> -->
+
+				<!-- MarkingExtension -->
+
+				<!-- RendererExtension -->
+
+				<!-- <StackExtension className="de.kwsoft.moms.server.stack.extension.renderer.RendererExtension" 
+					xmlns:StackExtension="http://www.kwsoft.de/moms/ext/stack/Renderer"> <StackExtension:ExtensionConfiguration 
+					destination="export-application/pdf" outputFilenameExtension="pdf" outputMode="SINGLE_AND_APPEND_DOCUMENT" 
+					persistRenderedDocuments="true" coverpagePosition="NONE" persistInterpretedDocument="true" 
+					renderInput="INTERPRET_GENERATED_MCJ" outputFilenamePrefix="pstackcollection" 
+					pageTemplate="\\MOMS_Resources\cover_pages\stack_cover_page.mtx"> </StackExtension:ExtensionConfiguration> 
+					</StackExtension> <StackExtension className="de.kwsoft.moms.server.stack.extension.extensions.CollectExtension" 
+					xmlns:StackExtension="http://www.kwsoft.de/moms/ext/stack/Collect"> <StackExtension:ExtensionConfiguration 
+					outputFilenamePrefix="collection" outputFilenameExtension="pdf" removeParallelStackCollectFiles="true" 
+					coverpagePosition="START_END" destination="export-application/pdf"> </StackExtension:ExtensionConfiguration> 
+					</StackExtension> -->
+				<!-- RendererExtension -->
+				<StackExtension
+					className="de.kwsoft.moms.server.stack.extension.renderer.RendererExtension"
+					xmlns:StackExtension="http://www.kwsoft.de/moms/ext/stack/Renderer">
+					<StackExtension:ExtensionConfiguration
+						destination="pdfOMS"
+						outputFilenameExtension="pdf"
+						outputMode="SINGLE_DOCUMENT"
+						persistRenderedDocuments="true"
+						coverpagePosition="START"
+						persistInterpretedDocument="false"
+						renderInput="INTERPRET_GENERATED_MCJ"
+						outputFilenamePrefix="xmp"
+						renderSingleDocuments="true">
+
+
+
+
+
+						<!-- <StackExtension:PlaceHolderParameter placeholderName="DocumentCount" 
+							parameterType="STACK_PARAMETER" parameterNameOrValue="PRINTFILE_DOCUMENT_COUNT"/> 
+							<StackExtension:PlaceHolderParameter placeholderName="SheetCount" parameterType="STACK_PARAMETER" 
+							parameterNameOrValue="PRINTFILE_SHEET_COUNT"/> -->
+						<StackExtension:KeyConfiguration>
+							<StackExtension:JobKeyParametersForAllOutputs>
+								<StackExtension:KeyParameter
+									parameter-name="Titel"
+									parameter-type="M/OMS-Parameter"
+									key-name="TitelWert" />
+							</StackExtension:JobKeyParametersForAllOutputs>
+						</StackExtension:KeyConfiguration>
+
+					</StackExtension:ExtensionConfiguration>
+				</StackExtension>
+				<StackExtension
+					className="de.kwsoft.moms.server.stack.extension.extensions.persistenter.PersistenterExtension"
+					xmlns:StackExtension="http://www.kwsoft.de/moms/ext/stack/persistenter/PersistenterExtension">
+					<StackExtension:ExtensionConfiguration>
+						<StackExtension:PersistenterConfiguration
+							doIfFileExists="re-name"
+							nameOfResource="STACK_PRN"
+							uncDestinationPath="/opt/serie-m/Dokumente/oms/pdf"
+							typeOfFile="pdf">
+							<StackExtension:FileNameRoot>
+								<StackExtension:FileNameParts>
+									<StackExtension:FileNamePart
+										parameter-type="M/OMS-Parameter"
+										parameter-name="KW_SPLIT_ID"
+										number="1"
+										format-value="true" />
+								</StackExtension:FileNameParts>
+							</StackExtension:FileNameRoot>
+						</StackExtension:PersistenterConfiguration>
+					</StackExtension:ExtensionConfiguration>
+				</StackExtension>
+			</StackExtensions>
+		</Stack>
+		<!-- Erzeugt HTML Email mit PDF Anhang aus zwei Splitzielen MAIL mit identischer 
+			KW_INPUT_ID. KW_TYPE_NUM des Email Bodys muss größer sein als die des Anhangdokuments -->
+	</Stacks>
+
+	<CommonStackExtensionConfigurations />
+
+
+	<!-- Definitions of all possible preview-formats and the corresponding viewer -->
+	<PreviewFormats>
+		<PreviewFormat inputType="MFD">
+			<PreviewFormatOutput
+				fileNameExtension="pdf"
+				formatName="Portable Data Format"
+				destinationName="export-application/pdf" />
+			<!-- <PreviewFormatOutput formatName="M/TEXT formatted document" fileNameExtension="mfd" 
+				destinationName="mfd" /> -->
+
+
+		</PreviewFormat>
+
+	</PreviewFormats>
+
+	<PrintingParameters>
+		<PrinterQueues> <!-- Definitions of all possible printer-queues -->
+			<PrinterQueue
+				descriptionOfPrinterQueue="Printer for JPS"
+				locationOfPrinterQueue="Dummy"
+				printTypeId="PrintType_Jps"
+				nameId="Dummy-Printer"
+				nameOfPrinterQueue="dummyPrinterQueue" />
+
+		</PrinterQueues>
+		<PrintTypes>    <!-- Definitions of all possible print-types -->
+			<PrintType
+				nameId="PrintType_Jps"
+				descriptionOfPrintType="For PrintDocumentExtension via jps"
+				wayOfPrinting="JPS"
+				descriptionOfWayOfPrinting="using the Java-Print-Service" />
+
+			<PrintType
+				nameId="PrintType_Perl"
+				descriptionOfPrintType="For PrintDocumentExtension via perl"
+				wayOfPrinting="COMMAND"
+				descriptionOfWayOfPrinting="using an external Perl-Script"
+				printDirFileMode="PERSIST"
+				printCommand="cmd.exe, /c, momsPrintingScript.pl"
+				printTimeOutSec="30" />
+
+
+
+		</PrintTypes>
+	</PrintingParameters>
+
+	<StackGroupIDs />
+
+
+	<Parameters>
+		<!-- Example of user defined parameters -->
+		<!-- MDO parameters -->
+		<Parameter
+			name="Titel"
+			editable="true"
+			nullable="true"
+			type="Character"
+			length="50" />
+	</Parameters>
+
+
+
+</Configuration>
+
+

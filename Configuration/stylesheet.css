@@ -1,0 +1,355 @@
+/* Layout */
+
+body {
+    margin: 0.0pt;
+}
+
+@page {
+    margin: 0.0pt;
+    size: 21.0cm 29.7cm;
+}
+
+/* TONIC default styles */
+
+* {
+    font-family: SANS;
+    margin: 0pt;
+    padding: 0pt;
+    column-gap: 0pt;
+    overflow-wrap: break-word;
+}
+
+table {
+    width: 100%;
+    margin: 10pt 0pt 10pt 0pt;
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: top;
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+ul, ol {
+    margin-left: 2em;
+}
+
+/* Styles from Default.styleCollection */
+
+.Brief {
+}
+
+.Infoblatt {
+}
+
+.AGB {
+}
+
+.FW_Standard {
+    font-size: 11.0pt;
+    font-family: STANDARD;
+    line-height: 12.5pt;
+}
+
+.FW_Absender {
+    font-size: 6.0pt;
+    font-family: SANS;
+    line-height: 6.5pt;
+}
+
+.FW_Empfaenger {
+    line-height: 12.5pt;
+}
+
+.FW_Infobereich {
+    font-size: 9.0pt;
+    font-family: SANS;
+    line-height: 12.5pt;
+}
+
+.FW_InfobereichFett {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    line-height: 12.5pt;
+}
+
+.FW_Betreff {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    line-height: 12.5pt;
+}
+
+.FW_Betreff2 {
+    line-height: 12.5pt;
+}
+
+.FW_Briefanrede {
+    line-height: 12.5pt;
+    padding: 0.0pt 0.0pt 11.0pt 0.0pt;
+}
+
+.Standard {
+    line-height: 12.5pt;
+}
+
+.Klein {
+    font-size: 8.0pt;
+    font-family: SANS;
+}
+
+.Eingerueckt {
+    font-size: 8.0pt;
+    font-family: SANS;
+}
+
+.Tabelle_rechtsbuendig {
+    font-size: 10.0pt;
+    font-family: SANS;
+    text-align: right;
+}
+
+.Tabelle_linksbuendig {
+    font-size: 12.0pt;
+    font-family: SANS;
+}
+
+.Tabelle_rechtsbuendig_klein {
+    font-size: 8.0pt;
+    font-family: SANS;
+    text-align: right;
+}
+
+.Tabelle_linksbuendig_klein {
+    font-size: 12.0pt;
+    font-family: SANS;
+}
+
+.VB {
+    font-size: 8.0pt;
+    font-family: SANS;
+    padding: 0.0pt 0.0pt 11.34pt 0.0pt;
+}
+
+.Formfield {
+}
+
+.Formfield_Label {
+    font-size: 8.0pt;
+    font-family: SANS;
+}
+
+.Formfield_Label_Abstand {
+    padding: 8.5pt 0.0pt 0.0pt 0.0pt;
+}
+
+.Klein Rot {
+    font-size: 12.0pt;
+    font-family: SANS;
+    color: rgba(228, 0, 25, 0.9254902);
+}
+
+.Uberschrift1 {
+    font-size: 24.0pt;
+    font-family: SANS;
+    color: rgba(227, 0, 24, 1.0);
+    font-weight: bold;
+    padding: 14.17pt 0.0pt 14.17pt 0.0pt;
+}
+
+.Uberschrift2 {
+    font-size: 16.0pt;
+    font-family: SANS;
+    color: rgba(227, 0, 24, 1.0);
+    font-style: italic;
+    padding: 8.5pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Uberschrift3 {
+    font-size: 12.0pt;
+    font-family: SANS;
+    color: rgba(227, 0, 24, 1.0);
+    font-style: italic;
+    padding: 8.5pt 0.0pt 8.5pt 0.0pt;
+}
+
+.TextAbstandNach {
+    padding: 0.0pt 0.0pt 4.25pt 0.0pt;
+}
+
+.TextAbstandVor {
+    padding: 4.25pt 0.0pt 0.0pt 0.0pt;
+}
+
+.Einruckung {
+    padding: 4.25pt 0.0pt 0.0pt 0.0pt;
+}
+
+.Hinweis {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-style: italic;
+    padding: 4.25pt 0.0pt 0.0pt 0.0pt;
+}
+
+.AVB {
+}
+
+.RightAligned {
+}
+
+.RightAligned td {
+    text-align: right;
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.Versicherungsschein {
+    padding: 0.0pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Versicherungsschein td {
+    font-size: 11.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    padding: 0.0pt 0.0pt 8.5pt 0.0pt;
+    border: 0.5pt none rgba(0, 0, 0, 1.0);
+}
+
+.Umrandung {
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Umrandung td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    padding: 1.42pt 8.5pt 1.42pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.Formular {
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Formular td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    padding: 1.42pt 8.5pt 1.42pt 0.0pt;
+    border: 0.5pt none rgba(0, 0, 0, 1.0);
+}
+
+.Einfach {
+    padding: 0.0pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Einfach td {
+    font-size: 8.0pt;
+    font-family: SANS;
+    border: 0.5pt none rgba(0, 0, 0, 1.0);
+    font-weight: bold;
+}
+
+.Streifen {
+    background-color: rgba(237, 237, 237, 1.0);
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Streifen td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    color: rgba(255, 255, 255, 1.0);
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.StreifenFarbig {
+    background-color: rgba(241, 225, 227, 1.0);
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.StreifenFarbig td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    color: rgba(255, 255, 255, 1.0);
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.KopfzeileFarbig {
+    background-color: rgba(227, 0, 24, 1.0);
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.KopfzeileFarbig td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    color: rgba(255, 255, 255, 1.0);
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.Gruppenversicherte {
+    padding: 14.17pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Gruppenversicherte td {
+    text-align: right;
+    padding: 2.83pt 8.5pt 2.83pt 8.5pt;
+    border: 0.5pt solid rgba(0, 0, 0, 1.0);
+}
+
+.Abstand_Mitte {
+    padding: 0.0pt 0.0pt 8.5pt 0.0pt;
+}
+
+.Abstand_Mitte td {
+    font-size: 12.0pt;
+    font-family: SANS;
+    font-weight: bold;
+    padding: 0.0pt 5.67pt 0.0pt 5.67pt;
+    border: 0.5pt none rgba(0, 0, 0, 1.0);
+}
+
+/* Styles from templates */
+
+/* hide regions from html */
+
+
+#firmenleiste {
+	display: none;
+	aria-hidden: true;
+}
+
+#fusszeile {
+	display: none;
+	aria-hidden: true;
+}
+
+#header {
+	display: none;
+	aria-hidden: true;
+}
+
+#footer {
+	display: none;
+	aria-hidden: true;
+}
+
+#absender {
+	display: none;
+	aria-hidden: true;
+}
+
+#empfaenger {
+	display: none;
+	aria-hidden: true;
+}
+
+#infobereich {
+	display: none;
+	aria-hidden: true;
+}
