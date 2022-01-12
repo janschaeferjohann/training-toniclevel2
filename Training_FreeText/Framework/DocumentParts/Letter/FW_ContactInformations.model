@@ -1,0 +1,139 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="Sender" ref="\\Framework\Data\Sender.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="Message" ref="\\Framework\Data\Message.datamodel" provided="true">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Ueberschrift_blau"></Style>
+  <Span>
+   <Text>sam.energy</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_InfobereichFett"></Style>
+  <Span>
+   <Text>Ihre Ansprechnpartner/in:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_Infobereich"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_Infobereich"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>42442.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleMatrixSmallPadding"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>Telefon:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>Telefax:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text>E-Mail:</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="FW_Infobereich"></Style>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Style parentName="FW_InfobereichFett"></Style>
+  <Span>
+   <Text>Datum:</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_Infobereich"></Style>
+  <Span>
+   <Data>$freetext_data.template.Date</Data>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

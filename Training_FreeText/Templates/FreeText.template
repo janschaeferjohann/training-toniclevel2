@@ -1,0 +1,81 @@
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_FreeText\Templates\FreeText.template" title="Freitext" description="Freitextvorlage für Sam AG und sam.energy">
+ <DataDefinition>
+  <ParamDef name="TaskControl" ref="Data\TaskControl.datamodel" dataMappingRef="Data\TaskControl.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="freetext_data" ref="\library\Framework_Training\Data\freetext_data.datamodel" dataSourceName="TaskControl" dataMappingRef="Data\freetext_data.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <UIContribution>
+  <GuideArea>
+   <ContentLink title="Text bearbeiten" targetId="Freetext" dataNode=""></ContentLink>
+  </GuideArea>
+  <InputArea>
+   <Group title="Freitext"></Group>
+  </InputArea>
+ </UIContribution>
+ <Style>
+  <ParStyle>
+   <SpanStyle>
+    <FontSize>11.0pt</FontSize>
+   </SpanStyle>
+  </ParStyle>
+ </Style>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Document>
+  <DocumentPartRef uri="DocumentControls\Message.model">
+   <Extensions>
+    <DocumentExtension id="Message Content">
+     <DocumentPartRef uri="DocumentControls\CoverLetter.model">
+      <Extensions>
+       <ContainerExtension id="CoverLetter Content">
+        <ContainerPartRef uri="\\Framework\Framework\DocumentParts\Letter\FW_SalutatoryAddress.model"></ContainerPartRef>
+        <Container id="Freetext">
+         <Par>
+          <Style parentName="TextAbstandNach_12pt"></Style>
+          <Span>
+           <Text> --- Text / Bausteine hier einfügen ---</Text>
+          </Span>
+         </Par>
+        </Container>
+        <ContainerPartRef uri="Framework/DocumentParts/Letter/FW_ComplimentaryClose.model">
+         <Param name="user">$freetext_data.user</Param>
+        </ContainerPartRef>
+        <Container>
+         <Par>
+          <Span>
+           <Text></Text>
+          </Span>
+         </Par>
+         <ContainerPart>
+          <DataDefinition></DataDefinition>
+         </ContainerPart>
+        </Container>
+       </ContainerExtension>
+      </Extensions>
+      <Param name="Message"></Param>
+      <Param name="Instance"></Param>
+      <Param name="Subject2"></Param>
+      <Param name="Subject3"></Param>
+     </DocumentPartRef>
+    </DocumentExtension>
+   </Extensions>
+   <Param name="Message">$TaskControl.Message.instance(0)</Param>
+   <Param name="Subject1">"Subject line #1"</Param>
+   <Param name="Subject2"></Param>
+   <Param name="Subject3"></Param>
+  </DocumentPartRef>
+ </Document>
+</RootPart>

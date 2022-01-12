@@ -1,0 +1,131 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>UNSER ANTEIL IST ÖKOSTROM.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style>
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Wenn Sie nicht nur Rhythmus, sondern auch Klimaschutz im Blut haben, ist unser</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Ökostrom</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>genau das Richtige für Sie. Sam.energy Easy  Ökostrom stammt zu</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>100 % aus regenerativen Quellen</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>, ist CO</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>2</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>– und atomstromfrei erzeugt und trägt das begehrte Green Fan-Label. Mit der Investition in neue Anlagen treiben wir zudem die Energiewende aktiv voran. </Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style>
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Haben Sie Lust, zusammen mit uns die Stromherstellung ein Stück klimafreundlicher zu gestalten? Hier geht’s zu unserem </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>  Top Angebot.</Text>
+  </Span>
+ </Par>
+</ContainerPart>

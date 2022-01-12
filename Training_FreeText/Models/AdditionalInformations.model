@@ -1,0 +1,17 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Container>
+  <Par>
+   <Style parentName="TextAbstandVor"></Style>
+   <Span>
+    <Text>Weitere Informationen findest Du auf unserer Webseite.</Text>
+   </Span>
+  </Par>
+  <Par>
+   <Style parentName="TextAbstandNach"></Style>
+   <Span>
+    <Text>Du kannst uns auch per Mail erreichen.</Text>
+   </Span>
+  </Par>
+ </Container>
+</ContainerPart>

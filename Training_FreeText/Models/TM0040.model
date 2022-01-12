@@ -1,0 +1,247 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition></DataDefinition>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>WIE SETZT SICH DER STROMMIX IN DEUTSCHLAND ZUSAMMEN?</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextNormal">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle></FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Im Jahr 2020 lag die Nettostromerzeugung bei etwa 488,7 TWh.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextNormal">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle></FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Der Anteil erneuerbarer Energien am gesamtdeutschen Strommix stieg 2020 erstmals auf über 50 %.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach_12pt">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle></FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Erneuerbare Energiequellen brachten es damit auf 241,65 TWh.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>15000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>BRUTTOSTROMERZEUGUNG VERSUS NETTOSTROMERZEUGUNG?</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach">
+   <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+  </Style>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Während die</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Bruttostromerzeugung</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>auch den eigenen</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Strombedarf</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>der</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Kraftwerke</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>einbezieht, ist mit der</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Nettostromerzeugung ausschließlich</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>Strom gemeint, der tatsächlich ins</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <FontStyle>bold</FontStyle>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>öffentliche Netz</Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text> </Text>
+  </Span>
+  <Span>
+   <Style>
+    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
+    <FontSize>11000.0mpt</FontSize>
+    <TextColor>rgb(0,0,0)</TextColor>
+   </Style>
+   <Text>eingespeist wird – und so letztlich auch aus der heimischen Steckdose fließt (abzüglicher der Übertragungsverluste).</Text>
+  </Span>
+ </Par>
+</ContainerPart>
