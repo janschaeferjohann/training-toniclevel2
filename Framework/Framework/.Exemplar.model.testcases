@@ -1,0 +1,57 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="&lt;Standard&gt;">
+ <TestCase name="&lt;Standard&gt;">
+  <Root>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata" value="string:">
+      <DataNode name="Vorlage" value="string:">
+       <DataNode name="Korrespondenz" value="string:">
+        <DataNode name="ErstExemplar" value="string:">
+         <DataNode name="Empfaengerrolle" value="string:"></DataNode>
+         <DataNode name="StandardZustellMedium" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteZustellMedien" value="string:ZENTRALDRUCK"></DataNode>
+        </DataNode>
+        <DataNode name="WeitereExemplare" value="string:">
+         <DataNode name="Empfaengerrolle" value="string:"></DataNode>
+         <DataNode name="StandardZustellMedium" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteZustellMedien" value="string:ZENTRALDRUCK"></DataNode>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" value="string:Created"></DataNode>
+      <DataNode name="ValidationState" value="string:OK" valueChanged="true"></DataNode>
+      <DataNode name="Editor" value="string:">
+       <DataNode name="DefaultDocumentName" value="string:"></DataNode>
+       <DataNode name="DefaultDocumentDescription" value="string:"></DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" value="string:"></DataNode>
+      <DataNode name="InitialDataBinding" value="string:\library\Framework\Framework\Exemplar.model.template"></DataNode>
+     </DataNode>
+    </Data>
+    <DocumentPartInstance partIndex="0">
+     <Data>
+      <DataNode name="Exemplar">
+       <DataNode name="Absender">
+        <DataNode name="Ruecksendeanschrift">
+         <DataNode name="Partner" value="string:">
+          <DataNode name="firmenname1" value="string:"></DataNode>
+          <DataNode name="vorname" value="string:"></DataNode>
+          <DataNode name="strasse" value="string:"></DataNode>
+          <DataNode name="plz" value="string:"></DataNode>
+          <DataNode name="ort" value="string:"></DataNode>
+          <DataNode name="adresse" value="string:">
+           <DataNode name="zeile" value="string:"></DataNode>
+           <DataNode name="zeile" value="string:"></DataNode>
+           <DataNode name="zeile" value="string: "></DataNode>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+     </Data>
+     <DocumentPartInstance partIndex="0"></DocumentPartInstance>
+    </DocumentPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

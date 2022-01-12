@@ -1,0 +1,46 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="&lt;Standard&gt;">
+ <TestCase name="&lt;Standard&gt;">
+  <Root>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata" value="string:">
+      <DataNode name="Vorlage" value="string:">
+       <DataNode name="Korrespondenz" value="string:">
+        <DataNode name="ErstExemplar" value="string:">
+         <DataNode name="Empfaengerrolle" value="string:"></DataNode>
+         <DataNode name="StandardZustellMedium" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteZustellMedien" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteInfoMedien" value="string:"></DataNode>
+        </DataNode>
+        <DataNode name="WeitereExemplare" value="string:">
+         <DataNode name="Empfaengerrolle" value="string:"></DataNode>
+         <DataNode name="StandardZustellMedium" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteZustellMedien" value="string:ZENTRALDRUCK"></DataNode>
+         <DataNode name="ErlaubteInfoMedien" value="string:"></DataNode>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" value="string:Created"></DataNode>
+      <DataNode name="ValidationState" value="string:ERROR" valueChanged="true"></DataNode>
+      <DataNode name="Editor" value="string:">
+       <DataNode name="DefaultDocumentName" value="string:"></DataNode>
+       <DataNode name="DefaultDocumentDescription" value="string:"></DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" value="string:"></DataNode>
+      <DataNode name="InitialDataBinding" value="string:\library\Framework\Bausteine\Empfaenger.model.template"></DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0">
+     <Data>
+      <DataNode name="Empfaenger">
+       <DataNode name="istGueltig" value="bool:false"></DataNode>
+       <DataNode name="BriefAnrede" value="string:Sehr geehrte Damen und Herren"></DataNode>
+       <DataNode name="NameVorname" value="string:"></DataNode>
+      </DataNode>
+     </Data>
+     <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

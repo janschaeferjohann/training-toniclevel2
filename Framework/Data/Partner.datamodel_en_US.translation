@@ -1,0 +1,10 @@
+%/Partner/City/__VALIDATION_ERROR_MESSAGE__=TRANSLATION: Bitte geben Sie den Ort ein
+%/Partner/City/__VALIDATION_LABEL__=TRANSLATION: Ort
+%/Partner/Firstname/__VALIDATION_LABEL__=TRANSLATION: Vorname
+%/Partner/Lastname/__VALIDATION_ERROR_MESSAGE__=TRANSLATION: Bitte geben Sie den Nachnamen ein
+%/Partner/Lastname/__VALIDATION_LABEL__=TRANSLATION: Nachname
+%/Partner/Salutation/__VALIDATION_LABEL__=TRANSLATION: Anrede
+%/Partner/Street/__VALIDATION_LABEL__=TRANSLATION: Strasse
+%/Partner/Title/__VALIDATION_LABEL__=TRANSLATION: Titel
+%/Partner/Zip/__VALIDATION_ERROR_MESSAGE__=TRANSLATION: Bitte geben Sie die Postleitzahl ein
+%/Partner/Zip/__VALIDATION_LABEL__=TRANSLATION: Postleitzahl
