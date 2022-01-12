@@ -34,8 +34,8 @@
      <Data>
       <DataNode name="Empfaenger">
        <DataNode name="isValid" value="bool:false"></DataNode>
-       <DataNode name="BriefAnrede" value="string:Sehr geehrte Damen und Herren"></DataNode>
-       <DataNode name="NameVorname" value="string:"></DataNode>
+       <DataNode name="BriefSalutation" value="string:Sehr geehrte Damen und Herren"></DataNode>
+       <DataNode name="NameFirstname" value="string:"></DataNode>
       </DataNode>
      </Data>
      <ContainerPartInstance partIndex="0"></ContainerPartInstance>

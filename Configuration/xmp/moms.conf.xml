@@ -97,9 +97,9 @@
 						<StackExtension:KeyConfiguration>
 							<StackExtension:JobKeyParametersForAllOutputs>
 								<StackExtension:KeyParameter
-									parameter-name="Titel"
+									parameter-name="Title"
 									parameter-type="M/OMS-Parameter"
-									key-name="TitelWert" />
+									key-name="TitleWert" />
 							</StackExtension:JobKeyParametersForAllOutputs>
 						</StackExtension:KeyConfiguration>
 
@@ -188,7 +188,7 @@
 		<!-- Example of user defined parameters -->
 		<!-- MDO parameters -->
 		<Parameter
-			name="Titel"
+			name="Title"
 			editable="true"
 			nullable="true"
 			type="Character"

@@ -11,9 +11,9 @@
 %/Partner/City/__VALIDATION_LABEL__=City
 %/Partner/Firstname/__VALIDATION_LABEL__=Firstname
 %/Partner/Lastname/__VALIDATION_ERROR_MESSAGE__=Please enter a firstname
-%/Partner/Lastname/__VALIDATION_LABEL__=Surname
+%/Partner/Lastname/__VALIDATION_LABEL__=Firstname
 %/Partner/Salutation/__VALIDATION_LABEL__=Salutation
 %/Partner/Street/__VALIDATION_LABEL__=Street
-%/Partner/Title/__VALIDATION_LABEL__=Titel
-%/Partner/Zip/__VALIDATION_ERROR_MESSAGE__=Please enter a Postcode
-%/Partner/Zip/__VALIDATION_LABEL__=Postcode%/basedata/id_from_dialog/__VAL_LI_VALUE__1=TRANSLATION: Vorlagen2-Willkommen-Fischer
+%/Partner/Title/__VALIDATION_LABEL__=Title
+%/Partner/Zip/__VALIDATION_ERROR_MESSAGE__=Please enter a ZIP
+%/Partner/Zip/__VALIDATION_LABEL__=ZIP%/basedata/id_from_dialog/__VAL_LI_VALUE__1=Level2-Welcome-Fischer

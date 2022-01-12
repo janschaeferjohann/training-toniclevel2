@@ -7,7 +7,7 @@
  </Style>
  <DocumentPart>
   <DataDefinition></DataDefinition>
-  <AttachmentSection url="\\Framework_Training\Graphics\Erläuterungen-Strom.pdf" pageRange="2-3">
+  <AttachmentSection url="\\Framework_Training\Graphics\Explanations-Electricity.pdf" pageRange="2-3">
    <StaticContainer>
     <Style>
      <RegionRef>letterinfo</RegionRef>

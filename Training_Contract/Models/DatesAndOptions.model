@@ -202,21 +202,21 @@
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="0" groupId="appointment"></InlineRadioButton>
-       <Text> Anfang des Monats</Text>
+       <Text> Begin of month</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="1" groupId="appointment"></InlineRadioButton>
-       <Text> Mitte des Monats</Text>
+       <Text> Middle of month</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="2" groupId="appointment"></InlineRadioButton>
-       <Text> Mitte des Monats</Text>
+       <Text> Middle of month</Text>
       </Span>
      </Par>
     </Container>

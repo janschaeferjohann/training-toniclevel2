@@ -9,7 +9,7 @@
 	        </dc:creator>
             <dc:title>
                 <rdf:Alt>
-                    <rdf:li xml:lang="x-default">dc:title - Der Titel: ${PDF_TITLE}</rdf:li>
+                    <rdf:li xml:lang="x-default">dc:title - Der Title: ${PDF_TITLE}</rdf:li>
                 </rdf:Alt>
             </dc:title>
             <dc:description>

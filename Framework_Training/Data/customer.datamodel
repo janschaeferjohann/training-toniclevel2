@@ -54,7 +54,7 @@
                      operator="ANY"
                      validation-type="LIST">
             <Values/>
-            <ErrorMessage>Bitte eine Anrede wählen.</ErrorMessage>
+            <ErrorMessage>Bitte eine Salutation wählen.</ErrorMessage>
          </Validation>
          <Format>
             <Input/>
@@ -69,10 +69,10 @@
          name="Title"
          searchable="false">
       <Settings>
-         <Description>Akademischer Titel</Description>
+         <Description>Akademischer Title</Description>
          <Validation allow-empty-value="true"
                      dialog-field="EDITFIELD"
-                     label="Titel"
+                     label="Title"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -90,10 +90,10 @@
          name="Firstname"
          searchable="false">
       <Settings>
-         <Description>Vorname</Description>
+         <Description>Firstname</Description>
          <Validation allow-empty-value="true"
                      dialog-field="EDITFIELD"
-                     label="Vorname"
+                     label="Firstname"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -111,14 +111,14 @@
          name="Lastname"
          searchable="false">
       <Settings>
-         <Description>Nachname</Description>
+         <Description>Lastname</Description>
          <Validation allow-empty-value="false"
                      dialog-field="EDITFIELD"
-                     label="Nachname"
+                     label="Lastname"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
-            <ErrorMessage>Bitte den Nachnamen eingeben!</ErrorMessage>
+            <ErrorMessage>Bitte den Lastnamen eingeben!</ErrorMessage>
          </Validation>
          <Format>
             <Input/>
@@ -150,7 +150,7 @@
    <Node data-type="TEXT"
          hierarchical="FLAT"
          multiple="false"
-         name="HouseNr"
+         name="HouseNo"
          searchable="false">
       <Settings>
          <Validation allow-empty-value="true"
@@ -202,7 +202,7 @@
                <Value content="1"/>
                <Value content="99999"/>
             </Values>
-            <ErrorMessage>Bitte gib eine gültige Postleitzahl ein</ErrorMessage>
+            <ErrorMessage>Bitte gib eine gültige ZIP ein</ErrorMessage>
          </Validation>
          <Format>
             <Input decimal-separator="46" thousand-separator="44"/>

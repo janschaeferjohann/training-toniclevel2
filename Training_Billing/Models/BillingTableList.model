@@ -53,7 +53,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Netto</Text>
+         <Text>Net</Text>
         </Span>
        </Par>
       </Container>
@@ -77,7 +77,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Brutto</Text>
+         <Text>Gross</Text>
         </Span>
        </Par>
       </Container>

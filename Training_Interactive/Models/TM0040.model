@@ -48,7 +48,7 @@
     <FontStyle></FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Im Jahr 2020 lag die Nettostromerzeugung bei etwa 488,7 TWh. Der Anteil erneuerbarer Energien am gesamtdeutschen Strommix stieg 2020 erstmals auf über 50 %. Erneuerbare Energiequellen brachten es damit auf 241,65 TWh.</Text>
+   <Text>Im Jahr 2020 lag die Netstromerzeugung bei etwa 488,7 TWh. Der Anteil erneuerbarer Energien am gesamtdeutschen Electricitymix stieg 2020 erstmals auf über 50 %. Erneuerbare Energiequellen brachten es damit auf 241,65 TWh.</Text>
   </Span>
  </Par>
  <Par>
@@ -102,7 +102,7 @@
     <FontStyle></FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Während die Bruttostromerzeugung auch den eigenen Strombedarf der Kraftwerke einbezieht, ist mit der Nettostromerzeugung ausschließlich Strom gemeint, der tatsächlich ins öffentliche Netz eingespeist wird – und so letztlich auch aus der heimischen Steckdose fließt (abzüglicher der Übertragungsverluste).
+   <Text>Während die Grossstromerzeugung auch den eigenen Electricitybedarf der Kraftwerke einbezieht, ist mit der Netstromerzeugung ausschließlich Electricity gemeint, der tatsächlich ins öffentliche Netz eingespeist wird – und so letztlich auch aus der heimischen Steckdose fließt (abzüglicher der Übertragungsverluste).
 </Text>
   </Span>
  </Par>

@@ -199,8 +199,8 @@
 							</billing_text>
 							<contracts>
 								<contract>
-									<rate>sam.business Strom</rate>
-									<name>Strom</name>
+									<rate>sam.business Electricity</rate>
+									<name>Electricity</name>
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
 									<termination_date>31.12.2019</termination_date>
@@ -209,8 +209,8 @@
 									<counter>SAMSZ56456456</counter>
 								</contract>
 								<contract>
-									<rate>Easy Öko-Strom</rate>
-									<name>Strom</name>
+									<rate>Easy Öko-Electricity</rate>
+									<name>Electricity</name>
 									<contractsId>GK01-2010-01.00-Green</contractsId>
 									<begin_date>01.01.2020</begin_date>
 									<termination_date>31.08.2020</termination_date>
@@ -220,7 +220,7 @@
 								</contract>
 								<contract>
 									<rate>Easy fresh Water</rate>
-									<name>Wasser</name>
+									<name>Water</name>
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
 									<termination_date>31.08.2020</termination_date>
@@ -234,8 +234,8 @@
 					<billdata>
 						<items>
 							<item>
-								<name>Strom</name>
-								<rate>sam.business Strom</rate>
+								<name>Electricity</name>
+								<rate>sam.business Electricity</rate>
 								<usage>1372,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -259,8 +259,8 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Strom</name>
-								<rate>Easy Öko-Strom</rate>
+								<name>Electricity</name>
+								<rate>Easy Öko-Electricity</rate>
 								<usage>1372,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.01.2020</periodfrom>
@@ -284,7 +284,7 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Wasser</name>
+								<name>Water</name>
 								<rate>Easy fresh Water</rate>
 								<usage>87,00</usage>
 								<unit>m3</unit>
@@ -349,7 +349,7 @@
 								<previous_sum>13800,00</previous_sum>
 								<pre_monthly_amount>3450,00</pre_monthly_amount>
 								<amount>
-									<name>Strom</name>
+									<name>Electricity</name>
 									<netamount>8910,00</netamount>
 									<salestax>2090,00</salestax>
 									<presum>11000,00</presum>
@@ -357,7 +357,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Wasser</name>
+									<name>Water</name>
 									<netamount>1116,00</netamount>
 									<salestax>84,00</salestax>
 									<presum>1200,00</presum>
@@ -378,7 +378,7 @@
 								<next_sum>16250,00</next_sum>
 								<next_amount>4062,50</next_amount>
 								<amount>
-									<name>Strom</name>
+									<name>Electricity</name>
 									<netamount>2268,00</netamount>
 									<salestax>532,00</salestax>
 									<presum>2800,00</presum>
@@ -386,7 +386,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Wasser</name>
+									<name>Water</name>
 									<netamount>267,37</netamount>
 									<salestax>20,13</salestax>
 									<presum>287,50</presum>
@@ -426,7 +426,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Arbeitspreis</product_key>
 							</product>
@@ -458,7 +458,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>EEG-Umlage</product_key>
 							</product>
@@ -490,7 +490,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>KWKG-Umlage</product_key>
 							</product>
@@ -522,9 +522,9 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Stromsteuer</product_key>
+								<product_key>Electricitysteuer</product_key>
 							</product>
 							<period>
 								<from>
@@ -554,7 +554,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Offshore-Haftungsumlage</product_key>
 							</product>
@@ -586,9 +586,9 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>StromNEV</product_key>
+								<product_key>ElectricityNEV</product_key>
 							</product>
 							<period>
 								<from>
@@ -618,7 +618,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Strom</rate>
+								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Grundpreis</product_key>
 							</product>
@@ -650,7 +650,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Arbeitspreis</product_key>
 							</product>
@@ -682,7 +682,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>EEG-Umlage</product_key>
 							</product>
@@ -714,7 +714,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>KWKG-Umlage</product_key>
 							</product>
@@ -746,9 +746,9 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Stromsteuer</product_key>
+								<product_key>Electricitysteuer</product_key>
 							</product>
 							<period>
 								<from>
@@ -778,7 +778,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Offshore-Haftungsumlage</product_key>
 							</product>
@@ -810,9 +810,9 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>StromNEV</product_key>
+								<product_key>ElectricityNEV</product_key>
 							</product>
 							<period>
 								<from>
@@ -842,7 +842,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Strom</rate>
+								<rate>Easy Öko-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Grundpreis</product_key>
 							</product>
@@ -983,7 +983,7 @@
 								<value>Sonstige Erneuerbare Energie</value>
 							</record>
 							<record>
-								<value>Wasserkraft</value>
+								<value>Waterkraft</value>
 							</record>
 						</description>					
 						<nationwide>
@@ -1012,7 +1012,7 @@
 							<value>9,1</value>
 							</record>
 							<record>
-							<description>Wasserkraft</description>
+							<description>Waterkraft</description>
 							<value>3,8</value>
 							</record>
 						</nationwide>
@@ -1030,7 +1030,7 @@
 							<value>19,8</value>
 							</record>
 							<record>
-							<description>Wasserkraft</description>
+							<description>Waterkraft</description>
 							<value>3</value>
 							</record>
 						</product>
@@ -1060,7 +1060,7 @@
 							<value>2,1</value>
 							</record>
 							<record>
-							<description>Wasserkraft</description>
+							<description>Waterkraft</description>
 							<value>1,2</value>
 							</record>
 						</total>

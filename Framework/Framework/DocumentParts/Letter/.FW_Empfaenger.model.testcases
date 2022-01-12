@@ -68,10 +68,10 @@
        <DataNode name="isValid">
         <Value><![CDATA[bool:false]]></Value>
        </DataNode>
-       <DataNode name="BriefAnrede">
+       <DataNode name="BriefSalutation">
         <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
        </DataNode>
-       <DataNode name="NameVorname">
+       <DataNode name="NameFirstname">
         <Value><![CDATA[string:]]></Value>
        </DataNode>
       </DataNode>

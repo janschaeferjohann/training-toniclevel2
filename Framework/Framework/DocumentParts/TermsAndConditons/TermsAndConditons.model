@@ -1,6 +1,6 @@
 <DocumentPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition>
-  <ParamDef name="Titel">
+  <ParamDef name="Title">
    <Description></Description>
    <Input text-prefix="" text-suffix=""></Input>
    <Output text-prefix="" text-suffix=""></Output>
@@ -55,7 +55,7 @@
    <Par>
     <Style parentName="Standard"></Style>
     <Span>
-     <Data>$Titel</Data>
+     <Data>$Title</Data>
     </Span>
    </Par>
   </StaticContainer>

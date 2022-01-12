@@ -51,7 +51,7 @@
          <Description>Salutation</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Anrede"
+                     label="Salutation"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -72,7 +72,7 @@
          <Description>academic title</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Titel"
+                     label="Title"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -93,7 +93,7 @@
          <Description>firstname</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Vorname"
+                     label="Firstname"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -114,11 +114,11 @@
          <Description>lastname or company name</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Nachname"
+                     label="Lastname"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
-            <ErrorMessage>Bitte geben Sie den Nachnamen ein</ErrorMessage>
+            <ErrorMessage>Please enter the lastname</ErrorMessage>
          </Validation>
          <Format>
             <Input/>
@@ -220,7 +220,7 @@
          <Description>street</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Strasse"
+                     label="Street"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
@@ -241,11 +241,11 @@
          <Description>zip or postcode</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Postleitzahl"
+                     label="ZIP"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
-            <ErrorMessage>Bitte geben Sie die Postleitzahl ein</ErrorMessage>
+            <ErrorMessage>Please enter the ZIP code</ErrorMessage>
          </Validation>
          <Format>
             <Input/>
@@ -263,11 +263,11 @@
          <Description>city, town</Description>
          <Validation allow-empty-value="true"
                      dialog-field=""
-                     label="Ort"
+                     label="City"
                      operator="ANY"
                      validation-type="ANY_VALUE">
             <Values/>
-            <ErrorMessage>Bitte geben Sie den Ort ein</ErrorMessage>
+            <ErrorMessage>Please enter the city</ErrorMessage>
          </Validation>
          <Format>
             <Input/>

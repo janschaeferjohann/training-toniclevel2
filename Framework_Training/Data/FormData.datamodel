@@ -212,7 +212,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoWaerme"
+            name="wohlfuelstrom_OekoHeat"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -232,7 +232,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoWaerme_Loerrach"
+            name="wohlfuelstrom_OekoHeat_Loerrach"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -252,7 +252,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoWaerme_Bonndorf_Feldberg"
+            name="wohlfuelstrom_OekoHeat_Bonndorf_Feldberg"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"

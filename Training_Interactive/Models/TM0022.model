@@ -20,7 +20,7 @@
     <FontSize>12000.0mpt</FontSize>
     <TextColor>rgb(68,68,68)</TextColor>
    </Style>
-   <Text>Der Strommix eines jeden einzelnen Verbrauchers ist jedoch abhängig vom jeweiligen Versorger. Für diesen besteht dabei nach § 42 Abs. 1 Energiewirtschaftsgesetz (EnWG) jedoch Kennzeichnungspflicht: das heißt, für den Endverbraucher muss die anteilmäßige Aufteilung der Energieträger, aus denen der bezogene Strom erzeugt wird, erkennbar sein.</Text>
+   <Text>Der Electricitymix eines jeden einzelnen Verbrauchers ist jedoch abhängig vom jeweiligen Versorger. Für diesen besteht dabei nach § 42 Abs. 1 Energiewirtschaftsgesetz (EnWG) jedoch Kennzeichnungspflicht: das heißt, für den Endverbraucher muss die anteilmäßige Aufteilung der Energieträger, aus denen der bezogene Electricity erzeugt wird, erkennbar sein.</Text>
   </Span>
  </Par>
 </ContainerPart>

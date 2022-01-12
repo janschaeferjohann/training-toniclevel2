@@ -54,9 +54,9 @@
 			<target-resolution>300</target-resolution>
 			<keys>
 				<key
-					name="Titel"
+					name="Title"
 					type="String"
-					description="Beispiel für das Setzen eines Titels im PDF">${TitelWert}</key>
+					description="Beispiel für das Setzen eines Titles im PDF">${TitleWert}</key>
 			</keys>
 		</destination-defaults>
 		<!-- Destination with reserved name "preview" is used for preview. This 

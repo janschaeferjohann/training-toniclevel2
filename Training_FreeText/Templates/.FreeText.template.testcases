@@ -42,10 +42,10 @@
          <DataNode name="contract">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Strom]]></Value>
+           <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
           <DataNode name="contractsId" valueChanged="fromDataSource">
            <Value><![CDATA[string:2020-99.128]]></Value>
@@ -60,7 +60,7 @@
            <Value><![CDATA[string:6 Wochen]]></Value>
           </DataNode>
           <DataNode name="renewal" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Monate]]></Value>
+           <Value><![CDATA[string:6 Monthe]]></Value>
           </DataNode>
           <DataNode name="counter" valueChanged="fromDataSource">
            <Value><![CDATA[string:56845258]]></Value>
@@ -84,7 +84,7 @@
            <Value><![CDATA[string:6 Wochen]]></Value>
           </DataNode>
           <DataNode name="renewal" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Monate]]></Value>
+           <Value><![CDATA[string:6 Monthe]]></Value>
           </DataNode>
           <DataNode name="counter" valueChanged="fromDataSource">
            <Value><![CDATA[string:1512548]]></Value>
@@ -154,7 +154,7 @@
        <DataNode name="item">
         <Value><![CDATA[string:]]></Value>
         <DataNode name="name" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Strom]]></Value>
+         <Value><![CDATA[string:Electricity]]></Value>
         </DataNode>
         <DataNode name="usage" valueChanged="fromDataSource">
          <Value><![CDATA[string:]]></Value>
@@ -293,7 +293,7 @@
       <DataNode name="anticipated_payments">
        <Value><![CDATA[string:]]></Value>
        <DataNode name="appointment" valueChanged="fromDataSource">
-        <Value><![CDATA[string:Anfang des Monats]]></Value>
+        <Value><![CDATA[string:Begin of month]]></Value>
        </DataNode>
        <DataNode name="nextanticipated_payments">
         <Value><![CDATA[string:]]></Value>
@@ -309,7 +309,7 @@
         <DataNode name="amount">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="name" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Strom]]></Value>
+          <Value><![CDATA[string:Electricity]]></Value>
          </DataNode>
          <DataNode name="netamount" valueChanged="fromDataSource">
           <Value><![CDATA[number:25.5]]></Value>

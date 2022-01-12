@@ -88,7 +88,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Bei vielen unserer Tarife könne Sie mit dem sam.energy SmartCheck prüfen, ob Ihr Abschlag zu Ihrem tatsächlichen Verbrauch passt. So könne Sie früh Nachzahlungen vermeiden.</Text>
+       <Text>Bei vielen unserer Tariffe könne Sie mit dem sam.energy SmartCheck prüfen, ob Ihr Abschlag zu Ihrem tatsächlichen Verbrauch passt. So könne Sie früh Nachzahlungen vermeiden.</Text>
       </Span>
      </Par>
      <Par>
@@ -335,7 +335,7 @@
         <FontSize>10000.0mpt</FontSize>
         <FontFamily>STANDARD</FontFamily>
        </Style>
-       <Text>Mehrere Themengebiete stehen Ihnen zur Verfügung: Service &amp; Rechnung, Strom, Erdgas und Energiezukunft.</Text>
+       <Text>Mehrere Themengebiete stehen Ihnen zur Verfügung: Service &amp; Rechnung, Electricity, Erdgas und Energiezukunft.</Text>
       </Span>
       <Span>
        <Style>

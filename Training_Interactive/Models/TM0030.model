@@ -135,7 +135,7 @@
       <FontStyle>bold</FontStyle>
       <TextColor>rgb(0,0,0)</TextColor>
      </Style>
-     <Text>Nettostrom</Text>
+     <Text>Netstrom</Text>
     </Span>
     <Span>
      <Style>
@@ -356,7 +356,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Nettostrom</Text>
+   <Text>Netstrom</Text>
   </Span>
   <Span>
    <Style>
@@ -405,7 +405,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>am gesamtdeutschen Strommix stieg dabei auf</Text>
+   <Text>am gesamtdeutschen Electricitymix stieg dabei auf</Text>
   </Span>
   <Span>
    <Style>
@@ -430,7 +430,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>. Seit 2002 hat sich die Nettostromerzeugung aus erneuerbaren Energien damit mehr als</Text>
+   <Text>. Seit 2002 hat sich die Netstromerzeugung aus erneuerbaren Energien damit mehr als</Text>
   </Span>
   <Span>
    <Style>

@@ -30,7 +30,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
-       <Value><![CDATA[string:\library\Training_Billing\Models\ContentBillingStrom.model.template]]></Value>
+       <Value><![CDATA[string:\library\Training_Billing\Models\ContentBillingElectricity.model.template]]></Value>
       </DataNode>
       <DataNode name="Mandant" valueChanged="fromDataSource">
        <Value><![CDATA[string:]]></Value>
@@ -101,11 +101,11 @@
        <Data>
         <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
         <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Strom" name="Strom"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="Electricity"></DataNodeRef>
         <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
         <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Wasser" name="Wasser"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Waerme" name="Waerme"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="Water"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Heat" name="Heat"></DataNodeRef>
        </Data>
        <ContainerPartInstance partIndex="0">
         <TablePartInstance partIndex="0">

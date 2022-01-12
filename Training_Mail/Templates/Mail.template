@@ -18,7 +18,7 @@
     <Field dataNode="$Mail.Customer.Salutation"></Field>
     <Field dataNode="$Mail.Customer.Title"></Field>
     <Field dataNode="$Mail.Customer.Firstname"></Field>
-    <Field dataNode="$Mail.Customer.Surname"></Field>
+    <Field dataNode="$Mail.Customer.Firstname"></Field>
    </Group>
   </InputArea>
  </UIContribution>

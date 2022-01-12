@@ -294,7 +294,7 @@
 	var contractAll = $billing_data.billing.basedata.section.contracts.contract;
 	
 	for (var i=0; i &lt; contractAll.instanceCount(); i++) 	{
-		if (contractAll.instance(i).name.toString() == 'Strom' &amp;&amp; start_electricity == '0') {
+		if (contractAll.instance(i).name.toString() == 'Electricity' &amp;&amp; start_electricity == '0') {
 			start_electricity = '1';
 		}
 		if (contractAll.instance(i).name.toString() == 'Gas' &amp;&amp; start_gas == '0') {
@@ -305,7 +305,7 @@
 
 			start_water = '1';
 		}
-		if (contractAll.instance(i).name.toString() == 'Waerme' &amp;&amp; start_heat == '0') {
+		if (contractAll.instance(i).name.toString() == 'Heat' &amp;&amp; start_heat == '0') {
 
 			start_heat = '1';
 		}
@@ -484,25 +484,25 @@
 		if (varColumn == 1) {
 			A = $current.add($current.column1, "");
 			A.add(A.Date, dateOutput);
-			A.add(A.Betrag, dataPath.next_amount);
+			A.add(A.Amount, dataPath.next_amount);
 			A.add(A.Month, yearOutput);
 		};
 		if (varColumn == 2) {
 			B = $current.add($current.column2, "");
 			B.add(B.Date, dateOutput);		
-			B.add(B.Betrag, dataPath.next_amount);
+			B.add(B.Amount, dataPath.next_amount);
 			B.add(B.Month, yearOutput);
 		};
 		if (varColumn == 3) {
 			C = $current.add($current.column3, "");
 			C.add(C.Date, dateOutput);		
-			C.add(C.Betrag, dataPath.next_amount);
+			C.add(C.Amount, dataPath.next_amount);
 			C.add(C.Month, yearOutput);
 		};
 		if (varColumn == 4) {
 			D = $current.add($current.column4, "");
 			D.add(D.Date, dateOutput);		
-			D.add(D.Betrag, dataPath.next_amount);
+			D.add(D.Amount, dataPath.next_amount);
 			D.add(D.Month, yearOutput);
 		};		
 

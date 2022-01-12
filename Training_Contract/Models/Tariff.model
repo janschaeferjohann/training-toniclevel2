@@ -13,7 +13,7 @@
    <BreakBefore>page_forced</BreakBefore>
   </Style>
   <Span>
-    <Text>3. Tarif</Text>
+    <Text>3. Tariff</Text>
   </Span>
  </Par>
  <Par>
@@ -31,7 +31,7 @@
    <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
   </Style>
   <Span>
-   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Wochen kündigen und einen anderen Tarif wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
+   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Wochen kündigen und einen anderen Tariff wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
   </Span>
  </Par>
  <Par>
@@ -59,7 +59,7 @@
    <Style>
     <FontStyle>bold</FontStyle>
    </Style>
-   <Text>Ihre Preise</Text>
+   <Text>Ihre Pricee</Text>
   </Span>
  </Par>
  <Table>
@@ -105,7 +105,7 @@
     <Style parentName="CellWithBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>center</Align>
       </Style>
       <Span>
@@ -118,7 +118,7 @@
     <Style parentName="CellWithBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>center</Align>
       </Style>
       <Span>
@@ -142,7 +142,7 @@
     <Style parentName="CellWithoutBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>right</Align>
       </Style>
       <Span>
@@ -155,7 +155,7 @@
     <Style parentName="CellWithoutBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>right</Align>
       </Style>
       <Span>
@@ -167,7 +167,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>right</Align>
       </Style>
       <Span>
@@ -179,7 +179,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="Tarifauswahl_Fett">
+      <Style parentName="Tariffauswahl_Fett">
        <Align>right</Align>
       </Style>
       <Span>
@@ -335,13 +335,13 @@
  <Par>
   <Style parentName="TextAbstandVor"></Style>
   <Span>
-   <Text>Preisstand: 01.04.2016. Gerundete Bruttopreise inkl. 19% Umsatzsteuer.</Text>
+   <Text>Pricestand: 01.04.2016. Gerundete Grosspreise inkl. 19% Umsatzsteuer.</Text>
   </Span>
  </Par>
  <Par>
   <Style parentName="TextAbstandVor"></Style>
   <Span>
-   <Text>Grundlage für die Belieferung ist die beiliegende Stromgrundversorgungsverordnung (StromGVV).</Text>
+   <Text>Grundlage für die Belieferung ist die beiliegende Electricitygrundversorgungsverordnung (ElectricityGVV).</Text>
   </Span>
  </Par>
  <Par>

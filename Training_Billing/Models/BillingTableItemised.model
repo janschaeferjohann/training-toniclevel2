@@ -71,7 +71,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett"></Style>
+        <Style parentName="Tariffauswahl_Fett"></Style>
         <Span>
          <Text>von</Text>
         </Span>
@@ -81,7 +81,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett"></Style>
+        <Style parentName="Tariffauswahl_Fett"></Style>
         <Span>
          <Text>bis</Text>
         </Span>
@@ -91,11 +91,11 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett">
+        <Style parentName="Tariffauswahl_Fett">
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Menge</Text>
+         <Text>Amount</Text>
         </Span>
        </Par>
       </Container>
@@ -103,11 +103,11 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett">
+        <Style parentName="Tariffauswahl_Fett">
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Preis</Text>
+         <Text>Price</Text>
         </Span>
        </Par>
       </Container>
@@ -115,11 +115,11 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett">
+        <Style parentName="Tariffauswahl_Fett">
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Netto</Text>
+         <Text>Net</Text>
         </Span>
        </Par>
       </Container>
@@ -142,7 +142,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett"></Style>
+        <Style parentName="Tariffauswahl_Fett"></Style>
         <Span>
          <Text>Gesamtverbrauch</Text>
         </Span>
@@ -360,12 +360,12 @@
      <Cell>
       <Container>
        <ContainerPart>
-        <VisibleIf><![CDATA[$line.Tarif_Flag.notEmpty()]]></VisibleIf>
+        <VisibleIf><![CDATA[$line.Tariff_Flag.notEmpty()]]></VisibleIf>
         <DataDefinition></DataDefinition>
         <Par>
          <Style parentName="FW_InfobereichFett"></Style>
          <Span>
-          <Data>$line.Tarif</Data>
+          <Data>$line.Tariff</Data>
           <Text></Text>
          </Span>
         </Par>
@@ -373,7 +373,7 @@
        <Par>
         <Style parentName="FW_Infobereich"></Style>
         <Span>
-         <Data>$line.PreisArt</Data>
+         <Data>$line.PriceType</Data>
          <Text></Text>
         </Span>
        </Par>
@@ -396,7 +396,7 @@
          <Align>left</Align>
         </Style>
         <Span>
-         <Data>$line.DatumVon</Data>
+         <Data>$line.DateFrom</Data>
          <Text></Text>
         </Span>
        </Par>
@@ -410,7 +410,7 @@
        <Par>
         <Style parentName="FW_Infobereich"></Style>
         <Span>
-         <Data>$line.DatumBis</Data>
+         <Data>$line.DateTo</Data>
          <Text></Text>
         </Span>
        </Par>
@@ -426,7 +426,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Data>$line.Menge</Data>
+         <Data>$line.Amount</Data>
          <Text></Text>
         </Span>
        </Par>
@@ -442,7 +442,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Data>$line.Preis</Data>
+         <Data>$line.Price</Data>
          <Text></Text>
         </Span>
        </Par>
@@ -458,7 +458,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Data>$line.Netto</Data>
+         <Data>$line.Net</Data>
          <Text> </Text>
          <Text>€</Text>
         </Span>

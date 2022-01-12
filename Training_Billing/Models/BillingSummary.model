@@ -328,7 +328,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Der Netto-Preis, den du am Ende bezahlst, besteht aus einem </Text>
+   <Text>Der Net-Price, den du am Ende bezahlst, besteht aus einem </Text>
   </Span>
   <Span>
    <Style>
@@ -340,7 +340,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text> (fixer Preisbestandteil), dem </Text>
+   <Text> (fixer Pricebestandteil), dem </Text>
   </Span>
   <Span>
    <Style>
@@ -352,13 +352,13 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text> (verbrauchsabhängiger Preisbestandteil) und der </Text>
+   <Text> (verbrauchsabhängiger Pricebestandteil) und der </Text>
   </Span>
   <Span>
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Stromsteuer</Text>
+   <Text>Electricitysteuer</Text>
   </Span>
   <Span>
    <Style>
@@ -379,13 +379,13 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Preisbestandteile</Text>
+   <Text>Pricebestandteile</Text>
   </Span>
   <Span>
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text> auf deiner Stromrechnung gibt an, welchen Teil dieses Grund- und Arbeitspreises sam.energy an den Netzbetreiber oder den Staat weitergibt. Das sind zum einen </Text>
+   <Text> auf deiner Electricityrechnung gibt an, welchen Teil dieses Grund- und Arbeitspreises sam.energy an den Netzbetreiber oder den Staat weitergibt. Das sind zum einen </Text>
   </Span>
   <Span>
    <Style>

@@ -181,8 +181,8 @@
 							</consumption_point>
 							<contracts>
 								<contract>
-									<rate>Easy Öko-Strom</rate>
-									<name>Strom</name>
+									<rate>Easy Öko-Electricity</rate>
+									<name>Electricity</name>
 									<contractsId>2020-99.128</contractsId>
 									<begin_date>01.11.2020</begin_date>
 									<termination_date>30.12.2020</termination_date>
@@ -205,7 +205,7 @@
 					<billdata>
 						<items>
 							<item>
-								<name>Strom</name>
+								<name>Electricity</name>
 								<usage></usage>
 								<unit>kWh</unit>
 								<periodfrom>01.11.2020</periodfrom>
@@ -259,13 +259,13 @@
 						</items>
 						<anticipated_payments>
 							<payment_text></payment_text>
-							<appointment>Anfang des Months</appointment>
+							<appointment>Begin of month</appointment>
 							<paideanticipated_payments>
 								<amount_anticipated_payments>8</amount_anticipated_payments>
 								<previous_sum></previous_sum>
 								<pre_monthly_amount>150,00</pre_monthly_amount>
 								<amount>
-									<name>Strom</name>
+									<name>Electricity</name>
 									<netamount>25,50</netamount>
 									<salestax>12,30</salestax>
 									<presum>50,00</presum>
@@ -286,7 +286,7 @@
 								<next_sum></next_sum>
 								<next_amount></next_amount>
 								<amount>
-									<name>Strom</name>
+									<name>Electricity</name>
 									<netamount>25,50</netamount>
 									<salestax>12,30</salestax>
 									<presum>37,80</presum>

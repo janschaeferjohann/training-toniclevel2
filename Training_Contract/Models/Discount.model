@@ -64,7 +64,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Netto</Text>
+         <Text>Net</Text>
         </Span>
        </Par>
       </Container>
@@ -482,7 +482,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Sie können die Höhe des Abschlags oder den Tag der Fälligkeit im Monat ganz einfach ändern. Am bequemsten geht dies in Ihrem Serviceportal "Mein sam.energy".</Text>
+       <Text>Sie können die Höhe des Abschlags oder den Tag der Fälligkeit im Month ganz einfach ändern. Am bequemsten geht dies in Ihrem Serviceportal "Mein sam.energy".</Text>
       </Span>
      </Par>
     </Container>

@@ -18,7 +18,7 @@
      <Cell colSpan="2">
       <Container>
        <Par>
-        <Style parentName="Tarifauswahl_Fett"></Style>
+        <Style parentName="Tariffauswahl_Fett"></Style>
         <Span>
          <Text>Was sind die Grundlagen Ihrer </Text>
          <Data>$contract</Data>
@@ -74,7 +74,7 @@
    </Cell>
   </Row>
   <TablePart>
-   <VisibleIf><![CDATA[$contract.toString() == 'Strom']]></VisibleIf>
+   <VisibleIf><![CDATA[$contract.toString() == 'Electricity']]></VisibleIf>
    <DataDefinition></DataDefinition>
    <Row>
     <Cell>
@@ -136,7 +136,7 @@
    </RowPart>
   </Row>
   <TablePart>
-   <VisibleIf><![CDATA[$contract.toString() == 'Strom']]></VisibleIf>
+   <VisibleIf><![CDATA[$contract.toString() == 'Electricity']]></VisibleIf>
    <DataDefinition></DataDefinition>
    <Row>
     <Cell>

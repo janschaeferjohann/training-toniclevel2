@@ -91,13 +91,13 @@ switch (Language) {
 case 'ENG':
 	switch (Gender) {
 	case 'M':
-		out = 'Dear Mr ' + Surname;
+		out = 'Dear Mr ' + Firstname;
 		break;
 	case 'F':
-		out = 'Dear Ms ' + Surname;
+		out = 'Dear Ms ' + Firstname;
 		break;
 	case 'D':
-		out = 'Dear ' + Firstname + ' ' + Surname;
+		out = 'Dear ' + Firstname + ' ' + Firstname;
 		break;
 	default:
 		out = 'Hello';
@@ -107,13 +107,13 @@ case 'ENG':
 default: 
 	switch (Gender) {
 	case 'M':
-		out = 'Sehr geehrter Herr ' + Surname + ',';
+		out = 'Sehr geehrter Herr ' + Firstname + ',';
 		break;
 	case 'F':
-		out = 'Sehr geehrte Frau ' + Surname + ',';
+		out = 'Sehr geehrte Frau ' + Firstname + ',';
 		break;
 	case 'D':
-		out = 'Hallo ' + Firstname + ' ' + Surname + ',';
+		out = 'Hallo ' + Firstname + ' ' + Firstname + ',';
 		break;
 	default:
 		out = 'Guten Tag,';

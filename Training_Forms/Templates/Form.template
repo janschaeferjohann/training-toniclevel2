@@ -366,8 +366,8 @@
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
           </Style>
-          <InlineField dataNode="$Form.type.change_Of_Tariff"></InlineField>
-          <Text> Tarifwechsel</Text>
+          <InlineField dataNode="$Form.type.change_Of_Tarifff"></InlineField>
+          <Text> Tariffwechsel</Text>
          </Span>
         </Par>
        </Container>
@@ -397,7 +397,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Style parentName="TabelleFormularTariffauswahl"></Style>
      <Row>
       <Style>
        <BackgroundColor>rgb(242,242,242)</BackgroundColor>
@@ -466,7 +466,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
          <Row>
           <Cell>
            <Style>
@@ -533,7 +533,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>8,75 €/Monat</Text>
+              <Text>8,75 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -608,7 +608,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>10,41 €/Monat</Text>
+              <Text>10,41 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -642,7 +642,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Style parentName="TabelleFormularTariffauswahl"></Style>
      <Row>
       <Style>
        <BackgroundColor>rgb(242,242,242)</BackgroundColor>
@@ -712,7 +712,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
          <Row>
           <Cell>
            <Style>
@@ -776,7 +776,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>8,75 €/Monat</Text>
+              <Text>8,75 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -855,7 +855,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>10,45 €/Monat</Text>
+              <Text>10,45 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -889,7 +889,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTarifauswahl">
+     <Style parentName="TabelleFormularTariffauswahl">
       <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
      </Style>
      <Row>
@@ -969,7 +969,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTarifauswahlInnen"></Style>
+         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
          <Row>
           <Cell>
            <Style>
@@ -1036,7 +1036,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>8,75 €/Monat</Text>
+              <Text>8,75 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -1112,7 +1112,7 @@
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>10,45 €/Monat</Text>
+              <Text>10,45 €/Month</Text>
              </Span>
             </Par>
            </Container>
@@ -1123,7 +1123,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Lieferanschrift_Anrede">
+    <Table id="Lieferanschrift_Salutation">
      <Columns>
       <Column>
        <Style>
@@ -1201,7 +1201,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Style parentName="TabelleFormularTariffauswahl"></Style>
      <Row>
       <Cell>
        <Container>
@@ -1345,7 +1345,7 @@
         <Par>
          <Style parentName="FormularTextKlein"></Style>
          <Span>
-          <Text>1. des Monats</Text>
+          <Text>1. des Months</Text>
          </Span>
         </Par>
        </Container>
@@ -1365,7 +1365,7 @@
         <Par>
          <Style parentName="FormularTextKlein"></Style>
          <Span>
-          <Text>15. des Monats</Text>
+          <Text>15. des Months</Text>
          </Span>
         </Par>
        </Container>
@@ -1410,7 +1410,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTarifauswahl"></Style>
+     <Style parentName="TabelleFormularTariffauswahl"></Style>
      <Row>
       <Cell>
        <Style>
@@ -1531,7 +1531,7 @@ else {
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Name, Vorname</Text>
+          <Text>Name, Firstname</Text>
          </Span>
         </Par>
        </Container>
@@ -1618,7 +1618,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Kontoinhaber / in (Name, Vorname)</Text>
+          <Text>Kontoinhaber / in (Name, Firstname)</Text>
          </Span>
         </Par>
        </Container>
@@ -1834,7 +1834,7 @@ else {
      <Style>
       <SpaceAfter resolution="combine">0.9cm</SpaceAfter>
      </Style>
-     <ContainerPartRef uri="\\Framework_Training\Models\ZählpunktNr.model">
+     <ContainerPartRef uri="\\Framework_Training\Models\MeteringPoint.model">
       <Param name="Form">$Form</Param>
      </ContainerPartRef>
     </Container>
@@ -1875,7 +1875,7 @@ else {
             <Par>
              <Style parentName="FormularTextKlein"></Style>
              <Span>
-              <Text>Datum, Ort</Text>
+              <Text>Date, City</Text>
              </Span>
             </Par>
            </Container>

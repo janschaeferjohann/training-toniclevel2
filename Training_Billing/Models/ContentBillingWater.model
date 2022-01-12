@@ -9,7 +9,7 @@
    <Description></Description>
    <Input text-prefix="" text-suffix=""></Input>
    <Output text-prefix="" text-suffix=""></Output>
-   <Script><![CDATA['Wasser']]></Script>
+   <Script><![CDATA['Water']]></Script>
    <Validation validation-type="any_value" operator="any" allow-empty-value="true">
     <Values></Values>
    </Validation>
@@ -18,7 +18,7 @@
  <Par>
   <Style parentName="TextAbstandNach"></Style>
   <Span>
-   <Text>Hier findest du die Aufschlüsselung der Preise und der gesetzlichen Umlagen und Abgaben.</Text>
+   <Text>Hier findest du die Aufschlüsselung der Pricee und der gesetzlichen Umlagen und Abgaben.</Text>
   </Span>
  </Par>
  <ContainerPartRef uri="Models\BillingTableItemised.model">

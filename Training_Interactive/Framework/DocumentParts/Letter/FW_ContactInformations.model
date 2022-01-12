@@ -176,7 +176,7 @@
   </Translations>
   <Style parentName="FW_InfobereichFett"></Style>
   <Span>
-   <Text>Datum:</Text>
+   <Text>Date:</Text>
   </Span>
  </Par>
  <Par>

@@ -30,7 +30,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding">
-       <Value><![CDATA[string:\library\Training_Contract\Models\Tariff.model.template]]></Value>
+       <Value><![CDATA[string:\library\Training_Contract\Models\Tarifff.model.template]]></Value>
       </DataNode>
      </DataNode>
     </Data>

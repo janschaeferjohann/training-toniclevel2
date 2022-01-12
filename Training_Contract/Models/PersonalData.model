@@ -712,7 +712,7 @@ Daten nicht?</Text>
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Der Netzbetreiber ist für das Strom- bzw. Erdgasnetz verantwortlich. Durch dieses Netz wird die Energie bis zu Ihrer Verbrauchsstelle geleitet. Er ist beispielsweise Ihr Ansprechpartner bei Stromausfällen und technischen Fragen rund um Ihren Zähler. Ihr Netzbetreiber und wir sind voneinander unabhängig Unternehmen.</Text>
+       <Text>Der Netzbetreiber ist für das Electricity- bzw. Erdgasnetz verantwortlich. Durch dieses Netz wird die Energie bis zu Ihrer Verbrauchsstelle geleitet. Er ist beispielsweise Ihr Ansprechpartner bei Electricityausfällen und technischen Fragen rund um Ihren Zähler. Ihr Netzbetreiber und wir sind voneinander unabhängig Unternehmen.</Text>
       </Span>
      </Par>
     </Container>

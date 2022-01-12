@@ -74,12 +74,12 @@
      <Data>
       <DataNode name="Exemplar">
        <DataNode name="Empfaenger">
-        <DataNode name="NameVorname">
+        <DataNode name="NameFirstname">
          <Value><![CDATA[string:]]></Value>
         </DataNode>
        </DataNode>
        <DataNode name="AlternativEmpfaenger">
-        <DataNode name="NameVorname">
+        <DataNode name="NameFirstname">
          <Value><![CDATA[string:]]></Value>
         </DataNode>
        </DataNode>

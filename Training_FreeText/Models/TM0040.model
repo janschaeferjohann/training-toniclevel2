@@ -22,7 +22,7 @@
     <FontStyle></FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Im Jahr 2020 lag die Nettostromerzeugung bei etwa 488,7 TWh.</Text>
+   <Text>Im Jahr 2020 lag die Netstromerzeugung bei etwa 488,7 TWh.</Text>
   </Span>
  </Par>
  <Par>
@@ -36,7 +36,7 @@
     <FontStyle></FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Der Anteil erneuerbarer Energien am gesamtdeutschen Strommix stieg 2020 erstmals auf über 50 %.</Text>
+   <Text>Der Anteil erneuerbarer Energien am gesamtdeutschen Electricitymix stieg 2020 erstmals auf über 50 %.</Text>
   </Span>
  </Par>
  <Par>
@@ -93,7 +93,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Bruttostromerzeugung</Text>
+   <Text>Grossstromerzeugung</Text>
   </Span>
   <Span>
    <Style>
@@ -126,7 +126,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Strombedarf</Text>
+   <Text>Electricitybedarf</Text>
   </Span>
   <Span>
    <Style>
@@ -192,7 +192,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Nettostromerzeugung ausschließlich</Text>
+   <Text>Netstromerzeugung ausschließlich</Text>
   </Span>
   <Span>
    <Style>
@@ -208,7 +208,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Strom gemeint, der tatsächlich ins</Text>
+   <Text>Electricity gemeint, der tatsächlich ins</Text>
   </Span>
   <Span>
    <Style>

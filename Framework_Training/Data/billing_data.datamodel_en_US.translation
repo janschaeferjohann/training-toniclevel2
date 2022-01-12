@@ -1,5 +1,5 @@
-%/anticipated_payments/appointment/__VAL_LI_VALUE__1=TRANSLATION: Anfang des Months
-%/anticipated_payments/appointment/__VAL_LI_VALUE__2=TRANSLATION: Mitte des Months
-%/anticipated_payments/appointment/__VAL_LI_VALUE__3=TRANSLATION: Ende des Months
-%/basedata/contact_type/__VAL_LI_VALUE__1=TRANSLATION: Post
-%/basedata/contact_type/__VAL_LI_VALUE__2=TRANSLATION: Online
+%/anticipated_payments/appointment/__VAL_LI_VALUE__1=Begin of month
+%/anticipated_payments/appointment/__VAL_LI_VALUE__2=Middle of month
+%/anticipated_payments/appointment/__VAL_LI_VALUE__3=End of month
+%/basedata/contact_type/__VAL_LI_VALUE__1=Post
+%/basedata/contact_type/__VAL_LI_VALUE__2=Online

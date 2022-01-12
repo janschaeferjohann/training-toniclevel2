@@ -148,7 +148,7 @@
                      <Style>
                       <FontStyle>bold</FontStyle>
                      </Style>
-                     <Data>$column1.Monat</Data>
+                     <Data>$column1.Month</Data>
                      <Text></Text>
                     </Span>
                    </Par>
@@ -173,7 +173,7 @@
                    <Align>center</Align>
                   </Style>
                   <Span>
-                   <Data>$column1.Datum</Data>
+                   <Data>$column1.Date</Data>
                    <Text></Text>
                   </Span>
                  </Par>
@@ -218,7 +218,7 @@
                      <Style>
                       <FontStyle>bold</FontStyle>
                      </Style>
-                     <Data>$column2.Monat</Data>
+                     <Data>$column2.Month</Data>
                      <Text></Text>
                     </Span>
                    </Par>
@@ -243,7 +243,7 @@
                    <Align>center</Align>
                   </Style>
                   <Span>
-                   <Data>$column2.Datum</Data>
+                   <Data>$column2.Date</Data>
                    <Text></Text>
                   </Span>
                  </Par>
@@ -288,7 +288,7 @@
                      <Style>
                       <FontStyle>bold</FontStyle>
                      </Style>
-                     <Data>$column3.Monat</Data>
+                     <Data>$column3.Month</Data>
                      <Text></Text>
                     </Span>
                    </Par>
@@ -313,7 +313,7 @@
                    <Align>center</Align>
                   </Style>
                   <Span>
-                   <Data>$column3.Datum</Data>
+                   <Data>$column3.Date</Data>
                    <Text></Text>
                   </Span>
                  </Par>
@@ -358,7 +358,7 @@
                      <Style>
                       <FontStyle>bold</FontStyle>
                      </Style>
-                     <Data>$column4.Monat</Data>
+                     <Data>$column4.Month</Data>
                      <Text></Text>
                     </Span>
                    </Par>
@@ -383,7 +383,7 @@
                    <Align>center</Align>
                   </Style>
                   <Span>
-                   <Data>$column4.Datum</Data>
+                   <Data>$column4.Date</Data>
                    <Text></Text>
                   </Span>
                  </Par>

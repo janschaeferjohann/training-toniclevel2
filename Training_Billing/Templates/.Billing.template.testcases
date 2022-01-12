@@ -3654,10 +3654,10 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:2012-03.22]]></Value>
@@ -3672,7 +3672,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:88845258]]></Value>
@@ -3699,7 +3699,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:51124258]]></Value>
@@ -3711,7 +3711,7 @@
             <Value><![CDATA[string:Easy fresh Water]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:2012-03.22]]></Value>
@@ -3726,7 +3726,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SW25258]]></Value>
@@ -3738,7 +3738,7 @@
             <Value><![CDATA[string:Klimaneutrale Wärme]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waerme]]></Value>
+            <Value><![CDATA[string:Heat]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:2012-03.22]]></Value>
@@ -3753,7 +3753,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SH54633]]></Value>
@@ -3873,7 +3873,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:405]]></Value>
@@ -3915,7 +3915,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:120.9]]></Value>
@@ -3936,7 +3936,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waerme]]></Value>
+            <Value><![CDATA[string:Heat]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:486]]></Value>
@@ -3975,7 +3975,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:33.61]]></Value>
@@ -4017,7 +4017,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:9.35]]></Value>
@@ -4038,7 +4038,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waerme]]></Value>
+            <Value><![CDATA[string:Heat]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:42.02]]></Value>
@@ -4171,7 +4171,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4246,7 +4246,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4321,7 +4321,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4396,7 +4396,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4471,7 +4471,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4546,7 +4546,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4621,13 +4621,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -4696,13 +4696,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -4771,7 +4771,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4846,7 +4846,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -4921,13 +4921,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -4996,13 +4996,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5071,7 +5071,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -5146,7 +5146,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -5653,7 +5653,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Strom]]></Value>
+           <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:1,372]]></Value>
@@ -5755,7 +5755,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasser]]></Value>
+           <Value><![CDATA[string:Water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -5806,7 +5806,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waerme]]></Value>
+           <Value><![CDATA[string:Heat]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:1,100]]></Value>
@@ -6045,7 +6045,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -6108,7 +6108,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -6174,7 +6174,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13]]></Value>
@@ -6240,7 +6240,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
@@ -6267,145 +6267,145 @@
        <DataNode name="prepaymentslist">
         <DataNode name="column1">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.07.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column2">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.08.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column3">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.09.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column4">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.10.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column1">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.11.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column2">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.12.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column3">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.01.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column4">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.02.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column1">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.03.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column2">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.04.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column3">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.05.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column4">
          <Value><![CDATA[string:]]></Value>
-         <DataNode name="Datum">
+         <DataNode name="Date">
           <Value><![CDATA[string:01.06.]]></Value>
          </DataNode>
          <DataNode name="Amount">
           <Value><![CDATA[number:210]]></Value>
          </DataNode>
-         <DataNode name="Monat">
+         <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
@@ -6413,62 +6413,62 @@
        <DataNode name="Tablelines">
         <DataNode name="electricity">
          <DataNode name="line">
-          <DataNode name="Tarif_Flag"></DataNode>
-          <DataNode name="Tarif"></DataNode>
+          <DataNode name="Tariff_Flag"></DataNode>
+          <DataNode name="Tariff"></DataNode>
           <DataNode name="Name"></DataNode>
-          <DataNode name="PositionNr"></DataNode>
-          <DataNode name="DatumVon"></DataNode>
-          <DataNode name="DatumBis"></DataNode>
-          <DataNode name="Zaehler"></DataNode>
-          <DataNode name="Menge"></DataNode>
-          <DataNode name="Preis"></DataNode>
-          <DataNode name="Netto"></DataNode>
-          <DataNode name="PreisArt"></DataNode>
+          <DataNode name="PositionNo"></DataNode>
+          <DataNode name="DateFrom"></DataNode>
+          <DataNode name="DateTo"></DataNode>
+          <DataNode name="Counter"></DataNode>
+          <DataNode name="Amount"></DataNode>
+          <DataNode name="Price"></DataNode>
+          <DataNode name="Net"></DataNode>
+          <DataNode name="PriceType"></DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="gas">
          <DataNode name="line">
-          <DataNode name="Tarif_Flag"></DataNode>
-          <DataNode name="Tarif"></DataNode>
+          <DataNode name="Tariff_Flag"></DataNode>
+          <DataNode name="Tariff"></DataNode>
           <DataNode name="Name"></DataNode>
-          <DataNode name="PositionNr"></DataNode>
-          <DataNode name="DatumVon"></DataNode>
-          <DataNode name="DatumBis"></DataNode>
-          <DataNode name="Zaehler"></DataNode>
-          <DataNode name="Menge"></DataNode>
-          <DataNode name="Preis"></DataNode>
-          <DataNode name="Netto"></DataNode>
-          <DataNode name="PreisArt"></DataNode>
+          <DataNode name="PositionNo"></DataNode>
+          <DataNode name="DateFrom"></DataNode>
+          <DataNode name="DateTo"></DataNode>
+          <DataNode name="Counter"></DataNode>
+          <DataNode name="Amount"></DataNode>
+          <DataNode name="Price"></DataNode>
+          <DataNode name="Net"></DataNode>
+          <DataNode name="PriceType"></DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="water">
          <DataNode name="line">
-          <DataNode name="Tarif_Flag"></DataNode>
-          <DataNode name="Tarif"></DataNode>
+          <DataNode name="Tariff_Flag"></DataNode>
+          <DataNode name="Tariff"></DataNode>
           <DataNode name="Name"></DataNode>
-          <DataNode name="PositionNr"></DataNode>
-          <DataNode name="DatumVon"></DataNode>
-          <DataNode name="DatumBis"></DataNode>
-          <DataNode name="Zaehler"></DataNode>
-          <DataNode name="Menge"></DataNode>
-          <DataNode name="Preis"></DataNode>
-          <DataNode name="Netto"></DataNode>
-          <DataNode name="PreisArt"></DataNode>
+          <DataNode name="PositionNo"></DataNode>
+          <DataNode name="DateFrom"></DataNode>
+          <DataNode name="DateTo"></DataNode>
+          <DataNode name="Counter"></DataNode>
+          <DataNode name="Amount"></DataNode>
+          <DataNode name="Price"></DataNode>
+          <DataNode name="Net"></DataNode>
+          <DataNode name="PriceType"></DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="heat">
          <DataNode name="line">
-          <DataNode name="Tarif_Flag"></DataNode>
-          <DataNode name="Tarif"></DataNode>
+          <DataNode name="Tariff_Flag"></DataNode>
+          <DataNode name="Tariff"></DataNode>
           <DataNode name="Name"></DataNode>
-          <DataNode name="PositionNr"></DataNode>
-          <DataNode name="DatumVon"></DataNode>
-          <DataNode name="DatumBis"></DataNode>
-          <DataNode name="Zaehler"></DataNode>
-          <DataNode name="Menge"></DataNode>
-          <DataNode name="Preis"></DataNode>
-          <DataNode name="Netto"></DataNode>
-          <DataNode name="PreisArt"></DataNode>
+          <DataNode name="PositionNo"></DataNode>
+          <DataNode name="DateFrom"></DataNode>
+          <DataNode name="DateTo"></DataNode>
+          <DataNode name="Counter"></DataNode>
+          <DataNode name="Amount"></DataNode>
+          <DataNode name="Price"></DataNode>
+          <DataNode name="Net"></DataNode>
+          <DataNode name="PriceType"></DataNode>
          </DataNode>
         </DataNode>
        </DataNode>
@@ -6801,7 +6801,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
-       <Value><![CDATA[string:\library\Training_Billing\Templates\billing.template]]></Value>
+       <Value><![CDATA[string:\library\Training_Billing\Templates\Billing.template]]></Value>
       </DataNode>
      </DataNode>
     </Data>
@@ -7154,7 +7154,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="contract">
-                <Value><![CDATA[string:Strom]]></Value>
+                <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -7540,7 +7540,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="contract">
-                <Value><![CDATA[string:Wasser]]></Value>
+                <Value><![CDATA[string:Water]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -7733,7 +7733,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="contract">
-                <Value><![CDATA[string:Waerme]]></Value>
+                <Value><![CDATA[string:Heat]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -7930,8 +7930,8 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Vorlagen2-Rechnung_shfw-english.xml" name="billing_data.FILE_NAME"></Property>
-   <Property value="\\Framework_Training\Testdata\Vorlagen2-Rechnung_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="billing_data.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="Billing_RE2020" includeInRegressionTool="false">
@@ -7961,7 +7961,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:405]]></Value>
@@ -8003,7 +8003,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:120.9]]></Value>
@@ -8063,7 +8063,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:30.38]]></Value>
@@ -8105,7 +8105,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:10.46]]></Value>
@@ -8277,121 +8277,121 @@
           <DataNode name="Abschlagsliste">
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.07.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte2">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.08.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte3">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.09.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte4">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.10.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.12.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte2">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.01.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte3">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.02.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte4">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.03.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.05.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte2">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.06.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:170]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
@@ -8689,7 +8689,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -8764,7 +8764,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -8839,7 +8839,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -8914,7 +8914,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -8989,7 +8989,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -9064,7 +9064,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -9139,13 +9139,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9214,13 +9214,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9289,7 +9289,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -9364,7 +9364,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -9439,13 +9439,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9514,13 +9514,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9589,7 +9589,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -9664,7 +9664,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10096,7 +10096,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Strom]]></Value>
+           <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:1,372]]></Value>
@@ -10198,7 +10198,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasser]]></Value>
+           <Value><![CDATA[string:Water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -10322,7 +10322,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10397,7 +10397,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10472,7 +10472,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10547,7 +10547,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10622,7 +10622,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10697,7 +10697,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10772,13 +10772,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Stromsteuer]]></Value>
+            <Value><![CDATA[string:Electricitysteuer]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -10847,13 +10847,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Stromsteuer]]></Value>
+            <Value><![CDATA[string:Electricitysteuer]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -10922,7 +10922,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -10997,7 +10997,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -11072,13 +11072,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:StromNEV]]></Value>
+            <Value><![CDATA[string:ElectricityNEV]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11147,13 +11147,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:StromNEV]]></Value>
+            <Value><![CDATA[string:ElectricityNEV]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11222,7 +11222,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -11297,7 +11297,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
@@ -11726,687 +11726,687 @@
          </DataNode>
         </DataNode>
         <DataNode name="ZeileNachSparte">
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:13,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:26.4]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Ausgangspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:13,25 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:155.29]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Ausgangspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:6,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:12.4]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:EEG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:6,17 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:72.3417]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:EEG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,17 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:0.35]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:KWKG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:2.4026]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:KWKG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:2,05 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:4.1]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:8]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:2,10 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:24.612]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:9]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:0.4]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Offshore-Haftungsumlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:10]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:2.344]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Offshore-Haftungsumlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:11]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:200,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,09 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:0.18]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:StromNEV]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:12]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.172,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,09 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1.07824]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:StromNEV]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:13]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:182,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:39.890410959]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:14]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:183,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:40.109589041]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Gas">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
+          <DataNode name="Tariff">
            <Value><![CDATA[string:Super gas]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:gas]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:15]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:19.512,00 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:5,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1,014.624]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Arbeitspreis]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Gas">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
+          <DataNode name="Tariff">
            <Value><![CDATA[string:Super gas]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:gas]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:16]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:365,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:100,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:100]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy fresh Water - Wasser]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy fresh Water - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:17]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:87,00 m3]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:1,50 Eur/m3]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:130.5]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Verbrauchspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy fresh Water - Wasser]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy fresh Water - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:18]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:365,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:40,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:40]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
+          <DataNode name="Tariff">
            <Value><![CDATA[string:Easy fresh Water - Schmutzwasser]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:sewage]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:19]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:87,00 m3]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:1,30 Eur/m3]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:113.1]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Verbrauchspreis]]></Value>
           </DataNode>
          </DataNode>
@@ -12465,10 +12465,10 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:2012-03.22]]></Value>
@@ -12483,7 +12483,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:88845258]]></Value>
@@ -12510,7 +12510,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:51124258]]></Value>
@@ -12522,7 +12522,7 @@
             <Value><![CDATA[string:Easy fresh Water]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:2012-03.22]]></Value>
@@ -12537,7 +12537,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SW25258]]></Value>
@@ -12828,7 +12828,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -12891,7 +12891,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -12957,7 +12957,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13]]></Value>
@@ -13023,7 +13023,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
@@ -13717,7 +13717,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
-       <Value><![CDATA[string:\library\Training_Billing\Templates\billing.template]]></Value>
+       <Value><![CDATA[string:\library\Training_Billing\Templates\Billing.template]]></Value>
       </DataNode>
       <DataNode name="Mandant" valueChanged="fromDataSource">
        <Value><![CDATA[string:]]></Value>
@@ -14059,7 +14059,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="Sparte">
-                <Value><![CDATA[string:Strom]]></Value>
+                <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
                <DataNode name="snapBeispiel">
                 <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMyMCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI1IiB5Mj0iNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjYwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNTUiIHkyPSI1NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iNTgiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij41MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjEwNSIgeTI9IjEwNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMTA4IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+NDAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIxNTUiIHkyPSIxNTUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjE1OCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMjA1IiB5Mj0iMjA1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIyMDgiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4yMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjI1NSIgeTI9IjI1NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMjU4IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzMDUiIHkyPSIzMDUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjMwOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiLz48dGV4dCB4PSIyNSIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+QWt0dWVsbDwvdGV4dD48dGV4dCB4PSI3MCIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+Vm9yamFocjwvdGV4dD48dGV4dCB4PSIxMzAiIHk9IjMyMCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEgUGVyc29uPC90ZXh0Pjx0ZXh0IHg9IjIzMCIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MiBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSIzMzAiIHk9IjMyMCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMgUGVyc29uZW48L3RleHQ+PHRleHQgeD0iNDMwIiB5PSIzMjAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40IFBlcnNvbmVuPC90ZXh0PjxyZWN0IHg9IjM1IiB5PSIyMzUuOTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI2OS4wNSIgZmlsbD0iIzdhYzFkYyIvPjxyZWN0IHg9IjgwIiB5PSIyMzMuNDUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3MS41NSIgZmlsbD0iIzhhYzFkYyIvPjxyZWN0IHg9IjEyMCIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjUiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9IjI1MCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjU1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMTYwIiB5PSIyMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSI5NSIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjE4MCIgeT0iMTgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTI1IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMjIwIiB5PSIyNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1MCIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iMjAwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTA1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMjYwIiB5PSIxNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNTAiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIyODAiIHk9IjEwMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwNSIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjMyMCIgeT0iMjM1IiB3aWR0aD0iMjAiIGhlaWdodD0iNzAiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIzNDAiIHk9IjE4MCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEyNSIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjM2MCIgeT0iMTE1IiB3aWR0aD0iMjAiIGhlaWdodD0iMTkwIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMzgwIiB5PSI1NSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjI1MCIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjQyMCIgeT0iMjE1IiB3aWR0aD0iMjAiIGhlaWdodD0iOTAiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9IjE1NSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjQ2MCIgeT0iOTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMTUiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSI0ODAiIHk9IjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzMDAiIGZpbGw9IiNkODNjNjgiLz48L3N2Zz4=]]></Value>
@@ -14071,7 +14071,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Strom" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -14335,7 +14335,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="Sparte">
-                <Value><![CDATA[string:Waerme]]></Value>
+                <Value><![CDATA[string:Heat]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -14344,7 +14344,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Waerme" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Heat" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -14497,7 +14497,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="Sparte">
-                <Value><![CDATA[string:Wasser]]></Value>
+                <Value><![CDATA[string:Water]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -14506,7 +14506,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Wasser" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -14687,7 +14687,7 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Vorlagen2-Rechnung_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="Billing_Business_2020" includeInRegressionTool="false">
@@ -14717,7 +14717,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:8,910]]></Value>
@@ -14738,7 +14738,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,116]]></Value>
@@ -14798,7 +14798,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,268]]></Value>
@@ -14819,7 +14819,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:267.37]]></Value>
@@ -14919,49 +14919,49 @@
           <DataNode name="Abschlagsliste">
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.07.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:4,062.5]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte2">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.10.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:4,062.5]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2020]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte3">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.01.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:4,062.5]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Spalte4">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Datum">
+            <DataNode name="Date">
              <Value><![CDATA[string:01.03.]]></Value>
             </DataNode>
             <DataNode name="Amount">
              <Value><![CDATA[number:4,062.5]]></Value>
             </DataNode>
-            <DataNode name="Monat">
+            <DataNode name="Month">
              <Value><![CDATA[string:2021]]></Value>
             </DataNode>
            </DataNode>
@@ -15139,7 +15139,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15214,7 +15214,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15289,7 +15289,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15364,13 +15364,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15439,7 +15439,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15514,13 +15514,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15589,7 +15589,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15664,7 +15664,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15739,7 +15739,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15814,7 +15814,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15889,13 +15889,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15964,7 +15964,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16039,13 +16039,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:StromNEV]]></Value>
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16114,7 +16114,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16396,7 +16396,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Strom]]></Value>
+           <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:1,372]]></Value>
@@ -16447,7 +16447,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasser]]></Value>
+           <Value><![CDATA[string:Water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -16571,7 +16571,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16646,7 +16646,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16721,7 +16721,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16796,13 +16796,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Stromsteuer]]></Value>
+            <Value><![CDATA[string:Electricitysteuer]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -16871,7 +16871,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16946,13 +16946,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:StromNEV]]></Value>
+            <Value><![CDATA[string:ElectricityNEV]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17021,7 +17021,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17096,7 +17096,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17171,7 +17171,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17246,7 +17246,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17321,13 +17321,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Stromsteuer]]></Value>
+            <Value><![CDATA[string:Electricitysteuer]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17396,7 +17396,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17471,13 +17471,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:StromNEV]]></Value>
+            <Value><![CDATA[string:ElectricityNEV]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17546,7 +17546,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17825,615 +17825,615 @@
          </DataNode>
         </DataNode>
         <DataNode name="ZeileNachSparte">
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:9,87 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:2,686.141227]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Arbeitspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:6,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1,687.34302]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:EEG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,17 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:47.6266175]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:KWKG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:2,05 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:557.911805]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:54.43042]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Offshore-Haftungsumlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,09 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:24.493689]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:StromNEV]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:sam.business Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:sam.business Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:182,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:486,25 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:242.45890411]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:13,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:3,592.40772]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Arbeitspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:6,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1,687.34302]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:EEG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,17 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:47.6266175]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:KWKG-Umlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:2,05 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:557.911805]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:Stromsteuer]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,20 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:54.43042]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Offshore-Haftungsumlage]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:27.215,21 kWh]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:0,09 Ct/kWh]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:24.493689]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
-           <Value><![CDATA[string:StromNEV]]></Value>
+          <DataNode name="PriceType">
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Strom">
+         <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:183,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:40.109589041]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Frischwasser - Wasser]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Frischwasser - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:8]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:365,00 Tage]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:45,00 Eur/Jahr]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:45]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Grundpreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
-           <Value><![CDATA[string:Frischwasser - Wasser]]></Value>
+          <DataNode name="Tariff">
+           <Value><![CDATA[string:Frischwasser - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:9]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.029,00 m3]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:1,11 Eur/m3]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1,142.19]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Verbrauchspreis]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Wasser">
+         <DataNode name="Water">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Tarif_Flag">
+          <DataNode name="Tariff_Flag">
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
-          <DataNode name="Tarif">
+          <DataNode name="Tariff">
            <Value><![CDATA[string:Schmutzwassergebühr - Schmutzwasser]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:sewage]]></Value>
           </DataNode>
-          <DataNode name="PositionNr">
+          <DataNode name="PositionNo">
            <Value><![CDATA[string:10]]></Value>
           </DataNode>
-          <DataNode name="DatumVon">
+          <DataNode name="DateFrom">
            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="DatumBis">
+          <DataNode name="DateTo">
            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
           </DataNode>
-          <DataNode name="Zaehler">
+          <DataNode name="Counter">
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
-          <DataNode name="Menge">
+          <DataNode name="Amount">
            <Value><![CDATA[string:1.029,00 m3]]></Value>
           </DataNode>
-          <DataNode name="Preis">
+          <DataNode name="Price">
            <Value><![CDATA[string:1,59 Eur/m3]]></Value>
           </DataNode>
-          <DataNode name="Netto">
+          <DataNode name="Net">
            <Value><![CDATA[number:1,636.11]]></Value>
           </DataNode>
-          <DataNode name="PreisArt">
+          <DataNode name="PriceType">
            <Value><![CDATA[string:Verbrauchspreis]]></Value>
           </DataNode>
          </DataNode>
@@ -18489,10 +18489,10 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:sam.business Strom]]></Value>
+            <Value><![CDATA[string:sam.business Electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:GK13-2005-01.99-KL]]></Value>
@@ -18507,7 +18507,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -18516,10 +18516,10 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Easy Öko-Strom]]></Value>
+            <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Strom]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:GK01-2010-01.00-Green]]></Value>
@@ -18534,7 +18534,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -18546,7 +18546,7 @@
             <Value><![CDATA[string:Easy fresh Water]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wasser]]></Value>
+            <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
             <Value><![CDATA[string:GK13-2005-01.99-KL]]></Value>
@@ -18561,7 +18561,7 @@
             <Value><![CDATA[string:6 Wochen]]></Value>
            </DataNode>
            <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Monate]]></Value>
+            <Value><![CDATA[string:6 Monthe]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
             <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
@@ -18852,7 +18852,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -18915,7 +18915,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -18954,7 +18954,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:3]]></Value>
@@ -19020,7 +19020,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wasserkraft]]></Value>
+           <Value><![CDATA[string:Waterkraft]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
@@ -19796,7 +19796,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
-       <Value><![CDATA[string:\library\Training_Billing\Templates\billing.template]]></Value>
+       <Value><![CDATA[string:\library\Training_Billing\Templates\Billing.template]]></Value>
       </DataNode>
       <DataNode name="Mandant" valueChanged="fromDataSource">
        <Value><![CDATA[string:]]></Value>
@@ -20105,7 +20105,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="Sparte">
-                <Value><![CDATA[string:Strom]]></Value>
+                <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
                <DataNode name="snapBeispiel">
                 <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQ5MCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI1IiB5Mj0iNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjE2MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjMyLjY0NzA1ODgyMzUyOTQxIiB5Mj0iMzIuNjQ3MDU4ODIzNTI5NDEiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjM1LjY0NzA1ODgyMzUyOTQxIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTUwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNjAuMjk0MTE3NjQ3MDU4ODI2IiB5Mj0iNjAuMjk0MTE3NjQ3MDU4ODI2IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSI2My4yOTQxMTc2NDcwNTg4MjYiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xNDAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI4Ny45NDExNzY0NzA1ODgyMyIgeTI9Ijg3Ljk0MTE3NjQ3MDU4ODIzIiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSI5MC45NDExNzY0NzA1ODgyMyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEzMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjExNS41ODgyMzUyOTQxMTc2NSIgeTI9IjExNS41ODgyMzUyOTQxMTc2NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMTE4LjU4ODIzNTI5NDExNzY1IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTIwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMTQzLjIzNTI5NDExNzY0NzA3IiB5Mj0iMTQzLjIzNTI5NDExNzY0NzA3IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIxNDYuMjM1Mjk0MTE3NjQ3MDciIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xMTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIxNzAuODgyMzUyOTQxMTc2NSIgeTI9IjE3MC44ODIzNTI5NDExNzY1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIxNzMuODgyMzUyOTQxMTc2NSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEwMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjE5OC41Mjk0MTE3NjQ3MDU5IiB5Mj0iMTk4LjUyOTQxMTc2NDcwNTkiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjIwMS41Mjk0MTE3NjQ3MDU5IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+OTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIyMjYuMTc2NDcwNTg4MjM1MzMiIHkyPSIyMjYuMTc2NDcwNTg4MjM1MzMiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjIyOS4xNzY0NzA1ODgyMzUzMyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjgwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMjUzLjgyMzUyOTQxMTc2NDc1IiB5Mj0iMjUzLjgyMzUyOTQxMTc2NDc1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIyNTYuODIzNTI5NDExNzY0NzUiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij43MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjI4MS40NzA1ODgyMzUyOTQxNCIgeTI9IjI4MS40NzA1ODgyMzUyOTQxNCIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMjg0LjQ3MDU4ODIzNTI5NDE0IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+NjAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzMDkuMTE3NjQ3MDU4ODIzNTQiIHkyPSIzMDkuMTE3NjQ3MDU4ODIzNTQiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjMxMi4xMTc2NDcwNTg4MjM1NCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjUwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMzM2Ljc2NDcwNTg4MjM1MjkiIHkyPSIzMzYuNzY0NzA1ODgyMzUyOSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMzM5Ljc2NDcwNTg4MjM1MjkiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjM2NC40MTE3NjQ3MDU4ODIzIiB5Mj0iMzY0LjQxMTc2NDcwNTg4MjMiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjM2Ny40MTE3NjQ3MDU4ODIzIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MzAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzOTIuMDU4ODIzNTI5NDExNyIgeTI9IjM5Mi4wNTg4MjM1Mjk0MTE3IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIzOTUuMDU4ODIzNTI5NDExNyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjIwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNDE5LjcwNTg4MjM1Mjk0MTEiIHkyPSI0MTkuNzA1ODgyMzUyOTQxMSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iNDIyLjcwNTg4MjM1Mjk0MTEiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjQ0Ny4zNTI5NDExNzY0NzA1IiB5Mj0iNDQ3LjM1Mjk0MTE3NjQ3MDUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjQ1MC4zNTI5NDExNzY0NzA1IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyIvPjx0ZXh0IHg9IjI1IiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij5Ba3R1ZWxsPC90ZXh0Pjx0ZXh0IHg9IjcwIiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij5Wb3JqYWhyPC90ZXh0Pjx0ZXh0IHg9IjEzMCIgeT0iNDkwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MSBQZXJzb248L3RleHQ+PHRleHQgeD0iMjMwIiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4yIFBlcnNvbmVuPC90ZXh0Pjx0ZXh0IHg9IjMzMCIgeT0iNDkwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MyBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSI0MzAiIHk9IjQ5MCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjQgUGVyc29uZW48L3RleHQ+PHJlY3QgeD0iMzUiIHk9IjI2LjE3NzY0NzA1ODgyMzQ4IiB3aWR0aD0iMjAiIGhlaWdodD0iNDQ4LjgyMjM1Mjk0MTE3NjUiIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSI4MCIgeT0iODEuNDcxNzY0NzA1ODgyMzIiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzOTMuNTI4MjM1Mjk0MTE3NyIgZmlsbD0iI2U4M2M2OCIvPjxyZWN0IHg9IjEyMCIgeT0iNDYxLjE3NjQ3MDU4ODIzNTMiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMy44MjM1Mjk0MTE3NjQ3MDciIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9IjQ0NC41ODgyMzUyOTQxMTc2IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAuNDExNzY0NzA1ODgyMzU1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMTYwIiB5PSI0MjIuNDcwNTg4MjM1Mjk0MTQiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1Mi41Mjk0MTE3NjQ3MDU4ODQiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIxODAiIHk9IjQwNS44ODIzNTI5NDExNzY0NiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjY5LjExNzY0NzA1ODgyMzU0IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMjIwIiB5PSI0NDcuMzUyOTQxMTc2NDcwNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjI3LjY0NzA1ODgyMzUyOTQxMyIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iNDE2Ljk0MTE3NjQ3MDU4ODIzIiB3aWR0aD0iMjAiIGhlaWdodD0iNTguMDU4ODIzNTI5NDExNzciIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIyNjAiIHk9IjM5Mi4wNTg4MjM1Mjk0MTE3NyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgyLjk0MTE3NjQ3MDU4ODI1IiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMjgwIiB5PSIzNjEuNjQ3MDU4ODIzNTI5NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjExMy4zNTI5NDExNzY0NzA2IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMzIwIiB5PSI0MzYuMjk0MTE3NjQ3MDU4ODQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzOC43MDU4ODIzNTI5NDExOCIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjM0MCIgeT0iNDA1Ljg4MjM1Mjk0MTE3NjQ2IiB3aWR0aD0iMjAiIGhlaWdodD0iNjkuMTE3NjQ3MDU4ODIzNTQiIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIzNjAiIHk9IjM2OS45NDExNzY0NzA1ODgyMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEwNS4wNTg4MjM1Mjk0MTE3NyIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjM4MCIgeT0iMzM2Ljc2NDcwNTg4MjM1MjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMzguMjM1Mjk0MTE3NjQ3MDciIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSI0MjAiIHk9IjQyNS4yMzUyOTQxMTc2NDcxIiB3aWR0aD0iMjAiIGhlaWdodD0iNDkuNzY0NzA1ODgyMzUyOTQiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9IjM5Mi4wNTg4MjM1Mjk0MTE3NyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgyLjk0MTE3NjQ3MDU4ODI1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iNDYwIiB5PSIzNTYuMTE3NjQ3MDU4ODIzNTQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMTguODgyMzUyOTQxMTc2NDgiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSI0ODAiIHk9IjMwOS4xMTc2NDcwNTg4MjM1NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2NS44ODIzNTI5NDExNzY1IiBmaWxsPSIjZDgzYzY4Ii8+PC9zdmc+]]></Value>
@@ -20117,7 +20117,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Strom" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -20370,7 +20370,7 @@
              <ContainerPartInstance partIndex="0">
               <Data>
                <DataNode name="Sparte">
-                <Value><![CDATA[string:Wasser]]></Value>
+                <Value><![CDATA[string:Water]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
               </Data>
@@ -20379,7 +20379,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Wasser" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -20548,7 +20548,7 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Vorlagen2-Rechnung_shfw-english2.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english2.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
 </TestCases>

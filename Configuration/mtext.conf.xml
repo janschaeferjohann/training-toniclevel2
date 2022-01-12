@@ -163,7 +163,7 @@
 					<renderer:item
 						name="PLZ"
 						produce-if-empty="true"
-						description="Postleitzahl">${PLZ}</renderer:item>
+						description="ZIP">${PLZ}</renderer:item>
 				</renderer:metadata>
 			</renderer>
 			<keys>

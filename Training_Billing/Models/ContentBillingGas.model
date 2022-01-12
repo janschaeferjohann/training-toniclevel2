@@ -18,7 +18,7 @@
  <Par>
   <Style parentName="TextAbstandNach"></Style>
   <Span>
-   <Text>Hier findest du die Aufschlüsselung der Preise und der gesetzlichen Umlagen und Abgaben.</Text>
+   <Text>Hier findest du die Aufschlüsselung der Pricee und der gesetzlichen Umlagen und Abgaben.</Text>
   </Span>
  </Par>
  <ContainerPartRef uri="Models\BillingTableItemised.model">
