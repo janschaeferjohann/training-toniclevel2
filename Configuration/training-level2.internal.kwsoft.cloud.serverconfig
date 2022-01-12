@@ -1,0 +1,14 @@
+<configuration
+	xmlns="http://www.kwsoft.de/controlcenter/serverConfiguration"
+	name="training-level2">
+	<description />
+	<mtextclient>
+		<defaults>WS</defaults>
+		<communication>
+			<wsdlHost>https://training-level2.internal.kwsoft.cloud:443</wsdlHost>
+		</communication>
+	</mtextclient>
+	<packagenumbering>1</packagenumbering>
+	<notifications>false</notifications>
+</configuration>
+
