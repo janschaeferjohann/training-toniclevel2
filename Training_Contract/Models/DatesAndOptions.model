@@ -1,0 +1,327 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="Ueberschrift_blau1"></Style>
+  <Span>
+    <Text>2. Ihre Termine und Optionen</Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>118104.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>224604.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleInnen"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Abschlagszahlung</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Ablesung</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Jahresrechnung</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextAbstandVor"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Zahlungsweise</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.basedata.bank_account.sepa.direct_debit" valueIndex="0" groupId="direct_debit"></InlineRadioButton>
+       <Text> Bankeinzug</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.basedata.bank_account.sepa.direct_debit" valueIndex="1" groupId="direct_debit"></InlineRadioButton>
+       <Text> Überweisung</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextAbstandVor"></Style>
+      <Span>
+       <Text>Die Ermittlung Ihres Zählerstands für Ihre</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Text>Jahresrechnung wird von Ihrem Netzbetreiber </Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Text>oder Messdienstleister durchgeführt</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextAbstandVor"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Rechnungserhalt:</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.basedata.contact_type" valueIndex="0" groupId="contact_type"></InlineRadioButton>
+       <Text> Post</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.basedata.contact_type" valueIndex="1" groupId="contact_type"></InlineRadioButton>
+       <Text> Online</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Termin Zahlung:</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="0" groupId="appointment"></InlineRadioButton>
+       <Text> Anfang des Monats</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="1" groupId="appointment"></InlineRadioButton>
+       <Text> Mitte des Monats</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="2" groupId="appointment"></InlineRadioButton>
+       <Text> Mitte des Monats</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Voraussichtlicher Termin:</Text>
+      </Span>
+      <Span>
+       <Text> </Text>
+       <Data>$contract_data.basedata.time_data.next_meter_reading</Data>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Voraussichtlicher Termin:</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Style>
+        <FontStyle></FontStyle>
+       </Style>
+       <Data>$contract_data.basedata.time_data.next_payoff</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Style parentName="TextNormal"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>31908.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.1cm" right="0.1cm" bottom="0.1cm" left="0.1cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/info.png">
+      <Style>
+       <FillContainerWidth>true</FillContainerWidth>
+       <Stretch>keep_aspect_ratio</Stretch>
+      </Style>
+     </Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Möchten Sie den bequemen Bankeinzug nutzen?</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Dies können Sie ganz einfach einrichten: Entweder in Ihrem persönlichen Serviceportal "Mein sam.energy" oder mit dem beiliegenden SEPA-Lastschriftmandat.</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+</ContainerPart>

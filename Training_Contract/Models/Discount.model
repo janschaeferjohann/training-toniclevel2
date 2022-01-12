@@ -1,0 +1,492 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Ueberschrift_blau1">
+  </Style>
+  <Span>
+    <Text>4. Abschlag</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text>Ihr Abschlag: </Text>
+  </Span>
+ </Par>
+ <Table>
+  <Headers>
+   <Header>
+    <Row>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell colSpan="2">
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text>Steuersatz</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text>Netto</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text>Umsatzsteuer</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Text>Abschlag</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+    </Row>
+   </Header>
+  </Headers>
+  <Footers>
+   <Footer>
+    <Row>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text>Gesamtbetrag</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$contract_data.instance(0).anticipated_payments.nextanticipated_payments.netamount_sum</Data>
+         <Text> €</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$contract_data.instance(0).anticipated_payments.nextanticipated_payments.salestax_sum</Data>
+         <Text> €</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <MarkerRef name="presum" operation="sum" occurrence="all_before" scope="table" dataType="number"></MarkerRef>
+         <Text> €</Text>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+    </Row>
+   </Footer>
+  </Footers>
+  <Columns>
+   <Column id="name">
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="usage">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="unit">
+    <Style>
+     <ColumnWidth>20000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="netamount">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="salestax">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="presum">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleZebraFarbe"></Style>
+  <TablePart>
+   <ForEach><![CDATA[$contract_data.anticipated_payments.nextanticipated_payments.amount]]></ForEach>
+   <DataDefinition></DataDefinition>
+   <Row>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich"></Style>
+       <Span>
+        <Data>$amount.name</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich"></Style>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.tax</Data>
+        <Text> </Text>
+        <Data>$amount.tax_unit</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.netamount</Data>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.salestax</Data>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+       <Marker name="presum">
+        <Data>$amount.presum</Data>
+        </Marker>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </TablePart>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text>Bitte überweisen Sie den Abschlag zu folgenden Terminen auf unser Konte mit der IBAN DE49 3007 0010 0394 0319 00 (Deutsche Bank). Geben Sie dabei bitte als Verwendungszweck Ihr Vertragskonto </Text>
+   <Data>$contract_data.instance(0).basedata.partnerid</Data>
+   <Text> an.</Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleMatrixNoPadding"></Style>
+  <Row>
+   <RowPart>
+    <ForEach><![CDATA[$contract_data.template.paymentslist.payment]]></ForEach>
+    <DataDefinition></DataDefinition>
+    <Cell>
+     <Style>
+      <Padding></Padding>
+     </Style>
+     <Container>
+      <Container>
+       <Style>
+        <VerticalAlignment>center</VerticalAlignment>
+       </Style>
+       <Par>
+        <Style>
+         <Align>center</Align>
+        </Style>
+        <Span>
+         <Data>$payment.date</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Container>
+    </Cell>
+   </RowPart>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <Par>
+      <Style>
+       <Align>center</Align>
+      </Style>
+      <Span>
+       <Text>Rechnung</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <RowPart>
+    <ForEach alias="$payment"><![CDATA[$contract_data.template.paymentslist.payment]]></ForEach>
+    <DataDefinition></DataDefinition>
+    <Cell>
+     <DynamicStyles>
+      <DynamicStyleRef name="CellWithBackgroundColorLight"><![CDATA[$payment.year.toString() != $payment.year[0].toString()]]></DynamicStyleRef>
+     </DynamicStyles>
+     <Style parentName="CellWithBackgroundColor"></Style>
+     <Container>
+      <Par>
+       <Style>
+        <Align>center</Align>
+       </Style>
+       <Span>
+        <Data>$payment.year</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </RowPart>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <Par>
+      <Style>
+       <Align>center</Align>
+      </Style>
+      <Span>
+       <Data>$contract_data.instance(0).basedata.time_data.next_payoff</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>31908.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.1cm" right="0.1cm" bottom="0.1cm" left="0.1cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/info.png">
+      <Style>
+       <FillContainerWidth>true</FillContainerWidth>
+       <Stretch>keep_aspect_ratio</Stretch>
+      </Style>
+     </Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Möchten Sie Ihren Abschlag oder Ihre Zahlungstermine anpassen?</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Sie können die Höhe des Abschlags oder den Tag der Fälligkeit im Monat ganz einfach ändern. Am bequemsten geht dies in Ihrem Serviceportal "Mein sam.energy".</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+</ContainerPart>

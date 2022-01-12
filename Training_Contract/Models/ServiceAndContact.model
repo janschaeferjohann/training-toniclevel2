@@ -1,0 +1,583 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Ueberschrift_blau1">
+   <BreakBefore>page_forced</BreakBefore>
+  </Style>
+  <Span>
+    <Text>5. Service und Kontakt</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>83658.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell colSpan="2">
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>sam.energy SmartCheck - Vorausschauen statt Nachzahlen</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/ok2.png"></Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontStyle></FontStyle>
+       </Style>
+       <Text>Mit dem </Text>
+      </Span>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>sam.energy SmartCheck</Text>
+      </Span>
+      <Span>
+       <Text> haben Sie Ihre Energiekosten immer unter Kontrolle.</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Bei vielen unserer Tarife könne Sie mit dem sam.energy SmartCheck prüfen, ob Ihr Abschlag zu Ihrem tatsächlichen Verbrauch passt. So könne Sie früh Nachzahlungen vermeiden.</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Einfach in Ihrem Serviceportal "Mein sam.energy" anmelden, sam.energy SmartCheck anklicken und aktuellen Zählerstand eingeben.</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>85908.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell colSpan="2">
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Mein sam.energy - Ihr persönliches Serviceportal</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/kontakt.png"></Image>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell rowSpan="2">
+    <Container>
+     <Numbering id="1">
+      <Style parentName="BulletWithIndent"></Style>
+     </Numbering>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontStyle></FontStyle>
+       </Style>
+       <Text>Mit einem klick haben Sie alles im Blick. Sie können 24 Stunden, 7 Tage die Woche vieles rund um Ihren Vertrag bequem online erledigen.</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>In Ihrem persönlichen Serviceportal "sam.energy" könne Sie zum Beispiel</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Zählerstände eingeben</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Abschlag und Zahlungstermine anpassen</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Persönliche Daten ändern</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Vertragsdetails einsehen</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Bankdaten anpassen</Text>
+      </Span>
+     </Par>
+     <Par>
+      <NumberingRef numberingId="1" level="1"></NumberingRef>
+      <Style>
+       <LineSpacing type="at_least" value="0.0cm"></LineSpacing>
+       <SpaceBefore resolution="combine">0.0cm</SpaceBefore>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>... und vieles mehr</Text>
+      </Span>
+      <Span>
+       <Text>
+</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Die Registrierung ist ganz einfach: Gehen Sie auf www.sam-energy.de und registrieren Sie sich mit Ihrem Registrierungscode: 535.325.346.245.234 und Ihrem Vertragskonto:</Text>
+       <Data>$contract_data.basedata.partnerid</Data>
+       <Text>.</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/Stift.png"></Image>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>83658.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell colSpan="2">
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Frag sam.energy - Antworten auf Ihre Fragen</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/fragezeichen.png"></Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontSize>10000.0mpt</FontSize>
+        <FontFamily>STANDARD</FontFamily>
+       </Style>
+       <Text>Unter www.sam-energy.com/frag-sam-energy erhalten Sie Antworten auf viele Ihrer Fragen, können direkt Ihre Erfahrungen  mitteilen und mit unseren Community-Experten diskutieren.</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontSize>10000.0mpt</FontSize>
+        <FontFamily>STANDARD</FontFamily>
+       </Style>
+       <Text>Mehrere Themengebiete stehen Ihnen zur Verfügung: Service &amp; Rechnung, Strom, Erdgas und Energiezukunft.</Text>
+      </Span>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>128546.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="">
+    <Style>
+     <ColumnWidth>127796.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="">
+    <Style>
+     <ColumnWidth>138296.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="">
+    <Style>
+     <ColumnWidth>99296.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="TextNormal">
+       <SpaceAfter resolution="combine">0.0cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>So erreichen Sie uns</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
+    </Style>
+    <Container></Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/internet.png"></Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-telefon.png"></Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Style>
+     <VerticalAlignment>last</VerticalAlignment>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-brief.png"></Image>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
+    </Style>
+    <Container></Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Internet</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextAbstandNach"></Style>
+      <Span>
+       <Text>www.sam-energy.de</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>E-Mail</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Text>service@sam-energy.de</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Telefon  </Text>
+      </Span>
+      <Span>
+       <Text>0783/123 343 234</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Fax  </Text>
+      </Span>
+      <Span>
+       <Text>0783/123 343 342</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Text>Mo - Fr: 8 - 20 Uhr</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextNormal"></Style>
+      <Span>
+       <Text>Sa: 9 - 14 Uhr</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Post</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style parentName="TextAbstandNach"></Style>
+      <Span>
+       <Text>sam.energy GmbH</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Text>Postfach 5432</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Span>
+       <Text>79234 Freiburg</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+</ContainerPart>

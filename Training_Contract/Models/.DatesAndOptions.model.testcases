@@ -1,0 +1,89 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Training_Contract">
+   <DocumentDescription></DocumentDescription>
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="true">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding">
+       <Value><![CDATA[string:\library\Training_Contract\Models\DatesAndOptions.model.template]]></Value>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0">
+     <Data>
+      <DataNode name="contract_data">
+       <DataNode name="basedata">
+        <DataNode name="partnerid_formatted">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="section">
+         <DataNode name="Sparten">
+          <DataNode name="flag_strom">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+          <DataNode name="flag_gas">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+          <DataNode name="flag_wasser">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+          <DataNode name="flag_abwasser">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+          <DataNode name="flag_waerme">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="Rechnungstext"></DataNode>
+        </DataNode>
+        <DataNode name="bank_account">
+         <DataNode name="iban_formatted">
+          <Value><![CDATA[string:]]></Value>
+         </DataNode>
+         <DataNode name="sepa">
+          <DataNode name="direct_debit" valueChanged="true">
+           <Value><![CDATA[string:0]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="anticipated_payments">
+        <DataNode name="nextanticipated_payments">
+         <DataNode name="Abschlagsliste"></DataNode>
+        </DataNode>
+        <DataNode name="Abschlagstext"></DataNode>
+       </DataNode>
+      </DataNode>
+     </Data>
+     <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

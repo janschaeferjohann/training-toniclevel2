@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taskcontrol>
+	<message>
+		<letterdate>30.06.2020</letterdate>
+		<instance>
+			<sender>
+				<Name>sam.energy</Name>
+				<Street>Alfred-Döblin-Platz 59</Street>
+				<zip>79100</zip>
+				<city>Freiburg</city>
+				<senderline>sam.energy - Alfred-Döblin-Platz 59 – 79100 Freiburg
+				</senderline>
+				<istGueltig>ja</istGueltig>
+				<Partner>
+					<partnerid>99887766</partnerid>
+					<userid>reutlinger</userid>
+					<salutation>Frau</salutation>
+					<title></title>
+					<firstname>Karolina</firstname>
+					<lastname>Reutlinger</lastname>
+					<companyname1>sam.energy</companyname1>
+					<companyname2>Privatkundenservice</companyname2>
+					<houseno>59</houseno>
+					<addresssupplement></addresssupplement>
+					<Street>Alfred-Döblin-Platz</Street>
+					<zip>79100</zip>
+					<city>Freiburg</city>
+					<country></country>
+					<address>
+						<line>JW Energie</line>
+						<line>Karolina Reutlinger</line>
+						<line>Kundenservice Energie</line>
+						<line>Alfred-Döblin-Platz 59</line>
+						<line>79100 Freiburg</line>
+					</address>
+					<salutatoryaddress></salutatoryaddress>
+					<role>Kundenberaterin</role>
+					<email>k.reutlinger@sam.web</email>
+					<phone>0815-47111234</phone>
+					<fax>0815-47114249</fax>
+				</Partner>
+				<user>
+					<partnerid>99887766</partnerid>
+					<userid>reutlinger</userid>
+					<salutation>Frau</salutation>
+					<title></title>
+					<firstname>Karolina</firstname>
+					<lastname>Reutlinger</lastname>
+					<companyname1>sam.energy</companyname1>
+					<companyname2>Privatkundenservice</companyname2>
+					<houseno>59</houseno>
+					<addresssupplement></addresssupplement>
+					<Street>Alfred-Döblin-Platz</Street>
+					<zip>79100</zip>
+					<city>Freiburg</city>
+					<country></country>
+					<address>
+						<line>sam.energy</line>
+						<line>Karolina Reutlinger</line>
+						<line>Privatkundenservice</line>
+						<line>Alfred-Döblin-Platz 59</line>
+						<line>79100 Freiburg</line>
+					</address>
+					<salutatoryaddress></salutatoryaddress>
+					<role>Kundenberaterin</role>
+					<email>k.reutlinger@sam.web</email>
+					<phone>0815-47111234</phone>
+					<fax>0815-47114249</fax>
+				</user>
+			</sender>
+			<recipient>
+				<istGueltig>ja</istGueltig>
+				<Partner>
+					<partnerid>2020.9954.0815</partnerid>
+					<userid></userid>
+					<salutation>Herr</salutation>
+					<title></title>
+					<firstname>Björn</firstname>
+					<lastname>Wulf</lastname>
+					<companyname1></companyname1>
+					<companyname2></companyname2>
+					<houseno>95a</houseno>
+					<addresssupplement></addresssupplement>
+					<Street>Deichstr.</Street>
+					<zip>25938</zip>
+					<city>Wyk auf Föhr</city>
+					<country></country>
+					<address>
+						<line>Björn Wulf</line>
+						<line>Deichstr. 12</line>
+						<line>25938 Wyk auf Föhr</line>
+					</address>
+					<role>Kunde</role>
+					<email>Wulf.Björn@email.web</email>
+					<phone>+49 123 546789</phone>
+					<fax></fax>
+					<bank_account>
+						<owner>Björn Wulf</owner>
+						<bank>Sam Bank</bank>
+						<bic>SAMBA000001</bic>
+						<iban>DE79110000001211222299</iban>
+					</bank_account>
+					<Sepa>
+						<direct_debit>true</direct_debit>
+					</Sepa>
+				</Partner>
+			</recipient>
+			<outputcontrol>
+				<outputchannel>LOCALPRINTING</outputchannel>
+				<ARCHIVE>
+					<partnerid>2020.9954.0815</partnerid>
+				</ARCHIVE>
+				<LOCALPRINTING>
+					<UserID>10203040</UserID>
+					<Druckername>batch</Druckername>
+				</LOCALPRINTING>
+				<CENTRALPRINTING>
+					<Batch></Batch>
+					<zip></zip>
+					<LKZ></LKZ>
+				</CENTRALPRINTING>
+				<FAX>
+					<sender></sender>
+					<recipient></recipient>
+				</FAX>
+				<EMAIL>
+					<sender>k.reutlinger@sam.web</sender>
+					<recipient>Wulf.Björn@email.web</recipient>
+				</EMAIL>
+			</outputcontrol>
+			<outputcontrol>
+				<outputchannel>ARCHIVE</outputchannel>
+				<ARCHIVE>
+					<partnerid>2020.9954.0815</partnerid>
+				</ARCHIVE>
+				<LOCALPRINTING>
+					<UserID>10203040</UserID>
+					<Druckername>batch</Druckername>
+				</LOCALPRINTING>
+				<CENTRALPRINTING>
+					<Batch></Batch>
+					<zip></zip>
+					<LKZ></LKZ>
+				</CENTRALPRINTING>
+				<FAX>
+					<sender></sender>
+					<recipient></recipient>
+				</FAX>
+				<EMAIL>
+					<sender>k.reutlinger@sam.web</sender>
+					<recipient>Wulf.Björn@email.web</recipient>
+				</EMAIL>
+			</outputcontrol>
+			<casedata>
+				<billing>
+					<basedata>
+						<summary>Nein</summary>
+						<billingno>RE99-03072020-128</billingno>
+						<partnerid>2020.9954.0815</partnerid>
+						<contractsId>2020-99.128</contractsId>
+						<contact_type>Post</contact_type>
+						<time_data>
+							<letterdate>30.06.2020</letterdate>
+							<next_payoff>Juli 2021</next_payoff>
+							<next_meter_reading>Juni 2021</next_meter_reading>
+						</time_data>
+						<section>
+							<consumption_point>
+								<counter>DE991576948356412594537854239542015</counter>
+								<appartment>Haupteingang</appartment>
+								<addresssupplement>EG Rechts</addresssupplement>
+								<Street>Deichstr.</Street>
+								<houseno>95a</houseno>
+								<zip>25938</zip>
+								<city>Wyk auf Föhr</city>
+								<carrier>
+									<companyname1>PowerNet Transport</companyname1>
+									<companyname2></companyname2>
+									<houseno>59</houseno>
+									<addresssupplement></addresssupplement>
+									<Street>Alfred-Döblin-Platz</Street>
+									<zip>79100</zip>
+									<city>Freiburg</city>
+								</carrier>
+							</consumption_point>
+							<contracts>
+								<contract>
+									<rate>Easy Öko-Strom</rate>
+									<name>Strom</name>
+									<contractsId>2020-99.128</contractsId>
+									<begin_date>01.11.2020</begin_date>
+									<termination_date>30.12.2020</termination_date>
+									<noticeperiod>6 Wochen</noticeperiod>
+									<renewal>6 Monate</renewal>
+									<counter>56845258</counter>
+								</contract>
+								<contract>
+									<rate>Easy Öko-Gas</rate>
+									<name>Gas</name>
+									<contractsId>2020-99.128</contractsId>
+									<begin_date>01.11.2020</begin_date>
+									<noticeperiod>6 Wochen</noticeperiod>
+									<renewal>6 Monate</renewal>
+									<counter>1512548</counter>
+								</contract>
+								<contract>
+									<rate>Easy Öko-Wasser</rate>
+									<name>Gas</name>
+									<contractsId>2020-99.128</contractsId>
+									<begin_date>01.11.2020</begin_date>
+									<noticeperiod>6 Wochen</noticeperiod>
+									<renewal>6 Monate</renewal>
+									<counter>9786753</counter>
+								</contract>
+							</contracts>
+						</section>
+					</basedata>
+					<billdata>
+						<items>
+							<item>
+								<name>Strom</name>
+								<usage></usage>
+								<unit>kWh</unit>
+								<periodfrom>01.11.2020</periodfrom>
+								<periodtilldate>30.06.2020</periodtilldate>
+								<countfrom>56248.00</countfrom>
+								<counttilldate></counttilldate>
+								<netamount></netamount>
+								<salestax></salestax>
+								<presum></presum>
+								<tax>19</tax>
+								<tax_unit>%</tax_unit>
+								<basic_price>
+									<unit>€/Jahr</unit>
+									<netamount>95,80</netamount>
+									<price>114,00</price>
+								</basic_price>
+								<work_price>
+									<unit>ct/kWh</unit>
+									<to_price>29,93</to_price>
+									<to_netamount>25,15</to_netamount>
+									<from_price>31,56</from_price>
+									<from_netamount>26,52</from_netamount>
+								</work_price>
+							</item>
+							<item>
+								<name>Gas</name>
+								<usage></usage>
+								<unit>kWh</unit>
+								<periodfrom>01.11.2020</periodfrom>
+								<periodtilldate>30.06.2020</periodtilldate>
+								<countfrom>215421</countfrom>
+								<counttilldate></counttilldate>
+								<netamount></netamount>
+								<salestax></salestax>
+								<presum></presum>
+								<tax>19</tax>
+								<tax_unit>%</tax_unit>
+								<basic_price>
+									<unit>€/Jahr</unit>
+									<netamount>95,80</netamount>
+									<price>114,00</price>
+								</basic_price>
+								<work_price>
+									<unit>ct/kWh</unit>
+									<to_price>29,93</to_price>
+									<to_netamount>25,15</to_netamount>
+									<from_price>31,56</from_price>
+									<from_netamount>26,52</from_netamount>
+								</work_price>
+							</item>
+						</items>
+						<anticipated_payments>
+							<payment_text></payment_text>
+							<appointment>Anfang des Monats</appointment>
+							<paideanticipated_payments>
+								<amount_anticipated_payments>8</amount_anticipated_payments>
+								<previous_sum></previous_sum>
+								<pre_monthly_amount>150,00</pre_monthly_amount>
+								<amount>
+									<name>Strom</name>
+									<netamount>25,50</netamount>
+									<salestax>12,30</salestax>
+									<presum>50,00</presum>
+									<tax>19</tax>
+									<tax_unit>%</tax_unit>
+								</amount>
+								<amount>
+									<name>Gas</name>
+									<netamount>15,00</netamount>
+									<salestax>5,00</salestax>
+									<presum>100,00</presum>
+									<tax>19</tax>
+									<tax_unit>%</tax_unit>
+								</amount>
+							</paideanticipated_payments>
+							<nextanticipated_payments>
+								<amount_anticipated_payments></amount_anticipated_payments>
+								<next_sum></next_sum>
+								<next_amount></next_amount>
+								<amount>
+									<name>Strom</name>
+									<netamount>25,50</netamount>
+									<salestax>12,30</salestax>
+									<presum>37,80</presum>
+									<tax>19</tax>
+									<tax_unit>%</tax_unit>
+								</amount>
+								<amount>
+									<name>Gas</name>
+									<netamount>15,00</netamount>
+									<salestax>5,00</salestax>
+									<presum>20,00</presum>
+									<tax>19</tax>
+									<tax_unit>%</tax_unit>
+								</amount>
+								<anticipated_paymentsliste>
+									<anticipated_payment>01.11.2020</anticipated_payment>
+									<anticipated_payment>01.12.2020</anticipated_payment>
+									<anticipated_payment>01.01.2021</anticipated_payment>
+									<anticipated_payment>01.02.2021</anticipated_payment>
+									<anticipated_payment>01.03.2021</anticipated_payment>
+									<anticipated_payment>01.04.2021</anticipated_payment>
+									<anticipated_payment>01.05.2021</anticipated_payment>
+									<anticipated_payment>01.06.2021</anticipated_payment>
+								</anticipated_paymentsliste>
+							</nextanticipated_payments>
+						</anticipated_payments>
+						</billdata>
+				</billing>
+			</casedata>
+		</instance>
+	</message>
+</taskcontrol>

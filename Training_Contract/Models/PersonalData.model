@@ -1,0 +1,722 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="TaskControl" ref="\\Framework\Data\TaskControl.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="Ueberschrift_blau1"></Style>
+  <Span>
+    <Text>1. Ihre Daten</Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleInnen"></Style>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <ContainerPart>
+      <DataDefinition></DataDefinition>
+      <Table>
+       <Columns>
+        <Column>
+         <Style>
+          <ColumnWidth>127504.0mpt</ColumnWidth>
+         </Style>
+        </Column>
+        <Column>
+         <Style>
+          <ColumnWidth>auto</ColumnWidth>
+         </Style>
+        </Column>
+       </Columns>
+       <Style parentName="TabelleInnen"></Style>
+       <Row>
+        <Cell>
+         <Style>
+          <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle>bold</FontStyle>
+            </Style>
+            <Text>Persönliche Angaben</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Style>
+          <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Name:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.Firstname</Data>
+            <Text> </Text>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.Lastname</Data>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Style>
+          <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Adresse:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.Street</Data>
+            <Text> </Text>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.HouseNo</Data>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>E-Mail:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.Email</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Telefon:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Data>$TaskControl.Message.instance(0).Instances.Instance.instance(0).Recipient.Partner.Phone</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+      </Table>
+     </ContainerPart>
+    </Container>
+   </Cell>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <ContainerPart>
+      <DataDefinition></DataDefinition>
+      <Table>
+       <Columns>
+        <Column>
+         <Style>
+          <ColumnWidth>100625.0mpt</ColumnWidth>
+         </Style>
+        </Column>
+        <Column>
+         <Style>
+          <ColumnWidth>auto</ColumnWidth>
+         </Style>
+        </Column>
+       </Columns>
+       <Style parentName="TabelleInnen"></Style>
+       <Row>
+        <Cell>
+         <Style>
+          <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle>bold</FontStyle>
+            </Style>
+            <Text>Bankverbindung</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Kontoinhaber:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.basedata.bank_account.owner</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Bank:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.basedata.bank_account.bank</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>IBAN:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.basedata.bank_account.iban</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>BIC:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.basedata.bank_account.bic</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+      </Table>
+     </ContainerPart>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <ContainerPart>
+      <DataDefinition></DataDefinition>
+      <Table>
+       <Columns>
+        <Column>
+         <Style>
+          <ColumnWidth>105770.0mpt</ColumnWidth>
+         </Style>
+        </Column>
+        <Column>
+         <Style>
+          <ColumnWidth>auto</ColumnWidth>
+         </Style>
+        </Column>
+       </Columns>
+       <Style parentName="TabelleInnen"></Style>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Span>
+            <Style>
+             <FontStyle>bold</FontStyle>
+            </Style>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle>bold</FontStyle>
+            </Style>
+            <Text>Verbrauchsstelle</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Lieferbeginn:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.instance(0).basedata.section.contracts.contract.instance(0).begin_date</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Zählernummer:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Style parentName="TextAbstandNach"></Style>
+           <Span>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.counter</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Adresse:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.basedata.section.consumption_point.street</Data>
+            <Text> </Text>
+            <Data>$contract_data.basedata.section.consumption_point.houseno</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+          <Par>
+           <Style parentName="TextAbstandNach"></Style>
+           <Span>
+            <Data>$contract_data.basedata.section.consumption_point.zip</Data>
+            <Text> </Text>
+            <Data>$contract_data.basedata.section.consumption_point.city</Data>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+       <Row>
+        <Cell>
+         <Container>
+          <Par>
+           <Style parentName="TextNormal"></Style>
+           <Span>
+            <Style>
+             <FontStyle></FontStyle>
+            </Style>
+            <Text>Netzbetreiber:</Text>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+        <Cell>
+         <Style>
+          <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
+         </Style>
+         <Container>
+          <Par>
+           <Span>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.carrier.companyname1</Data>
+            <Text></Text>
+           </Span>
+          </Par>
+          <Par>
+           <Span>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.carrier.street</Data>
+            <Text> </Text>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.carrier.houseno</Data>
+           </Span>
+          </Par>
+          <Par>
+           <Span>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.carrier.zip</Data>
+            <Text> </Text>
+            <Data>$contract_data.instance(0).basedata.section.consumption_point.carrier.city</Data>
+           </Span>
+          </Par>
+         </Container>
+        </Cell>
+       </Row>
+      </Table>
+     </ContainerPart>
+    </Container>
+   </Cell>
+   <Cell>
+    <Style>
+     <Padding></Padding>
+    </Style>
+    <Container>
+     <Table>
+      <Columns>
+       <Column>
+        <Style>
+         <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+         <ColumnWidth>33408.0mpt</ColumnWidth>
+        </Style>
+       </Column>
+       <Column>
+        <Style>
+         <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+         <ColumnWidth>auto</ColumnWidth>
+        </Style>
+       </Column>
+      </Columns>
+      <Style parentName="TabelleUmrandung"></Style>
+      <Row>
+       <Cell>
+        <Style>
+         <Padding top="0.1cm" right="0.1cm" bottom="0.1cm" left="0.1cm"></Padding>
+        </Style>
+        <Container>
+         <Image uri="mtx://Framework_Training/Graphics/Icons/achtung.png">
+          <Style>
+           <FillContainerWidth>true</FillContainerWidth>
+           <Stretch>keep_aspect_ratio</Stretch>
+          </Style>
+         </Image>
+        </Container>
+       </Cell>
+       <Cell>
+        <Container>
+         <Par>
+          <Style>
+           <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+          </Style>
+          <Span>
+           <Style>
+            <FontStyle>bold</FontStyle>
+           </Style>
+           <Text>Fehlen noch Angaben oder stimmen 
+Daten nicht?</Text>
+          </Span>
+         </Par>
+         <Par>
+          <Style>
+           <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+          </Style>
+          <Span>
+           <Text>Am bequemsten können Sie Ergänzungen oder Korrekturen über Ihr Serviceportal "Mein sam.energy" vornehmen.</Text>
+          </Span>
+         </Par>
+        </Container>
+       </Cell>
+      </Row>
+     </Table>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <Padding top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>31908.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <Padding top="0.1cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Padding>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleUmrandung"></Style>
+  <Row>
+   <Cell>
+    <Style>
+     <Padding top="0.1cm" right="0.1cm" bottom="0.1cm" left="0.1cm"></Padding>
+    </Style>
+    <Container>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/info.png">
+      <Style>
+       <FillContainerWidth>true</FillContainerWidth>
+       <Stretch>keep_aspect_ratio</Stretch>
+      </Style>
+     </Image>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Style>
+        <FontStyle>bold</FontStyle>
+       </Style>
+       <Text>Was ist der Netzbetreiber?</Text>
+      </Span>
+     </Par>
+     <Par>
+      <Style>
+       <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+      </Style>
+      <Span>
+       <Text>Der Netzbetreiber ist für das Strom- bzw. Erdgasnetz verantwortlich. Durch dieses Netz wird die Energie bis zu Ihrer Verbrauchsstelle geleitet. Er ist beispielsweise Ihr Ansprechpartner bei Stromausfällen und technischen Fragen rund um Ihren Zähler. Ihr Netzbetreiber und wir sind voneinander unabhängig Unternehmen.</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+</ContainerPart>

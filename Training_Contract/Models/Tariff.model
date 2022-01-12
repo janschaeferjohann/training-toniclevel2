@@ -1,0 +1,359 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel">
+   <Description></Description>
+   <Script></Script>
+  </ParamDef>
+ </DataDefinition>
+ <Numbering id="1">
+  <Style parentName="BulletWithIndent"></Style>
+ </Numbering>
+ <Par>
+  <Style parentName="Ueberschrift_blau1">
+   <BreakBefore>page_forced</BreakBefore>
+  </Style>
+  <Span>
+    <Text>3. Tarif</Text>
+  </Span>
+ </Par>
+ <Par>
+  <NumberingRef numberingId="1" level="1"></NumberingRef>
+  <Style>
+   <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+  </Style>
+  <Span>
+   <Text>Mit der Grundversorgung ist gesetzlich gewährleistet, dass Sie immer sicher und zuverlässig mit Energie versorgt sind. In Ihrer Region beliefern wir die meisten privaten Haushalte mit Energie. Das macht uns zu Ihrem Grundversorger.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <NumberingRef numberingId="1" level="1"></NumberingRef>
+  <Style>
+   <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+  </Style>
+  <Span>
+   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Wochen kündigen und einen anderen Tarif wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <NumberingRef numberingId="1" level="1"></NumberingRef>
+  <Style>
+   <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+  </Style>
+  <Span>
+   <Text>Sie können uns ganz bequem und flexibel erreichen: telefonisch, per Post, per E-Mail oder über Ihr Serviceportal "Mein sam.energy".</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style>
+   <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+  </Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style>
+   <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
+  </Style>
+  <Span>
+   <Style>
+    <FontStyle>bold</FontStyle>
+   </Style>
+   <Text>Ihre Preise</Text>
+  </Span>
+ </Par>
+ <Table>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>139216.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>85649.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>100731.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleInnen"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell colSpan="2">
+    <Style parentName="CellWithBottomLine"></Style>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>center</Align>
+      </Style>
+      <Span>
+       <Text>Arbeitspreis</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell colSpan="2">
+    <Style parentName="CellWithBottomLine"></Style>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>center</Align>
+      </Style>
+      <Span>
+       <Text>Grundpreis</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Style parentName="CellWithoutBottomLine"></Style>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>right</Align>
+      </Style>
+      <Span>
+       <Text>netto</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Style parentName="CellWithoutBottomLine"></Style>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>right</Align>
+      </Style>
+      <Span>
+       <Text>brutto</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>right</Align>
+      </Style>
+      <Span>
+       <Text>netto</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Style parentName="Tarifauswahl_Fett">
+       <Align>right</Align>
+      </Style>
+      <Span>
+       <Text>brutto</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <TablePart>
+   <ForEach alias="$item"><![CDATA[$contract_data.items.item]]></ForEach>
+   <DataDefinition></DataDefinition>
+   <Row>
+    <Cell>
+     <Style parentName="CellWithBottomLine"></Style>
+     <Container>
+      <Par>
+       <Span>
+        <Text>bis 7000 kWh/Jahr</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style>
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.work_price.to_netamount</Data>
+        <Text> </Text>
+        <Data>$item.work_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style parentName="TextNormal">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.work_price.to_price</Data>
+        <Text> </Text>
+        <Data>$item.work_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style>
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.basic_price.netamount</Data>
+        <Text> </Text>
+        <Data>$item.basic_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style>
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.basic_price.price</Data>
+        <Text> </Text>
+        <Data>$item.basic_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Style parentName="CellWithoutBottomLine"></Style>
+     <Container>
+      <Par>
+       <Span>
+        <Text>ab 7001 kWh/Jahr</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithoutBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style>
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.work_price.from_netamount</Data>
+        <Text> </Text>
+        <Data>$item.work_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Style parentName="CellWithoutBottomLine"></Style>
+     <Container>
+      <Par>
+       <Style parentName="TextNormal">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$item.work_price.from_price</Data>
+        <Text> </Text>
+        <Data>$item.work_price.unit</Data>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </TablePart>
+ </Table>
+ <Par>
+  <Style parentName="TextAbstandVor"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandVor"></Style>
+  <Span>
+   <Text>Preisstand: 01.04.2016. Gerundete Bruttopreise inkl. 19% Umsatzsteuer.</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandVor"></Style>
+  <Span>
+   <Text>Grundlage für die Belieferung ist die beiliegende Stromgrundversorgungsverordnung (StromGVV).</Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandVor"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandVor"></Style>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>
