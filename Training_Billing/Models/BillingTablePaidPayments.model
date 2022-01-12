@@ -1,0 +1,304 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="billing_data" ref="Data\billing_data.datamodel"></ParamDef>
+  <ParamDef name="billing_data" ref="\\Framework_Training\Data\billing_data.datamodel"></ParamDef>
+  <ParamDef name="billing_data" ref="\\Framework_Training\Data\billing_data.datamodel"></ParamDef>
+ </DataDefinition>
+ <Table>
+  <Footers>
+   <Footer>
+    <Row>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text>Geleistete Zahlungen</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.netamount_sum</Data>
+         <Text> €</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.salestax_sum</Data>
+         <Text> €</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$billing_data.billing.billdata.billsum.anticipated_paymentsum</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+    </Row>
+   </Footer>
+   <Footer>
+    <Row>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett"></Style>
+        <Span>
+         <Data>$billing_data.billing.billdata.billsum.sumArt</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Span>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+     <Cell>
+      <Container>
+       <Par>
+        <Style parentName="FW_InfobereichFett">
+         <Align>right</Align>
+        </Style>
+        <Span>
+         <Data>$billing_data.billing.billdata.billsum.endsum</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+    </Row>
+   </Footer>
+  </Footers>
+  <Columns>
+   <Column id="name">
+    <Style>
+     <ColumnWidth>125258.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="usage">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="unit">
+    <Style>
+     <ColumnWidth>20000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="netamount">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="salestax">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column id="presum">
+    <Style>
+     <ColumnWidth>70000.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleZebraFarbe"></Style>
+  <TablePart>
+   <ForEach><![CDATA[$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount]]></ForEach>
+   <DataDefinition></DataDefinition>
+   <Row>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich"></Style>
+       <Span>
+        <Text>bezahlter Abschlag </Text>
+        <Data>$amount.name</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich"></Style>
+       <Span>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.tax</Data>
+        <Text> </Text>
+        <Data>$amount.tax_unit</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.netamount</Data>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.salestax</Data>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Style parentName="FW_Infobereich">
+        <Align>right</Align>
+       </Style>
+       <Span>
+        <Data>$amount.presum</Data>
+        <Text> €</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </TablePart>
+ </Table>
+ <Par>
+  <Span>
+   <Text></Text>
+  </Span>
+ </Par>
+</ContainerPart>

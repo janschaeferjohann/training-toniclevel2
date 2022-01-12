@@ -1,0 +1,11 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="billing_data" ref="Data\billing_data.datamodel"></ParamDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+ </Par>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+ </Par>
+</ContainerPart>

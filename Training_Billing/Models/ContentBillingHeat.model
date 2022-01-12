@@ -1,0 +1,33 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="billing_data" ref="\\Framework_Training\Data\billing_data.datamodel" provided="true">
+   <Description></Description>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <DataNodeDef name="contract">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script><![CDATA['Waerme']]></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true">
+    <Values></Values>
+   </Validation>
+  </DataNodeDef>
+ </DataDefinition>
+ <Par>
+  <Style parentName="TextAbstandNach"></Style>
+  <Span>
+   <Text>Hier findest du die Aufschlüsselung der Preise und der gesetzlichen Umlagen und Abgaben.</Text>
+  </Span>
+ </Par>
+ <ContainerPartRef uri="Models\BillingTableItemised.model">
+  <Param name="contract">$contract</Param>
+  <Param name="items">$billing_data.billing.billdata.items</Param>
+  <Param name="lines">$billing_data.template.Tablelines.heat</Param>
+ </ContainerPartRef>
+ <ContainerPartRef uri="Models\BillingCustomerInformations.model">
+  <Param name="billing_data">$billing_data</Param>
+  <Param name="contract">$contract</Param>
+ </ContainerPartRef>
+</ContainerPart>

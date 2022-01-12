@@ -1,0 +1,144 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Training_Billing">
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" valueChanged="fromDataSource">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="manually">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" valueChanged="fromDataSource">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
+       <Value><![CDATA[string:\library\Training_Billing\Models\ContentBillingStrom.model.template]]></Value>
+      </DataNode>
+      <DataNode name="Mandant" valueChanged="fromDataSource">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0">
+     <Data>
+      <DataNode name="snapBeispiel">
+       <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ik5hTiIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48dGV4dCB4PSIyNSIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+QWt0dWVsbDwvdGV4dD48dGV4dCB4PSI3MCIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+Vm9yamFocjwvdGV4dD48dGV4dCB4PSIxMzAiIHk9Ik5hTiIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEgUGVyc29uPC90ZXh0Pjx0ZXh0IHg9IjIzMCIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MiBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSIzMzAiIHk9Ik5hTiIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMgUGVyc29uZW48L3RleHQ+PHRleHQgeD0iNDMwIiB5PSJOYU4iIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40IFBlcnNvbmVuPC90ZXh0PjxyZWN0IHg9IjM1IiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiM3YWMxZGMiLz48cmVjdCB4PSI4MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjOGFjMWRjIi8+PHJlY3QgeD0iMTIwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjE2MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMTgwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSIyMjAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMjYwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIyODAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjMyMCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZTRmM2ZjIi8+PHJlY3QgeD0iMzQwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIzNjAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjM4MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iNDIwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjQ2MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iNDgwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkODNjNjgiLz48L3N2Zz4=]]></Value>
+      </DataNode>
+      <DataNode name="billing_data">
+       <DataNode name="billing">
+        <DataNode name="billdata">
+         <DataNode name="anticipated_payments">
+          <DataNode name="nextanticipated_payments">
+           <DataNode name="anticipated_payment_date_formatted">
+            <DataNode name="formatted_data">
+             <Value><![CDATA[string:]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="anticipated_payment_year_formatted">
+            <DataNode name="formatted_year">
+             <Value><![CDATA[string:]]></Value>
+            </DataNode>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="difference">
+          <DataNode name="Diff">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="basedata">
+         <DataNode name="section">
+          <DataNode name="Sparten">
+           <DataNode name="flag_strom">
+            <Value><![CDATA[string:0]]></Value>
+           </DataNode>
+           <DataNode name="flag_gas">
+            <Value><![CDATA[string:0]]></Value>
+           </DataNode>
+           <DataNode name="flag_wasser">
+            <Value><![CDATA[string:0]]></Value>
+           </DataNode>
+           <DataNode name="flag_abwasser">
+            <Value><![CDATA[string:0]]></Value>
+           </DataNode>
+           <DataNode name="flag_waerme">
+            <Value><![CDATA[string:0]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="text">
+         <DataNode name="billtext">
+          <DataNode name="textblock">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+     </Data>
+     <ContainerPartInstance partIndex="0">
+      <ContainerPartInstance partIndex="0">
+       <Data>
+        <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Strom" name="Strom"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Wasser" name="Wasser"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Waerme" name="Waerme"></DataNodeRef>
+       </Data>
+       <ContainerPartInstance partIndex="0">
+        <TablePartInstance partIndex="0">
+         <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+        </TablePartInstance>
+        <TablePartInstance partIndex="1" visible="false"></TablePartInstance>
+        <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
+        <TablePartInstance partIndex="3" visible="false"></TablePartInstance>
+        <TablePartInstance partIndex="4" visible="false"></TablePartInstance>
+        <RowPartInstance partIndex="5" visible="false"></RowPartInstance>
+       </ContainerPartInstance>
+      </ContainerPartInstance>
+      <ContainerPartInstance partIndex="1">
+       <Data>
+        <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
+        <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
+       </Data>
+       <ContainerPartInstance partIndex="0">
+        <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+        <RowPartInstance partIndex="1">
+         <RowPartInstance partIndex="0">
+          <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+         </RowPartInstance>
+        </RowPartInstance>
+        <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
+        <ContainerPartInstance partIndex="3" visible="false"></ContainerPartInstance>
+        <ContainerPartInstance partIndex="4" visible="false"></ContainerPartInstance>
+        <ContainerPartInstance partIndex="5" visible="false"></ContainerPartInstance>
+       </ContainerPartInstance>
+      </ContainerPartInstance>
+     </ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>

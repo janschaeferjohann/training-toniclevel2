@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+   <entry name="/dataProviders/Metadata">
+      <SerializedDataProvider providerClass="de.kwsoft.mtext.format.dataprovider.MetadataNodeInstance">
+         <DataModelResourceName name=""/>
+         <NodeInst name="Metadata" value="">
+            <Children>
+               <NodeInst name="OutputControl" value="">
+                  <Children>
+                     <NodeInst name="FormattingMode" value="OMS"/>
+                  </Children>
+               </NodeInst>
+               <NodeInst name="Template" value="">
+                  <Children>
+                     <NodeInst name="Selectable" value="true"/>
+                  </Children>
+               </NodeInst>
+            </Children>
+         </NodeInst>
+      </SerializedDataProvider>
+   </entry>
+</content>

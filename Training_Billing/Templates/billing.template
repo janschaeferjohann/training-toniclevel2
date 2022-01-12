@@ -1,0 +1,539 @@
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="TaskControl" ref="\\Framework\Data\TaskControl.datamodel" dataMappingRef="\\Framework\Data\TaskControl.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <ParamDef name="billing_data" ref="\\Framework_Training\Data\billing_data.datamodel" dataSourceName="TaskControl" dataMappingRef="\\Framework_Training\Data\billing_data.mapping">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+  </ParamDef>
+  <DataNodeDef name="Subject1">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true">
+    <Values></Values>
+   </Validation>
+  </DataNodeDef>
+ </DataDefinition>
+ <ModificationRights>
+  <Allowed>
+   <ModificationRight role="_EVERYONE_" operations="INPUT"></ModificationRight>
+  </Allowed>
+  <Denied></Denied>
+ </ModificationRights>
+ <Document>
+  <DocumentPartRef uri="DocumentControls\Message.model">
+   <Extensions>
+    <DocumentExtension id="Message Content">
+     <DocumentPartRef uri="\\Framework_Training\DocumentControls\CoverLetter.model">
+      <Extensions>
+       <ContainerExtension id="CoverLetter Content">
+        <ContainerPartRef uri="\\Framework_Training\Framework\DocumentParts\Letter\ConsumptionPoint.model">
+         <Param name="basedata">$billing_data.billing.basedata</Param>
+        </ContainerPartRef>
+        <ContainerPartRef uri="\\Framework\Framework\DocumentParts\Letter\FW_SalutatoryAddress.model">
+         <Param name="Recipient">$Recipient</Param>
+        </ContainerPartRef>
+        <Par>
+         <Style parentName="TextAbstandNach"></Style>
+         <Span>
+          <Text>Vielen Dank für dein Vertrauen.</Text>
+         </Span>
+        </Par>
+        <ContainerPart>
+         <DataDefinition></DataDefinition>
+         <Par>
+          <Style parentName="TextAbstandNach"></Style>
+          <Span>
+           <Text>Für den gesamten Zeitraum haben wir folgende Beträge ermittelt.:</Text>
+          </Span>
+         </Par>
+         <ContainerPartRef uri="Models\BillingSummary.model">
+          <Param name="billing_data">$billing_data</Param>
+          <Param name="billing_data">$billing_data</Param>
+          <Param name="billing_data">$billing_data</Param>
+         </ContainerPartRef>
+        </ContainerPart>
+        <ContainerPartRef uri="Models\BillingTableList.model">
+         <Param name="items">$billing_data.billing.billdata.items</Param>
+         <Param name="items">$billing_data.billing.billdata.items</Param>
+        </ContainerPartRef>
+        <ContainerPartRef uri="Models\BillingTablePaidPayments.model">
+         <Param name="billing_data">$billing_data</Param>
+         <Param name="billing_data">$billing_data</Param>
+         <Param name="billing_data">$billing_data</Param>
+        </ContainerPartRef>
+        <ContainerPartRef uri="Models\TMB001.model">
+         <Param name="billing_data">$billing_data</Param>
+         <Param name="billing_data">$billing_data</Param>
+         <Param name="billing_data">$billing_data</Param>
+        </ContainerPartRef>
+        <Par>
+         <Style parentName="TextAbstandNach">
+          <KeepWithNext>true</KeepWithNext>
+         </Style>
+         <Span>
+          <Text>Für das kommende Abrechnungsjahr ergeben sich aus dem bisherigen Verbrauch folgende neue Abschläge:</Text>
+         </Span>
+        </Par>
+        <ContainerPartRef uri="Models\BillingTableCommanderyPayments.model">
+         <Param name="anticipated_payments">$billing_data.billing.billdata.anticipated_payments</Param>
+         <Param name="anticipated_payments">$billing_data.billing.billdata.anticipated_payments</Param>
+        </ContainerPartRef>
+        <Par>
+         <Style parentName="TextAbstandVor"></Style>
+         <Span>
+          <Text>Abbuchungstermine für das kommende Jahr</Text>
+         </Span>
+        </Par>
+        <Par>
+         <Style parentName="TextAbstandVor"></Style>
+         <Span>
+          <Text></Text>
+         </Span>
+        </Par>
+        <Table>
+         <Columns>
+          <Column>
+           <Style>
+            <ColumnWidth>70000.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>70000.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>70000.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>70000.0mpt</ColumnWidth>
+           </Style>
+          </Column>
+          <Column>
+           <Style>
+            <ColumnWidth>auto</ColumnWidth>
+           </Style>
+          </Column>
+         </Columns>
+         <Style parentName="TabelleMatrixNoPadding"></Style>
+         <Row>
+          <Cell>
+           <Container>
+            <ContainerPart>
+             <ForEach><![CDATA[$billing_data.template.prepaymentslist.column1]]></ForEach>
+             <DataDefinition></DataDefinition>
+             <Table>
+              <Headers>
+               <Header>
+                <Row>
+                 <Cell>
+                  <Container>
+                   <Par>
+                    <Style>
+                     <Align>center</Align>
+                    </Style>
+                    <Span>
+                     <Style>
+                      <FontStyle>bold</FontStyle>
+                     </Style>
+                     <Data>$column1.Monat</Data>
+                     <Text></Text>
+                    </Span>
+                   </Par>
+                  </Container>
+                 </Cell>
+                </Row>
+               </Header>
+              </Headers>
+              <Columns>
+               <Column>
+                <Style>
+                 <ColumnWidth>60000.0mpt</ColumnWidth>
+                </Style>
+               </Column>
+              </Columns>
+              <Style parentName="TabelleZebraFarbe"></Style>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="FW_Infobereich">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column1.Datum</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="FW_Infobereich">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column1.Amount</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+             </Table>
+            </ContainerPart>
+           </Container>
+          </Cell>
+          <Cell>
+           <Container>
+            <ContainerPart>
+             <ForEach><![CDATA[$billing_data.template.prepaymentslist.column2]]></ForEach>
+             <DataDefinition></DataDefinition>
+             <Table>
+              <Headers>
+               <Header>
+                <Row>
+                 <Cell>
+                  <Container>
+                   <Par>
+                    <Style>
+                     <Align>center</Align>
+                    </Style>
+                    <Span>
+                     <Style>
+                      <FontStyle>bold</FontStyle>
+                     </Style>
+                     <Data>$column2.Monat</Data>
+                     <Text></Text>
+                    </Span>
+                   </Par>
+                  </Container>
+                 </Cell>
+                </Row>
+               </Header>
+              </Headers>
+              <Columns>
+               <Column>
+                <Style>
+                 <ColumnWidth>60000.0mpt</ColumnWidth>
+                </Style>
+               </Column>
+              </Columns>
+              <Style parentName="TabelleZebraFarbe"></Style>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column2.Datum</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column2.Amount</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+             </Table>
+            </ContainerPart>
+           </Container>
+          </Cell>
+          <Cell>
+           <Container>
+            <ContainerPart>
+             <ForEach><![CDATA[$billing_data.template.prepaymentslist.column3]]></ForEach>
+             <DataDefinition></DataDefinition>
+             <Table>
+              <Headers>
+               <Header>
+                <Row>
+                 <Cell>
+                  <Container>
+                   <Par>
+                    <Style>
+                     <Align>center</Align>
+                    </Style>
+                    <Span>
+                     <Style>
+                      <FontStyle>bold</FontStyle>
+                     </Style>
+                     <Data>$column3.Monat</Data>
+                     <Text></Text>
+                    </Span>
+                   </Par>
+                  </Container>
+                 </Cell>
+                </Row>
+               </Header>
+              </Headers>
+              <Columns>
+               <Column>
+                <Style>
+                 <ColumnWidth>60000.0mpt</ColumnWidth>
+                </Style>
+               </Column>
+              </Columns>
+              <Style parentName="TabelleZebraFarbe"></Style>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column3.Datum</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column3.Amount</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+             </Table>
+            </ContainerPart>
+           </Container>
+          </Cell>
+          <Cell>
+           <Container>
+            <ContainerPart>
+             <ForEach><![CDATA[$billing_data.template.prepaymentslist.column4]]></ForEach>
+             <DataDefinition></DataDefinition>
+             <Table>
+              <Headers>
+               <Header>
+                <Row>
+                 <Cell>
+                  <Container>
+                   <Par>
+                    <Style>
+                     <Align>center</Align>
+                    </Style>
+                    <Span>
+                     <Style>
+                      <FontStyle>bold</FontStyle>
+                     </Style>
+                     <Data>$column4.Monat</Data>
+                     <Text></Text>
+                    </Span>
+                   </Par>
+                  </Container>
+                 </Cell>
+                </Row>
+               </Header>
+              </Headers>
+              <Columns>
+               <Column>
+                <Style>
+                 <ColumnWidth>60000.0mpt</ColumnWidth>
+                </Style>
+               </Column>
+              </Columns>
+              <Style parentName="TabelleZebraFarbe"></Style>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column4.Datum</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+              <Row>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style parentName="Infotext">
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Data>$column4.Amount</Data>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+             </Table>
+            </ContainerPart>
+           </Container>
+          </Cell>
+          <Cell>
+           <Container>
+            <ContainerPart>
+             <DataDefinition></DataDefinition>
+             <Table>
+              <Columns>
+               <Column>
+                <Style>
+                 <ColumnWidth>40000.0mpt</ColumnWidth>
+                </Style>
+               </Column>
+               <Column>
+                <Style>
+                 <ColumnWidth>auto</ColumnWidth>
+                </Style>
+               </Column>
+              </Columns>
+              <Style parentName="TabelleUmrandung"></Style>
+              <Row>
+               <Cell>
+                <Container>
+                 <Image uri="mtx://Framework_Training/Graphics/Icons/info.png">
+                  <Style>
+                   <FillContainerWidth>true</FillContainerWidth>
+                   <FillContainerHeight>false</FillContainerHeight>
+                   <Stretch>keep_aspect_ratio</Stretch>
+                  </Style>
+                 </Image>
+                 <Par>
+                  <Style>
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Text></Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+               <Cell>
+                <Container>
+                 <Par>
+                  <Style>
+                   <Align>center</Align>
+                  </Style>
+                  <Span>
+                   <Text>Möchtest du die Abschlags-Höhe anpassen, oder die Abschlags-Termine, ruf uns einfach an.</Text>
+                  </Span>
+                 </Par>
+                </Container>
+               </Cell>
+              </Row>
+             </Table>
+            </ContainerPart>
+           </Container>
+          </Cell>
+         </Row>
+        </Table>
+       </ContainerExtension>
+      </Extensions>
+      <Param name="Message"></Param>
+      <Param name="Instance"></Param>
+      <Param name="Subject2"></Param>
+      <Param name="Subject3"></Param>
+      <Param name="Subject1">$Subject1</Param>
+     </DocumentPartRef>
+     <DocumentPart>
+      <VisibleIf><![CDATA[$billing_data.template.contract.flag_electricity.toString() == '1']]></VisibleIf>
+      <DataDefinition></DataDefinition>
+      <DocumentPartRef uri="\\Framework_Training\Framework\DocumentParts\Attachment\Attachment.model">
+       <Extensions>
+        <ContainerExtension id="Attachment Content">
+         <ContainerPartRef uri="\\Training_Billing\Models\ContentBillingElectricity.model">
+          <Param name="billing_data">$billing_data</Param>
+         </ContainerPartRef>
+        </ContainerExtension>
+       </Extensions>
+      </DocumentPartRef>
+     </DocumentPart>
+     <DocumentPart>
+      <VisibleIf><![CDATA[$billing_data.template.contract.flag_gas.toString() == '1']]></VisibleIf>
+      <DataDefinition></DataDefinition>
+      <DocumentPartRef uri="\\Framework_Training\Framework\DocumentParts\Attachment\Attachment.model">
+       <Extensions>
+        <ContainerExtension id="Attachment Content">
+         <ContainerPartRef uri="\\Training_Billing\Models\ContentBillingGas.model">
+          <Param name="billing_data">$billing_data</Param>
+         </ContainerPartRef>
+        </ContainerExtension>
+       </Extensions>
+      </DocumentPartRef>
+     </DocumentPart>
+     <DocumentPart>
+      <VisibleIf><![CDATA[$billing_data.template.contract.flag_water.toString() == '1']]></VisibleIf>
+      <DataDefinition></DataDefinition>
+      <DocumentPartRef uri="\\Framework_Training\Framework\DocumentParts\Attachment\Attachment.model">
+       <Extensions>
+        <ContainerExtension id="Attachment Content">
+         <ContainerPartRef uri="\\Training_Billing\Models\ContentBillingWater.model">
+          <Param name="billing_data">$billing_data</Param>
+         </ContainerPartRef>
+        </ContainerExtension>
+       </Extensions>
+      </DocumentPartRef>
+     </DocumentPart>
+     <DocumentPart>
+      <VisibleIf><![CDATA[$billing_data.template.contract.flag_heat.toString() == '1']]></VisibleIf>
+      <DataDefinition></DataDefinition>
+      <DocumentPartRef uri="\\Framework_Training\Framework\DocumentParts\Attachment\Attachment.model">
+       <Extensions>
+        <ContainerExtension id="Attachment Content">
+         <ContainerPartRef uri="\\Training_Billing\Models\ContentBillingHeat.model">
+          <Param name="billing_data">$billing_data</Param>
+         </ContainerPartRef>
+        </ContainerExtension>
+       </Extensions>
+      </DocumentPartRef>
+     </DocumentPart>
+    </DocumentExtension>
+   </Extensions>
+   <Param name="Message">$TaskControl.Message.instance(0)</Param>
+   <Param name="Subject2"></Param>
+   <Param name="Subject3"></Param>
+   <Param name="Subject1">"Deine Verbrauchsabrechnung"</Param>
+   <Param name="Subject1">$Subject1</Param>
+   <Param name="Subject1">$Subject1</Param>
+  </DocumentPartRef>
+ </Document>
+</RootPart>

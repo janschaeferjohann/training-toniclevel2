@@ -1,0 +1,328 @@
+<ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
+ <DataDefinition>
+  <ParamDef name="billing_data" ref="\\Framework_Training\Data\billing_data.datamodel"></ParamDef>
+  <ParamDef name="contract">
+   <Description></Description>
+   <Input text-prefix="" text-suffix=""></Input>
+   <Output text-prefix="" text-suffix=""></Output>
+   <Script></Script>
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true">
+    <Values></Values>
+   </Validation>
+  </ParamDef>
+ </DataDefinition>
+ <Table>
+  <Headers>
+   <Header>
+    <Row>
+     <Cell colSpan="2">
+      <Container>
+       <Par>
+        <Style parentName="Tarifauswahl_Fett"></Style>
+        <Span>
+         <Text>Was sind die Grundlagen Ihrer </Text>
+         <Data>$contract</Data>
+         <Text> Rechnung</Text>
+        </Span>
+       </Par>
+      </Container>
+     </Cell>
+    </Row>
+   </Header>
+  </Headers>
+  <Columns>
+   <Column>
+    <Style>
+     <ColumnWidth>154281.0mpt</ColumnWidth>
+    </Style>
+   </Column>
+   <Column>
+    <Style>
+     <ColumnWidth>auto</ColumnWidth>
+    </Style>
+   </Column>
+  </Columns>
+  <Style parentName="TabelleHeaderFooterBlau"></Style>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Verbrauchsstelle</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.street</Data>
+       <Text> </Text>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.houseno</Data>
+       <Text>, </Text>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.appartment</Data>
+       <Text> </Text>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.addresssupplement</Data>
+       <Text>, </Text>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.zip</Data>
+       <Text> </Text>
+       <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.city</Data>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <TablePart>
+   <VisibleIf><![CDATA[$contract.toString() == 'Strom']]></VisibleIf>
+   <DataDefinition></DataDefinition>
+   <Row>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Text>Zählpunkt</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Data>$billing_data.billing.basedata.section.consumption_point.counter</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </TablePart>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Zählernummer</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <RowPart>
+    <ForEach><![CDATA[]]></ForEach>
+    <DataDefinition></DataDefinition>
+    <RowPart>
+     <ForEach><![CDATA[]]></ForEach>
+     <DataDefinition></DataDefinition>
+     <Cell>
+      <Container>
+       <ContainerPart>
+        <ForEach><![CDATA[$billing_data.billing.basedata.section.contracts.contract]]></ForEach>
+        <DataDefinition></DataDefinition>
+        <ContainerPart>
+         <VisibleIf><![CDATA[$contract.name.toString() == $contract]]></VisibleIf>
+         <DataDefinition></DataDefinition>
+         <Par>
+          <Span>
+           <Data>$contract.counter</Data>
+           <Text></Text>
+          </Span>
+         </Par>
+        </ContainerPart>
+       </ContainerPart>
+      </Container>
+     </Cell>
+    </RowPart>
+   </RowPart>
+  </Row>
+  <TablePart>
+   <VisibleIf><![CDATA[$contract.toString() == 'Strom']]></VisibleIf>
+   <DataDefinition></DataDefinition>
+   <Row>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Text>Netzbetreiber</Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+    <Cell>
+     <Container>
+      <Par>
+       <Span>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.companyname1</Data>
+        <Text> </Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.companyname2</Data>
+        <Text> </Text>
+        <Text> </Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.addresssupplement</Data>
+        <Text> </Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.street</Data>
+        <Text> </Text>
+        <Text></Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.houseno</Data>
+        <Text>, </Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.zip</Data>
+        <Text> </Text>
+        <Data>$billing_data.instance(0).billing.basedata.section.consumption_point.carrier.city</Data>
+        <Text></Text>
+       </Span>
+      </Par>
+     </Container>
+    </Cell>
+   </Row>
+  </TablePart>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Vertragskonto</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Data>$billing_data.instance(0).billing.basedata.partnerid</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Lieferbeginn</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <ContainerPart>
+      <ForEach><![CDATA[$billing_data.billing.basedata.section.contracts.contract]]></ForEach>
+      <DataDefinition></DataDefinition>
+      <ContainerPart>
+       <VisibleIf><![CDATA[$contract.name.toString() == $contract]]></VisibleIf>
+       <DataDefinition></DataDefinition>
+       <Par>
+        <Span>
+         <Data>$contract.begin_date</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </ContainerPart>
+     </ContainerPart>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Kündigungsfrist</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <ContainerPart>
+      <ForEach><![CDATA[$billing_data.billing.basedata.section.contracts.contract]]></ForEach>
+      <DataDefinition></DataDefinition>
+      <ContainerPart>
+       <VisibleIf><![CDATA[$contract.name.toString() == $contract]]></VisibleIf>
+       <DataDefinition></DataDefinition>
+       <Par>
+        <Span>
+         <Data>$contract.noticeperiod</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </ContainerPart>
+     </ContainerPart>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Nächster Kündigungstermin</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <ContainerPart>
+      <ForEach><![CDATA[$billing_data.billing.basedata.section.contracts.contract]]></ForEach>
+      <DataDefinition></DataDefinition>
+      <ContainerPart>
+       <VisibleIf><![CDATA[$contract.name.toString() == $contract]]></VisibleIf>
+       <DataDefinition></DataDefinition>
+       <Par>
+        <Span>
+         <Data>$contract.termination_date</Data>
+         <Text></Text>
+        </Span>
+       </Par>
+      </ContainerPart>
+     </ContainerPart>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>SEPA Mandant aktiv</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Data>$billing_data.instance(0).billing.basedata.bank_account.sepa.direct_debit</Data>
+       <Text></Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+  <Row>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Text>Zahlungsmodus</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+   <Cell>
+    <Container>
+     <Par>
+      <Span>
+       <Data>$billing_data.instance(0).billing.billdata.anticipated_payments.nextanticipated_payments.amount_anticipated_payments</Data>
+       <Text> Abschläge pro Jahr</Text>
+      </Span>
+     </Par>
+    </Container>
+   </Cell>
+  </Row>
+ </Table>
+</ContainerPart>
