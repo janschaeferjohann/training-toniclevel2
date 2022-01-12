@@ -929,7 +929,7 @@
   </Root>
   <DataSourceProperties>
    <Property value="\\Framework_TONIC_Demo\Data\auftrag_1korr_1ex_1empf_zentral.xml" name="Auftragssteuerung.FILE_NAME"></Property>
-   <Property value="\\Framework_Training\Testdata\Vorlagen2-Willkommen.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Welcome.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="1 Instance with recipient proxy (local printing)" includeInRegressionTool="false">

@@ -9,7 +9,7 @@
   <LeftIndent>0.0mpt</LeftIndent>
   <RightIndent>0.0mpt</RightIndent>
  </ParStyle>
-  <TableStyle name="TabelleFormularTarifauswahlInnen">
+  <TableStyle name="TabelleFormularTariffauswahlInnen">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -296,13 +296,13 @@
    <TextColor>rgb(0,200,0)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Tarifauswahl_Fett" parentName="Standard">
+ <ParStyle name="Tariffauswahl_Fett" parentName="Standard">
   <SpanStyle>
    <FontSize>10000.0mpt</FontSize>
    <FontStyle>bold</FontStyle>
   </SpanStyle>
  </ParStyle>
- <TableStyle name="TabelleFormularTarifauswahl" parentName="TabelleMatrixNoPadding">
+ <TableStyle name="TabelleFormularTariffauswahl" parentName="TabelleMatrixNoPadding">
   <RowStyle>
    <CellStyle>
     <Border>

@@ -7,7 +7,7 @@
  </Style>
  <DocumentPart>
   <DataDefinition></DataDefinition>
-    <AttachmentSection url="mtx://Framework_Training/Graphics/Preisblatt - sam.energy.pdf">
+    <AttachmentSection url="mtx://Framework_Training/Graphics/Price sheet - sam.energy.pdf">
   <StaticContainer>
    <Style>
     <RegionRef>letterinfo</RegionRef>
@@ -15,7 +15,7 @@
    <Par>
     <Span>
      <Marker name="Anlagen">
-      <Text>Preisblatt Stromtarife</Text>
+      <Text>Price sheet Stromtarife</Text>
      </Marker>
     </Span>
    </Par>

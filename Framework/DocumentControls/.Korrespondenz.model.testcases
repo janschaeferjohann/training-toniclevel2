@@ -108,7 +108,7 @@
              </DataNode>
             </DataNode>
            </DataNode>
-           <DataNode name="istGueltig">
+           <DataNode name="isValid">
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="BriefAnrede">
@@ -120,7 +120,7 @@
           </DataNode>
          </DataNode>
          <DataNode name="Empfaenger">
-          <DataNode name="istGueltig">
+          <DataNode name="isValid">
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="BriefAnrede">
@@ -131,7 +131,7 @@
           </DataNode>
          </DataNode>
          <DataNode name="AlternativEmpfaenger">
-          <DataNode name="istGueltig">
+          <DataNode name="isValid">
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="BriefAnrede">
@@ -190,7 +190,7 @@
                </DataNode>
               </DataNode>
              </DataNode>
-             <DataNode name="istGueltig">
+             <DataNode name="isValid">
               <Value><![CDATA[bool:false]]></Value>
              </DataNode>
              <DataNode name="BriefAnrede">
@@ -202,7 +202,7 @@
             </DataNode>
            </DataNode>
            <DataNode name="Empfaenger">
-            <DataNode name="istGueltig">
+            <DataNode name="isValid">
              <Value><![CDATA[bool:false]]></Value>
             </DataNode>
             <DataNode name="BriefAnrede">
@@ -213,7 +213,7 @@
             </DataNode>
            </DataNode>
            <DataNode name="AlternativEmpfaenger">
-            <DataNode name="istGueltig">
+            <DataNode name="isValid">
              <Value><![CDATA[bool:false]]></Value>
             </DataNode>
             <DataNode name="BriefAnrede">

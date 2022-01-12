@@ -10,7 +10,7 @@
 				<city>Freiburg</city>
 				<senderline>sam.energy - Alfred-Döblin-Platz 59 – 79100 Freiburg
 				</senderline>
-				<istGueltig>ja</istGueltig>
+				<isValid>ja</isValid>
 				<Partner>
 					<partnerid>99887766</partnerid>
 					<userid>reutlinger</userid>
@@ -69,7 +69,7 @@
 				</user>
 			</sender>
 			<recipient>
-				<istGueltig>ja</istGueltig>
+				<isValid>ja</isValid>
 				<Partner>
 					<partnerid>202101040815</partnerid>
 					<userid></userid>
@@ -187,7 +187,7 @@
 									<begin_date>01.11.2020</begin_date>
 									<termination_date>30.12.2020</termination_date>
 									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monate</renewal>
+									<renewal>6 Monthe</renewal>
 									<counter>56845258</counter>
 								</contract>
 								<contract>
@@ -196,7 +196,7 @@
 									<contractsId>2020-99.128</contractsId>
 									<begin_date>01.11.2020</begin_date>
 									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monate</renewal>
+									<renewal>6 Monthe</renewal>
 									<counter>1512548</counter>
 								</contract>
 							</contracts>
@@ -259,7 +259,7 @@
 						</items>
 						<anticipated_payments>
 							<payment_text></payment_text>
-							<appointment>Anfang des Monats</appointment>
+							<appointment>Anfang des Months</appointment>
 							<paideanticipated_payments>
 								<amount_anticipated_payments>8</amount_anticipated_payments>
 								<previous_sum></previous_sum>

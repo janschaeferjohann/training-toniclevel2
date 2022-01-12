@@ -12,9 +12,9 @@
                      operator="ANY"
                      validation-type="LIST">
             <Values>
-               <Value content="Anfang des Monats" valId="1"/>
-               <Value content="Mitte des Monats" valId="2"/>
-               <Value content="Ende des Monats" valId="3"/>
+               <Value content="Anfang des Months" valId="1"/>
+               <Value content="Mitte des Months" valId="2"/>
+               <Value content="Ende des Months" valId="3"/>
             </Values>
          </Validation>
          <Format>

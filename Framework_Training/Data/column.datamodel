@@ -3,19 +3,21 @@
    <Node data-type="TEXT"
          hierarchical="FLAT"
          multiple="false"
-         name="Datum"
+         name="Date"
          searchable="false">
       <Settings>
          <Validation allow-empty-value="true"
                      dialog-field=""
                      label=""
                      operator="ANY"
-                     validation-type="ANY_VALUE"/>
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
          <Format>
             <Input/>
             <Output/>
          </Format>
-         <Script></Script>
+         <Script/>
       </Settings>
    </Node>
    <Node data-type="TEXT"
@@ -35,13 +37,13 @@
             <Input/>
             <Output/>
          </Format>
-         <Script></Script>
+         <Script/>
       </Settings>
    </Node>
    <Node data-type="TEXT"
          hierarchical="FLAT"
          multiple="false"
-         name="Monat"
+         name="Month"
          searchable="false">
       <Settings>
          <Validation allow-empty-value="true"
@@ -55,7 +57,7 @@
             <Input/>
             <Output/>
          </Format>
-         <Script></Script>
+         <Script/>
       </Settings>
    </Node>
 </DataModel>

@@ -10,7 +10,7 @@
 				<city>Freiburg</city>
 				<senderline>JW Energie - Alfred-Döblin-Platz 59 – 79100 Freiburg
 				</senderline>
-				<istGueltig>ja</istGueltig>
+				<isValid>ja</isValid>
 				<Partner>
 					<partnerid>99887766</partnerid>
 					<userid>reutlinger</userid>
@@ -71,7 +71,7 @@
 				</user>
 			</sender>
 			<recipient>
-				<istGueltig>ja</istGueltig>
+				<isValid>ja</isValid>
 				<Partner>
 					<partnerid>202017070815</partnerid>
 					<userid></userid>
@@ -177,7 +177,7 @@
 									<begin_date>01.03.2012</begin_date>
 									<termination_date>31.08.2020</termination_date>
 									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monate</renewal>
+									<renewal>6 Monthe</renewal>
 									<counter>88845258</counter>
 								</contract>
 								<contract>
@@ -187,7 +187,7 @@
 									<begin_date>01.03.2012</begin_date>
 									<termination_date>31.08.2020</termination_date>
 									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monate</renewal>
+									<renewal>6 Monthe</renewal>
 									<counter>51124258</counter>
 								</contract>
 								<contract>
@@ -197,7 +197,7 @@
 									<begin_date>01.03.2012</begin_date>
 									<termination_date>31.08.2020</termination_date>
 									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monate</renewal>
+									<renewal>6 Monthe</renewal>
 									<counter>SW25258</counter>
 								</contract>
 							</contracts>

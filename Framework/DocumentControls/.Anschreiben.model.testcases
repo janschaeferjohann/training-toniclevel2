@@ -126,7 +126,7 @@
           <Data>
            <DataNode name="Empfaenger" valueChanged="true">
             <Value><![CDATA[string:$Exemplar.AlternativEmpfaenger]]></Value>
-            <DataNode name="istGueltig">
+            <DataNode name="isValid">
              <Value><![CDATA[bool:false]]></Value>
             </DataNode>
             <DataNode name="BriefAnrede">
@@ -141,7 +141,7 @@
             <DataNode name="NameVorname">
              <Value><![CDATA[string:]]></Value>
             </DataNode>
-            <DataNode name="istGueltig">
+            <DataNode name="isValid">
              <Value><![CDATA[bool:false]]></Value>
             </DataNode>
             <DataNode name="BriefAnrede">

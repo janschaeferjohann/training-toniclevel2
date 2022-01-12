@@ -483,27 +483,27 @@
 		
 		if (varColumn == 1) {
 			A = $current.add($current.column1, "");
-			A.add(A.Datum, dateOutput);
+			A.add(A.Date, dateOutput);
 			A.add(A.Betrag, dataPath.next_amount);
-			A.add(A.Monat, yearOutput);
+			A.add(A.Month, yearOutput);
 		};
 		if (varColumn == 2) {
 			B = $current.add($current.column2, "");
-			B.add(B.Datum, dateOutput);		
+			B.add(B.Date, dateOutput);		
 			B.add(B.Betrag, dataPath.next_amount);
-			B.add(B.Monat, yearOutput);
+			B.add(B.Month, yearOutput);
 		};
 		if (varColumn == 3) {
 			C = $current.add($current.column3, "");
-			C.add(C.Datum, dateOutput);		
+			C.add(C.Date, dateOutput);		
 			C.add(C.Betrag, dataPath.next_amount);
-			C.add(C.Monat, yearOutput);
+			C.add(C.Month, yearOutput);
 		};
 		if (varColumn == 4) {
 			D = $current.add($current.column4, "");
-			D.add(D.Datum, dateOutput);		
+			D.add(D.Date, dateOutput);		
 			D.add(D.Betrag, dataPath.next_amount);
-			D.add(D.Monat, yearOutput);
+			D.add(D.Month, yearOutput);
 		};		
 
 		varColumn = varColumn + 1;

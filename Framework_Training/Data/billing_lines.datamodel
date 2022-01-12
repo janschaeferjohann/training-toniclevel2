@@ -7,7 +7,7 @@
       <Node data-type="DATETIME"
             hierarchical="FLAT"
             multiple="false"
-            name="DatumBis"
+            name="DateTo"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -30,7 +30,7 @@
       <Node data-type="DATETIME"
             hierarchical="FLAT"
             multiple="false"
-            name="DatumVon"
+            name="DateFrom"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -53,7 +53,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="Zaehler"
+            name="Counter"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -73,7 +73,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="PositionNr"
+            name="PositionNo"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -93,7 +93,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="Tarif"
+            name="Tariff"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -133,7 +133,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="Menge"
+            name="Amount"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -153,7 +153,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="Preis"
+            name="Price"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -173,7 +173,7 @@
       <Node data-type="NUMBER"
             hierarchical="FLAT"
             multiple="false"
-            name="Netto"
+            name="Net"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -202,7 +202,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="Tarif_Flag"
+            name="Tariff_Flag"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -222,7 +222,7 @@
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="PreisArt"
+            name="PriceType"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"

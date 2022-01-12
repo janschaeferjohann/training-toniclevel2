@@ -67,7 +67,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="change_Of_Tariff"
+            name="change_Of_Tarifff"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"

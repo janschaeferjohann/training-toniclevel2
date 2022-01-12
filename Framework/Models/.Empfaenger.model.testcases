@@ -33,7 +33,7 @@
     <ContainerPartInstance partIndex="0">
      <Data>
       <DataNode name="Empfaenger">
-       <DataNode name="istGueltig" value="bool:false"></DataNode>
+       <DataNode name="isValid" value="bool:false"></DataNode>
        <DataNode name="BriefAnrede" value="string:Sehr geehrte Damen und Herren"></DataNode>
        <DataNode name="NameVorname" value="string:"></DataNode>
       </DataNode>
