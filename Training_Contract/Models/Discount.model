@@ -24,7 +24,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -36,7 +36,7 @@
      <Cell colSpan="2">
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -48,7 +48,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -60,7 +60,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -72,7 +72,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -84,7 +84,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -102,7 +102,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text>Gesamtbetrag</Text>
         </Span>
@@ -112,7 +112,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -122,7 +122,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -132,7 +132,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -142,7 +142,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -155,7 +155,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -168,7 +168,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -219,7 +219,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleZebraFarbe"></Style>
+  <Style parentName="TableZebraColoured"></Style>
   <TablePart>
    <ForEach><![CDATA[$contract_data.anticipated_payments.nextanticipated_payments.amount]]></ForEach>
    <DataDefinition></DataDefinition>
@@ -227,7 +227,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich"></Style>
+       <Style parentName="FW_InfoArea"></Style>
        <Span>
         <Data>$amount.name</Data>
         <Text></Text>
@@ -238,7 +238,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -250,7 +250,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich"></Style>
+       <Style parentName="FW_InfoArea"></Style>
        <Span>
         <Text></Text>
        </Span>
@@ -260,7 +260,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -275,7 +275,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -288,7 +288,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -301,7 +301,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -346,7 +346,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleMatrixNoPadding"></Style>
+  <Style parentName="TableMatrixNoPadding"></Style>
   <Row>
    <RowPart>
     <ForEach><![CDATA[$contract_data.template.paymentslist.payment]]></ForEach>
@@ -449,7 +449,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell>
     <Style>

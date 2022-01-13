@@ -16,7 +16,7 @@
   </DataNodeDef>
  </DataDefinition>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Text>Hier findest du die Aufschlüsselung der Pricee und der gesetzlichen Umlagen und Abgaben.</Text>
   </Span>

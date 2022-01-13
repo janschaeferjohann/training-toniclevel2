@@ -92,7 +92,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuehlstrom_Oeko"
+            name="feelgood_energy_eco"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -112,7 +112,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_Oeko_Loerrach"
+            name="feelgood_energy_eco_Loerrach"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -132,7 +132,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_Oeko_Bonndorf_Feldberg"
+            name="feelgood_energy_eco_Bonndorf_Feldberg"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -152,7 +152,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_Oekofix2022"
+            name="feelgood_energy_ecofix2022"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -172,7 +172,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_Oekofix2022_Loerrach"
+            name="feelgood_energy_ecofix2022_Loerrach"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -192,7 +192,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_Oekofix2022_Bonndorf_Feldberg"
+            name="feelgood_energy_ecofix2022_Bonndorf_Feldberg"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -212,7 +212,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoHeat"
+            name="feelgood_energy_ecoHeat"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -232,7 +232,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoHeat_Loerrach"
+            name="feelgood_energy_ecoHeat_Loerrach"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -252,7 +252,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuelstrom_OekoHeat_Bonndorf_Feldberg"
+            name="feelgood_energy_ecoHeat_Bonndorf_Feldberg"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -272,7 +272,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuehlstrom_OekoMobil"
+            name="feelgood_energy_ecoMobile"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -292,7 +292,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuehlstrom_OekoMobil_Loerrach"
+            name="feelgood_energy_ecoMobile_Loerrach"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"
@@ -312,7 +312,7 @@
       <Node data-type="BOOLEAN"
             hierarchical="FLAT"
             multiple="false"
-            name="wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg"
+            name="feelgood_energy_ecoMobile_Bonndorf_Feldberg"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"

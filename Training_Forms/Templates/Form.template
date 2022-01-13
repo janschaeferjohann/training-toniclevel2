@@ -15,7 +15,7 @@
   <Section>
    <Style parentName="Form">
     <ContainerStyle>
-     <ParStyle name="FormularTextFett">
+     <ParStyle name="FormTextBold">
       <SpanStyle>
        <FontSize>9000.0mpt</FontSize>
        <FontStyle>bold</FontStyle>
@@ -23,21 +23,21 @@
      </ParStyle>
     </ContainerStyle>
     <ContainerStyle>
-     <ParStyle name="FormularText">
+     <ParStyle name="FormText">
       <SpanStyle>
        <FontSize>9000.0mpt</FontSize>
       </SpanStyle>
      </ParStyle>
     </ContainerStyle>
     <ContainerStyle>
-     <ParStyle name="FormularTextKlein">
+     <ParStyle name="FormTextSmall">
       <SpanStyle>
        <FontSize>7500.0mpt</FontSize>
       </SpanStyle>
      </ParStyle>
     </ContainerStyle>
     <ContainerStyle>
-     <ParStyle name="FormularTextRegion">
+     <ParStyle name="FormTextRegion">
       <SpanStyle>
        <FontSize>9000.0mpt</FontSize>
       </SpanStyle>
@@ -65,7 +65,7 @@
     <Style>
      <RegionRef>Body</RegionRef>
     </Style>
-    <Table id="Art_Lieferantenwechsel">
+    <Table id="Supplier Change Type">
      <Columns>
       <Column>
        <Style>
@@ -98,7 +98,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleMatrixNoPadding">
+     <Style parentName="TableMatrixNoPadding">
       <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
      </Style>
      <Row>
@@ -111,7 +111,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextFett"></Style>
+         <Style parentName="FormTextBold"></Style>
          <Span>
           <InlineField dataNode="$Form.type.change_Of_Supplier"></InlineField>
          </Span>
@@ -130,7 +130,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularText"></Style>
+         <Style parentName="FormText"></Style>
          <Span>
           <Text>Aktueller Lieferant:</Text>
          </Span>
@@ -169,7 +169,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularText"></Style>
+         <Style parentName="FormText"></Style>
          <Span>
           <Text>Kundennummer dort:</Text>
          </Span>
@@ -192,7 +192,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Art_Einzug">
+    <Table id="Collection Type">
      <Columns>
       <Column>
        <Style>
@@ -240,7 +240,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleMatrixNoPadding">
+     <Style parentName="TableMatrixNoPadding">
       <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
      </Style>
      <Row>
@@ -253,7 +253,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextFett"></Style>
+         <Style parentName="FormTextBold"></Style>
          <Span>
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
@@ -271,7 +271,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularText"></Style>
+         <Style parentName="FormText"></Style>
          <Span>
           <Text>Einzugsdatum:</Text>
          </Span>
@@ -307,7 +307,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextFett"></Style>
+         <Style parentName="FormTextBold"></Style>
          <Span>
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
@@ -325,7 +325,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularText"></Style>
+         <Style parentName="FormText"></Style>
          <Span>
           <Text>Einbaudatum:</Text>
          </Span>
@@ -361,7 +361,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularText"></Style>
+         <Style parentName="FormText"></Style>
          <Span>
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
@@ -374,7 +374,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Wohlfühlstrom_Öko">
+    <Table id="Feel-good Energy Eco">
      <Columns>
       <Column>
        <Style>
@@ -397,7 +397,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTariffauswahl"></Style>
+     <Style parentName="TableFormTariffSelection"></Style>
      <Row>
       <Style>
        <BackgroundColor>rgb(242,242,242)</BackgroundColor>
@@ -423,7 +423,7 @@
        <Container>
         <Par>
          <Span>
-          <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_Oeko"></InlineField>
+          <InlineField dataNode="$Form.tariffSelection.feelgood_energy_eco"></InlineField>
          </Span>
         </Par>
        </Container>
@@ -434,7 +434,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
           <Text>Wohlfühlstrom Öko</Text>
          </Span>
@@ -466,7 +466,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
+         <Style parentName="TableFormTariffSelectionInside"></Style>
          <Row>
           <Cell>
            <Style>
@@ -475,7 +475,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oeko_Loerrach"></InlineField>
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_eco_Loerrach"></InlineField>
               <Text></Text>
              </Span>
             </Par>
@@ -487,13 +487,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Stadtgebiet Freiburg </Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text> (Netzgebiet des sam.net - Stadtverbundes)</Text>
              </Span>
@@ -506,13 +506,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -525,13 +525,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>27,35 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>8,75 €/Month</Text>
              </Span>
@@ -547,7 +547,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oeko_Bonndorf_Feldberg"></InlineField>
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_eco_Bonndorf_Feldberg"></InlineField>
               <Text></Text>
              </Span>
             </Par>
@@ -559,13 +559,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Umlandgemeinden Breisgau</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text></Text>
              </Span>
@@ -581,13 +581,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -600,13 +600,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>28,10 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>10,41 €/Month</Text>
              </Span>
@@ -619,7 +619,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Wohlfühlstrom_Ökofix2022">
+    <Table id="Feel-good Energy Ecofix2022">
      <Columns>
       <Column>
        <Style>
@@ -642,7 +642,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTariffauswahl"></Style>
+     <Style parentName="TableFormTariffSelection"></Style>
      <Row>
       <Style>
        <BackgroundColor>rgb(242,242,242)</BackgroundColor>
@@ -667,7 +667,7 @@
        <Container>
         <Par>
          <Span>
-          <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022"></InlineField>
+          <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecofix2022"></InlineField>
           <Text></Text>
          </Span>
         </Par>
@@ -679,7 +679,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
           <Text>Wohlfühlstrom Ökofix 2022</Text>
           <Text></Text>
@@ -712,7 +712,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
+         <Style parentName="TableFormTariffSelectionInside"></Style>
          <Row>
           <Cell>
            <Style>
@@ -721,7 +721,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022_Loerrach"></InlineField>
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecofix2022_Loerrach"></InlineField>
               <Text></Text>
              </Span>
             </Par>
@@ -733,13 +733,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Stadtgebiet Freiburg</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>(Netzgebiet des sam.net - Stadtverbundes)</Text>
              </Span>
@@ -752,13 +752,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -768,13 +768,13 @@
           <Cell>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>28,08 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>8,75 €/Month</Text>
              </Span>
@@ -790,7 +790,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuelstrom_Oekofix2022_Bonndorf_Feldberg">
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecofix2022_Bonndorf_Feldberg">
                <Style>
                 <Margin top="0.2cm" right="0.0cm" bottom="0.0mpt" left="0.0mpt"></Margin>
                </Style>
@@ -806,7 +806,7 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Style>
                <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Margin>
@@ -815,7 +815,7 @@
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>(Netzgebiet der WackyNet AG)</Text>
              </Span>
@@ -828,13 +828,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -847,13 +847,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>28,99 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>10,45 €/Month</Text>
              </Span>
@@ -866,7 +866,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Wohlfühlstrom_Öko_mobil">
+    <Table id="Feel-good Energy Eco mobile">
      <Columns>
       <Column>
        <Style>
@@ -889,7 +889,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTariffauswahl">
+     <Style parentName="TableFormTariffSelection">
       <SpaceAfter resolution="overwrite">0.4cm</SpaceAfter>
      </Style>
      <Row>
@@ -919,7 +919,7 @@
        <Container>
         <Par>
          <Span>
-          <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil"></InlineField>
+          <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecoMobile"></InlineField>
           <Text></Text>
          </Span>
         </Par>
@@ -931,15 +931,15 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
           <Text>Wohlfühlstrom</Text>
          </Span>
         </Par>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Öko mobil</Text>
+          <Text>Eco mobil</Text>
          </Span>
         </Par>
        </Container>
@@ -969,7 +969,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleFormularTariffauswahlInnen"></Style>
+         <Style parentName="TableFormTariffSelectionInside"></Style>
          <Row>
           <Cell>
            <Style>
@@ -978,7 +978,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil_Loerrach"></InlineField>
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecoMobile_Loerrach"></InlineField>
               <Text></Text>
              </Span>
             </Par>
@@ -990,13 +990,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Stadtgebiet Freiburg</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>(Netzgebiet des sam.net - Stadtnetzverbundes)</Text>
              </Span>
@@ -1009,13 +1009,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -1028,13 +1028,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>28,08 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>8,75 €/Month</Text>
              </Span>
@@ -1050,7 +1050,7 @@
            <Container>
             <Par>
              <Span>
-              <InlineField dataNode="$Form.tariffSelection.wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg">
+              <InlineField dataNode="$Form.tariffSelection.feelgood_energy_ecoMobile_Bonndorf_Feldberg">
                <Style>
                 <Margin top="0.2cm" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Margin>
                </Style>
@@ -1066,13 +1066,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Umlandgemeinden Breisgau</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>(Netzgebiet der WackyNet AG)</Text>
              </Span>
@@ -1085,13 +1085,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Arbeitspreis</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Grundpreis</Text>
              </Span>
@@ -1104,13 +1104,13 @@
            </Style>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>28,99 ct/kWh</Text>
              </Span>
             </Par>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>10,45 €/Month</Text>
              </Span>
@@ -1123,7 +1123,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Lieferanschrift_Salutation">
+    <Table id="Delivery Address Salutation">
      <Columns>
       <Column>
        <Style>
@@ -1201,7 +1201,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTariffauswahl"></Style>
+     <Style parentName="TableFormTariffSelection"></Style>
      <Row>
       <Cell>
        <Container>
@@ -1219,7 +1219,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein">
+         <Style parentName="FormTextSmall">
           <Align>left</Align>
          </Style>
          <Span>
@@ -1244,7 +1244,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Herr</Text>
          </Span>
@@ -1267,7 +1267,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Firma</Text>
          </Span>
@@ -1290,7 +1290,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Andere:</Text>
          </Span>
@@ -1323,7 +1323,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Zahlung am</Text>
          </Span>
@@ -1343,7 +1343,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>1. des Months</Text>
          </Span>
@@ -1363,7 +1363,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>15. des Months</Text>
          </Span>
@@ -1410,7 +1410,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleFormularTariffauswahl"></Style>
+     <Style parentName="TableFormTariffSelection"></Style>
      <Row>
       <Cell>
        <Style>
@@ -1418,7 +1418,7 @@
        </Style>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text></Text>
          </Span>
@@ -1437,7 +1437,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Zahlung per</Text>
          </Span>
@@ -1457,7 +1457,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Überweisung</Text>
          </Span>
@@ -1477,7 +1477,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Lastschrift</Text>
          </Span>
@@ -1486,7 +1486,7 @@
       </Cell>
      </Row>
     </Table>
-    <Table id="Lieferanschrift">
+    <Table id="Delivery Address">
      <Columns>
       <Column>
        <Style>
@@ -1504,7 +1504,7 @@
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleMatrixSmallPadding"></Style>
+     <Style parentName="TableMatrixSmallPadding"></Style>
      <Row>
       <Style>
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
@@ -1512,7 +1512,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.name_surname">
            <Style>
@@ -1548,7 +1548,7 @@ else {
       <Cell rowSpan="2">
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <Text>Der nachstehend genannte Kontoinhaber ermächtigt Zahlungen von dessen Konto der sam Bank Lastschrift einzuziehen. Zugleich weist er sein Kreditinstitut an,
 diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
@@ -1564,7 +1564,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.street_houseNumber">
            <Style>
@@ -1607,7 +1607,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.bank_name">
            <Style>
@@ -1631,7 +1631,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.phone_number">
            <Style>
@@ -1659,7 +1659,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.IBAN">
            <Style>
@@ -1683,7 +1683,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.phone_number">
            <Style>
@@ -1714,7 +1714,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.mailAdress">
            <Style>
@@ -1753,7 +1753,7 @@ else {
       </Cell>
      </Row>
     </Table>
-    <Table id="Zählernummer">
+    <Table id="Meter Number">
      <Columns>
       <Column>
        <Style>
@@ -1771,7 +1771,7 @@ else {
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleMatrixSmallPadding">
+     <Style parentName="TableMatrixSmallPadding">
       <RowStyle>
        <CellStyle>
         <Border></Border>
@@ -1784,7 +1784,7 @@ else {
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.mailAdress">
            <Style>
@@ -1812,7 +1812,7 @@ else {
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FormularTextKlein"></Style>
+         <Style parentName="FormTextSmall"></Style>
          <Span>
           <InlineField dataNode="$Form.deliveryAddress.mailAdress">
            <Style>
@@ -1838,7 +1838,7 @@ else {
       <Param name="Form">$Form</Param>
      </ContainerPartRef>
     </Container>
-    <Table id="Unterschrift">
+    <Table id="Signature">
      <Columns>
       <Column>
        <Style>
@@ -1856,7 +1856,7 @@ else {
        </Style>
       </Column>
      </Columns>
-     <Style parentName="TabelleMatrixSmallPadding"></Style>
+     <Style parentName="TableMatrixSmallPadding"></Style>
      <Row>
       <Cell>
        <Container>
@@ -1873,7 +1873,7 @@ else {
           <Cell>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Date, City</Text>
              </Span>
@@ -1908,7 +1908,7 @@ else {
           <Cell>
            <Container>
             <Par>
-             <Style parentName="FormularTextKlein"></Style>
+             <Style parentName="FormTextSmall"></Style>
              <Span>
               <Text>Unterschrift</Text>
              </Span>

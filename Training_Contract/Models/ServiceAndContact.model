@@ -33,7 +33,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell colSpan="2">
     <Container>
@@ -96,7 +96,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Einfach in Ihrem Serviceportal "Mein sam.energy" anmelden, sam.energy SmartCheck anklicken und aktuellen Zählerstand eingeben.</Text>
+       <Text>Simple in Ihrem Serviceportal "Mein sam.energy" anmelden, sam.energy SmartCheck anklicken und aktuellen Zählerstand eingeben.</Text>
       </Span>
      </Par>
     </Container>
@@ -123,7 +123,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell colSpan="2">
     <Container>
@@ -169,7 +169,7 @@
        <Style>
         <FontStyle></FontStyle>
        </Style>
-       <Text>Mit einem klick haben Sie alles im Blick. Sie können 24 Stunden, 7 Tage die Woche vieles rund um Ihren Vertrag bequem online erledigen.</Text>
+       <Text>Mit einem klick haben Sie alles im Blick. Sie können 24 Stunden, 7 Tage die Week vieles rund um Ihren Vertrag bequem online erledigen.</Text>
       </Span>
      </Par>
      <Par>
@@ -284,7 +284,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell colSpan="2">
     <Container>
@@ -381,7 +381,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell>
     <Container>
@@ -492,7 +492,7 @@
       </Span>
      </Par>
      <Par>
-      <Style parentName="TextAbstandNach"></Style>
+      <Style parentName="TextSpaceAfter"></Style>
       <Span>
        <Text>www.sam-energy.de</Text>
       </Span>
@@ -561,7 +561,7 @@
       </Span>
      </Par>
      <Par>
-      <Style parentName="TextAbstandNach"></Style>
+      <Style parentName="TextSpaceAfter"></Style>
       <Span>
        <Text>sam.energy GmbH</Text>
       </Span>

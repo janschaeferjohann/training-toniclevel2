@@ -13,13 +13,13 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Text>Reibungshitze erzeugt auch Wärme!</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Text></Text>
   </Span>

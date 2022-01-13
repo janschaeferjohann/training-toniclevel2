@@ -1,7 +1,7 @@
 <ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition></DataDefinition>
  <Par>
-  <Style parentName="TextAbstandVor_12pt"></Style>
+  <Style parentName="TextSpaceBefore_12pt"></Style>
   <ParPart>
    <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "ENG"]]></VisibleIf>
    <DataDefinition></DataDefinition>

@@ -44,7 +44,7 @@
         <ContainerPartRef uri="\\Framework\Framework\DocumentParts\Letter\FW_SalutatoryAddress.model"></ContainerPartRef>
         <Container id="Freetext">
          <Par>
-          <Style parentName="TextAbstandNach_12pt"></Style>
+          <Style parentName="TextSpaceAfter_12pt"></Style>
           <Span>
            <Text> --- Text / Bausteine hier einfügen ---</Text>
           </Span>

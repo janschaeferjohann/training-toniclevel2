@@ -32,7 +32,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="Infotext_klein"></Style>
+  <Style parentName="Infotext_small"></Style>
   <Span>
    <Text>Zählpunktbezeichnung</Text>
   </Span>

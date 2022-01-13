@@ -3,9 +3,9 @@
   <ParamDef name="billing_data" ref="Data\billing_data.datamodel"></ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
  </Par>
 </ContainerPart>

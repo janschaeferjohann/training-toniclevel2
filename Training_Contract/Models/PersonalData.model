@@ -28,7 +28,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleInnen"></Style>
+  <Style parentName="TableInnen"></Style>
   <Row>
    <Cell>
     <Style>
@@ -50,7 +50,7 @@
          </Style>
         </Column>
        </Columns>
-       <Style parentName="TabelleInnen"></Style>
+       <Style parentName="TableInnen"></Style>
        <Row>
         <Cell>
          <Style>
@@ -230,7 +230,7 @@
          </Style>
         </Column>
        </Columns>
-       <Style parentName="TabelleInnen"></Style>
+       <Style parentName="TableInnen"></Style>
        <Row>
         <Cell>
          <Style>
@@ -399,7 +399,7 @@
          </Style>
         </Column>
        </Columns>
-       <Style parentName="TabelleInnen"></Style>
+       <Style parentName="TableInnen"></Style>
        <Row>
         <Cell>
          <Container>
@@ -501,7 +501,7 @@
          </Style>
          <Container>
           <Par>
-           <Style parentName="TextAbstandNach"></Style>
+           <Style parentName="TextSpaceAfter"></Style>
            <Span>
             <Data>$contract_data.instance(0).basedata.section.consumption_point.counter</Data>
             <Text></Text>
@@ -538,7 +538,7 @@
            </Span>
           </Par>
           <Par>
-           <Style parentName="TextAbstandNach"></Style>
+           <Style parentName="TextSpaceAfter"></Style>
            <Span>
             <Data>$contract_data.basedata.section.consumption_point.zip</Data>
             <Text> </Text>
@@ -614,7 +614,7 @@
         </Style>
        </Column>
       </Columns>
-      <Style parentName="TabelleUmrandung"></Style>
+      <Style parentName="TableBorder"></Style>
       <Row>
        <Cell>
         <Style>
@@ -679,7 +679,7 @@ Daten nicht?</Text>
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell>
     <Style>

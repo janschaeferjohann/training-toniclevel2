@@ -42,7 +42,7 @@
          <Param name="Recipient">$Recipient</Param>
         </ContainerPartRef>
         <Par>
-         <Style parentName="TextAbstandNach"></Style>
+         <Style parentName="TextSpaceAfter"></Style>
          <Span>
           <Text>Vielen Dank für dein Vertrauen.</Text>
          </Span>
@@ -50,7 +50,7 @@
         <ContainerPart>
          <DataDefinition></DataDefinition>
          <Par>
-          <Style parentName="TextAbstandNach"></Style>
+          <Style parentName="TextSpaceAfter"></Style>
           <Span>
            <Text>Für den gesamten Zeitraum haben wir folgende Beträge ermittelt.:</Text>
           </Span>
@@ -76,7 +76,7 @@
          <Param name="billing_data">$billing_data</Param>
         </ContainerPartRef>
         <Par>
-         <Style parentName="TextAbstandNach">
+         <Style parentName="TextSpaceAfter">
           <KeepWithNext>true</KeepWithNext>
          </Style>
          <Span>
@@ -88,13 +88,13 @@
          <Param name="anticipated_payments">$billing_data.billing.billdata.anticipated_payments</Param>
         </ContainerPartRef>
         <Par>
-         <Style parentName="TextAbstandVor"></Style>
+         <Style parentName="TextSpaceBefore"></Style>
          <Span>
           <Text>Abbuchungstermine für das kommende Jahr</Text>
          </Span>
         </Par>
         <Par>
-         <Style parentName="TextAbstandVor"></Style>
+         <Style parentName="TextSpaceBefore"></Style>
          <Span>
           <Text></Text>
          </Span>
@@ -127,7 +127,7 @@
            </Style>
           </Column>
          </Columns>
-         <Style parentName="TabelleMatrixNoPadding"></Style>
+         <Style parentName="TableMatrixNoPadding"></Style>
          <Row>
           <Cell>
            <Container>
@@ -164,12 +164,12 @@
                 </Style>
                </Column>
               </Columns>
-              <Style parentName="TabelleZebraFarbe"></Style>
+              <Style parentName="TableZebraColoured"></Style>
               <Row>
                <Cell>
                 <Container>
                  <Par>
-                  <Style parentName="FW_Infobereich">
+                  <Style parentName="FW_InfoArea">
                    <Align>center</Align>
                   </Style>
                   <Span>
@@ -184,7 +184,7 @@
                <Cell>
                 <Container>
                  <Par>
-                  <Style parentName="FW_Infobereich">
+                  <Style parentName="FW_InfoArea">
                    <Align>center</Align>
                   </Style>
                   <Span>
@@ -234,7 +234,7 @@
                 </Style>
                </Column>
               </Columns>
-              <Style parentName="TabelleZebraFarbe"></Style>
+              <Style parentName="TableZebraColoured"></Style>
               <Row>
                <Cell>
                 <Container>
@@ -304,7 +304,7 @@
                 </Style>
                </Column>
               </Columns>
-              <Style parentName="TabelleZebraFarbe"></Style>
+              <Style parentName="TableZebraColoured"></Style>
               <Row>
                <Cell>
                 <Container>
@@ -374,7 +374,7 @@
                 </Style>
                </Column>
               </Columns>
-              <Style parentName="TabelleZebraFarbe"></Style>
+              <Style parentName="TableZebraColoured"></Style>
               <Row>
                <Cell>
                 <Container>
@@ -426,7 +426,7 @@
                 </Style>
                </Column>
               </Columns>
-              <Style parentName="TabelleUmrandung"></Style>
+              <Style parentName="TableBorder"></Style>
               <Row>
                <Cell>
                 <Container>

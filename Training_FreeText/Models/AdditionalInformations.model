@@ -2,13 +2,13 @@
  <DataDefinition></DataDefinition>
  <Container>
   <Par>
-   <Style parentName="TextAbstandVor"></Style>
+   <Style parentName="TextSpaceBefore"></Style>
    <Span>
     <Text>Weitere Informationen findest Du auf unserer Webseite.</Text>
    </Span>
   </Par>
   <Par>
-   <Style parentName="TextAbstandNach"></Style>
+   <Style parentName="TextSpaceAfter"></Style>
    <Span>
     <Text>Du kannst uns auch per Mail erreichen.</Text>
    </Span>

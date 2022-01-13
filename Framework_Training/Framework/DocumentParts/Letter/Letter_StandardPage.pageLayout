@@ -25,7 +25,7 @@
   <Right distance="94.0mpt" anchorSide="same"></Right>
   <Bottom distance="0.0mpt" anchorSide="same"></Bottom>
  </Region>
- <Region name="letterinfo" contentRotation="90">
+ <Region name="letterinfo" contentRedation="90">
   <Left distance="0.0mpt" anchorSide="same"></Left>
   <Top distance="523275.0mpt" anchorSide="same"></Top>
   <Right distance="538548.0mpt" anchorSide="same"></Right>

@@ -185,13 +185,13 @@
 							</consumption_point>
 							<contracts>
 								<contract>
-									<rate>Easy Öko-Electricity</rate>
+									<rate>Easy Eco-Electricity</rate>
 									<name>Electricity</name>
 									<contractsId>2020-99.128</contractsId>
 									<begin_date>01.11.2020</begin_date>
 									<termination_date>30.12.2020</termination_date>
-									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monthe</renewal>
+									<noticeperiod>6 Weeks</noticeperiod>
+									<renewal>6 Months</renewal>
 									<counter>56845258</counter>
 								</contract>
 							</contracts>

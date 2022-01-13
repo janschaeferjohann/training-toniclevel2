@@ -45,7 +45,7 @@
    <Style parentName="Mail"></Style>
    <Container>
     <Par>
-     <Style parentName="TextAbstandNach"></Style>
+     <Style parentName="TextSpaceAfter"></Style>
      <Span>
       <Text></Text>
      </Span>

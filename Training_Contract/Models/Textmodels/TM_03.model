@@ -1,7 +1,7 @@
 <ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition></DataDefinition>
  <Par>
-  <Style parentName="TextAbstandVor_12pt"></Style>
+  <Style parentName="TextSpaceBefore_12pt"></Style>
   <Span>
    <Text>Kommen Sie bei Fragen einfach auf uns zu. Sie können uns ganz bequem und flexibel
 erreichen: telefonisch, per Post oder online. Wählen Sie einfach den Weg, der für

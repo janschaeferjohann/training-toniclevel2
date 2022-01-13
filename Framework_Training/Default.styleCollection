@@ -9,7 +9,7 @@
   <LeftIndent>0.0mpt</LeftIndent>
   <RightIndent>0.0mpt</RightIndent>
  </ParStyle>
-  <TableStyle name="TabelleFormularTariffauswahlInnen">
+  <TableStyle name="TableFormTariffSelectionInside">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -59,7 +59,7 @@
    <Bottom width="5000.0mpt" color="rgb(120,192,239)" style="solid"></Bottom>
   </Border>
  </CellStyle>
- <TableStyle name="TabelleInnen">
+ <TableStyle name="TableInnen">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -82,7 +82,7 @@
   <SpaceBefore resolution="overwrite">0.0cm</SpaceBefore>
   <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
  </TableStyle>
- <TableStyle name="TabelleMatrixStandard">
+ <TableStyle name="TableMatrixStandard">
   <RowStyle>
    <CellStyle>
     <Padding top="0.05cm" right="0.05cm" bottom="0.05cm" left="0.3cm"></Padding>
@@ -97,7 +97,7 @@
   <SpaceBefore resolution="combine">0.5cm</SpaceBefore>
   <SpaceAfter resolution="combine">0.5cm</SpaceAfter>
  </TableStyle>
- <TableStyle name="TabelleMatrixNoPadding" parentName="TabelleMatrixStandard">
+ <TableStyle name="TableMatrixNoPadding" parentName="TableMatrixStandard">
   <RowStyle>
    <CellStyle>
     <Margin top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Margin>
@@ -115,7 +115,7 @@
   <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
   <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
  </TableStyle>
- <TableStyle name="TabelleMatrixSmallPadding">
+ <TableStyle name="TableMatrixSmallPadding">
   <RowStyle>
    <CellStyle>
     <Padding top="0.04cm" right="0.04cm" bottom="0.04cm" left="0.03cm"></Padding>
@@ -129,7 +129,7 @@
   </RowStyle>
   <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
  </TableStyle>
- <TableStyle name="TabelleZebraFarbe" parentName="TabelleMatrixSmallPadding">
+ <TableStyle name="TableZebraColoured" parentName="TableMatrixSmallPadding">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -157,7 +157,7 @@
   <SpaceBefore resolution="overwrite">0.0cm</SpaceBefore>
   <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
  </TableStyle>
- <TableStyle name="TabelleHeaderFooterBlau" parentName="TabelleWeiß">
+ <TableStyle name="TableHeaderFooterBlau" parentName="TableWeiß">
   <TableHeaderStyle>
    <RowStyle>
     <BackgroundColor>rgb(228,243,252)</BackgroundColor>
@@ -169,7 +169,7 @@
    </RowStyle>
   </TableFooterStyle>
  </TableStyle>
- <TableStyle name="TabelleZebraGrau" parentName="TabelleMatrixSmallPadding">
+ <TableStyle name="TableZebraGrau" parentName="TableMatrixSmallPadding">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -190,7 +190,7 @@
    <BackgroundColor>rgb(230,233,237)</BackgroundColor>
   </RowStyle>
  </TableStyle>
- <TableStyle name="TabelleWeiß" parentName="TabelleMatrixSmallPadding">
+ <TableStyle name="TableWeiß" parentName="TableMatrixSmallPadding">
   <TableHeaderStyle>
    <Border>
     <Bottom width="500.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
@@ -220,7 +220,7 @@
    <FontSize>9000.0mpt</FontSize>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Infotext_klein" parentName="Standard">
+ <ParStyle name="Infotext_small" parentName="Standard">
   <SpanStyle>
    <FontSize>7500.0mpt</FontSize>
   </SpanStyle>
@@ -251,25 +251,25 @@
    <TextColor>rgb(0,114,188)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Überschrift1" parentName="Ueberschrift">
+ <ParStyle name="Header1" parentName="Ueberschrift">
   <Role>H1</Role>
  </ParStyle>
- <ParStyle name="Überschrift2" parentName="Ueberschrift">
+ <ParStyle name="Header2" parentName="Ueberschrift">
   <Role>H2</Role>
  </ParStyle>
- <ParStyle name="Überschrift3" parentName="Ueberschrift">
+ <ParStyle name="Header3" parentName="Ueberschrift">
   <Role>H3</Role>
  </ParStyle>
- <ParStyle name="Überschrift4" parentName="Ueberschrift">
+ <ParStyle name="Header4" parentName="Ueberschrift">
   <Role>H4</Role>
  </ParStyle>
  <ParStyle name="infotext_Artifact" parentName="Infotext">
   <Role>Artifact</Role>
  </ParStyle>
- <ParStyle name="infotext_klein_Artifact" parentName="Infotext_klein">
+ <ParStyle name="infotext_small_Artifact" parentName="Infotext_small">
   <Role>Artifact</Role>
  </ParStyle>
- <TableStyle name="TabelleUmrandung" parentName="TabelleMatrixSmallPadding">
+ <TableStyle name="TableBorder" parentName="TableMatrixSmallPadding">
   <TableHeaderStyle></TableHeaderStyle>
   <TableFooterStyle></TableFooterStyle>
   <Border>
@@ -286,12 +286,12 @@
    <FontStyle>bold</FontStyle>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="FW_Rot" parentName="FW_InfobereichFett">
+ <ParStyle name="FW_Red" parentName="FW_InfoAreaBold">
   <SpanStyle>
    <TextColor>rgb(200,0,0)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="FW_Gruen" parentName="FW_InfobereichFett">
+ <ParStyle name="FW_Gruen" parentName="FW_InfoAreaBold">
   <SpanStyle>
    <TextColor>rgb(0,200,0)</TextColor>
   </SpanStyle>
@@ -302,7 +302,7 @@
    <FontStyle>bold</FontStyle>
   </SpanStyle>
  </ParStyle>
- <TableStyle name="TabelleFormularTariffauswahl" parentName="TabelleMatrixNoPadding">
+ <TableStyle name="TableFormTariffSelection" parentName="TableMatrixNoPadding">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -351,26 +351,26 @@
  <AttachmentSectionStyle name="Anlage_AVB">
   <PageLayouts parentRef="Framework\DocumentParts\Attachment\Attachment_letter.pageLayouts"></PageLayouts>
  </AttachmentSectionStyle>
- <ParStyle name="TextAbstandNach_12pt" parentName="Standard">
+ <ParStyle name="TextSpaceAfter_12pt" parentName="Standard">
   <Role>P</Role>
   <SpaceAfter>12000.0mpt</SpaceAfter>
   <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
  </ParStyle>
- <ParStyle name="TextAbstandVor_12pt" parentName="Standard">
+ <ParStyle name="TextSpaceBefore_12pt" parentName="Standard">
   <Role>P</Role>
   <SpaceBefore>12000.0mpt</SpaceBefore>
   <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
  </ParStyle>
- <ParStyle name="TextAbstandVorUndNach_12pt" parentName="Standard">
+ <ParStyle name="TextSpaceBeforeAndAfter_12pt" parentName="Standard">
   <Role>P</Role>
   <SpaceBefore>12000.0mpt</SpaceBefore>
   <SpaceAfter>12000.0mpt</SpaceAfter>
   <ReduceMultipleBlanks>true</ReduceMultipleBlanks>
  </ParStyle>
- <ParStyle name="TextAbstandNach" parentName="Standard">
+ <ParStyle name="TextSpaceAfter" parentName="Standard">
   <SpaceAfter>0.15cm</SpaceAfter>
  </ParStyle>
- <ParStyle name="TextAbstandVor" parentName="Standard">
+ <ParStyle name="TextSpaceBefore" parentName="Standard">
   <SpaceBefore>0.15cm</SpaceBefore>
  </ParStyle>
 </StyleCollection>

@@ -48,7 +48,7 @@ else {
    <RegionRef>Body</RegionRef>
   </Style>
   <Par>
-   <Style parentName="TextAbstandNach">
+   <Style parentName="TextSpaceAfter">
     <SpaceBefore>0.3cm</SpaceBefore>
     <KeepWithPrevious>true</KeepWithPrevious>
    </Style>

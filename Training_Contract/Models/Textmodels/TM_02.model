@@ -1,13 +1,13 @@
 <ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition></DataDefinition>
  <Par>
-  <Style parentName="TextAbstandVor_12pt"></Style>
+  <Style parentName="TextSpaceBefore_12pt"></Style>
   <Span>
    <Text>Mit diesem Tariff sind Sie immer sicher und flexibel versorgt.</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach_12pt"></Style>
+  <Style parentName="TextSpaceAfter_12pt"></Style>
   <Span>
    <Text>Für Ihre Unterlagen haben wir alle wichtigen Informationen zu Ihrem Vertrag auf den 
 folgenden Seiten unter diesen Punkten zusammengefasst:</Text>

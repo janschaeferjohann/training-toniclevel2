@@ -33,7 +33,7 @@
    <Right distance="67749.0mpt" anchorSide="same"></Right>
    <Bottom distance="28348.0mpt" anchorSide="same"></Bottom>
   </Region>
-  <Region name="marginalnotes" role="Artifact" contentRotation="90">
+  <Region name="marginalnotes" role="Artifact" contentRedation="90">
    <Left distance="18425.0mpt" anchorSide="same"></Left>
    <Top distance="580653.0mpt" anchorSide="same"></Top>
    <Right distance="531496.0mpt" anchorSide="same"></Right>
@@ -62,7 +62,7 @@
    <Right distance="67749.0mpt" anchorSide="same"></Right>
    <Bottom distance="19275.0mpt" anchorSide="same"></Bottom>
   </Region>
-  <Region name="marginalnotes" role="Artifact" contentRotation="90">
+  <Region name="marginalnotes" role="Artifact" contentRedation="90">
    <Left distance="18425.0mpt" anchorSide="same"></Left>
    <Top distance="589725.0mpt" anchorSide="same"></Top>
    <Right distance="531496.0mpt" anchorSide="same"></Right>

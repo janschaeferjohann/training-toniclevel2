@@ -40,7 +40,7 @@ load('Scripts/snap.svg-min.js', true);
 
 	var countX = 7; // Anzahl der Linien zum ausgeben	
 	var LabelText = 6000; // Höchster Wert der Y-Achse
-	var AktPosY = 5; // Abstand zum oberen Grafikrand
+	var AktPosY = 5; // Space zum oberen Grafikrand
 	
 	for (var i=0; i < countX; i++) {
 		snap.line( 30, AktPosY, 500, AktPosY ).attr(lineAttr);

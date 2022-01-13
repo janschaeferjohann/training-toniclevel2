@@ -204,18 +204,18 @@
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
 									<termination_date>31.12.2019</termination_date>
-									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monthe</renewal>
+									<noticeperiod>6 Weeks</noticeperiod>
+									<renewal>6 Months</renewal>
 									<counter>SAMSZ56456456</counter>
 								</contract>
 								<contract>
-									<rate>Easy Öko-Electricity</rate>
+									<rate>Easy Eco-Electricity</rate>
 									<name>Electricity</name>
 									<contractsId>GK01-2010-01.00-Green</contractsId>
 									<begin_date>01.01.2020</begin_date>
 									<termination_date>31.08.2020</termination_date>
-									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monthe</renewal>
+									<noticeperiod>6 Weeks</noticeperiod>
+									<renewal>6 Months</renewal>
 									<counter>SAMSZ56456456</counter>
 								</contract>
 								<contract>
@@ -224,8 +224,8 @@
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
 									<termination_date>31.08.2020</termination_date>
-									<noticeperiod>6 Wochen</noticeperiod>
-									<renewal>6 Monthe</renewal>
+									<noticeperiod>6 Weeks</noticeperiod>
+									<renewal>6 Months</renewal>
 									<counter>SAM-WZ-23.5584</counter>
 								</contract>
 							</contracts>
@@ -260,7 +260,7 @@
 							</item>
 							<item>
 								<name>Electricity</name>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<usage>1372,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.01.2020</periodfrom>
@@ -650,7 +650,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Arbeitspreis</product_key>
 							</product>
@@ -682,7 +682,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>EEG-Umlage</product_key>
 							</product>
@@ -714,7 +714,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>KWKG-Umlage</product_key>
 							</product>
@@ -746,7 +746,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Electricitysteuer</product_key>
 							</product>
@@ -778,7 +778,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Offshore-Haftungsumlage</product_key>
 							</product>
@@ -810,7 +810,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>ElectricityNEV</product_key>
 							</product>
@@ -842,7 +842,7 @@
 							</posart>
 							<product>
 								<section>electricity</section>
-								<rate>Easy Öko-Electricity</rate>
+								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Grundpreis</product_key>
 							</product>

@@ -42,7 +42,7 @@
          <DataNode name="contract">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
           </DataNode>
           <DataNode name="name" valueChanged="fromDataSource">
            <Value><![CDATA[string:Electricity]]></Value>
@@ -57,10 +57,10 @@
            <Value><![CDATA[string:30.12.2020]]></Value>
           </DataNode>
           <DataNode name="noticeperiod" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Wochen]]></Value>
+           <Value><![CDATA[string:6 Weeks]]></Value>
           </DataNode>
           <DataNode name="renewal" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Monthe]]></Value>
+           <Value><![CDATA[string:6 Months]]></Value>
           </DataNode>
           <DataNode name="counter" valueChanged="fromDataSource">
            <Value><![CDATA[string:56845258]]></Value>
@@ -69,7 +69,7 @@
          <DataNode name="contract">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Gas]]></Value>
+           <Value><![CDATA[string:Easy Eco-Gas]]></Value>
           </DataNode>
           <DataNode name="name" valueChanged="fromDataSource">
            <Value><![CDATA[string:Gas]]></Value>
@@ -81,10 +81,10 @@
            <Value><![CDATA[string:01.11.2020]]></Value>
           </DataNode>
           <DataNode name="noticeperiod" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Wochen]]></Value>
+           <Value><![CDATA[string:6 Weeks]]></Value>
           </DataNode>
           <DataNode name="renewal" valueChanged="fromDataSource">
-           <Value><![CDATA[string:6 Monthe]]></Value>
+           <Value><![CDATA[string:6 Months]]></Value>
           </DataNode>
           <DataNode name="counter" valueChanged="fromDataSource">
            <Value><![CDATA[string:1512548]]></Value>

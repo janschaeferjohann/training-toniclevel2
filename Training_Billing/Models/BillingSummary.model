@@ -30,7 +30,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="Abstand_Mitte"></Style>
+  <Style parentName="Space_Center"></Style>
   <Row>
    <Cell>
     <Container>
@@ -89,7 +89,7 @@
        </Column>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TabelleHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlau"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.items.item]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -175,7 +175,7 @@
       <Columns>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TabelleHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlau"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -251,7 +251,7 @@
       <Columns>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TabelleHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlau"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.difference.Diff.Amount]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -277,7 +277,7 @@
   </Row>
  </Table>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
  </Par>
  <Table>
   <Headers>
@@ -305,7 +305,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleHeaderFooterBlau"></Style>
+  <Style parentName="TableHeaderFooterBlau"></Style>
   <Row>
    <Cell>
     <Container>
@@ -323,7 +323,7 @@
   </Row>
  </Table>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Style>
     <FontSize>10000.0mpt</FontSize>
@@ -368,7 +368,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Style>
     <FontSize>10000.0mpt</FontSize>
@@ -409,7 +409,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text> wie z.B. die EEG-Umlage. Die Beträge aus dieser Tabelle werden pro Kunde einmal im Jahr von Polarstern bezahlt und sind </Text>
+   <Text> wie z.B. die EEG-Umlage. Die Beträge aus dieser Table werden pro Kunde einmal im Jahr von Polarstern bezahlt und sind </Text>
   </Span>
   <Span>
    <Style>
@@ -425,7 +425,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach">
+  <Style parentName="TextSpaceAfter">
    <BreakAfter>page</BreakAfter>
   </Style>
   <Span>

@@ -31,7 +31,7 @@
    <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
   </Style>
   <Span>
-   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Wochen kündigen und einen anderen Tariff wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
+   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Weeks kündigen und einen anderen Tariff wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
   </Span>
  </Par>
  <Par>
@@ -90,7 +90,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleInnen"></Style>
+  <Style parentName="TableInnen"></Style>
   <Row>
    <Cell>
     <Container>
@@ -327,31 +327,31 @@
   </TablePart>
  </Table>
  <Par>
-  <Style parentName="TextAbstandVor"></Style>
+  <Style parentName="TextSpaceBefore"></Style>
   <Span>
    <Text></Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandVor"></Style>
+  <Style parentName="TextSpaceBefore"></Style>
   <Span>
    <Text>Pricestand: 01.04.2016. Gerundete Grosspreise inkl. 19% Umsatzsteuer.</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandVor"></Style>
+  <Style parentName="TextSpaceBefore"></Style>
   <Span>
    <Text>Grundlage für die Belieferung ist die beiliegende Electricitygrundversorgungsverordnung (ElectricityGVV).</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandVor"></Style>
+  <Style parentName="TextSpaceBefore"></Style>
   <Span>
    <Text></Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandVor"></Style>
+  <Style parentName="TextSpaceBefore"></Style>
   <Span>
    <Text></Text>
   </Span>

@@ -9,7 +9,7 @@
       * Trennstellen für ein Wort vereinbaren:  <word>Früh_warn_service</word>
       * Wort in Wortliste aufnehmen:            <word>Frühwarnservice</word>
       * Trennung für ein Wort verhindern:       <word>_Frühwarnservice</word>
-      * Wort auch am Satzanfang klein
+      * Wort auch am Satzanfang small
         geschrieben akzeptieren                 <word enforce-case="true">kühn</word>
     -->
     <word enforce-case="true">kühn</word>

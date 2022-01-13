@@ -47,7 +47,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Ökostrom</Text>
+   <Text>Ecostrom</Text>
   </Span>
   <Span>
    <Style>
@@ -63,7 +63,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>genau das Richtige für Sie. Sam.energy Easy  Ökostrom stammt zu</Text>
+   <Text>genau das Richtige für Sie. Sam.energy Easy  Ecostrom stammt zu</Text>
   </Span>
   <Span>
    <Style>

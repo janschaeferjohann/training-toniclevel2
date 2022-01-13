@@ -3,7 +3,7 @@
   <ParamDef name="contract_data" ref="\\Framework_Training\Data\contract_data.datamodel" provided="true"></ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="TextAbstandNach_12pt"></Style>
+  <Style parentName="TextSpaceAfter_12pt"></Style>
   <Span>
    <Text>schön, dass Sie unser Kunde sind. Ab ... beliefern wir Sie als Ihr Grundversorger
 mit Energie. Es ist uns wichtig, dass Sie Zufrieden sind. Wir sind gerne für Sie da.</Text>

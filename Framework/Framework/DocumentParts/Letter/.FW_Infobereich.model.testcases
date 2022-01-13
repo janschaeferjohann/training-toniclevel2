@@ -66,7 +66,7 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding">
-       <Value><![CDATA[string:\library\Framework\Framework\Teildokumente\Brief\FW_Infobereich.model.template]]></Value>
+       <Value><![CDATA[string:\library\Framework\Framework\Teildokumente\Brief\FW_InfoArea.model.template]]></Value>
       </DataNode>
      </DataNode>
     </Data>

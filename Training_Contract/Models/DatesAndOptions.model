@@ -39,7 +39,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleInnen"></Style>
+  <Style parentName="TableInnen"></Style>
   <Row>
    <Cell>
     <Container>
@@ -85,7 +85,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="TextAbstandVor"></Style>
+      <Style parentName="TextSpaceBefore"></Style>
       <Span>
        <Style>
         <FontStyle>bold</FontStyle>
@@ -112,7 +112,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="TextAbstandVor"></Style>
+      <Style parentName="TextSpaceBefore"></Style>
       <Span>
        <Text>Die Ermittlung Ihres Zählerstands für Ihre</Text>
       </Span>
@@ -132,7 +132,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="TextAbstandVor"></Style>
+      <Style parentName="TextSpaceBefore"></Style>
       <Span>
        <Style>
         <FontStyle>bold</FontStyle>
@@ -284,7 +284,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleUmrandung"></Style>
+  <Style parentName="TableBorder"></Style>
   <Row>
    <Cell>
     <Style>

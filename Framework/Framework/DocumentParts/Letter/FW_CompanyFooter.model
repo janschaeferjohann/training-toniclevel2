@@ -18,7 +18,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="Einfach"></Style>
+  <Style parentName="Simple"></Style>
   <Row>
    <Cell>
     <Container>

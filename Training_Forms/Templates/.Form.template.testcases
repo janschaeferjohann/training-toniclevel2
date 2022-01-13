@@ -33,61 +33,12 @@
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
        <Value><![CDATA[string:\library\Training_Forms\Templates\Form.template]]></Value>
       </DataNode>
-      <DataNode name="Mandant" valueChanged="fromDataSource">
-       <Value><![CDATA[string:]]></Value>
-      </DataNode>
       <DataNode name="Language">
        <Value><![CDATA[string:de]]></Value>
       </DataNode>
      </DataNode>
-     <DataNode name="Form">
-      <DataNode name="deliveryAddress">
-       <DataNode name="mrs" valueChanged="manually">
-        <Value><![CDATA[bool:false]]></Value>
-       </DataNode>
-       <DataNode name="mr" valueChanged="manually">
-        <Value><![CDATA[bool:false]]></Value>
-       </DataNode>
-       <DataNode name="company" valueChanged="manually">
-        <Value><![CDATA[bool:false]]></Value>
-       </DataNode>
-       <DataNode name="other" valueChanged="manually">
-        <Value><![CDATA[string:]]></Value>
-       </DataNode>
-       <DataNode name="postalCode" valueChanged="manually">
-        <Value><![CDATA[string:]]></Value>
-       </DataNode>
-      </DataNode>
-      <DataNode name="paymentMethod">
-       <DataNode name="paymentDue">
-        <DataNode name="first_Of_Month" valueChanged="manually">
-         <Value><![CDATA[bool:false]]></Value>
-        </DataNode>
-       </DataNode>
-       <DataNode name="paymentVia">
-        <DataNode name="directDebit" valueChanged="manually">
-         <Value><![CDATA[bool:false]]></Value>
-        </DataNode>
-        <DataNode name="transfer_cash" valueChanged="manually">
-         <Value><![CDATA[bool:false]]></Value>
-        </DataNode>
-       </DataNode>
-      </DataNode>
-      <DataNode name="tariffSelection">
-       <DataNode name="wohlfuehlstrom_OekoMobil_Bonndorf_Feldberg" valueChanged="manually">
-        <Value><![CDATA[bool:false]]></Value>
-       </DataNode>
-       <DataNode name="wohlfuelstrom_Oeko_Loerrach" valueChanged="manually">
-        <Value><![CDATA[bool:false]]></Value>
-       </DataNode>
-       <DataNode name="wohlfuelstrom_Oeko_Bonndorf_Feldberg" valueChanged="manually">
-        <Value><![CDATA[bool:true]]></Value>
-       </DataNode>
-      </DataNode>
-     </DataNode>
     </Data>
-    <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-    <ContainerPartInstance partIndex="1">
+    <ContainerPartInstance partIndex="0">
      <Data>
       <DataNodeRef ref="$Form" name="Form"></DataNodeRef>
      </Data>

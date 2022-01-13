@@ -129,7 +129,7 @@
 		<Role>Artifact</Role>
 	</ParStyle>
 	<ParStyle
-		name="FW_Infobereich"
+		name="FW_InfoArea"
 		parentName="FW_Default"
 		hideInEditor="true">
 		<SpanStyle>
@@ -138,8 +138,8 @@
 		<Role>Artifact</Role>
 	</ParStyle>
 	<ParStyle
-		name="FW_InfobereichFett"
-		parentName="FW_Infobereich"
+		name="FW_InfoAreaBold"
+		parentName="FW_InfoArea"
 		hideInEditor="true">
 		<SpanStyle>
 			<FontStyle>bold</FontStyle>
@@ -183,7 +183,7 @@
 		hideInEditor="true">
 		<Role>P</Role>
 	</ParStyle>
-	<ParStyle name="Klein">
+	<ParStyle name="Small">
 		<SpanStyle>
 			<FontSize>8.0pt</FontSize>
 		</SpanStyle>
@@ -191,7 +191,7 @@
 		<SpaceAfter>0.0cm</SpaceAfter>
 		<SpaceBefore>0.0cm</SpaceBefore>
 	</ParStyle>
-	<ParStyle name="Eingerueckt">
+	<ParStyle name="Indented">
 		<SpanStyle>
 			<FontSize>8.0pt</FontSize>
 		</SpanStyle>
@@ -201,29 +201,29 @@
 		<SpaceBefore>0.0cm</SpaceBefore>
 	</ParStyle>
 	<ParStyle
-		name="Tabelle_rechtsbuendig"
-		parentName="Klein">
+		name="Table_rightAligned"
+		parentName="Small">
 		<SpanStyle>
 			<FontSize>10.0pt</FontSize>
 		</SpanStyle>
 		<Align>right</Align>
 	</ParStyle>
 	<ParStyle
-		name="Tabelle_linksbuendig"
-		parentName="Tabelle_rechtsbuendig">
+		name="Table_leftAligned"
+		parentName="Table_rightAligned">
 		<SpanStyle></SpanStyle>
 		<Align>left</Align>
 	</ParStyle>
 	<ParStyle
-		name="Tabelle_rechtsbuendig_klein"
-		parentName="Tabelle_rechtsbuendig">
+		name="Table_rightAligned_small"
+		parentName="Table_rightAligned">
 		<SpanStyle>
 			<FontSize>8.0pt</FontSize>
 		</SpanStyle>
 	</ParStyle>
 	<ParStyle
-		name="Tabelle_linksbuendig_klein"
-		parentName="Tabelle_rechtsbuendig_klein">
+		name="Table_leftAligned_small"
+		parentName="Table_rightAligned_small">
 		<SpanStyle></SpanStyle>
 		<Align>left</Align>
 	</ParStyle>
@@ -246,19 +246,19 @@
 		<SpaceBefore>0.0cm</SpaceBefore>
 	</ParStyle>
 	<ParStyle
-		name="Formfield_Label_Abstand"
+		name="Formfield_Label_Space"
 		parentName="Formfield_Label">
 		<SpaceAfter>0.0cm</SpaceAfter>
 		<SpaceBefore>0.3cm</SpaceBefore>
 	</ParStyle>
 	<ParStyle
-		name="Klein Rot"
-		parentName="Klein">
+		name="Small Red"
+		parentName="Small">
 		<SpanStyle>
 			<TextColor>rgb(228,0,25,236)</TextColor>
 		</SpanStyle>
 	</ParStyle>
-	<ParStyle name="Überschrift1">
+	<ParStyle name="Header1">
 		<SpanStyle>
 			<TextColor>rgb(227,0,24)</TextColor>
 			<FontStyle>bold</FontStyle>
@@ -272,7 +272,7 @@
 		<SpaceBefore>0.5cm</SpaceBefore>
 
 	</ParStyle>
-	<ParStyle name="Überschrift2">
+	<ParStyle name="Header2">
 		<SpanStyle>
 			<TextColor>rgb(227,0,24)</TextColor>
 			<FontStyle>italics</FontStyle>
@@ -285,7 +285,7 @@
 		<SpaceAfter>0.3cm</SpaceAfter>
 		<SpaceBefore>0.3cm</SpaceBefore>
 	</ParStyle>
-	<ParStyle name="Überschrift3">
+	<ParStyle name="Header3">
 		<SpanStyle>
 			<TextColor>rgb(227,0,24)</TextColor>
 			<FontStyle>italics</FontStyle>
@@ -298,24 +298,24 @@
 		<SpaceAfter>0.3cm</SpaceAfter>
 		<SpaceBefore>0.3cm</SpaceBefore>
 	</ParStyle>
-	<ParStyle name="TextAbstandNach">
+	<ParStyle name="TextSpaceAfter">
 		<SpaceAfter>0.15cm</SpaceAfter>
 	</ParStyle>
-	<ParStyle name="TextAbstandVor">
+	<ParStyle name="TextSpaceBefore">
 		<SpaceBefore>0.15cm</SpaceBefore>
 	</ParStyle>
-	<ParStyle name="TextAbstandVorUndNach">
+	<ParStyle name="TextSpaceBeforeAndAfter">
 		<SpaceAfter>0.15cm</SpaceAfter>
 		<SpaceBefore>0.15cm</SpaceBefore>
 	</ParStyle>
 	<ParStyle
-		name="Einrückung"
-		parentName="TextAbstandVor">
+		name="Indentation"
+		parentName="TextSpaceBefore">
 		<LeftIndent>1.0cm</LeftIndent>
 	</ParStyle>
 	<ParStyle
-		name="Hinweis"
-		parentName="TextAbstandVor">
+		name="Note"
+		parentName="TextSpaceBefore">
 		<SpanStyle>
 			<FontStyle>italics</FontStyle>
 			<FontFamily>SANS</FontFamily>
@@ -355,7 +355,7 @@
 			</Level>
 		</Levels>
 	</NumberingStyle>
-	<ContainerStyle name="Aufzählung">
+	<ContainerStyle name="Enumeration">
 		<SpaceAfter resolution="overwrite">0.15cm</SpaceAfter>
 	</ContainerStyle>
 	<ColumnStyle name="RightAligned">
@@ -367,7 +367,7 @@
 			</ContainerStyle>
 		</CellStyle>
 	</ColumnStyle>
-	<TableStyle name="Versicherungsschein">
+	<TableStyle name="Policy">
 		<ColumnStyle>
 			<CellStyle index="0">
 				<ContainerStyle>
@@ -418,7 +418,7 @@
 		</RowStyle>
 		<SpaceBefore>0.0cm</SpaceBefore>
 	</TableStyle>
-	<TableStyle name="Umrandung">
+	<TableStyle name="Border">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -474,7 +474,7 @@
 		</RowStyle>
 		<SpaceBefore>0.5cm</SpaceBefore>
 	</TableStyle>
-	<TableStyle name="Einfach">
+	<TableStyle name="Simple">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -540,8 +540,8 @@
 		<SpaceBefore>0.0cm</SpaceBefore>
 	</TableStyle>
 	<TableStyle
-		name="Streifen"
-		parentName="Umrandung">
+		name="Stripes"
+		parentName="Border">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -561,8 +561,8 @@
 		</RowStyle>
 	</TableStyle>
 	<TableStyle
-		name="StreifenFarbig"
-		parentName="Umrandung">
+		name="StripesColoured"
+		parentName="Border">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -582,8 +582,8 @@
 		</RowStyle>
 	</TableStyle>
 	<TableStyle
-		name="KopfzeileFarbig"
-		parentName="Umrandung">
+		name="HeaderlineColoured"
+		parentName="Border">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -600,8 +600,8 @@
 		</TableHeaderStyle>
 	</TableStyle>
 	<TableStyle
-		name="Gruppenversicherte"
-		parentName="KopfzeileFarbig">
+		name="GroupMembers"
+		parentName="HeaderlineColoured">
 		<ColumnStyle index="3">
 			<CellStyle>
 				<ContainerStyle>
@@ -612,7 +612,7 @@
 			</CellStyle>
 		</ColumnStyle>
 	</TableStyle>
-	<TableStyle name="Abstand_Mitte">
+	<TableStyle name="Space_Center">
 		<TableHeaderStyle>
 			<RowStyle>
 				<CellStyle>
@@ -684,7 +684,7 @@
 		</SpanStyle>
 	</ParStyle>
 
-	<TableStyle name="Formular">
+	<TableStyle name="Form">
 		<RowStyle>
 			<CellStyle>
 				<Padding

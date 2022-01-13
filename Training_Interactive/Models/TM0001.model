@@ -15,7 +15,7 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="TextAbstandVorUndNach_12pt"></Style>
+  <Style parentName="TextSpaceBeforeAndAfter_12pt"></Style>
   <Span>
    <Text>Unsere neue Umwelt-Kampagne:</Text>
   </Span>
@@ -27,7 +27,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandVorUndNach_12pt"></Style>
+  <Style parentName="TextSpaceBeforeAndAfter_12pt"></Style>
   <Span>
    <Data editable="true" spellchecking="true">$Text.green_text</Data>
    <Text></Text>

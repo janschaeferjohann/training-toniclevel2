@@ -42,7 +42,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleHeaderFooterBlau"></Style>
+  <Style parentName="TableHeaderFooterBlau"></Style>
   <Row>
    <Cell>
     <Container>

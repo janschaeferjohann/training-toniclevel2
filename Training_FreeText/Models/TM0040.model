@@ -1,7 +1,7 @@
 <ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition></DataDefinition>
  <Par>
-  <Style parentName="TextAbstandNach"></Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
    <Style>
     <BackgroundColor>rgb(255,255,255)</BackgroundColor>
@@ -40,7 +40,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach_12pt">
+  <Style parentName="TextSpaceAfter_12pt">
    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
   </Style>
   <Span>
@@ -54,7 +54,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach">
+  <Style parentName="TextSpaceAfter">
    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
   </Style>
   <Span>
@@ -67,7 +67,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextAbstandNach">
+  <Style parentName="TextSpaceAfter">
    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
   </Style>
   <Span>

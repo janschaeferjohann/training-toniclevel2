@@ -17,7 +17,7 @@
    <Field title="Explanations Electricity" title-en_US="Explanation Energy" dataNode="$freetext_data.Attachment.Attachment_Explanation">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
-   <Field title="Energiemix Anlage" title-en_US="Energy mix for the Easy Öko" dataNode="$freetext_data.Attachment.Attachment_EnergyMix">
+   <Field title="Energiemix Anlage" title-en_US="Energy mix for the Easy Eco" dataNode="$freetext_data.Attachment.Attachment_EnergyMix">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
    <Field title="GVV Anlage" title-en_US="BSO - Basic Supply Ordinance" dataNode="$freetext_data.Attachment.Attachment_GVV">

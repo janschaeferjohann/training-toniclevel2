@@ -25,19 +25,19 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_InfobereichFett"></Style>
+  <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
    <Text>Ihre Ansprechnpartner/in:</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Text></Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Text></Text>
   </Span>
@@ -55,12 +55,12 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleMatrixSmallPadding"></Style>
+  <Style parentName="TableMatrixSmallPadding"></Style>
   <Row>
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text>Telefon:</Text>
       </Span>
@@ -70,7 +70,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text></Text>
       </Span>
@@ -82,7 +82,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text>Telefax:</Text>
       </Span>
@@ -92,7 +92,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text></Text>
       </Span>
@@ -104,7 +104,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text>E-Mail:</Text>
       </Span>
@@ -114,7 +114,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="FW_Infobereich"></Style>
+      <Style parentName="FW_InfoArea"></Style>
       <Span>
        <Text></Text>
       </Span>
@@ -124,13 +124,13 @@
   </Row>
  </Table>
  <Par>
-  <Style parentName="FW_InfobereichFett"></Style>
+  <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
    <Text>Date:</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Data>$freetext_data.template.Date</Data>
    <Text></Text>

@@ -62,13 +62,13 @@ ul, ol {
     line-height: 12.5pt;
 }
 
-.FW_Infobereich {
+.FW_InfoArea {
     font-size: 9.0pt;
     font-family: SANS;
     line-height: 12.5pt;
 }
 
-.FW_InfobereichFett {
+.FW_InfoAreaBold {
     font-size: 12.0pt;
     font-family: SANS;
     font-weight: bold;
@@ -95,34 +95,34 @@ ul, ol {
     line-height: 12.5pt;
 }
 
-.Klein {
+.Small {
     font-size: 8.0pt;
     font-family: SANS;
 }
 
-.Eingerueckt {
+.Indented {
     font-size: 8.0pt;
     font-family: SANS;
 }
 
-.Tabelle_rechtsbuendig {
+.Table_rightAligned {
     font-size: 10.0pt;
     font-family: SANS;
     text-align: right;
 }
 
-.Tabelle_linksbuendig {
+.Table_leftAligned {
     font-size: 12.0pt;
     font-family: SANS;
 }
 
-.Tabelle_rechtsbuendig_klein {
+.Table_rightAligned_small {
     font-size: 8.0pt;
     font-family: SANS;
     text-align: right;
 }
 
-.Tabelle_linksbuendig_klein {
+.Table_leftAligned_small {
     font-size: 12.0pt;
     font-family: SANS;
 }
@@ -141,11 +141,11 @@ ul, ol {
     font-family: SANS;
 }
 
-.Formfield_Label_Abstand {
+.Formfield_Label_Space {
     padding: 8.5pt 0.0pt 0.0pt 0.0pt;
 }
 
-.Klein Rot {
+.Small Red {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(228, 0, 25, 0.9254902);
@@ -175,11 +175,11 @@ ul, ol {
     padding: 8.5pt 0.0pt 8.5pt 0.0pt;
 }
 
-.TextAbstandNach {
+.TextSpaceAfter {
     padding: 0.0pt 0.0pt 4.25pt 0.0pt;
 }
 
-.TextAbstandVor {
+.TextSpaceBefore {
     padding: 4.25pt 0.0pt 0.0pt 0.0pt;
 }
 
@@ -187,7 +187,7 @@ ul, ol {
     padding: 4.25pt 0.0pt 0.0pt 0.0pt;
 }
 
-.Hinweis {
+.Note {
     font-size: 12.0pt;
     font-family: SANS;
     font-style: italic;
@@ -206,11 +206,11 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.Versicherungsschein {
+.Policy {
     padding: 0.0pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Versicherungsschein td {
+.Policy td {
     font-size: 11.0pt;
     font-family: SANS;
     font-weight: bold;
@@ -218,11 +218,11 @@ ul, ol {
     border: 0.5pt none rgba(0, 0, 0, 1.0);
 }
 
-.Umrandung {
+.Border {
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Umrandung td {
+.Border td {
     font-size: 12.0pt;
     font-family: SANS;
     font-weight: bold;
@@ -230,11 +230,11 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.Formular {
+.Form {
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Formular td {
+.Form td {
     font-size: 12.0pt;
     font-family: SANS;
     font-weight: bold;
@@ -242,23 +242,23 @@ ul, ol {
     border: 0.5pt none rgba(0, 0, 0, 1.0);
 }
 
-.Einfach {
+.Simple {
     padding: 0.0pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Einfach td {
+.Simple td {
     font-size: 8.0pt;
     font-family: SANS;
     border: 0.5pt none rgba(0, 0, 0, 1.0);
     font-weight: bold;
 }
 
-.Streifen {
+.Stripes {
     background-color: rgba(237, 237, 237, 1.0);
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Streifen td {
+.Stripes td {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(255, 255, 255, 1.0);
@@ -266,12 +266,12 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.StreifenFarbig {
+.StripesColoured {
     background-color: rgba(241, 225, 227, 1.0);
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.StreifenFarbig td {
+.StripesColoured td {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(255, 255, 255, 1.0);
@@ -279,12 +279,12 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.KopfzeileFarbig {
+.HeaderlineColoured {
     background-color: rgba(227, 0, 24, 1.0);
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.KopfzeileFarbig td {
+.HeaderlineColoured td {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(255, 255, 255, 1.0);
@@ -292,21 +292,21 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.Gruppenversicherte {
+.GroupMembers {
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Gruppenversicherte td {
+.GroupMembers td {
     text-align: right;
     padding: 2.83pt 8.5pt 2.83pt 8.5pt;
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.Abstand_Mitte {
+.Space_Center {
     padding: 0.0pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Abstand_Mitte td {
+.Space_Center td {
     font-size: 12.0pt;
     font-family: SANS;
     font-weight: bold;

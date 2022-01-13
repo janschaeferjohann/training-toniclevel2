@@ -907,7 +907,7 @@
 				value="rgb(255,0,0)"
 				name="Red"
 				name-en_GB="Red"
-				name-de_DE="Rot"
+				name-de_DE="Red"
 				name-cs_CZ="Červená" />
 			<ColorItem
 				value="rgb(0,255,0)"

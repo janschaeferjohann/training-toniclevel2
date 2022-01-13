@@ -13,7 +13,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
           <Text>Verbrauchsstelle</Text>
          </Span>
@@ -23,7 +23,7 @@
       <Cell>
        <Container>
         <Par>
-         <Style parentName="FW_InfobereichFett"></Style>
+         <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
           <Text>Vertragskonto</Text>
          </Span>
@@ -45,7 +45,7 @@
      </Style>
     </Column>
    </Columns>
-   <Style parentName="TabelleHeaderFooterBlau"></Style>
+   <Style parentName="TableHeaderFooterBlau"></Style>
    <Row>
     <Cell>
      <Container>
@@ -83,7 +83,7 @@
        </Span>
       </Par>
       <Par>
-       <Style parentName="FW_Infobereich"></Style>
+       <Style parentName="FW_InfoArea"></Style>
        <Span>
         <Text>(Bei Zahlungen bitte stets angeben)</Text>
        </Span>

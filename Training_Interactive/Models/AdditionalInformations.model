@@ -21,7 +21,7 @@
      </Span>
     </Translation>
    </Translations>
-   <Style parentName="TextAbstandVor_12pt"></Style>
+   <Style parentName="TextSpaceBefore_12pt"></Style>
    <Span>
     <Text>Weitere Informationen finden Sie auf unserer </Text>
    </Span>
@@ -57,7 +57,7 @@
      </Span>
     </Translation>
    </Translations>
-   <Style parentName="TextAbstandNach"></Style>
+   <Style parentName="TextSpaceAfter"></Style>
    <Span>
     <Text>Sie können uns auch gerne per </Text>
    </Span>

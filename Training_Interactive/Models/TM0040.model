@@ -38,7 +38,7 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="TextAbstandNach_12pt">
+  <Style parentName="TextSpaceAfter_12pt">
    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
   </Style>
   <Span>
@@ -92,7 +92,7 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="TextAbstandNach_12pt">
+  <Style parentName="TextSpaceAfter_12pt">
    <BackgroundColor>rgb(255,255,255)</BackgroundColor>
   </Style>
   <Span>

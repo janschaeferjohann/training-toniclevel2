@@ -6,7 +6,7 @@
   </ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="FW_InfobereichFett">
+  <Style parentName="FW_InfoAreaBold">
    <Align>left</Align>
   </Style>
   <Span>
@@ -23,13 +23,13 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Text>Ihre Ansprechpartnerin/Ansprechpartner:</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Data>$Sender.User.Firstname</Data>
    <Text> </Text>
@@ -46,7 +46,7 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Text>Telefon: </Text>
    <Data>$Sender.User.Phone</Data>
@@ -62,7 +62,7 @@
     </Span>
    </Translation>
   </Translations>
-  <Style parentName="FW_Infobereich"></Style>
+  <Style parentName="FW_InfoArea"></Style>
   <Span>
    <Text>Fax: </Text>
    <Data>$Sender.User.Fax</Data>

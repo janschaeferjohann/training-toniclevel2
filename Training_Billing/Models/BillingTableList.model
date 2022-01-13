@@ -13,7 +13,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -25,7 +25,7 @@
      <Cell colSpan="2">
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -37,7 +37,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -49,7 +49,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -61,7 +61,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -73,7 +73,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -91,7 +91,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text>Gesamtbetrag</Text>
         </Span>
@@ -101,7 +101,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -111,7 +111,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -121,7 +121,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett"></Style>
+        <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
          <Text></Text>
         </Span>
@@ -131,7 +131,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -144,7 +144,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -157,7 +157,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="FW_InfobereichFett">
+        <Style parentName="FW_InfoAreaBold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -207,7 +207,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TabelleZebraFarbe"></Style>
+  <Style parentName="TableZebraColoured"></Style>
   <TablePart>
    <ForEach><![CDATA[$items.item]]></ForEach>
    <DataDefinition></DataDefinition>
@@ -215,7 +215,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich"></Style>
+       <Style parentName="FW_InfoArea"></Style>
        <Span>
         <Data>$item.name</Data>
        </Span>
@@ -225,7 +225,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -239,7 +239,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich"></Style>
+       <Style parentName="FW_InfoArea"></Style>
        <Span>
         <Data>$item.unit</Data>
        </Span>
@@ -249,7 +249,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -266,7 +266,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -283,7 +283,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
@@ -299,7 +299,7 @@
     <Cell>
      <Container>
       <Par>
-       <Style parentName="FW_Infobereich">
+       <Style parentName="FW_InfoArea">
         <Align>right</Align>
        </Style>
        <Span>
