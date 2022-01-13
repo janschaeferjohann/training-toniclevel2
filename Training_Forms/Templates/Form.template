@@ -366,7 +366,7 @@
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
           </Style>
-          <InlineField dataNode="$Form.type.change_Of_Tarifff"></InlineField>
+          <InlineField dataNode="$Form.type.change_Of_Tariff"></InlineField>
           <Text> Tariffwechsel</Text>
          </Span>
         </Par>
