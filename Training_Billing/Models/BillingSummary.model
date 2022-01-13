@@ -310,7 +310,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="Art_Fett">
+      <Style parentName="Art_Bold">
        <Align>right</Align>
       </Style>
       <Span>

@@ -37,10 +37,10 @@ ul, ol {
 
 /* Styles from Default.styleCollection */
 
-.Brief {
+.Letter {
 }
 
-.Infoblatt {
+.Infosheet {
 }
 
 .AGB {
@@ -52,13 +52,13 @@ ul, ol {
     line-height: 12.5pt;
 }
 
-.FW_Absender {
+.FW_Sender {
     font-size: 6.0pt;
     font-family: SANS;
     line-height: 6.5pt;
 }
 
-.FW_Empfaenger {
+.FW_Recipient {
     line-height: 12.5pt;
 }
 
@@ -75,18 +75,18 @@ ul, ol {
     line-height: 12.5pt;
 }
 
-.FW_Betreff {
+.FW_Subject {
     font-size: 12.0pt;
     font-family: SANS;
     font-weight: bold;
     line-height: 12.5pt;
 }
 
-.FW_Betreff2 {
+.FW_Subject2 {
     line-height: 12.5pt;
 }
 
-.FW_Briefanrede {
+.FW_Salutation {
     line-height: 12.5pt;
     padding: 0.0pt 0.0pt 11.0pt 0.0pt;
 }
@@ -151,7 +151,7 @@ ul, ol {
     color: rgba(228, 0, 25, 0.9254902);
 }
 
-.Uberschrift1 {
+.Header1 {
     font-size: 24.0pt;
     font-family: SANS;
     color: rgba(227, 0, 24, 1.0);
@@ -159,7 +159,7 @@ ul, ol {
     padding: 14.17pt 0.0pt 14.17pt 0.0pt;
 }
 
-.Uberschrift2 {
+.Header2 {
     font-size: 16.0pt;
     font-family: SANS;
     color: rgba(227, 0, 24, 1.0);
@@ -167,7 +167,7 @@ ul, ol {
     padding: 8.5pt 0.0pt 8.5pt 0.0pt;
 }
 
-.Uberschrift3 {
+.Header3 {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(227, 0, 24, 1.0);
@@ -183,7 +183,7 @@ ul, ol {
     padding: 4.25pt 0.0pt 0.0pt 0.0pt;
 }
 
-.Einruckung {
+.Indentation {
     padding: 4.25pt 0.0pt 0.0pt 0.0pt;
 }
 
@@ -266,12 +266,12 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.StripesColoured {
+.StripesColored {
     background-color: rgba(241, 225, 227, 1.0);
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.StripesColoured td {
+.StripesColored td {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(255, 255, 255, 1.0);
@@ -279,12 +279,12 @@ ul, ol {
     border: 0.5pt solid rgba(0, 0, 0, 1.0);
 }
 
-.HeaderlineColoured {
+.HeaderlineColored {
     background-color: rgba(227, 0, 24, 1.0);
     padding: 14.17pt 0.0pt 8.5pt 0.0pt;
 }
 
-.HeaderlineColoured td {
+.HeaderlineColored td {
     font-size: 12.0pt;
     font-family: SANS;
     color: rgba(255, 255, 255, 1.0);
@@ -319,12 +319,12 @@ ul, ol {
 /* hide regions from html */
 
 
-#firmenleiste {
+#companyarea {
 	display: none;
 	aria-hidden: true;
 }
 
-#fusszeile {
+#footer {
 	display: none;
 	aria-hidden: true;
 }
@@ -339,17 +339,17 @@ ul, ol {
 	aria-hidden: true;
 }
 
-#absender {
+#sender {
 	display: none;
 	aria-hidden: true;
 }
 
-#empfaenger {
+#recipient {
 	display: none;
 	aria-hidden: true;
 }
 
-#infobereich {
+#infoarea {
 	display: none;
 	aria-hidden: true;
 }

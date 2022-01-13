@@ -6,7 +6,7 @@
   </ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="Ueberschrift_blau1">
+  <Style parentName="Header_blue1">
    <BreakBefore>page_forced</BreakBefore>
   </Style>
   <Span>

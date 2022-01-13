@@ -204,7 +204,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableZebraColoured">
+  <Style parentName="TableZebraColored">
    <KeepTogether>true</KeepTogether>
   </Style>
   <TablePart>

@@ -75,9 +75,9 @@
        </DataNode>
        <DataNode name="anticipated_payments">
         <DataNode name="nextanticipated_payments">
-         <DataNode name="Abschlagsliste"></DataNode>
+         <DataNode name="Discountlist"></DataNode>
         </DataNode>
-        <DataNode name="Abschlagstext"></DataNode>
+        <DataNode name="Discounttext"></DataNode>
        </DataNode>
       </DataNode>
      </Data>

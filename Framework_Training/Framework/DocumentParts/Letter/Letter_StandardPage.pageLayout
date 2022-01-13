@@ -13,7 +13,7 @@
   <Right distance="42521.0mpt" anchorSide="same"></Right>
   <Bottom distance="42628.0mpt" anchorSide="same"></Bottom>
  </Region>
- <Region name="Infofeld">
+ <Region name="Infofield">
   <Left distance="56692.0mpt" anchorSide="same"></Left>
   <Top distance="18425.0mpt" anchorSide="same"></Top>
   <Right distance="333355.0mpt" anchorSide="same"></Right>

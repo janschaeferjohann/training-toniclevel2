@@ -561,7 +561,7 @@
 		</RowStyle>
 	</TableStyle>
 	<TableStyle
-		name="StripesColoured"
+		name="StripesColored"
 		parentName="Border">
 		<TableHeaderStyle>
 			<RowStyle>
@@ -582,7 +582,7 @@
 		</RowStyle>
 	</TableStyle>
 	<TableStyle
-		name="HeaderlineColoured"
+		name="HeaderlineColored"
 		parentName="Border">
 		<TableHeaderStyle>
 			<RowStyle>
@@ -601,7 +601,7 @@
 	</TableStyle>
 	<TableStyle
 		name="GroupMembers"
-		parentName="HeaderlineColoured">
+		parentName="HeaderlineColored">
 		<ColumnStyle index="3">
 			<CellStyle>
 				<ContainerStyle>

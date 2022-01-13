@@ -200,7 +200,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableZebraColoured"></Style>
+  <Style parentName="TableZebraColored"></Style>
   <TablePart>
    <ForEach><![CDATA[$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount]]></ForEach>
    <DataDefinition></DataDefinition>

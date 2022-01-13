@@ -10,7 +10,7 @@
   </ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="Ueberschrift_blau"></Style>
+  <Style parentName="Header_blue"></Style>
   <Span>
    <Data>$Sender.User.CompanyName1</Data>
    <Text></Text>

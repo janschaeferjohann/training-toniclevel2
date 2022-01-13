@@ -6,7 +6,7 @@
   </ParamDef>
  </DataDefinition>
  <Par>
-  <Style parentName="Ueberschrift_blau1">
+  <Style parentName="Header_blue1">
   </Style>
   <Span>
     <Text>4. Abschlag</Text>
@@ -219,7 +219,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableZebraColoured"></Style>
+  <Style parentName="TableZebraColored"></Style>
   <TablePart>
    <ForEach><![CDATA[$contract_data.anticipated_payments.nextanticipated_payments.amount]]></ForEach>
    <DataDefinition></DataDefinition>

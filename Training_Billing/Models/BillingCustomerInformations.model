@@ -18,7 +18,7 @@
      <Cell colSpan="2">
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett"></Style>
+        <Style parentName="TariffSelection_Bold"></Style>
         <Span>
          <Text>Was sind die Grundlagen Ihrer </Text>
          <Data>$contract</Data>

@@ -4,7 +4,7 @@
   <Style parentName="Attachment"></Style>
   <StaticContainer>
    <Style>
-    <RegionRef>Infofeld</RegionRef>
+    <RegionRef>Infofield</RegionRef>
    </Style>
    <Par>
     <Style parentName="TextNormal"></Style>

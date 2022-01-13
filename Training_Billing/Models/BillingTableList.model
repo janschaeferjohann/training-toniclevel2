@@ -207,7 +207,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableZebraColoured"></Style>
+  <Style parentName="TableZebraColored"></Style>
   <TablePart>
    <ForEach><![CDATA[$items.item]]></ForEach>
    <DataDefinition></DataDefinition>

@@ -9,7 +9,7 @@
   <Style parentName="BulletWithIndent"></Style>
  </Numbering>
  <Par>
-  <Style parentName="Ueberschrift_blau1">
+  <Style parentName="Header_blue1">
    <BreakBefore>page_forced</BreakBefore>
   </Style>
   <Span>
@@ -59,7 +59,7 @@
    <Style>
     <FontStyle>bold</FontStyle>
    </Style>
-   <Text>Ihre Pricee</Text>
+   <Text>Ihre Preise</Text>
   </Span>
  </Par>
  <Table>
@@ -90,7 +90,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableInnen"></Style>
+  <Style parentName="TableInside"></Style>
   <Row>
    <Cell>
     <Container>
@@ -105,7 +105,7 @@
     <Style parentName="CellWithBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>center</Align>
       </Style>
       <Span>
@@ -118,7 +118,7 @@
     <Style parentName="CellWithBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>center</Align>
       </Style>
       <Span>
@@ -142,7 +142,7 @@
     <Style parentName="CellWithoutBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>right</Align>
       </Style>
       <Span>
@@ -155,7 +155,7 @@
     <Style parentName="CellWithoutBottomLine"></Style>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>right</Align>
       </Style>
       <Span>
@@ -167,7 +167,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>right</Align>
       </Style>
       <Span>
@@ -179,7 +179,7 @@
    <Cell>
     <Container>
      <Par>
-      <Style parentName="Tariffauswahl_Fett">
+      <Style parentName="TariffSelection_Bold">
        <Align>right</Align>
       </Style>
       <Span>

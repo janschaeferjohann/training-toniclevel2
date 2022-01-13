@@ -59,7 +59,7 @@
    <Bottom width="5000.0mpt" color="rgb(120,192,239)" style="solid"></Bottom>
   </Border>
  </CellStyle>
- <TableStyle name="TableInnen">
+ <TableStyle name="TableInside">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -129,7 +129,7 @@
   </RowStyle>
   <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
  </TableStyle>
- <TableStyle name="TableZebraColoured" parentName="TableMatrixSmallPadding">
+ <TableStyle name="TableZebraColored" parentName="TableMatrixSmallPadding">
   <RowStyle>
    <CellStyle>
     <Border>
@@ -230,20 +230,20 @@
    <FontSize>10000.0mpt</FontSize>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Ueberschrift" parentName="Standard">
+ <ParStyle name="Header" parentName="Standard">
   <SpanStyle>
    <FontStyle>bold</FontStyle>
   </SpanStyle>
   <SpaceBefore resolution="combine">0.15cm</SpaceBefore>
   <SpaceAfter resolution="combine">0.15cm</SpaceAfter>
  </ParStyle>
- <ParStyle name="Ueberschrift_blau" parentName="Ueberschrift">
+ <ParStyle name="Header_blue" parentName="Header">
   <SpanStyle>
    <FontFamily>SERIF</FontFamily>
    <TextColor>rgb(0,80,180)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Ueberschrift_blau1" parentName="Ueberschrift">
+ <ParStyle name="Header_blue1" parentName="Header">
   <SpanStyle>
    <FontSize>14000.0mpt</FontSize>
    <FontFamily>SERIF</FontFamily>
@@ -251,16 +251,16 @@
    <TextColor>rgb(0,114,188)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Header1" parentName="Ueberschrift">
+ <ParStyle name="Header1" parentName="Header">
   <Role>H1</Role>
  </ParStyle>
- <ParStyle name="Header2" parentName="Ueberschrift">
+ <ParStyle name="Header2" parentName="Header">
   <Role>H2</Role>
  </ParStyle>
- <ParStyle name="Header3" parentName="Ueberschrift">
+ <ParStyle name="Header3" parentName="Header">
   <Role>H3</Role>
  </ParStyle>
- <ParStyle name="Header4" parentName="Ueberschrift">
+ <ParStyle name="Header4" parentName="Header">
   <Role>H4</Role>
  </ParStyle>
  <ParStyle name="infotext_Artifact" parentName="Infotext">
@@ -280,7 +280,7 @@
   </Border>
   <SpaceBefore resolution="combine">0.05cm</SpaceBefore>
  </TableStyle>
- <ParStyle name="Art_Fett" parentName="Standard">
+ <ParStyle name="Art_Bold" parentName="Standard">
   <SpanStyle>
    <FontSize>11000.0mpt</FontSize>
    <FontStyle>bold</FontStyle>
@@ -296,7 +296,7 @@
    <TextColor>rgb(0,200,0)</TextColor>
   </SpanStyle>
  </ParStyle>
- <ParStyle name="Tariffauswahl_Fett" parentName="Standard">
+ <ParStyle name="TariffSelection_Bold" parentName="Standard">
   <SpanStyle>
    <FontSize>10000.0mpt</FontSize>
    <FontStyle>bold</FontStyle>

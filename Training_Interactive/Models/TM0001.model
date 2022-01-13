@@ -21,7 +21,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="Ueberschrift_blau1"></Style>
+  <Style parentName="Header_blue1"></Style>
   <Span>
    <Text>WE ARE GREEN!</Text>
   </Span>

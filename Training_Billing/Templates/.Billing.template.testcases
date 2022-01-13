@@ -8299,7 +8299,7 @@
           <DataNode name="anticipated_Payments_count">
            <Value><![CDATA[number:12]]></Value>
           </DataNode>
-          <DataNode name="Abschlagsliste">
+          <DataNode name="Discountlist">
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Date">
@@ -8631,7 +8631,7 @@
            <Value><![CDATA[string:kannst du diese gerne bei uns anfordern.]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Abschlagstext">
+         <DataNode name="Discounttext">
           <DataNode name="Textblock">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="Abschlagszeile">
@@ -13941,32 +13941,32 @@
                <ContainerPartInstance partIndex="0">
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(0)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(0)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(1)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(1)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(2)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(2)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(3)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(3)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(4)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(4)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(5)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(5)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                </ContainerPartInstance>
@@ -14001,52 +14001,52 @@
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="10">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte1.instance(0)" loopNode="true" name="Spalte1"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte1.instance(0)" loopNode="true" name="Spalte1"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="10">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte1.instance(1)" loopNode="true" name="Spalte1"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte1.instance(1)" loopNode="true" name="Spalte1"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="10">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte1.instance(2)" loopNode="true" name="Spalte1"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte1.instance(2)" loopNode="true" name="Spalte1"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="11">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte2.instance(0)" loopNode="true" name="Spalte2"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte2.instance(0)" loopNode="true" name="Spalte2"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="11">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte2.instance(1)" loopNode="true" name="Spalte2"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte2.instance(1)" loopNode="true" name="Spalte2"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="11">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte2.instance(2)" loopNode="true" name="Spalte2"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte2.instance(2)" loopNode="true" name="Spalte2"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="12">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte3.instance(0)" loopNode="true" name="Spalte3"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte3.instance(0)" loopNode="true" name="Spalte3"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="12">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte3.instance(1)" loopNode="true" name="Spalte3"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte3.instance(1)" loopNode="true" name="Spalte3"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="13">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte4.instance(0)" loopNode="true" name="Spalte4"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte4.instance(0)" loopNode="true" name="Spalte4"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="13">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte4.instance(1)" loopNode="true" name="Spalte4"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte4.instance(1)" loopNode="true" name="Spalte4"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="14"></ContainerPartInstance>
@@ -14941,7 +14941,7 @@
           <DataNode name="anticipated_Payments_count">
            <Value><![CDATA[number:4]]></Value>
           </DataNode>
-          <DataNode name="Abschlagsliste">
+          <DataNode name="Discountlist">
            <DataNode name="Spalte1">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Date">
@@ -15081,7 +15081,7 @@
            <Value><![CDATA[string:setzen Sie sich bitte mit unserem Geschäftskundenservice in Verbindung.]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Abschlagstext">
+         <DataNode name="Discounttext">
           <DataNode name="Textblock">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="Abschlagszeile">
@@ -20022,32 +20022,32 @@
                <ContainerPartInstance partIndex="0">
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(0)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(0)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(1)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(1)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(2)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(2)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(3)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(3)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(4)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(4)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                 <ParPartInstance partIndex="0">
                  <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Abschlagstext.Textblock.instance(5)" loopNode="true" name="Textblock"></DataNodeRef>
+                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.Discounttext.Textblock.instance(5)" loopNode="true" name="Textblock"></DataNodeRef>
                  </Data>
                 </ParPartInstance>
                </ContainerPartInstance>
@@ -20077,22 +20077,22 @@
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="10">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte1.instance(0)" loopNode="true" name="Spalte1"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte1.instance(0)" loopNode="true" name="Spalte1"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="11">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte2.instance(0)" loopNode="true" name="Spalte2"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte2.instance(0)" loopNode="true" name="Spalte2"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="12">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte3.instance(0)" loopNode="true" name="Spalte3"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte3.instance(0)" loopNode="true" name="Spalte3"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="13">
                <Data>
-                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Abschlagsliste.Spalte4.instance(0)" loopNode="true" name="Spalte4"></DataNodeRef>
+                <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.nextanticipated_payments.Discountlist.Spalte4.instance(0)" loopNode="true" name="Spalte4"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="14"></ContainerPartInstance>

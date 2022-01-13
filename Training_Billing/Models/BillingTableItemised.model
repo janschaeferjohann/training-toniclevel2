@@ -22,7 +22,7 @@
      <Cell colSpan="5">
       <Container>
        <Par>
-        <Style parentName="Art_Fett"></Style>
+        <Style parentName="Art_Bold"></Style>
         <Span>
          <Data>$contract</Data>
          <Text></Text>
@@ -71,7 +71,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett"></Style>
+        <Style parentName="TariffSelection_Bold"></Style>
         <Span>
          <Text>von</Text>
         </Span>
@@ -81,7 +81,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett"></Style>
+        <Style parentName="TariffSelection_Bold"></Style>
         <Span>
          <Text>bis</Text>
         </Span>
@@ -91,7 +91,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett">
+        <Style parentName="TariffSelection_Bold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -103,7 +103,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett">
+        <Style parentName="TariffSelection_Bold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -115,7 +115,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett">
+        <Style parentName="TariffSelection_Bold">
          <Align>right</Align>
         </Style>
         <Span>
@@ -142,7 +142,7 @@
      <Cell>
       <Container>
        <Par>
-        <Style parentName="Tariffauswahl_Fett"></Style>
+        <Style parentName="TariffSelection_Bold"></Style>
         <Span>
          <Text>Gesamtverbrauch</Text>
         </Span>

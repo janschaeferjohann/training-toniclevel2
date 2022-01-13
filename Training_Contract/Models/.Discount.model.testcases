@@ -108,9 +108,9 @@
          <DataNode name="anticipated_Payments_count">
           <Value><![CDATA[number:0]]></Value>
          </DataNode>
-         <DataNode name="Abschlagsliste"></DataNode>
+         <DataNode name="Discountlist"></DataNode>
         </DataNode>
-        <DataNode name="Abschlagstext"></DataNode>
+        <DataNode name="Discounttext"></DataNode>
        </DataNode>
       </DataNode>
      </Data>

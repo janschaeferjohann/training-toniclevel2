@@ -16,7 +16,7 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="Ueberschrift_blau1"></Style>
+  <Style parentName="Header_blue1"></Style>
   <Span>
     <Text>2. Ihre Termine und Optionen</Text>
   </Span>
@@ -39,7 +39,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableInnen"></Style>
+  <Style parentName="TableInside"></Style>
   <Row>
    <Cell>
     <Container>
@@ -202,21 +202,21 @@
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="0" groupId="appointment"></InlineRadioButton>
-       <Text> Begin of month</Text>
+       <Text> Anfang des Monats</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="1" groupId="appointment"></InlineRadioButton>
-       <Text> Middle of month</Text>
+       <Text> Mitte des Monats</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="2" groupId="appointment"></InlineRadioButton>
-       <Text> Middle of month</Text>
+       <Text> Mitte des Monats</Text>
       </Span>
      </Par>
     </Container>
