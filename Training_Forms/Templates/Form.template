@@ -407,7 +407,7 @@
         <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
        </Style>
        <Container>
-        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-strom.png">
+        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-energy.png">
          <Style>
           <FillContainerWidth>true</FillContainerWidth>
           <FillContainerHeight>false</FillContainerHeight>
@@ -652,7 +652,7 @@
         <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
        </Style>
        <Container>
-        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-strom.png">
+        <Image uri="mtx://Framework_Training/Graphics/Icons/icon-energy.png">
          <Style>
           <FillContainerWidth>true</FillContainerWidth>
           <Stretch>original_size</Stretch>
@@ -903,7 +903,7 @@
           <Text></Text>
          </Span>
         </Par>
-        <Image uri="mtx://Framework_Training/Graphics/Icons/autostrom.png">
+        <Image uri="mtx://Framework_Training/Graphics/Icons/car_energy.png">
          <Style>
           <Padding top="0.09cm" right="0.09cm" bottom="0.09cm" left="0.09cm"></Padding>
           <FillContainerWidth>true</FillContainerWidth>
@@ -1913,7 +1913,7 @@ else {
               <Text>Unterschrift</Text>
              </Span>
             </Par>
-            <Image uri="mtx://Framework_Training/Graphics/Icons/Ankreuz.PNG">
+            <Image uri="mtx://Framework_Training/Graphics/Icons/check.PNG">
              <Style>
               <Padding top="-1.1cm" right="0.0mpt" bottom="0.0mpt" left="-0.5cm"></Padding>
               <Width>0.6cm</Width>

@@ -802,7 +802,7 @@
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Rechnungstext"></DataNode>
+         <DataNode name="Billingtext"></DataNode>
         </DataNode>
        </DataNode>
        <DataNode name="billdata">
@@ -1005,7 +1005,7 @@
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Rechnungstext"></DataNode>
+         <DataNode name="Billingtext"></DataNode>
         </DataNode>
         <DataNode name="partnerid_formatted">
          <Value><![CDATA[string:]]></Value>
@@ -7955,8 +7955,8 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="billing_data.FILE_NAME"></Property>
-   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="billing_data.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="Billing_RE2020" includeInRegressionTool="false">
@@ -14712,7 +14712,7 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="Billing_Business_2020" includeInRegressionTool="false">
@@ -20573,7 +20573,7 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_Training\Testdata\Level2-Billing_shfw-english2.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english2.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
 </TestCases>

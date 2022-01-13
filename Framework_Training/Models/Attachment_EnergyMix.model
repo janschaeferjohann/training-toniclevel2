@@ -2,7 +2,7 @@
  <DataDefinition></DataDefinition>
  <Style>
   <AttachmentSectionStyle>
-   <PageLayouts parentRef="\library\Framework_Training\Framework\DocumentParts\Attachment\Attachment_A5_quer.pageLayouts"></PageLayouts>
+   <PageLayouts parentRef="\library\Framework_Training\Framework\DocumentParts\Attachment\Attachment_A5_landscape.pageLayouts"></PageLayouts>
   </AttachmentSectionStyle>
  </Style>
  <DocumentPart>

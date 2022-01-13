@@ -1,8 +1,0 @@
-%/customer/CustomerID/__VALIDATION_ERROR_MESSAGE__=Customer number is not numeric
-%/customer/CustomerID/__VALIDATION_LABEL__=Customer number
-%/customer/Firstname/__VALIDATION_LABEL__=Firstname
-%/customer/Lastname/__VALIDATION_ERROR_MESSAGE__=Please enter the lastname
-%/customer/Lastname/__VALIDATION_LABEL__=Lastname
-%/customer/Salutation/__VALIDATION_ERROR_MESSAGE__=Please select a salutation
-%/customer/Title/__VALIDATION_LABEL__=Title
-%/customer/Zip/__VALIDATION_ERROR_MESSAGE__=Please enter a valid ZIP

@@ -309,7 +309,7 @@
           </DataNode>
           <DataNode name="section">
            <DataNode name="Sparten"></DataNode>
-           <DataNode name="Rechnungstext"></DataNode>
+           <DataNode name="Billingtext"></DataNode>
           </DataNode>
           <DataNode name="bank_account">
            <DataNode name="iban_formatted">
@@ -356,7 +356,7 @@
             </DataNode>
             <DataNode name="section">
              <DataNode name="Sparten"></DataNode>
-             <DataNode name="Rechnungstext"></DataNode>
+             <DataNode name="Billingtext"></DataNode>
             </DataNode>
             <DataNode name="bank_account">
              <DataNode name="iban_formatted">
@@ -616,7 +616,7 @@
          </DataNode>
          <DataNode name="section">
           <DataNode name="Sparten"></DataNode>
-          <DataNode name="Rechnungstext"></DataNode>
+          <DataNode name="Billingtext"></DataNode>
          </DataNode>
          <DataNode name="bank_account">
           <DataNode name="iban_formatted">
@@ -662,7 +662,7 @@
            </DataNode>
            <DataNode name="section">
             <DataNode name="Sparten"></DataNode>
-            <DataNode name="Rechnungstext"></DataNode>
+            <DataNode name="Billingtext"></DataNode>
            </DataNode>
            <DataNode name="bank_account">
             <DataNode name="iban_formatted">

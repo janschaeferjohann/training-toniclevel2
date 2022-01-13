@@ -60,7 +60,7 @@
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Rechnungstext"></DataNode>
+         <DataNode name="Billingtext"></DataNode>
         </DataNode>
         <DataNode name="bank_account">
          <DataNode name="iban_formatted">

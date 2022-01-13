@@ -209,7 +209,7 @@
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Rechnungstext"></DataNode>
+         <DataNode name="Billingtext"></DataNode>
         </DataNode>
        </DataNode>
       </DataNode>

@@ -148,7 +148,7 @@
      <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
     </Style>
     <Container>
-     <Image uri="mtx://Framework_Training/Graphics/Icons/kontakt.png"></Image>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/contakt.png"></Image>
      <Par>
       <Span>
        <Text></Text>
@@ -259,7 +259,7 @@
      <Padding top="0.1cm" right="0.3cm" bottom="0.1cm" left="0.3cm"></Padding>
     </Style>
     <Container>
-     <Image uri="mtx://Framework_Training/Graphics/Icons/Stift.png"></Image>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/pen.png"></Image>
     </Container>
    </Cell>
   </Row>
@@ -309,7 +309,7 @@
      <Padding top="0.3cm" right="0.3cm" bottom="0.3cm" left="0.3cm"></Padding>
     </Style>
     <Container>
-     <Image uri="mtx://Framework_Training/Graphics/Icons/fragezeichen.png"></Image>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/questionmark.png"></Image>
     </Container>
    </Cell>
    <Cell>
@@ -462,7 +462,7 @@
    </Cell>
    <Cell>
     <Container>
-     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-telefon.png"></Image>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-phone.png"></Image>
     </Container>
    </Cell>
    <Cell>
@@ -470,7 +470,7 @@
      <VerticalAlignment>last</VerticalAlignment>
     </Style>
     <Container>
-     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-brief.png"></Image>
+     <Image uri="mtx://Framework_Training/Graphics/Icons/icon-letter.png"></Image>
     </Container>
    </Cell>
   </Row>

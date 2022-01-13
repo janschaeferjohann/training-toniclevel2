@@ -18,7 +18,7 @@
  <DocumentPart>
   <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_GVV.valueOf()]]></VisibleIf>
   <DataDefinition></DataDefinition>
-  <DocumentPartRef uri="Models\Attachment_GVV.model"></DocumentPartRef>
+  <DocumentPartRef uri="Models\Attachment_BSO.model"></DocumentPartRef>
  </DocumentPart>
  <DocumentPart>
   <VisibleIf><![CDATA[$freetext_data.Attachment.Attachment_Pricelist.valueOf()]]></VisibleIf>
