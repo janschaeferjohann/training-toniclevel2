@@ -46,7 +46,7 @@
          <Par>
           <Style parentName="TextSpaceAfter_12pt"></Style>
           <Span>
-           <Text> --- Text / Bausteine hier einfügen ---</Text>
+           <Text> --- Insert text / models here ---</Text>
           </Span>
          </Par>
         </Container>
