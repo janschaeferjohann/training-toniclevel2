@@ -166,8 +166,8 @@
 						<contact_type>Post</contact_type>
 						<time_data>
 							<letterdate>30.06.2020</letterdate>
-							<next_payoff>Juli 2021</next_payoff>
-							<next_meter_reading>Juni 2021</next_meter_reading>
+							<next_payoff>July 2021</next_payoff>
+							<next_meter_reading>June 2021</next_meter_reading>
 						</time_data>
 						<section>
 							<consumption_point>
@@ -248,7 +248,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>95,80</netamount>
 									<presum>114,00</presum>
 								</basic_price>
@@ -273,7 +273,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>95,80</netamount>
 									<presum>114,00</presum>
 								</basic_price>
@@ -298,7 +298,7 @@
 								<tax>7</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>81,00</netamount>
 									<presum>100,00</presum>
 								</basic_price>
@@ -322,7 +322,7 @@
 								<tax>0</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>81,00</netamount>
 									<presum>100,00</presum>
 								</basic_price>
@@ -420,10 +420,10 @@
 						<billposition>
 							<positionid>30062020001</positionid>
 							<posnr>1</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
@@ -452,15 +452,15 @@
 						<billposition>
 							<positionid>30062020002</positionid>
 							<posnr>2</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>EEG-Umlage</product_key>
+								<product_key>EEG apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -484,15 +484,15 @@
 						<billposition>
 							<positionid>30062020003</positionid>
 							<posnr>3</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>KWKG-Umlage</product_key>
+								<product_key>KWKG-apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -516,10 +516,10 @@
 						<billposition>
 							<positionid>30062020004</positionid>
 							<posnr>4</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
@@ -548,15 +548,15 @@
 						<billposition>
 							<positionid>30062020005</positionid>
 							<posnr>5</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Offshore-Haftungsumlage</product_key>
+								<product_key>Offshore-Liability contribution</product_key>
 							</product>
 							<period>
 								<from>
@@ -580,10 +580,10 @@
 						<billposition>
 							<positionid>30062020006</positionid>
 							<posnr>6</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
@@ -612,10 +612,10 @@
 						<billposition>
 							<positionid>30062020007</positionid>
 							<posnr>7</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
@@ -644,10 +644,10 @@
 						<billposition>
 							<positionid>30062020001</positionid>
 							<posnr>1</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -676,15 +676,15 @@
 						<billposition>
 							<positionid>30062020002</positionid>
 							<posnr>2</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>EEG-Umlage</product_key>
+								<product_key>EEG apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -708,15 +708,15 @@
 						<billposition>
 							<positionid>30062020003</positionid>
 							<posnr>3</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>KWKG-Umlage</product_key>
+								<product_key>KWKG-apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -740,10 +740,10 @@
 						<billposition>
 							<positionid>30062020004</positionid>
 							<posnr>4</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -772,15 +772,15 @@
 						<billposition>
 							<positionid>30062020005</positionid>
 							<posnr>5</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Offshore-Haftungsumlage</product_key>
+								<product_key>Offshore-Liability contribution</product_key>
 							</product>
 							<period>
 								<from>
@@ -804,10 +804,10 @@
 						<billposition>
 							<positionid>30062020006</positionid>
 							<posnr>6</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -836,10 +836,10 @@
 						<billposition>
 							<positionid>30062020007</positionid>
 							<posnr>7</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -868,10 +868,10 @@
 						<billposition>
 							<positionid>30062020008</positionid>
 							<posnr>8</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>water</section>
 								<rate>Frischwasser</rate>
@@ -900,10 +900,10 @@
 						<billposition>
 							<positionid>30062020008</positionid>
 							<posnr>9</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>water</section>
 								<rate>Frischwasser</rate>
@@ -932,10 +932,10 @@
 						<billposition>
 							<positionid>30062020009</positionid>
 							<posnr>10</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
+							<postype>
+								<type>Annual accounts</type>
 								<class>Business</class>
-							</posart>
+							</postype>
 							<product>
 								<section>sewage</section>
 								<rate>Schmutzwassergebühr</rate>

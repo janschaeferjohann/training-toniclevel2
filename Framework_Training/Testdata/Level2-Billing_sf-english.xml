@@ -140,8 +140,8 @@
 						<contact_type>Post</contact_type>
 						<time_data>
 							<letterdate>30.05.2021</letterdate>
-							<next_payoff>Juli 2022</next_payoff>
-							<next_meter_reading>Juni 2022</next_meter_reading>
+							<next_payoff>July 2022</next_payoff>
+							<next_meter_reading>June 2022</next_meter_reading>
 						</time_data>
 						<section>
 							<consumption_point>
@@ -163,11 +163,11 @@
 								</carrier>
 							</consumption_point>
 							<billing_text>
-								<line>Die Gutschrift für die vergangene Abrechnungsperiode beträgt $value$ EUR.</line>
-								<line>Die Gutschrift wird innerhalb der nächsten 14 Tage auf dein Konto überwiesen.</line>
+								<line>The credit for the past billing period is $value$ EUR.</line>
+								<line>The credit will be transferred to your account within the next 14 days.</line>
 								<line></line>
-								<line>Die detaillierten Berechnungen findest du auf den Folgeseiten. Solltest du Fragen haben, ruf uns bitte</line>
-								<line>einfach an. Oder nutze doch einfach das Kundenportal.</line>
+								<line>You can find the detailed calculations on the following pages. If you have any questions,</line>
+								<line>please call us. Or use the customer portal.</line>
 							</billing_text>
 							<contracts>
 								<contract>
@@ -181,7 +181,7 @@
 									<counter>88845258</counter>
 								</contract>
 								<contract>
-									<rate>Super gas</rate>
+									<rate>Super Gas</rate>
 									<name>Gas</name>
 									<contractsId>2012-03.22</contractsId>
 									<begin_date>01.03.2012</begin_date>
@@ -201,7 +201,7 @@
 									<counter>SW25258</counter>
 								</contract>
 								<contract>
-									<rate>Klimaneutrale Wärme</rate>
+									<rate>Climate-neutral Heat</rate>
 									<name>Heat</name>
 									<contractsId>2012-03.22</contractsId>
 									<begin_date>01.03.2012</begin_date>
@@ -230,7 +230,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>95,80</netamount>
 									<presum>114,00</presum>
 								</basic_price>
@@ -242,7 +242,7 @@
 							</item>
 							<item>
 								<name>Gas</name>
-								<rate>Super gas</rate>
+								<rate>Super Gas</rate>
 								<usage>19512,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -255,7 +255,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>81,00</netamount>
 									<presum>100,00</presum>
 								</basic_price>
@@ -279,7 +279,7 @@
 								<tax>7</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>81,00</netamount>
 									<presum>100,00</presum>
 								</basic_price>
@@ -303,7 +303,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>Jahr</unit>
+									<unit>Year</unit>
 									<netamount>81,00</netamount>
 									<presum>100,00</presum>
 								</basic_price>
@@ -316,12 +316,12 @@
 						</items>
 						<anticipated_payments>
 							<payment_text>
-								<line>Der Abschlag wird von deinem Konto DE79 1100 0000 1211 2222 99 bei der Sam Bank abgebucht.</line>
-								<line>Bitte beachte, dass du zu den o. g. Fälligkeitsterminen keine gesonderte </line>
-								<line>schriftliche Abschlagsmitteilung erhältst.</line>
+								<line>The payment will be debited from your account DE79 1100 0000 1211 2222 99 at Sam Bank.</line>
+								<line>Please note that you will not receive a separate written budget billing </line>
+								<line>notice on the above due dates.</line>
 								<line></line>
-								<line>Sofern du aus umsatzsteuerrechtlichen Gründen eine schriftliche Abschlagsanforderung benötigst,</line>
-								<line>kannst du diese gerne bei uns anfordern.</line>
+								<line>If you need a written request for an estimate for VAT reasons, you are welcome to request </line>
+								<line>it from us.</line>
 							</payment_text>
 							<paideanticipated_payments>
 								<amount_anticipated_payments>12</amount_anticipated_payments>
@@ -418,20 +418,20 @@
 							<sum>2509,54</sum>
 							<anticipated_paymentsum>2589,00</anticipated_paymentsum>
 							<endsum>-79,46</endsum>
-							<sumArt>Gutschrift</sumArt>
+							<sumArt>Credit</sumArt>
 						</billsum>
 						<billposition>
 							<positionid>30062020001</positionid>
 							<posnr>1</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>privatee</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Ausgangspreis</product_key>
+								<product_key>Initial price</product_key>
 							</product>
 							<period>
 								<from>
@@ -455,15 +455,15 @@
 						<billposition>
 							<positionid>30062020001</positionid>
 							<posnr>2</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Ausgangspreis</product_key>
+								<product_key>Initial price</product_key>
 							</product>
 							<period>
 								<from>
@@ -487,15 +487,15 @@
 						<billposition>
 							<positionid>30062020002</positionid>
 							<posnr>3</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>EEG-Umlage</product_key>
+								<product_key>EEG apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -519,15 +519,15 @@
 						<billposition>
 							<positionid>30062020002</positionid>
 							<posnr>4</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>EEG-Umlage</product_key>
+								<product_key>EEG apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -551,15 +551,15 @@
 						<billposition>
 							<positionid>30062020003</positionid>
 							<posnr>5</posnr>
-							<posart>
-								<art>Jahresabrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>Annual accounts</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>KWKG-Umlage</product_key>
+								<product_key>KWKG-apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -583,15 +583,15 @@
 						<billposition>
 							<positionid>30062020003</positionid>
 							<posnr>6</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>KWKG-Umlage</product_key>
+								<product_key>KWKG-apportionment</product_key>
 							</product>
 							<period>
 								<from>
@@ -615,10 +615,10 @@
 						<billposition>
 							<positionid>30062020004</positionid>
 							<posnr>7</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -647,10 +647,10 @@
 						<billposition>
 							<positionid>30062020004</positionid>
 							<posnr>8</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -679,15 +679,15 @@
 						<billposition>
 							<positionid>30062020005</positionid>
 							<posnr>9</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Offshore-Haftungsumlage</product_key>
+								<product_key>Offshore-Liability contribution</product_key>
 							</product>
 							<period>
 								<from>
@@ -711,15 +711,15 @@
 						<billposition>
 							<positionid>30062020005</positionid>
 							<posnr>10</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Offshore-Haftungsumlage</product_key>
+								<product_key>Offshore-Liability contribution</product_key>
 							</product>
 							<period>
 								<from>
@@ -743,10 +743,10 @@
 						<billposition>
 							<positionid>30062020006</positionid>
 							<posnr>11</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -775,10 +775,10 @@
 						<billposition>
 							<positionid>30062020006</positionid>
 							<posnr>12</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -807,10 +807,10 @@
 						<billposition>
 							<positionid>30062020007</positionid>
 							<posnr>13</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -839,10 +839,10 @@
 						<billposition>
 							<positionid>30062020007</positionid>
 							<posnr>14</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
@@ -871,13 +871,13 @@
 						<billposition>
 							<positionid>30062020008</positionid>
 							<posnr>15</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>gas</section>
-								<rate>Super gas</rate>
+								<rate>Super Gas</rate>
 								<meter>SAMGNR00122325847</meter>
 								<product_key>Arbeitspreis</product_key>
 							</product>
@@ -903,13 +903,13 @@
 						<billposition>
 							<positionid>30062020009</positionid>
 							<posnr>16</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>gas</section>
-								<rate>Super gas</rate>
+								<rate>Super Gas</rate>
 								<meter>SAMGNR00122325847</meter>
 								<product_key>Grundpreis</product_key>
 							</product>
@@ -935,10 +935,10 @@
 						<billposition>
 							<positionid>30062020009</positionid>
 							<posnr>17</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>water</section>
 								<rate>Easy fresh Water</rate>
@@ -967,10 +967,10 @@
 						<billposition>
 							<positionid>30062020010</positionid>
 							<posnr>18</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>water</section>
 								<rate>Easy fresh Water</rate>
@@ -999,10 +999,10 @@
 						<billposition>
 							<positionid>30062020010</positionid>
 							<posnr>19</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>sewage</section>
 								<rate>Easy fresh Water</rate>
@@ -1031,10 +1031,10 @@
 						<billposition>
 							<positionid>30062020010</positionid>
 							<posnr>20</posnr>
-							<posart>
-								<art>Jahresrechnung</art>
-								<class>privat</class>
-							</posart>
+							<postype>
+								<type>financial statement</type>
+								<class>private</class>
+							</postype>
 							<product>
 								<section>heat</section>
 								<rate>Klimaneutrale Wärme</rate>

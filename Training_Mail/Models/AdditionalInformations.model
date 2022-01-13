@@ -4,10 +4,7 @@
   <Par>
    <Style parentName="TextNormal"></Style>
    <Span>
-    <Text>Weitere Informationen finden Sie auf unserer </Text>
-   </Span>
-   <Span>
-    <Text>Webseite</Text>
+    <Text>You can find more information on our website.</Text>
    </Span>
    <Span>
     <Text>.</Text>
@@ -16,13 +13,7 @@
   <Par>
    <Style parentName="TextNormal"></Style>
    <Span>
-    <Text>Sie können uns auch per </Text>
-   </Span>
-   <Span>
-    <Text>Mail</Text>
-   </Span>
-   <Span>
-    <Text> erreichen.</Text>
+    <Text>You can also reach us by email.</Text>
    </Span>
   </Par>
  </Container>

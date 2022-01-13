@@ -29,10 +29,10 @@
          <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
         </DataNode>
         <DataNode name="next_payoff" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Juli 2021]]></Value>
+         <Value><![CDATA[string:July 2021]]></Value>
         </DataNode>
         <DataNode name="next_meter_reading" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Juni 2021]]></Value>
+         <Value><![CDATA[string:June 2021]]></Value>
         </DataNode>
        </DataNode>
        <DataNode name="section">

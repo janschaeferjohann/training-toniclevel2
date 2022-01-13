@@ -208,25 +208,25 @@
          </Node>
          <Node multiple="false" name="difference">
             <Settings>
-               <Script>	var varDiffBetrag = '';
-	var BetragA = 0;
-	var BetragB = 0;
+               <Script>	var varDiffAmount = '';
+	var AmountA = 0;
+	var AmountB = 0;
 	var Z = ''
 
 	Z = $current.add($current.Diff, "");
 	
 	for (var i=0; i &lt; $anticipated_payments.paidanticipated_payments.amount.instanceCount(i); i++) {
-		BetragA = $anticipated_payments.paidanticipated_payments.amount.instance(i).presum;
-		BetragB = $items.item.instance(i).presum;
+		AmountA = $anticipated_payments.paidanticipated_payments.amount.instance(i).presum;
+		AmountB = $items.item.instance(i).presum;
 
-		BetragA = BetragA.toString().replace(".", "");
-		BetragA = BetragA.toString().replace(",", ".");
-		BetragB = BetragB.toString().replace(".", "");
-		BetragB = BetragB.toString().replace(",", ".");
+		AmountA = AmountA.toString().replace(".", "");
+		AmountA = AmountA.toString().replace(",", ".");
+		AmountB = AmountB.toString().replace(".", "");
+		AmountB = AmountB.toString().replace(",", ".");
 
-		varDiffBetrag = BetragA - BetragB;
+		varDiffAmount = AmountA - AmountB;
 		
-		Z.add(Z.Betrag, varDiffBetrag);
+		Z.add(Z.Amount, varDiffAmount);
 	};	
 </Script>
             </Settings>
@@ -301,7 +301,7 @@
 
 			start_gas = '1';
 		}
-		if (contractAll.instance(i).name.toString() == 'Wasser' &amp;&amp; start_water == '0') {
+		if (contractAll.instance(i).name.toString() == 'Water' &amp;&amp; start_water == '0') {
 
 			start_water = '1';
 		}
