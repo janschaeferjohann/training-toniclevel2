@@ -22,7 +22,7 @@
    <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
   </Style>
   <Span>
-   <Text>Mit der Grundversorgung ist gesetzlich gewährleistet, dass Sie immer sicher und zuverlässig mit Energie versorgt sind. In Ihrer Region beliefern wir die meisten privaten Haushalte mit Energie. Das macht uns zu Ihrem Grundversorger.</Text>
+   <Text>Basic supply ensures by law that you always have a secure and reliable supply of energy. We supply most private households in your region with energy. That makes us your basic supplier.</Text>
   </Span>
  </Par>
  <Par>
@@ -31,7 +31,7 @@
    <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
   </Style>
   <Span>
-   <Text>Ihr Vertrag ist unbefristet. Sie könne ihn jederzeit mit einer Frist von 2 Weeks kündigen und einen anderen Tariff wählen. Gerne beraten wir Sie zu unseren aktuellen Angeboten.</Text>
+   <Text>Your contract is unlimited. You can cancel it at any time with a notice period of 2 weeks and choose another tariff. We will be happy to advise you on our current offers.</Text>
   </Span>
  </Par>
  <Par>
@@ -40,7 +40,7 @@
    <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
   </Style>
   <Span>
-   <Text>Sie können uns ganz bequem und flexibel erreichen: telefonisch, per Post, per E-Mail oder über Ihr Serviceportal "Mein sam.energy".</Text>
+   <Text>You can reach us conveniently and flexibly: by phone, by mail, by e-mail or via your service portal "My sam.energy".</Text>
   </Span>
  </Par>
  <Par>
@@ -59,7 +59,7 @@
    <Style>
     <FontStyle>bold</FontStyle>
    </Style>
-   <Text>Ihre Preise</Text>
+   <Text>Your prices</Text>
   </Span>
  </Par>
  <Table>
@@ -109,7 +109,7 @@
        <Align>center</Align>
       </Style>
       <Span>
-       <Text>Arbeitspreis</Text>
+       <Text>Energy rate</Text>
       </Span>
      </Par>
     </Container>
@@ -122,7 +122,7 @@
        <Align>center</Align>
       </Style>
       <Span>
-       <Text>Grundpreis</Text>
+       <Text>Basic price</Text>
       </Span>
      </Par>
     </Container>
@@ -146,7 +146,7 @@
        <Align>right</Align>
       </Style>
       <Span>
-       <Text>netto</Text>
+       <Text>net</Text>
       </Span>
      </Par>
     </Container>
@@ -159,7 +159,7 @@
        <Align>right</Align>
       </Style>
       <Span>
-       <Text>brutto</Text>
+       <Text>gross</Text>
       </Span>
      </Par>
     </Container>
@@ -171,7 +171,7 @@
        <Align>right</Align>
       </Style>
       <Span>
-       <Text>netto</Text>
+       <Text>net</Text>
       </Span>
      </Par>
     </Container>
@@ -183,7 +183,7 @@
        <Align>right</Align>
       </Style>
       <Span>
-       <Text>brutto</Text>
+       <Text>gross</Text>
       </Span>
      </Par>
     </Container>
@@ -198,7 +198,7 @@
      <Container>
       <Par>
        <Span>
-        <Text>bis 7000 kWh/Jahr</Text>
+        <Text>up to 7000 kWh/year</Text>
        </Span>
       </Par>
      </Container>
@@ -270,7 +270,7 @@
      <Container>
       <Par>
        <Span>
-        <Text>ab 7001 kWh/Jahr</Text>
+        <Text>up to 7001 kWh/year</Text>
        </Span>
       </Par>
      </Container>
@@ -335,13 +335,13 @@
  <Par>
   <Style parentName="TextSpaceBefore"></Style>
   <Span>
-   <Text>Pricestand: 01.04.2016. Gerundete Grosspreise inkl. 19% Umsatzsteuer.</Text>
+   <Text>Price level: 01.04.2016. Rounded wholesale prices incl. 19% VAT.</Text>
   </Span>
  </Par>
  <Par>
   <Style parentName="TextSpaceBefore"></Style>
   <Span>
-   <Text>Grundlage für die Belieferung ist die beiliegende Electricitygrundversorgungsverordnung (ElectricityGVV).</Text>
+   <Text>The basis for the supply is the enclosed Electricity Basic Supply Ordinance (ElectricityGVV).</Text>
   </Span>
  </Par>
  <Par>

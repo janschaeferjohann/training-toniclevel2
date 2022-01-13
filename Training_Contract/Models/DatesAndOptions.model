@@ -18,14 +18,14 @@
  <Par>
   <Style parentName="Header_blue1"></Style>
   <Span>
-    <Text>2. Ihre Termine und Optionen</Text>
+   <Text>2. Your dates and options</Text>
   </Span>
  </Par>
  <Table>
   <Columns>
    <Column>
     <Style>
-     <ColumnWidth>118104.0mpt</ColumnWidth>
+     <ColumnWidth>145854.0mpt</ColumnWidth>
     </Style>
    </Column>
    <Column>
@@ -49,7 +49,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Abschlagszahlung</Text>
+       <Text>Partial payment</Text>
       </Span>
      </Par>
     </Container>
@@ -62,7 +62,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Ablesung</Text>
+       <Text>Measurement</Text>
       </Span>
      </Par>
     </Container>
@@ -75,7 +75,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Jahresrechnung</Text>
+       <Text>Annual accounts</Text>
       </Span>
      </Par>
     </Container>
@@ -90,21 +90,21 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Zahlungsweise</Text>
+       <Text>Payment method</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.basedata.bank_account.sepa.direct_debit" valueIndex="0" groupId="direct_debit"></InlineRadioButton>
-       <Text> Bankeinzug</Text>
+       <Text> Direct debit</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.basedata.bank_account.sepa.direct_debit" valueIndex="1" groupId="direct_debit"></InlineRadioButton>
-       <Text> Überweisung</Text>
+       <Text> Bank transfer</Text>
       </Span>
      </Par>
     </Container>
@@ -114,17 +114,17 @@
      <Par>
       <Style parentName="TextSpaceBefore"></Style>
       <Span>
-       <Text>Die Ermittlung Ihres Zählerstands für Ihre</Text>
+       <Text>The determination of your counter</Text>
       </Span>
      </Par>
      <Par>
       <Span>
-       <Text>Jahresrechnung wird von Ihrem Netzbetreiber </Text>
+       <Text>reading for your annual billing is carried out </Text>
       </Span>
      </Par>
      <Par>
       <Span>
-       <Text>oder Messdienstleister durchgeführt</Text>
+       <Text>by your network operator or metering service provider</Text>
       </Span>
      </Par>
     </Container>
@@ -137,7 +137,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Rechnungserhalt:</Text>
+       <Text>Billing receipt:</Text>
       </Span>
      </Par>
      <Par>
@@ -195,28 +195,28 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Termin Zahlung:</Text>
+       <Text>Date payment:</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="0" groupId="appointment"></InlineRadioButton>
-       <Text> Anfang des Monats</Text>
+       <Text> Beginning of the month</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="1" groupId="appointment"></InlineRadioButton>
-       <Text> Mitte des Monats</Text>
+       <Text> Middle of the month</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.anticipated_payments.appointment" valueIndex="2" groupId="appointment"></InlineRadioButton>
-       <Text> Mitte des Monats</Text>
+       <Text> End of the month</Text>
       </Span>
      </Par>
     </Container>
@@ -229,7 +229,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Voraussichtlicher Termin:</Text>
+       <Text>Expected date:</Text>
       </Span>
       <Span>
        <Text> </Text>
@@ -246,7 +246,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Voraussichtlicher Termin:</Text>
+       <Text>Expected date:</Text>
       </Span>
      </Par>
      <Par>
@@ -309,7 +309,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Möchten Sie den bequemen Bankeinzug nutzen?</Text>
+       <Text>Would you like to use the convenient direct debit?</Text>
       </Span>
      </Par>
      <Par>
@@ -317,7 +317,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Dies können Sie ganz einfach einrichten: Entweder in Ihrem persönlichen Serviceportal "Mein sam.energy" oder mit dem beiliegenden SEPA-Lastschriftmandat.</Text>
+       <Text>You can set this up very easily: Either in your personal service portal "My sam.energy" or with the enclosed SEPA direct debit mandate.</Text>
       </Span>
      </Par>
     </Container>

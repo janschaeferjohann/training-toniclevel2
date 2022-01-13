@@ -9,12 +9,12 @@
   <Style parentName="Header_blue1">
   </Style>
   <Span>
-    <Text>4. Abschlag</Text>
+    <Text>4. Partial payment </Text>
   </Span>
  </Par>
  <Par>
   <Span>
-   <Text>Ihr Abschlag: </Text>
+   <Text>Your partial payment: </Text>
   </Span>
  </Par>
  <Table>
@@ -52,7 +52,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Steuersatz</Text>
+         <Text>Tax rate</Text>
         </Span>
        </Par>
       </Container>
@@ -76,7 +76,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Umsatzsteuer</Text>
+         <Text>Sales tax</Text>
         </Span>
        </Par>
       </Container>
@@ -88,7 +88,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Abschlag</Text>
+         <Text>Partial payment </Text>
         </Span>
        </Par>
       </Container>
@@ -104,7 +104,7 @@
        <Par>
         <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
-         <Text>Gesamtbetrag</Text>
+         <Text>Total amount</Text>
         </Span>
        </Par>
       </Container>
@@ -323,9 +323,9 @@
  </Par>
  <Par>
   <Span>
-   <Text>Bitte überweisen Sie den Abschlag zu folgenden Terminen auf unser Konte mit der IBAN DE49 3007 0010 0394 0319 00 (Deutsche Bank). Geben Sie dabei bitte als Verwendungszweck Ihr Vertragskonto </Text>
+   <Text>Please transfer the amount due to our account IBAN DE49 3007 0010 0394 0319 00 (Deutsche Bank) on the following dates. Please indicate your contract account </Text>
    <Data>$contract_data.instance(0).basedata.partnerid</Data>
-   <Text> an.</Text>
+   <Text> as reason for payment.</Text>
   </Span>
  </Par>
  <Table>
@@ -383,7 +383,7 @@
        <Align>center</Align>
       </Style>
       <Span>
-       <Text>Rechnung</Text>
+       <Text>Billing</Text>
       </Span>
      </Par>
     </Container>
@@ -474,7 +474,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Möchten Sie Ihren Abschlag oder Ihre Zahlungstermine anpassen?</Text>
+       <Text>Would you like to adjust your partial payment or payment dates?</Text>
       </Span>
      </Par>
      <Par>
@@ -482,7 +482,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Sie können die Höhe des Abschlags oder den Tag der Fälligkeit im Month ganz einfach ändern. Am bequemsten geht dies in Ihrem Serviceportal "Mein sam.energy".</Text>
+       <Text>You can easily change the amount of the partial payment or the due date in the month. The most convenient way to do this is in your "My sam.energy" service portal.</Text>
       </Span>
      </Par>
     </Container>

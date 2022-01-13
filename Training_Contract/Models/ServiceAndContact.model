@@ -10,7 +10,7 @@
    <BreakBefore>page_forced</BreakBefore>
   </Style>
   <Span>
-    <Text>5. Service und Kontakt</Text>
+   <Text>5. Service and contact</Text>
   </Span>
  </Par>
  <Par>
@@ -46,7 +46,7 @@
         <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>sam.energy SmartCheck - Vorausschauen statt Nachzahlen</Text>
+       <Text>sam.energy SmartCheck - Looking ahead instead of paying later</Text>
       </Span>
      </Par>
     </Container>
@@ -71,7 +71,7 @@
        <Style>
         <FontStyle></FontStyle>
        </Style>
-       <Text>Mit dem </Text>
+       <Text>With the </Text>
       </Span>
       <Span>
        <Style>
@@ -80,7 +80,7 @@
        <Text>sam.energy SmartCheck</Text>
       </Span>
       <Span>
-       <Text> haben Sie Ihre Energiekosten immer unter Kontrolle.</Text>
+       <Text> you always have your energy costs under control.</Text>
       </Span>
      </Par>
      <Par>
@@ -88,7 +88,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Bei vielen unserer Tariffe könne Sie mit dem sam.energy SmartCheck prüfen, ob Ihr Abschlag zu Ihrem tatsächlichen Verbrauch passt. So könne Sie früh Nachzahlungen vermeiden.</Text>
+       <Text>With many of our tariffs, you can use the sam.energy SmartCheck to check whether your partial payment is appropriate for your actual consumption. This way you can avoid additional payments at an early stage.</Text>
       </Span>
      </Par>
      <Par>
@@ -96,7 +96,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Simple in Ihrem Serviceportal "Mein sam.energy" anmelden, sam.energy SmartCheck anklicken und aktuellen Zählerstand eingeben.</Text>
+       <Text>Simply log in to your "My sam.energy" service portal, click on sam.energy SmartCheck and enter the current counter value.</Text>
       </Span>
      </Par>
     </Container>
@@ -136,7 +136,7 @@
         <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Mein sam.energy - Ihr persönliches Serviceportal</Text>
+       <Text>Mein sam.energy - Your personal service portal</Text>
       </Span>
      </Par>
     </Container>
@@ -169,7 +169,7 @@
        <Style>
         <FontStyle></FontStyle>
        </Style>
-       <Text>Mit einem klick haben Sie alles im Blick. Sie können 24 Stunden, 7 Tage die Week vieles rund um Ihren Vertrag bequem online erledigen.</Text>
+       <Text>With one click you have everything in view. You can conveniently manage your contract online 24 hours a day, 7 days a week.</Text>
       </Span>
      </Par>
      <Par>
@@ -186,7 +186,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Zählerstände eingeben</Text>
+       <Text>Enter counter values</Text>
       </Span>
      </Par>
      <Par>
@@ -195,7 +195,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Abschlag und Zahlungstermine anpassen</Text>
+       <Text>Adjust partial payment and payment dates</Text>
       </Span>
      </Par>
      <Par>
@@ -204,7 +204,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Persönliche Daten ändern</Text>
+       <Text>Change personal data</Text>
       </Span>
      </Par>
      <Par>
@@ -213,7 +213,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Vertragsdetails einsehen</Text>
+       <Text>View contract details</Text>
       </Span>
      </Par>
      <Par>
@@ -222,7 +222,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Bankdaten anpassen</Text>
+       <Text>Customize bank data</Text>
       </Span>
      </Par>
      <Par>
@@ -233,7 +233,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>... und vieles mehr</Text>
+       <Text>... and much more</Text>
       </Span>
       <Span>
        <Text>
@@ -245,7 +245,7 @@
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Die Registrierung ist ganz einfach: Gehen Sie auf www.sam-energy.de und registrieren Sie sich mit Ihrem Registrierungscode: 535.325.346.245.234 und Ihrem Vertragskonto:</Text>
+       <Text>Registration is very simple: go to www.sam-energy.de and register with your registration code: 535.325.346.245.234 and your contract account:</Text>
        <Data>$contract_data.basedata.partnerid</Data>
        <Text>.</Text>
       </Span>
@@ -297,7 +297,7 @@
         <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Frag sam.energy - Antworten auf Ihre Fragen</Text>
+       <Text>Ask sam.energy - Answers to your questions</Text>
       </Span>
      </Par>
     </Container>
@@ -323,7 +323,7 @@
         <FontSize>10000.0mpt</FontSize>
         <FontFamily>STANDARD</FontFamily>
        </Style>
-       <Text>Unter www.sam-energy.com/frag-sam-energy erhalten Sie Antworten auf viele Ihrer Fragen, können direkt Ihre Erfahrungen  mitteilen und mit unseren Community-Experten diskutieren.</Text>
+       <Text>At www.sam-energy.com/frag-sam-energy you can get answers to many of your questions, share your experiences directly and discuss with our community experts.</Text>
       </Span>
      </Par>
      <Par>
@@ -335,7 +335,7 @@
         <FontSize>10000.0mpt</FontSize>
         <FontFamily>STANDARD</FontFamily>
        </Style>
-       <Text>Mehrere Themengebiete stehen Ihnen zur Verfügung: Service &amp; Rechnung, Electricity, Erdgas und Energiezukunft.</Text>
+       <Text>Several subject areas are available for you to choose from: Service &amp; Bill, Electricity, Natural Gas and Energy Future.</Text>
       </Span>
       <Span>
        <Style>
@@ -394,7 +394,7 @@
         <Padding top="0.3cm" right="0.0mpt" bottom="0.0mpt" left="0.3cm"></Padding>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>So erreichen Sie uns</Text>
+       <Text>How to reach us</Text>
       </Span>
      </Par>
     </Container>
@@ -519,7 +519,7 @@
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Telefon  </Text>
+       <Text>Phone  </Text>
       </Span>
       <Span>
        <Text>0783/123 343 234</Text>
@@ -539,13 +539,13 @@
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
-       <Text>Mo - Fr: 8 - 20 Uhr</Text>
+       <Text>Mon - Fr: 8 - 20 pm</Text>
       </Span>
      </Par>
      <Par>
       <Style parentName="TextNormal"></Style>
       <Span>
-       <Text>Sa: 9 - 14 Uhr</Text>
+       <Text>Sat: 9 - 14 pm</Text>
       </Span>
      </Par>
     </Container>
@@ -568,7 +568,7 @@
      </Par>
      <Par>
       <Span>
-       <Text>Postfach 5432</Text>
+       <Text>P.O. Box 5432</Text>
       </Span>
      </Par>
      <Par>

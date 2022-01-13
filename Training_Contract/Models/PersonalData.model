@@ -12,7 +12,7 @@
  <Par>
   <Style parentName="Header_blue1"></Style>
   <Span>
-   <Text>1. Ihre Daten</Text>
+   <Text>1. Your data</Text>
   </Span>
  </Par>
  <Table>
@@ -63,7 +63,7 @@
             <Style>
              <FontStyle>bold</FontStyle>
             </Style>
-            <Text>Persönliche Angaben</Text>
+            <Text>Personal data</Text>
            </Span>
           </Par>
          </Container>
@@ -127,7 +127,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Adresse:</Text>
+            <Text>Address:</Text>
            </Span>
           </Par>
          </Container>
@@ -186,7 +186,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Telefon:</Text>
+            <Text>Phone:</Text>
            </Span>
           </Par>
          </Container>
@@ -243,7 +243,7 @@
             <Style>
              <FontStyle>bold</FontStyle>
             </Style>
-            <Text>Bankverbindung</Text>
+            <Text>Bank details</Text>
            </Span>
           </Par>
          </Container>
@@ -270,7 +270,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Kontoinhaber:</Text>
+            <Text>Account holder:</Text>
            </Span>
           </Par>
          </Container>
@@ -435,7 +435,7 @@
             <Style>
              <FontStyle>bold</FontStyle>
             </Style>
-            <Text>Verbrauchsstelle</Text>
+            <Text>Point of consumption</Text>
            </Span>
           </Par>
          </Container>
@@ -462,7 +462,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Lieferbeginn:</Text>
+            <Text>Delivery start:</Text>
            </Span>
           </Par>
          </Container>
@@ -490,7 +490,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Zählernummer:</Text>
+            <Text>Counter number:</Text>
            </Span>
           </Par>
          </Container>
@@ -519,7 +519,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Adresse:</Text>
+            <Text>Adress:</Text>
            </Span>
           </Par>
          </Container>
@@ -557,7 +557,7 @@
             <Style>
              <FontStyle></FontStyle>
             </Style>
-            <Text>Netzbetreiber:</Text>
+            <Text>Network operator:</Text>
            </Span>
           </Par>
          </Container>
@@ -639,8 +639,8 @@
            <Style>
             <FontStyle>bold</FontStyle>
            </Style>
-           <Text>Fehlen noch Angaben oder stimmen 
-Daten nicht?</Text>
+           <Text>Is there any information missing or 
+data is not correct?</Text>
           </Span>
          </Par>
          <Par>
@@ -648,7 +648,7 @@ Daten nicht?</Text>
            <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
           </Style>
           <Span>
-           <Text>Am bequemsten können Sie Ergänzungen oder Korrekturen über Ihr Serviceportal "Mein sam.energy" vornehmen.</Text>
+           <Text>The most convenient way to make additions or corrections is via your "My sam.energy" service portal.</Text>
           </Span>
          </Par>
         </Container>
@@ -704,7 +704,7 @@ Daten nicht?</Text>
        <Style>
         <FontStyle>bold</FontStyle>
        </Style>
-       <Text>Was ist der Netzbetreiber?</Text>
+       <Text>What is the network operator?</Text>
       </Span>
      </Par>
      <Par>
@@ -712,7 +712,7 @@ Daten nicht?</Text>
        <SpaceAfter resolution="combine">0.2cm</SpaceAfter>
       </Style>
       <Span>
-       <Text>Der Netzbetreiber ist für das Elektrizitäts- bzw. Erdgasnetz verantwortlich. Durch dieses Netz wird die Energie bis zu Ihrer Verbrauchsstelle geleitet. Er ist beispielsweise Ihr Ansprechpartner bei Elektrizitätsausfällen und technischen Fragen rund um Ihren Zähler. Ihr Netzbetreiber und wir sind voneinander unabhängig Unternehmen.</Text>
+       <Text>The network operator is responsible for the electricity or natural gas network. The energy is routed through this network to your point of consumption. He is, for example, your contact in case of electricity failures and technical questions around your counter. Your network operator and we are independent companies.</Text>
       </Span>
      </Par>
     </Container>
