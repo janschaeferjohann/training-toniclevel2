@@ -68,7 +68,7 @@
         <Value><![CDATA[string:partnerid_formatted]]></Value>
        </DataNode>
        <DataNode name="section">
-        <DataNode name="Sparten"></DataNode>
+        <DataNode name="Divisions"></DataNode>
         <DataNode name="Billingtext"></DataNode>
        </DataNode>
        <DataNode name="bank_account">

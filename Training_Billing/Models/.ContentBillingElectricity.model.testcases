@@ -39,7 +39,7 @@
     </Data>
     <ContainerPartInstance partIndex="0">
      <Data>
-      <DataNode name="snapBeispiel">
+      <DataNode name="snapExample">
        <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ik5hTiIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48dGV4dCB4PSIyNSIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+QWt0dWVsbDwvdGV4dD48dGV4dCB4PSI3MCIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+Vm9yamFocjwvdGV4dD48dGV4dCB4PSIxMzAiIHk9Ik5hTiIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEgUGVyc29uPC90ZXh0Pjx0ZXh0IHg9IjIzMCIgeT0iTmFOIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MiBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSIzMzAiIHk9Ik5hTiIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMgUGVyc29uZW48L3RleHQ+PHRleHQgeD0iNDMwIiB5PSJOYU4iIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40IFBlcnNvbmVuPC90ZXh0PjxyZWN0IHg9IjM1IiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiM3YWMxZGMiLz48cmVjdCB4PSI4MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjOGFjMWRjIi8+PHJlY3QgeD0iMTIwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjE2MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMTgwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSIyMjAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMjYwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIyODAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjMyMCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZTRmM2ZjIi8+PHJlY3QgeD0iMzQwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIzNjAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjM4MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iNDIwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9Ik5hTiIgd2lkdGg9IjIwIiBoZWlnaHQ9Ik5hTiIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjQ2MCIgeT0iTmFOIiB3aWR0aD0iMjAiIGhlaWdodD0iTmFOIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iNDgwIiB5PSJOYU4iIHdpZHRoPSIyMCIgaGVpZ2h0PSJOYU4iIGZpbGw9IiNkODNjNjgiLz48L3N2Zz4=]]></Value>
       </DataNode>
       <DataNode name="billing_data">
@@ -67,20 +67,20 @@
         </DataNode>
         <DataNode name="basedata">
          <DataNode name="section">
-          <DataNode name="Sparten">
+          <DataNode name="Divisions">
            <DataNode name="flag_strom">
             <Value><![CDATA[string:0]]></Value>
            </DataNode>
            <DataNode name="flag_gas">
             <Value><![CDATA[string:0]]></Value>
            </DataNode>
-           <DataNode name="flag_wasser">
+           <DataNode name="flag_water">
             <Value><![CDATA[string:0]]></Value>
            </DataNode>
-           <DataNode name="flag_abwasser">
+           <DataNode name="flag_wasterwater">
             <Value><![CDATA[string:0]]></Value>
            </DataNode>
-           <DataNode name="flag_waerme">
+           <DataNode name="flag_heat">
             <Value><![CDATA[string:0]]></Value>
            </DataNode>
           </DataNode>
@@ -101,11 +101,11 @@
        <Data>
         <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
         <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="Electricity"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Gas" name="Gas"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="Water"></DataNodeRef>
-        <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Heat" name="Heat"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Electricity" name="Electricity"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Gas" name="Gas"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Gas" name="Gas"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Water" name="Water"></DataNodeRef>
+        <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Heat" name="Heat"></DataNodeRef>
        </Data>
        <ContainerPartInstance partIndex="0">
         <TablePartInstance partIndex="0">

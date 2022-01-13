@@ -785,20 +785,20 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="section">
-         <DataNode name="Sparten">
+         <DataNode name="Divisions">
           <DataNode name="flag_strom">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_gas">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasser">
+          <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_abwasser">
+          <DataNode name="flag_wasterwater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_waerme">
+          <DataNode name="flag_heat">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
@@ -988,20 +988,20 @@
          <DataNode name="billing_text">
           <Value><![CDATA[string:]]></Value>
          </DataNode>
-         <DataNode name="Sparten">
+         <DataNode name="Divisions">
           <DataNode name="flag_strom">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_gas">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasser">
+          <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_abwasser">
+          <DataNode name="flag_wasterwater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_waerme">
+          <DataNode name="flag_heat">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
@@ -11750,7 +11750,7 @@
           </DataNode>
          </DataNode>
         </DataNode>
-        <DataNode name="ZeileNachSparte">
+        <DataNode name="DivisionLine">
          <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="Tariff_Flag">
@@ -12635,20 +12635,20 @@
            <Value><![CDATA[string:einfach an. Oder nutze doch einfach das Kundenportal]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Sparten">
+         <DataNode name="Divisions">
           <DataNode name="flag_strom">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
           <DataNode name="flag_gas">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_wasser">
+          <DataNode name="flag_water">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_abwasser">
+          <DataNode name="flag_wasterwater">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_waerme">
+          <DataNode name="flag_heat">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
@@ -13779,20 +13779,20 @@
             <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
             <DataNode name="basedata">
              <DataNode name="section">
-              <DataNode name="Sparten">
+              <DataNode name="Divisions">
                <DataNode name="flag_strom">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
                <DataNode name="flag_gas">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_wasser">
+               <DataNode name="flag_water">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_abwasser">
+               <DataNode name="flag_wasterwater">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_waerme">
+               <DataNode name="flag_heat">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
               </DataNode>
@@ -14086,7 +14086,7 @@
                <DataNode name="Sparte">
                 <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
-               <DataNode name="snapBeispiel">
+               <DataNode name="snapExample">
                 <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMyMCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI1IiB5Mj0iNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjYwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNTUiIHkyPSI1NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iNTgiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij41MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjEwNSIgeTI9IjEwNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMTA4IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+NDAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIxNTUiIHkyPSIxNTUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjE1OCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMjA1IiB5Mj0iMjA1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIyMDgiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4yMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjI1NSIgeTI9IjI1NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMjU4IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzMDUiIHkyPSIzMDUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjMwOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiLz48dGV4dCB4PSIyNSIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+QWt0dWVsbDwvdGV4dD48dGV4dCB4PSI3MCIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+Vm9yamFocjwvdGV4dD48dGV4dCB4PSIxMzAiIHk9IjMyMCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEgUGVyc29uPC90ZXh0Pjx0ZXh0IHg9IjIzMCIgeT0iMzIwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MiBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSIzMzAiIHk9IjMyMCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjMgUGVyc29uZW48L3RleHQ+PHRleHQgeD0iNDMwIiB5PSIzMjAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40IFBlcnNvbmVuPC90ZXh0PjxyZWN0IHg9IjM1IiB5PSIyMzUuOTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI2OS4wNSIgZmlsbD0iIzdhYzFkYyIvPjxyZWN0IHg9IjgwIiB5PSIyMzMuNDUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3MS41NSIgZmlsbD0iIzhhYzFkYyIvPjxyZWN0IHg9IjEyMCIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjUiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9IjI1MCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjU1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMTYwIiB5PSIyMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSI5NSIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjE4MCIgeT0iMTgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTI1IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMjIwIiB5PSIyNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1MCIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iMjAwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTA1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMjYwIiB5PSIxNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNTAiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIyODAiIHk9IjEwMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwNSIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjMyMCIgeT0iMjM1IiB3aWR0aD0iMjAiIGhlaWdodD0iNzAiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIzNDAiIHk9IjE4MCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEyNSIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjM2MCIgeT0iMTE1IiB3aWR0aD0iMjAiIGhlaWdodD0iMTkwIiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMzgwIiB5PSI1NSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjI1MCIgZmlsbD0iI2Q4M2M2OCIvPjxyZWN0IHg9IjQyMCIgeT0iMjE1IiB3aWR0aD0iMjAiIGhlaWdodD0iOTAiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9IjE1NSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2I0ZGNmNiIvPjxyZWN0IHg9IjQ2MCIgeT0iOTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMTUiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSI0ODAiIHk9IjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzMDAiIGZpbGw9IiNkODNjNjgiLz48L3N2Zz4=]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
@@ -14096,7 +14096,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Electricity" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -14369,7 +14369,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Heat" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Heat" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -14531,7 +14531,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Water" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -17849,7 +17849,7 @@
           </DataNode>
          </DataNode>
         </DataNode>
-        <DataNode name="ZeileNachSparte">
+        <DataNode name="DivisionLine">
          <DataNode name="Electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="Tariff_Flag">
@@ -18659,20 +18659,20 @@
            <Value><![CDATA[string:Sollten Sie Fragen haben, wenden Sie sich bitte an Ihre Geschäftskundenberaterin, Gundula Guttman.]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="Sparten">
+         <DataNode name="Divisions">
           <DataNode name="flag_strom">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
           <DataNode name="flag_gas">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasser">
+          <DataNode name="flag_water">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_abwasser">
+          <DataNode name="flag_wasterwater">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_waerme">
+          <DataNode name="flag_heat">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>
@@ -19858,20 +19858,20 @@
             <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
             <DataNode name="basedata">
              <DataNode name="section">
-              <DataNode name="Sparten">
+              <DataNode name="Divisions">
                <DataNode name="flag_strom">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
                <DataNode name="flag_gas">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_wasser">
+               <DataNode name="flag_water">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_abwasser">
+               <DataNode name="flag_wasterwater">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_waerme">
+               <DataNode name="flag_heat">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
               </DataNode>
@@ -20132,7 +20132,7 @@
                <DataNode name="Sparte">
                 <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
-               <DataNode name="snapBeispiel">
+               <DataNode name="snapExample">
                 <Value><![CDATA[string:data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQ5MCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZXNjPkNyZWF0ZWQgd2l0aCBTbmFwPC9kZXNjPjxkZWZzLz48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI1IiB5Mj0iNSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iOCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjE2MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjMyLjY0NzA1ODgyMzUyOTQxIiB5Mj0iMzIuNjQ3MDU4ODIzNTI5NDEiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjM1LjY0NzA1ODgyMzUyOTQxIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTUwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNjAuMjk0MTE3NjQ3MDU4ODI2IiB5Mj0iNjAuMjk0MTE3NjQ3MDU4ODI2IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSI2My4yOTQxMTc2NDcwNTg4MjYiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xNDAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSI4Ny45NDExNzY0NzA1ODgyMyIgeTI9Ijg3Ljk0MTE3NjQ3MDU4ODIzIiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSI5MC45NDExNzY0NzA1ODgyMyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEzMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjExNS41ODgyMzUyOTQxMTc2NSIgeTI9IjExNS41ODgyMzUyOTQxMTc2NSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMTE4LjU4ODIzNTI5NDExNzY1IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MTIwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMTQzLjIzNTI5NDExNzY0NzA3IiB5Mj0iMTQzLjIzNTI5NDExNzY0NzA3IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIxNDYuMjM1Mjk0MTE3NjQ3MDciIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xMTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIxNzAuODgyMzUyOTQxMTc2NSIgeTI9IjE3MC44ODIzNTI5NDExNzY1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIxNzMuODgyMzUyOTQxMTc2NSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjEwMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjE5OC41Mjk0MTE3NjQ3MDU5IiB5Mj0iMTk4LjUyOTQxMTc2NDcwNTkiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjIwMS41Mjk0MTE3NjQ3MDU5IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+OTAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIyMjYuMTc2NDcwNTg4MjM1MzMiIHkyPSIyMjYuMTc2NDcwNTg4MjM1MzMiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjIyOS4xNzY0NzA1ODgyMzUzMyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjgwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMjUzLjgyMzUyOTQxMTc2NDc1IiB5Mj0iMjUzLjgyMzUyOTQxMTc2NDc1IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIyNTYuODIzNTI5NDExNzY0NzUiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij43MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjI4MS40NzA1ODgyMzUyOTQxNCIgeTI9IjI4MS40NzA1ODgyMzUyOTQxNCIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMjg0LjQ3MDU4ODIzNTI5NDE0IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+NjAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzMDkuMTE3NjQ3MDU4ODIzNTQiIHkyPSIzMDkuMTE3NjQ3MDU4ODIzNTQiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjMxMi4xMTc2NDcwNTg4MjM1NCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjUwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iMzM2Ljc2NDcwNTg4MjM1MjkiIHkyPSIzMzYuNzY0NzA1ODgyMzUyOSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iMzM5Ljc2NDcwNTg4MjM1MjkiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij40MDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjM2NC40MTE3NjQ3MDU4ODIzIiB5Mj0iMzY0LjQxMTc2NDcwNTg4MjMiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjM2Ny40MTE3NjQ3MDU4ODIzIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MzAwMDwvdGV4dD48bGluZSB4MT0iMzAiIHgyPSI1MDAiIHkxPSIzOTIuMDU4ODIzNTI5NDExNyIgeTI9IjM5Mi4wNTg4MjM1Mjk0MTE3IiBzdHJva2U9IiM5OTk5OTkiLz48dGV4dCB4PSIwIiB5PSIzOTUuMDU4ODIzNTI5NDExNyIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjIwMDA8L3RleHQ+PGxpbmUgeDE9IjMwIiB4Mj0iNTAwIiB5MT0iNDE5LjcwNTg4MjM1Mjk0MTEiIHkyPSI0MTkuNzA1ODgyMzUyOTQxMSIgc3Ryb2tlPSIjOTk5OTk5Ii8+PHRleHQgeD0iMCIgeT0iNDIyLjcwNTg4MjM1Mjk0MTEiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4xMDAwPC90ZXh0PjxsaW5lIHgxPSIzMCIgeDI9IjUwMCIgeTE9IjQ0Ny4zNTI5NDExNzY0NzA1IiB5Mj0iNDQ3LjM1Mjk0MTE3NjQ3MDUiIHN0cm9rZT0iIzk5OTk5OSIvPjx0ZXh0IHg9IjAiIHk9IjQ1MC4zNTI5NDExNzY0NzA1IiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyIvPjx0ZXh0IHg9IjI1IiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij5Ba3R1ZWxsPC90ZXh0Pjx0ZXh0IHg9IjcwIiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij5Wb3JqYWhyPC90ZXh0Pjx0ZXh0IHg9IjEzMCIgeT0iNDkwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MSBQZXJzb248L3RleHQ+PHRleHQgeD0iMjMwIiB5PSI0OTAiIHN0eWxlPSJmb250LWZhbWlseTogU0FOUzsgZm9udC1zaXplOiA4cHQ7Ij4yIFBlcnNvbmVuPC90ZXh0Pjx0ZXh0IHg9IjMzMCIgeT0iNDkwIiBzdHlsZT0iZm9udC1mYW1pbHk6IFNBTlM7IGZvbnQtc2l6ZTogOHB0OyI+MyBQZXJzb25lbjwvdGV4dD48dGV4dCB4PSI0MzAiIHk9IjQ5MCIgc3R5bGU9ImZvbnQtZmFtaWx5OiBTQU5TOyBmb250LXNpemU6IDhwdDsiPjQgUGVyc29uZW48L3RleHQ+PHJlY3QgeD0iMzUiIHk9IjI2LjE3NzY0NzA1ODgyMzQ4IiB3aWR0aD0iMjAiIGhlaWdodD0iNDQ4LjgyMjM1Mjk0MTE3NjUiIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSI4MCIgeT0iODEuNDcxNzY0NzA1ODgyMzIiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzOTMuNTI4MjM1Mjk0MTE3NyIgZmlsbD0iI2U4M2M2OCIvPjxyZWN0IHg9IjEyMCIgeT0iNDYxLjE3NjQ3MDU4ODIzNTMiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMy44MjM1Mjk0MTE3NjQ3MDciIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSIxNDAiIHk9IjQ0NC41ODgyMzUyOTQxMTc2IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAuNDExNzY0NzA1ODgyMzU1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iMTYwIiB5PSI0MjIuNDcwNTg4MjM1Mjk0MTQiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1Mi41Mjk0MTE3NjQ3MDU4ODQiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSIxODAiIHk9IjQwNS44ODIzNTI5NDExNzY0NiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjY5LjExNzY0NzA1ODgyMzU0IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMjIwIiB5PSI0NDcuMzUyOTQxMTc2NDcwNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjI3LjY0NzA1ODgyMzUyOTQxMyIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjI0MCIgeT0iNDE2Ljk0MTE3NjQ3MDU4ODIzIiB3aWR0aD0iMjAiIGhlaWdodD0iNTguMDU4ODIzNTI5NDExNzciIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIyNjAiIHk9IjM5Mi4wNTg4MjM1Mjk0MTE3NyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgyLjk0MTE3NjQ3MDU4ODI1IiBmaWxsPSIjZDY4NGM0Ii8+PHJlY3QgeD0iMjgwIiB5PSIzNjEuNjQ3MDU4ODIzNTI5NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjExMy4zNTI5NDExNzY0NzA2IiBmaWxsPSIjZDgzYzY4Ii8+PHJlY3QgeD0iMzIwIiB5PSI0MzYuMjk0MTE3NjQ3MDU4ODQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIzOC43MDU4ODIzNTI5NDExOCIgZmlsbD0iI2U0ZjNmYyIvPjxyZWN0IHg9IjM0MCIgeT0iNDA1Ljg4MjM1Mjk0MTE3NjQ2IiB3aWR0aD0iMjAiIGhlaWdodD0iNjkuMTE3NjQ3MDU4ODIzNTQiIGZpbGw9IiNiNGRjZjYiLz48cmVjdCB4PSIzNjAiIHk9IjM2OS45NDExNzY0NzA1ODgyMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEwNS4wNTg4MjM1Mjk0MTE3NyIgZmlsbD0iI2Q2ODRjNCIvPjxyZWN0IHg9IjM4MCIgeT0iMzM2Ljc2NDcwNTg4MjM1MjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMzguMjM1Mjk0MTE3NjQ3MDciIGZpbGw9IiNkODNjNjgiLz48cmVjdCB4PSI0MjAiIHk9IjQyNS4yMzUyOTQxMTc2NDcxIiB3aWR0aD0iMjAiIGhlaWdodD0iNDkuNzY0NzA1ODgyMzUyOTQiIGZpbGw9IiNlNGYzZmMiLz48cmVjdCB4PSI0NDAiIHk9IjM5Mi4wNTg4MjM1Mjk0MTE3NyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgyLjk0MTE3NjQ3MDU4ODI1IiBmaWxsPSIjYjRkY2Y2Ii8+PHJlY3QgeD0iNDYwIiB5PSIzNTYuMTE3NjQ3MDU4ODIzNTQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMTguODgyMzUyOTQxMTc2NDgiIGZpbGw9IiNkNjg0YzQiLz48cmVjdCB4PSI0ODAiIHk9IjMwOS4xMTc2NDcwNTg4MjM1NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2NS44ODIzNTI5NDExNzY1IiBmaWxsPSIjZDgzYzY4Ii8+PC9zdmc+]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
@@ -20142,7 +20142,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Electricity" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Electricity" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">
@@ -20404,7 +20404,7 @@
                 <Data>
                  <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.ZeileNachSparte.Water" name="lines"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Water" name="lines"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0">

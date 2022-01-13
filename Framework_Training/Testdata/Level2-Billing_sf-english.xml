@@ -10,7 +10,7 @@
 				<city>Freiburg</city>
 				<senderline>JW Energie - Alfred-Döblin-Platz 59 – 79100 Freiburg
 				</senderline>
-				<isValid>ja</isValid>
+				<isValid>true</isValid>
 				<Partner>
 					<partnerid>99887766</partnerid>
 					<userid>reutlinger</userid>
@@ -71,7 +71,7 @@
 				</user>
 			</sender>
 			<recipient>
-				<isValid>ja</isValid>
+				<isValid>true</isValid>
 				<Partner>
 					<partnerid>202017070815</partnerid>
 					<userid></userid>

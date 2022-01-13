@@ -42,20 +42,20 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="section">
-         <DataNode name="Sparten">
+         <DataNode name="Divisions">
           <DataNode name="flag_strom">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_gas">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasser">
+          <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_abwasser">
+          <DataNode name="flag_wasterwater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_waerme">
+          <DataNode name="flag_heat">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
          </DataNode>

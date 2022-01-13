@@ -10,7 +10,7 @@
 				<city>Freiburg</city>
 				<senderline>sam.energy - Alfred-Döblin-Platz 59 – 79100 Freiburg
 				</senderline>
-				<isValid>ja</isValid>
+				<isValid>true</isValid>
 				<Partner>
 					<partnerid>GK-235214</partnerid>
 					<userid>guttman</userid>
@@ -72,7 +72,7 @@
 				</user>
 			</sender>
 			<recipient>
-				<isValid>ja</isValid>
+				<isValid>true</isValid>
 				<Partner>
 					<partnerid>20698101</partnerid>
 					<userid></userid>
