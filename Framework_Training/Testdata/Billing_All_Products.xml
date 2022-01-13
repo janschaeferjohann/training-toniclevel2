@@ -821,9 +821,9 @@
 							</period>
 							<position>
 								<amount>182</amount>
-								<amount_unit>Tage</amount_unit>
+								<amount_unit>Days</amount_unit>
 								<price>80</price>
-								<price_unit>Eur/Jahr</price_unit>
+								<price_unit>Eur/Year</price_unit>
 								<netamount>39,8904109589041</netamount>
 								<salestax>19</salestax>
 							</position>
@@ -853,9 +853,9 @@
 							</period>
 							<position>
 								<amount>183</amount>
-								<amount_unit>Tage</amount_unit>
+								<amount_unit>Days</amount_unit>
 								<price>80</price>
-								<price_unit>Eur/Jahr</price_unit>
+								<price_unit>Eur/Year</price_unit>
 								<netamount>40,1095890410959</netamount>
 								<salestax>19</salestax>
 							</position>
@@ -917,9 +917,9 @@
 							</period>
 							<position>
 								<amount>365</amount>
-								<amount_unit>Tage</amount_unit>
+								<amount_unit>Days</amount_unit>
 								<price>100</price>
-								<price_unit>Eur/Jahr</price_unit>
+								<price_unit>Eur/Year</price_unit>
 								<netamount>100</netamount>
 								<salestax>19</salestax>
 							</position>
@@ -981,9 +981,9 @@
 							</period>
 							<position>
 								<amount>365</amount>
-								<amount_unit>Tage</amount_unit>
+								<amount_unit>Days</amount_unit>
 								<price>40</price>
-								<price_unit>Eur/Jahr</price_unit>
+								<price_unit>Eur/Year</price_unit>
 								<netamount>40</netamount>
 								<salestax>7</salestax>
 							</position>
