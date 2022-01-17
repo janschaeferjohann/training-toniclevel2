@@ -20,7 +20,7 @@ DataNode.prototype.indexOfInstance = function () {
 }
 
 /**
- * Rückgabe des Pfadnamen für den aktuellen Knoten
+ * Return the path name of current node
  * @returns {String}
  */
 DataNode.prototype.pathName = function () {

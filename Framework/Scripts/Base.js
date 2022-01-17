@@ -7,16 +7,16 @@ function log(m) {
 }
 
 /**
- * Ausgabe des Pfades eines Knoten in das Log
+ * Output of the path of a node to the log
  */
 function printNodePath(node) {
 	print(getNodePath(node));
 }
 
 /**
- * Ermittlung des Pfades eines Knoten
- * @param node Knoten aus Datenmodell
- * @returns Pfad als Zeichenkette
+ * Determining the path of a node
+ * @param node Node from data model
+ * @returns path as string
  */
 function getNodePath(node) {
 	var s = null;
@@ -50,10 +50,10 @@ function isValid(node) {
 	return node != null && node != undefined;
 }
 
-// 3 Funktionen um ein Datenmodell mit seinen Werten zu dumpen als Dokumenttext
-// Beispiel um das Datenmodell $Vers zu dumpen: $JS.dumpDataModel($Vers)
-// kann auch verwendet werden, um einen Datenmodellknoten mit dem kompletten Dump zu füllen
-// Beginn Snippet um Knoten mit Dump zu füllen
+// 3 functions to dump a data model with its values as document text
+// Example to dump the data model $Vers: $JS.dumpDataModel($Vers)
+// can also be used to fill a data model node with the complete dump
+// start snippet to fill node with dump
 // var res = '';
 //
 //for (dataModel in $document) {
@@ -116,8 +116,8 @@ function dumpDataModel(node) {
 
 
 /**
- * Prüfung, ob ein Datenknoten vorhanden und nicht leer ist
- * Prüfung wird für Elementknoten verwendet.
+ * Check whether a data node exists and is not empty.
+ * Check is used for element nodes.
  * @param node
  * @returns {Boolean}
  */
@@ -125,15 +125,15 @@ function isEmpty(node) {
 	return node == undefined || node == null || node.isEmpty();
 }
 /**
- * Prüfung ob ein Datenknoten vorhanden ist
- * @param node Datenknoten
+ * Check whether a data node is present
+ * @param node Datanode
  * @returns {Boolean}
  */
 function isAbsent(node) {
 	return node == undefined || node == null || (node instanceof DataNode && node.isAbsent())
 }
 /** 
- * Ausführen von Code ohne Berücksichtigung einer eventuellen Exception
+ * Execution of code without consideration of a possible exception
  * @param code
  * @returns
  */
@@ -160,7 +160,7 @@ function getValueOf(node) {
 	}
 }
 /**
- * Einfügen eines Knoten in das Datenmodell
+ * Insert a node into the datamodel
  * @param intoNode
  * @param asNode
  * @param aValue
@@ -169,7 +169,7 @@ function getValueOf(node) {
 function addToModel(intoNode, asNode, aValue) {
 	try {
 		if (asNode == null || asNode == undefined) {
-			print("Fehler beim Einfügen von " + aValue + " als " + getNodePath(asNode) + " in " + getNodePath(intoNode));
+			print("Error at insertion of " + aValue + " as " + getNodePath(asNode) + " in " + getNodePath(intoNode));
 			return null;
 		}
 		var newNode = intoNode.add(asNode, aValue);
@@ -177,7 +177,7 @@ function addToModel(intoNode, asNode, aValue) {
 	}
 	catch(err) {
 		print(err);
-		print("Fehler beim Einfügen von " + aValue + " als " + getNodePath(asNode) + " in " + getNodePath(intoNode));
+		print("Error at insertion of " + aValue + " as " + getNodePath(asNode) + " in " + getNodePath(intoNode));
 		return null;
 	}
 }
@@ -194,7 +194,7 @@ var Convert =  {
 				var j = value.indexOf('.');
 				//print(value + ": " + i + " " + j);
 				var r;
-				// Annahme: es gibt nur deutsche Formatierung
+				// Assumption: there is only german formatting
 				if (i >= 0 && i < j)
 				{
 					r = parseFloat(value.replace(',', ''));
@@ -219,7 +219,7 @@ var Convert =  {
 		toDate: function(value) {
 			if (typeof(value) == "string") {
 				var strDate = value;
-				// Standardformat in Deutschland DD.MM.YYYY (bzw. dd.MM.yyyy) annehmen
+				// Default format in Germany DD.MM.YYYY (bzw. dd.MM.yyyy) is assumed
 				var dateParts = strDate.split(".");
 				var date = new Date(dateParts[2], (dateParts[1] - 1), dateParts[0]);
 				return date;
