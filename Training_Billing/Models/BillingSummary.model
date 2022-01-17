@@ -328,43 +328,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Der Net-Price, den du am Ende bezahlst, besteht aus einem </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>Basic price</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text> (fixer Pricebestandteil), dem </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>energy rate</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text> (verbrauchsabhängiger Pricebestandteil) und der </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>Electricitysteuer</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>.</Text>
+   <Text>The price components section of your electricity bill indicates which part of this basic and energy price sam.energy passes on to the grid operator or the state.</Text>
   </Span>
  </Par>
  <Par>
@@ -373,63 +337,18 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Der Abschnitt </Text>
+   <Text>These are, on the one hand, fees that we, as an energy supplier, pay to the grid operator and, on the other hand, state levies such as the EEG apportionment. The amounts from this table are paid once a year by Polarstern per customer and depend on the place of residence or postcode.
+
+</Text>
   </Span>
   <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>Pricebestandteile</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text> auf deiner Electricityrechnung gibt an, welchen Teil dieses Grund- und Arbeitspreises sam.energy an den Netzbetreiber oder den Staat weitergibt. Das sind zum einen </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>Entgelte</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>, die wir als Energieversorger an den Netzbetreiber zahlen, zum anderen </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>staatliche Abgaben</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text> wie z.B. die EEG apportionment. Die Beträge aus dieser Table werden pro Kunde einmal im Jahr von Polarstern bezahlt und sind </Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text>abhängig vom Wohnort</Text>
-  </Span>
-  <Span>
-   <Style>
-    <FontSize>10000.0mpt</FontSize>
-   </Style>
-   <Text> bzw. der PLZ.</Text>
+   <Text>On the following pages you will find individual lists for the individual divisions.</Text>
   </Span>
  </Par>
  <Par>
-  <Style parentName="TextSpaceAfter">
-   <BreakAfter>page</BreakAfter>
-  </Style>
+  <Style parentName="TextSpaceAfter"></Style>
   <Span>
-   <Text>Auf den Folgeseiten findest du Einzelaufstellungen zu den einzelnen Divisions.</Text>
+   <Text></Text>
   </Span>
  </Par>
 </ContainerPart>
