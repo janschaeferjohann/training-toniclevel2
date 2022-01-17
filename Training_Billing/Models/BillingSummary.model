@@ -346,7 +346,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Arbeitspreis</Text>
+   <Text>energy rate</Text>
   </Span>
   <Span>
    <Style>

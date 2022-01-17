@@ -414,7 +414,7 @@
 						</billsum>
 						<billposition>
 							<positionid>30062020001</positionid>
-							<posnr>1</posnr>
+							<posno>1</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -446,7 +446,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020001</positionid>
-							<posnr>2</posnr>
+							<posno>2</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -478,7 +478,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020002</positionid>
-							<posnr>3</posnr>
+							<posno>3</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -510,7 +510,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020002</positionid>
-							<posnr>4</posnr>
+							<posno>4</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -542,7 +542,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020003</positionid>
-							<posnr>5</posnr>
+							<posno>5</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>private</class>
@@ -574,7 +574,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020003</positionid>
-							<posnr>6</posnr>
+							<posno>6</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -606,7 +606,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020004</positionid>
-							<posnr>7</posnr>
+							<posno>7</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -638,7 +638,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020004</positionid>
-							<posnr>8</posnr>
+							<posno>8</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -670,7 +670,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020005</positionid>
-							<posnr>9</posnr>
+							<posno>9</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -702,7 +702,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020005</positionid>
-							<posnr>10</posnr>
+							<posno>10</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -734,7 +734,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020006</positionid>
-							<posnr>11</posnr>
+							<posno>11</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -766,7 +766,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020006</positionid>
-							<posnr>12</posnr>
+							<posno>12</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -798,7 +798,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020007</positionid>
-							<posnr>13</posnr>
+							<posno>13</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -830,7 +830,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020007</positionid>
-							<posnr>14</posnr>
+							<posno>14</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -862,7 +862,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020008</positionid>
-							<posnr>15</posnr>
+							<posno>15</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -871,7 +871,7 @@
 								<section>gas</section>
 								<rate>Super Gas</rate>
 								<meter>SAMGNR00122325847</meter>
-								<product_key>Arbeitspreis</product_key>
+								<product_key>energy rate</product_key>
 							</product>
 							<period>
 								<from>
@@ -894,7 +894,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020009</positionid>
-							<posnr>16</posnr>
+							<posno>16</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -926,7 +926,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020009</positionid>
-							<posnr>17</posnr>
+							<posno>17</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -958,7 +958,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020010</positionid>
-							<posnr>18</posnr>
+							<posno>18</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>
@@ -990,7 +990,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020010</positionid>
-							<posnr>19</posnr>
+							<posno>19</posno>
 							<postype>
 								<type>financial statement</type>
 								<class>private</class>

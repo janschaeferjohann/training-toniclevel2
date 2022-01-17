@@ -35,7 +35,7 @@
    <Node data-type="TEXT"
          hierarchical="FLAT"
          multiple="false"
-         name="posnr"
+         name="posno"
          searchable="false">
       <Settings>
          <Validation allow-empty-value="true"
@@ -52,14 +52,14 @@
          <Script/>
       </Settings>
    </Node>
-   <Node multiple="false" name="posart">
+   <Node multiple="false" name="postype">
       <Settings>
          <Script/>
       </Settings>
       <Node data-type="TEXT"
             hierarchical="FLAT"
             multiple="false"
-            name="art"
+            name="type"
             searchable="false">
          <Settings>
             <Validation allow-empty-value="true"

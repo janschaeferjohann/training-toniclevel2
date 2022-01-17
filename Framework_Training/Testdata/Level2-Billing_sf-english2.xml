@@ -199,7 +199,7 @@
 							</billing_text>
 							<contracts>
 								<contract>
-									<rate>sam.business Electricity</rate>
+									<rate>sam.business electricity</rate>
 									<name>Electricity</name>
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
@@ -235,7 +235,7 @@
 						<items>
 							<item>
 								<name>Electricity</name>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<usage>1372,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -419,16 +419,16 @@
 						</billsum>
 						<billposition>
 							<positionid>30062020001</positionid>
-							<posnr>1</posnr>
+							<posno>1</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Arbeitspreis</product_key>
+								<product_key>energy rate</product_key>
 							</product>
 							<period>
 								<from>
@@ -451,14 +451,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020002</positionid>
-							<posnr>2</posnr>
+							<posno>2</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>EEG apportionment</product_key>
 							</product>
@@ -483,14 +483,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020003</positionid>
-							<posnr>3</posnr>
+							<posno>3</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>KWKG-apportionment</product_key>
 							</product>
@@ -515,14 +515,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020004</positionid>
-							<posnr>4</posnr>
+							<posno>4</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Electricitysteuer</product_key>
 							</product>
@@ -547,14 +547,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020005</positionid>
-							<posnr>5</posnr>
+							<posno>5</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Offshore-Liability contribution</product_key>
 							</product>
@@ -579,14 +579,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020006</positionid>
-							<posnr>6</posnr>
+							<posno>6</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>ElectricityNEV</product_key>
 							</product>
@@ -611,14 +611,14 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020007</positionid>
-							<posnr>7</posnr>
+							<posno>7</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
 							</postype>
 							<product>
 								<section>electricity</section>
-								<rate>sam.business Electricity</rate>
+								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
 								<product_key>Basic price</product_key>
 							</product>
@@ -643,7 +643,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020001</positionid>
-							<posnr>1</posnr>
+							<posno>1</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -652,7 +652,7 @@
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Arbeitspreis</product_key>
+								<product_key>energy rate</product_key>
 							</product>
 							<period>
 								<from>
@@ -675,7 +675,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020002</positionid>
-							<posnr>2</posnr>
+							<posno>2</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -707,7 +707,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020003</positionid>
-							<posnr>3</posnr>
+							<posno>3</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -739,7 +739,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020004</positionid>
-							<posnr>4</posnr>
+							<posno>4</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -771,7 +771,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020005</positionid>
-							<posnr>5</posnr>
+							<posno>5</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -803,7 +803,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020006</positionid>
-							<posnr>6</posnr>
+							<posno>6</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -835,7 +835,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020007</positionid>
-							<posnr>7</posnr>
+							<posno>7</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -867,7 +867,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020008</positionid>
-							<posnr>8</posnr>
+							<posno>8</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -899,7 +899,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020008</positionid>
-							<posnr>9</posnr>
+							<posno>9</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>
@@ -931,7 +931,7 @@
 						</billposition>
 						<billposition>
 							<positionid>30062020009</positionid>
-							<posnr>10</posnr>
+							<posno>10</posno>
 							<postype>
 								<type>Annual accounts</type>
 								<class>Business</class>

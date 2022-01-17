@@ -508,13 +508,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>
@@ -583,13 +583,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>
@@ -754,13 +754,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>
@@ -830,13 +830,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>
@@ -1011,13 +1011,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>
@@ -1087,13 +1087,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Arbeitspreis</Text>
+              <Text>energy rate</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Grundpreis</Text>
+              <Text>Basic price</Text>
              </Span>
             </Par>
            </Container>

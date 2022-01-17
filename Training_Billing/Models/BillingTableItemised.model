@@ -201,7 +201,7 @@
    </Footer>
   </Footers>
   <Columns>
-   <Column id="posnr">
+   <Column id="posno">
     <Style>
      <ColumnWidth>16868.0mpt</ColumnWidth>
     </Style>

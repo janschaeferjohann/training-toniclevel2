@@ -4153,12 +4153,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:1]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4228,12 +4228,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:2]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4303,12 +4303,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:3]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4378,12 +4378,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:4]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4453,12 +4453,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:5]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4528,12 +4528,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:6]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4603,12 +4603,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:7]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4678,12 +4678,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:8]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4753,12 +4753,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:9]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4828,12 +4828,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:10]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4903,12 +4903,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:11]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -4978,12 +4978,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:12]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5053,12 +5053,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:13]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5128,12 +5128,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:14]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5203,12 +5203,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:15]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5227,7 +5227,7 @@
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5278,12 +5278,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:16]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5353,12 +5353,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:17]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5428,12 +5428,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,010]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:18]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5503,12 +5503,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,010]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:19]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -5578,12 +5578,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,010]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:20]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -8696,12 +8696,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:1]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -8771,12 +8771,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:2]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -8846,12 +8846,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:3]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -8921,12 +8921,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:4]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -8996,12 +8996,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:5]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9071,12 +9071,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:6]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9146,12 +9146,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:7]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9221,12 +9221,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:8]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9296,12 +9296,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:9]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9371,12 +9371,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:10]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9446,12 +9446,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:11]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9521,12 +9521,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:12]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9596,12 +9596,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:13]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9671,12 +9671,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:14]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9746,12 +9746,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:15]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9770,7 +9770,7 @@
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9821,12 +9821,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:16]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9896,12 +9896,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:17]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -9971,12 +9971,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,010]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:18]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -10046,12 +10046,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,010]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:19]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -10329,12 +10329,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10404,12 +10404,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10479,12 +10479,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10554,12 +10554,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10629,12 +10629,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10704,12 +10704,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10779,12 +10779,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10854,12 +10854,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:8]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -10929,12 +10929,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:9]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11004,12 +11004,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:10]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11079,12 +11079,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:11]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11154,12 +11154,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:12]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11229,12 +11229,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:13]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11304,12 +11304,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:14]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11379,12 +11379,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,008]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:15]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11403,7 +11403,7 @@
             <Value><![CDATA[string:SAMGNR00122325847]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Arbeitspreis]]></Value>
+            <Value><![CDATA[string:energy rate]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11454,12 +11454,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,009]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:16]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11529,12 +11529,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,009]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:17]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11604,12 +11604,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,010]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:18]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -11679,12 +11679,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,010]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:19]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:financial statement]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -12288,7 +12288,7 @@
            <Value><![CDATA[number:1,014.624]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Gas">
@@ -15146,12 +15146,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:1]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15164,13 +15164,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15221,12 +15221,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:2]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15239,7 +15239,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15296,12 +15296,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:3]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15314,7 +15314,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15371,12 +15371,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:4]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15389,7 +15389,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15446,12 +15446,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:5]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15464,7 +15464,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15521,12 +15521,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:6]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15539,7 +15539,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15596,12 +15596,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:7]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15614,7 +15614,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -15671,12 +15671,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,001]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:1]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15695,7 +15695,7 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15746,12 +15746,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:2]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15821,12 +15821,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:3]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15896,12 +15896,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:4]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -15971,12 +15971,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:5]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16046,12 +16046,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:6]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16121,12 +16121,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:7]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16196,12 +16196,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:8]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16271,12 +16271,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:9]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16346,12 +16346,12 @@
          <DataNode name="positionid" valueChanged="fromDataSource">
           <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
-         <DataNode name="posnr" valueChanged="fromDataSource">
+         <DataNode name="posno" valueChanged="fromDataSource">
           <Value><![CDATA[string:10]]></Value>
          </DataNode>
-         <DataNode name="posart">
+         <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="art" valueChanged="fromDataSource">
+          <DataNode name="type" valueChanged="fromDataSource">
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
@@ -16578,12 +16578,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16596,13 +16596,13 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Arbeitspreis]]></Value>
+            <Value><![CDATA[string:energy rate]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -16653,12 +16653,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16671,7 +16671,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16728,12 +16728,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16746,7 +16746,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16803,12 +16803,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16821,7 +16821,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16878,12 +16878,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16896,7 +16896,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16953,12 +16953,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -16971,7 +16971,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17028,12 +17028,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17046,7 +17046,7 @@
             <Value><![CDATA[string:electricity]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -17103,12 +17103,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17127,7 +17127,7 @@
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Arbeitspreis]]></Value>
+            <Value><![CDATA[string:energy rate]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17178,12 +17178,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:2]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17253,12 +17253,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:3]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17328,12 +17328,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:4]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17403,12 +17403,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:5]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17478,12 +17478,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:6]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17553,12 +17553,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:7]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17628,12 +17628,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,008]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:8]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17703,12 +17703,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,008]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:9]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17778,12 +17778,12 @@
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,009]]></Value>
           </DataNode>
-          <DataNode name="posnr">
+          <DataNode name="posno">
            <Value><![CDATA[string:10]]></Value>
           </DataNode>
-          <DataNode name="posart">
+          <DataNode name="postype">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="art">
+           <DataNode name="type">
             <Value><![CDATA[string:Annual accounts]]></Value>
            </DataNode>
            <DataNode name="class">
@@ -17856,7 +17856,7 @@
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -17883,7 +17883,7 @@
            <Value><![CDATA[number:2,686.141227]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -17892,7 +17892,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -17928,7 +17928,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -17964,7 +17964,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -18000,7 +18000,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -18036,7 +18036,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -18072,7 +18072,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:sam.business Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:electricity]]></Value>
@@ -18135,7 +18135,7 @@
            <Value><![CDATA[number:3,592.40772]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Arbeitspreis]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -18514,7 +18514,7 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:sam.business Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
             <Value><![CDATA[string:Electricity]]></Value>
