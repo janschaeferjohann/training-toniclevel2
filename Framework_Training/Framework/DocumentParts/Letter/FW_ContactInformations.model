@@ -33,13 +33,13 @@
    <Translation>
     <Language language="de" country="DE" variant=""></Language>
     <Span>
-     <Text>Ansprechpartner:</Text>
+     <Text>Contact person:</Text>
     </Span>
    </Translation>
   </Translations>
   <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
-   <Text>Ihre Ansprechpartnerin/Ansprechpartner:</Text>
+   <Text>Your contact person:</Text>
   </Span>
  </Par>
  <Par>
@@ -83,7 +83,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefon:</Text>
+       <Text>Phone:</Text>
       </Span>
      </Par>
     </Container>
@@ -106,7 +106,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefax:</Text>
+       <Text>Fax:</Text>
       </Span>
      </Par>
     </Container>

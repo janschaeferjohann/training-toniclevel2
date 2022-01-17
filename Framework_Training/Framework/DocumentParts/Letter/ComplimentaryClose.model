@@ -5,11 +5,11 @@
    <Input text-prefix="" text-suffix=""></Input>
    <Output text-prefix="" text-suffix=""></Output>
    <Script><![CDATA[load("Scripts\\Base.js");
-if (FW_I18n.toLanguage($Metadata.DocumentLanguage) == "en") {
-	"Sincerely yours";
+if (FW_I18n.toLanguage($Metadata.DocumentLanguage) == "de") {
+	"Mit freundlichen Grüßen";
 }
 else {
-	"Mit freundlichen Grüßen"
+	"Sincerely yours"
 } ]]></Script>
    <Validation validation-type="any_value" operator="any" allow-empty-value="true" dialog-field="combobox" label="ComplimentaryClose">
     <Values>
