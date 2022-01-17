@@ -144,7 +144,7 @@
       <Style parentName="TextNormal"></Style>
       <Span>
        <InlineRadioButton dataNode="$contract_data.basedata.contact_type" valueIndex="0" groupId="contact_type"></InlineRadioButton>
-       <Text> Post</Text>
+       <Text> Mail</Text>
       </Span>
      </Par>
      <Par>
