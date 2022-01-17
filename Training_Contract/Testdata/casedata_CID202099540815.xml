@@ -231,7 +231,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>€/Jahr</unit>
+									<unit>€/Year</unit>
 									<netamount>95,80</netamount>
 									<price>114,00</price>
 								</basic_price>
@@ -257,7 +257,7 @@
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
-									<unit>€/Jahr</unit>
+									<unit>€/Year</unit>
 									<netamount>95,80</netamount>
 									<price>114,00</price>
 								</basic_price>
