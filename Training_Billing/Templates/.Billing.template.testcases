@@ -5107,13 +5107,13 @@
            <Value><![CDATA[number:182]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:80]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:39.890410959]]></Value>
@@ -5182,13 +5182,13 @@
            <Value><![CDATA[number:183]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:80]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:40.109589041]]></Value>
@@ -5332,13 +5332,13 @@
            <Value><![CDATA[number:365]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:100]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:100]]></Value>
@@ -5482,13 +5482,13 @@
            <Value><![CDATA[number:365]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:40]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:40]]></Value>
@@ -9650,13 +9650,13 @@
            <Value><![CDATA[number:182]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:80]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:39.890410959]]></Value>
@@ -9725,13 +9725,13 @@
            <Value><![CDATA[number:183]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:80]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:40.109589041]]></Value>
@@ -9875,13 +9875,13 @@
            <Value><![CDATA[number:365]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:100]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:100]]></Value>
@@ -10025,13 +10025,13 @@
            <Value><![CDATA[number:365]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:40]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:40]]></Value>
@@ -11283,13 +11283,13 @@
             <Value><![CDATA[number:182]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:80]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:39.890410959]]></Value>
@@ -11358,13 +11358,13 @@
             <Value><![CDATA[number:183]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:80]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:40.109589041]]></Value>
@@ -11508,13 +11508,13 @@
             <Value><![CDATA[number:365]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:100]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:100]]></Value>
@@ -11658,13 +11658,13 @@
             <Value><![CDATA[number:365]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:40]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:40]]></Value>
@@ -12207,10 +12207,10 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:182,00 Tage]]></Value>
+           <Value><![CDATA[string:182,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:80,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:39.890410959]]></Value>
@@ -12243,10 +12243,10 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:183,00 Tage]]></Value>
+           <Value><![CDATA[string:183,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:80,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:40.109589041]]></Value>
@@ -12315,10 +12315,10 @@
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:365,00 Tage]]></Value>
+           <Value><![CDATA[string:365,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:100,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:100,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:100]]></Value>
@@ -12387,10 +12387,10 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:365,00 Tage]]></Value>
+           <Value><![CDATA[string:365,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:40,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:40,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:40]]></Value>
@@ -15650,13 +15650,13 @@
            <Value><![CDATA[number:182]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:486.25]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:242.45890411]]></Value>
@@ -15689,7 +15689,7 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Öko-Electricity]]></Value>
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
@@ -16175,13 +16175,13 @@
            <Value><![CDATA[number:183]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:80]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:40.109589041]]></Value>
@@ -16250,13 +16250,13 @@
            <Value><![CDATA[number:365]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Tage]]></Value>
+           <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
            <Value><![CDATA[number:45]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Jahr]]></Value>
+           <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:45]]></Value>
@@ -17082,13 +17082,13 @@
             <Value><![CDATA[number:182]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:486.25]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:242.45890411]]></Value>
@@ -17607,13 +17607,13 @@
             <Value><![CDATA[number:183]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:80]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:40.109589041]]></Value>
@@ -17682,13 +17682,13 @@
             <Value><![CDATA[number:365]]></Value>
            </DataNode>
            <DataNode name="amount_unit">
-            <Value><![CDATA[string:Tage]]></Value>
+            <Value><![CDATA[string:Days]]></Value>
            </DataNode>
            <DataNode name="price">
             <Value><![CDATA[number:45]]></Value>
            </DataNode>
            <DataNode name="price_unit">
-            <Value><![CDATA[string:Eur/Jahr]]></Value>
+            <Value><![CDATA[string:Eur/Year]]></Value>
            </DataNode>
            <DataNode name="netamount">
             <Value><![CDATA[number:45]]></Value>
@@ -18090,10 +18090,10 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:182,00 Tage]]></Value>
+           <Value><![CDATA[string:182,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:486,25 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:486,25 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:242.45890411]]></Value>
@@ -18342,10 +18342,10 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:183,00 Tage]]></Value>
+           <Value><![CDATA[string:183,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:80,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:80,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:40.109589041]]></Value>
@@ -18378,10 +18378,10 @@
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[string:365,00 Tage]]></Value>
+           <Value><![CDATA[string:365,00 Days]]></Value>
           </DataNode>
           <DataNode name="Price">
-           <Value><![CDATA[string:45,00 Eur/Jahr]]></Value>
+           <Value><![CDATA[string:45,00 Eur/Year]]></Value>
           </DataNode>
           <DataNode name="Net">
            <Value><![CDATA[number:45]]></Value>

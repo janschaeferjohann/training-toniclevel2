@@ -192,7 +192,7 @@
         <DataNode name="basic_price">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="unit" valueChanged="fromDataSource">
-          <Value><![CDATA[string:€/Jahr]]></Value>
+          <Value><![CDATA[string:€/Year]]></Value>
          </DataNode>
          <DataNode name="netamount" valueChanged="fromDataSource">
           <Value><![CDATA[number:95.8]]></Value>
@@ -261,7 +261,7 @@
         <DataNode name="basic_price">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="unit" valueChanged="fromDataSource">
-          <Value><![CDATA[string:€/Jahr]]></Value>
+          <Value><![CDATA[string:€/Year]]></Value>
          </DataNode>
          <DataNode name="netamount" valueChanged="fromDataSource">
           <Value><![CDATA[number:95.8]]></Value>
