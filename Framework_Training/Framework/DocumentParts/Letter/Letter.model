@@ -117,7 +117,6 @@
      <PageNumber scope="document"></PageNumber>
      <Text> from </Text>
      <PageCount></PageCount>
-     <Text>  </Text>
     </Span>
    </Par>
   </StaticContainer>
