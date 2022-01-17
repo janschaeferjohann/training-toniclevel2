@@ -38,7 +38,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Steuersatz</Text>
+         <Text>Tax rate</Text>
         </Span>
        </Par>
       </Container>
@@ -62,7 +62,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Umsatzsteuer</Text>
+         <Text>Value added tax</Text>
         </Span>
        </Par>
       </Container>
@@ -74,7 +74,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Abschlag</Text>
+         <Text>Discount</Text>
         </Span>
        </Par>
       </Container>
@@ -90,7 +90,7 @@
        <Par>
         <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
-         <Text>Gesamtbetrag</Text>
+         <Text>Total amount</Text>
         </Span>
        </Par>
       </Container>

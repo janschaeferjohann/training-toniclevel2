@@ -13,7 +13,7 @@
        <Par>
         <Style parentName="FW_InfoAreaBold"></Style>
         <Span>
-         <Text>Geleistete Zahlungen</Text>
+         <Text>Payments made</Text>
         </Span>
        </Par>
       </Container>
@@ -210,7 +210,7 @@
       <Par>
        <Style parentName="FW_InfoArea"></Style>
        <Span>
-        <Text>bezahlter Abschlag </Text>
+        <Text>paid discount </Text>
         <Data>$amount.name</Data>
         <Text></Text>
        </Span>

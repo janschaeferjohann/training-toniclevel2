@@ -73,7 +73,7 @@
        <Par>
         <Style parentName="TariffSelection_Bold"></Style>
         <Span>
-         <Text>von</Text>
+         <Text>from</Text>
         </Span>
        </Par>
       </Container>
@@ -83,7 +83,7 @@
        <Par>
         <Style parentName="TariffSelection_Bold"></Style>
         <Span>
-         <Text>bis</Text>
+         <Text>until</Text>
         </Span>
        </Par>
       </Container>
@@ -144,7 +144,7 @@
        <Par>
         <Style parentName="TariffSelection_Bold"></Style>
         <Span>
-         <Text>Gesamtverbrauch</Text>
+         <Text>Total consumption</Text>
         </Span>
        </Par>
       </Container>
@@ -258,13 +258,13 @@
         <Par>
          <Style parentName="FW_InfoArea"></Style>
          <Span>
-          <Text>Zeitraum</Text>
+          <Text>Period</Text>
          </Span>
         </Par>
         <Par>
          <Style parentName="FW_InfoArea"></Style>
          <Span>
-          <Text>Zählerstand</Text>
+          <Text>Counter reading</Text>
          </Span>
         </Par>
        </Container>
