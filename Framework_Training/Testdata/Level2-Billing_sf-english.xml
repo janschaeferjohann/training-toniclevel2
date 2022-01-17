@@ -5,37 +5,37 @@
 		<instance>
 			<sender>
 				<Name>sam.energy</Name>
-				<Street>Alfred-Döblin-Platz 59</Street>
+				<Street>Karl-Marx-Place 59</Street>
 				<zip>79100</zip>
 				<city>Freiburg</city>
-				<senderline>JW Energie - Alfred-Döblin-Platz 59 – 79100 Freiburg
+				<senderline>JW Energy - Karl-Marx-Place 59 – 79100 Freiburg
 				</senderline>
 				<isValid>true</isValid>
 				<Partner>
 					<partnerid>99887766</partnerid>
-					<userid>reutlinger</userid>
+					<userid>rentlinger</userid>
 					<salutation>Frau</salutation>
 					<title></title>
-					<firstname>Karolina</firstname>
-					<lastname>Reutlinger</lastname>
+					<firstname>Karen</firstname>
+					<lastname>Rentlinger</lastname>
 					<companyname1>sam.energy</companyname1>
-					<companyname2>Privatkundenservice</companyname2>
+					<companyname2>Private Customer Support</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Alfred-Döblin-Platz</Street>
+					<Street>Karl-Marx-Place</Street>
 					<zip>79100</zip>
 					<city>Freiburg</city>
 					<country></country>
 					<address>
-						<line>JW Energie</line>
-						<line>Karolina Reutlinger</line>
-						<line>Kundenservice Energie</line>
-						<line>Alfred-Döblin-Platz 59</line>
+						<line>JW Energy</line>
+						<line>Karen Rentlinger</line>
+						<line>Customer Support Energy</line>
+						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
 					<salutatoryaddress></salutatoryaddress>
-					<role>Kundenberaterin</role>
-					<email>k.reutlinger@sam.web</email>
+					<role>Customer Advisor</role>
+					<email>k.rentlinger@sam.web</email>
 					<phone>0815-47111234</phone>
 					<fax>0815-47114249</fax>
 				</Partner>
@@ -43,29 +43,29 @@
 				<Namefirstname>Hans Brackhaus</Namefirstname>
 				<user>
 					<partnerid>99887766</partnerid>
-					<userid>reutlinger</userid>
+					<userid>rentlinger</userid>
 					<salutation>Frau</salutation>
 					<title></title>
-					<firstname>Karolina</firstname>
-					<lastname>Reutlinger</lastname>
+					<firstname>Karen</firstname>
+					<lastname>Rentlinger</lastname>
 					<companyname1>sam.energy</companyname1>
-					<companyname2>Privatkundenservice</companyname2>
+					<companyname2>Private Customer Support</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Alfred-Döblin-Platz</Street>
+					<Street>Karl-Marx-Place</Street>
 					<zip>79100</zip>
 					<city>Freiburg</city>
 					<country></country>
 					<address>
 						<line>sam.energy</line>
-						<line>Karolina Reutlinger</line>
-						<line>Privatkundenservice</line>
-						<line>Alfred-Döblin-Platz 59</line>
+						<line>Karen Rentlinger</line>
+						<line>Private Customer Support</line>
+						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
 					<salutatoryaddress></salutatoryaddress>
-					<role>Kundenberaterin</role>
-					<email>k.reutlinger@sam.web</email>
+					<role>Customer Advisor</role>
+					<email>k.rentlinger@sam.web</email>
 					<phone>0815-47111234</phone>
 					<fax>0815-47114249</fax>
 				</user>
@@ -92,7 +92,7 @@
 						<line>Deichstr. 12</line>
 						<line>25938 Wyk auf Föhr</line>
 					</address>
-					<role>Kunde</role>
+					<role>Customer</role>
 					<email>petersen.jan@email.web</email>
 					<phone>+49 123 546789</phone>
 					<fax></fax>
@@ -126,7 +126,7 @@
 					<recipient></recipient>
 				</FAX>
 				<EMAIL>
-					<sender>k.reutlinger@sam.web</sender>
+					<sender>k.rentlinger@sam.web</sender>
 					<recipient>petersen.jan@email.web</recipient>
 				</EMAIL>
 			</outputcontrol>
@@ -137,7 +137,7 @@
 						<billingno>RE12-30062020</billingno>
 						<partnerid>202017070815</partnerid>
 						<contractsId>2012-03.22</contractsId>
-						<contact_type>Post</contact_type>
+						<contact_type>Mail</contact_type>
 						<time_data>
 							<letterdate>30.05.2021</letterdate>
 							<next_payoff>July 2022</next_payoff>
@@ -157,7 +157,7 @@
 									<companyname2></companyname2>
 									<houseno>59</houseno>
 									<addresssupplement></addresssupplement>
-									<Street>Alfred-Döblin-Platz</Street>
+									<Street>Karl-Marx-Place</Street>
 									<zip>79100</zip>
 									<city>Freiburg</city>
 								</carrier>

@@ -157,7 +157,7 @@
             </participant>
         </department>
         <department name="Kundenservice" readonly="0" descriptionEnc="1" description="" obj_id="97" valid_always="0" department_key="97">
-            <participant name="Reutlinger" readonly="0" descriptionEnc="1" description="" obj_id="139" valid_always="1" loginid="reutlinger" guid="-5e79ff84:176d67adc02:-7ffc" firstname="Karolina" shortname="Karolina Reutlinger" telephone="0815/47111234" emailaddress="k.reutlinger@sam.web" room="" fax="0815/47114249" department_key="97" pwd="234e4636962207b4e21082b85b624d38" location="" language="0" reportsto="" basicattr="0" pop3name="" pop3password="" isexternal="0" isContact="0" absentreason="" ctitle="" cposition="Kundenservice" cpositionnr="">
+            <participant name="Rentlinger" readonly="0" descriptionEnc="1" description="" obj_id="139" valid_always="1" loginid="rentlinger" guid="-5e79ff84:176d67adc02:-7ffc" firstname="Karen" shortname="Karen Rentlinger" telephone="0815/47111234" emailaddress="k.rentlinger@sam.web" room="" fax="0815/47114249" department_key="97" pwd="234e4636962207b4e21082b85b624d38" location="" language="0" reportsto="" basicattr="0" pop3name="" pop3password="" isexternal="0" isContact="0" absentreason="" ctitle="" cposition="Kundenservice" cpositionnr="">
                 <mtextRights/>
                 <mtextSections/>
                 <userNode nodeKey="5"/>
@@ -172,8 +172,8 @@
                 <userTemplate template_key="44"/>
             </participant>
         </department>
-        <department name="Vertragscenter" readonly="0" descriptionEnc="1" description="" obj_id="98" valid_always="0" department_key="98">
-            <participant name="Guttman" readonly="0" descriptionEnc="1" description="" obj_id="138" valid_always="1" loginid="guttman" guid="-5e79ff84:176d67adc02:-7ffd" firstname="Gundula" shortname="Gundula Guttman" telephone="04313009" emailaddress="g.guttman@sam.web" room="" fax="04319110" department_key="98" pwd="234e4636962207b4e21082b85b624d38" location="" language="0" reportsto="" basicattr="0" pop3name="" pop3password="" isexternal="0" isContact="0" absentreason="" ctitle="" cposition="Vertragscenter" cpositionnr="">
+        <department name="contract center" readonly="0" descriptionEnc="1" description="" obj_id="98" valid_always="0" department_key="98">
+            <participant name="Guttman" readonly="0" descriptionEnc="1" description="" obj_id="138" valid_always="1" loginid="guttman" guid="-5e79ff84:176d67adc02:-7ffd" firstname="Gina" shortname="Gina Guttman" telephone="04313009" emailaddress="g.guttman@sam.web" room="" fax="04319110" department_key="98" pwd="234e4636962207b4e21082b85b624d38" location="" language="0" reportsto="" basicattr="0" pop3name="" pop3password="" isexternal="0" isContact="0" absentreason="" ctitle="" cposition="contract center" cpositionnr="">
                 <mtextRights/>
                 <mtextSections/>
                 <userNode nodeKey="5"/>

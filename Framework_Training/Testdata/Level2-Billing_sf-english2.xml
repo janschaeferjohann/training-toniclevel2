@@ -5,10 +5,10 @@
 		<instance>
 			<sender>
 				<Name>sam.energy</Name>
-				<Street>Alfred-Döblin-Platz 59</Street>
+				<Street>Karl-Marx-Place 59</Street>
 				<zip>79100</zip>
 				<city>Freiburg</city>
-				<senderline>sam.energy - Alfred-Döblin-Platz 59 – 79100 Freiburg
+				<senderline>sam.energy - Karl-Marx-Place 59 – 79100 Freiburg
 				</senderline>
 				<isValid>true</isValid>
 				<Partner>
@@ -16,25 +16,25 @@
 					<userid>guttman</userid>
 					<salutation>Frau</salutation>
 					<title></title>
-					<firstname>Gundula</firstname>
+					<firstname>Gina</firstname>
 					<lastname>Guttman</lastname>
 					<companyname1>sam.energy</companyname1>
 					<companyname2>Geschäftskundenservice</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Alfred-Döblin-Platz</Street>
+					<Street>Karl-Marx-Place</Street>
 					<zip>79100</zip>
 					<city>Freiburg</city>
 					<country></country>
 					<address>
 						<line>sam.energy</line>
-						<line>Gundula Guttman</line>
-						<line>Geschäftskundenservice Energie</line>
-						<line>Alfred-Döblin-Platz 59</line>
+						<line>Gina Guttman</line>
+						<line>Geschäftskundenservice Energy</line>
+						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
 					<salutatoryaddress></salutatoryaddress>
-					<role>Kundenberaterin</role>
+					<role>Customer Advisor</role>
 					<email>g.guttman@sam.web</email>
 					<phone>0815-47111999</phone>
 					<fax>0815-47114799</fax>
@@ -47,25 +47,25 @@
 					<userid>guttman</userid>
 					<salutation>Frau</salutation>
 					<title></title>
-					<firstname>Gundula</firstname>
+					<firstname>Gina</firstname>
 					<lastname>Guttman</lastname>
 					<companyname1>sam.energy</companyname1>
 					<companyname2>Geschäftskundenservice</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Alfred-Döblin-Platz</Street>
+					<Street>Karl-Marx-Place</Street>
 					<zip>79100</zip>
 					<city>Freiburg</city>
 					<country></country>
 					<address>
 						<line>sam.energy</line>
-						<line>Gundula Guttman</line>
-						<line>Geschäftskundenservice Energie</line>
-						<line>Alfred-Döblin-Platz 59</line>
+						<line>Gina Guttman</line>
+						<line>Geschäftskundenservice Energy</line>
+						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
 					<salutatoryaddress></salutatoryaddress>
-					<role>Kundenberaterin</role>
+					<role>Customer Advisor</role>
 					<email>g.guttman@sam.web</email>
 					<phone>0815-47111999</phone>
 					<fax>0815-47114799</fax>
@@ -79,23 +79,23 @@
 					<salutation>Herr</salutation>
 					<title>Dr.</title>
 					<firstname>Peter</firstname>
-					<lastname>Friedrich</lastname>
+					<lastname>Fox</lastname>
 					<companyname1>Krankenhaus Ost</companyname1>
 					<companyname2></companyname2>
 					<houseno>31</houseno>
 					<addresssupplement>Chefarzt</addresssupplement>
-					<Street>Am Klinikum</Street>
+					<Street>Clinical Center</Street>
 					<zip>47929</zip>
-					<city>Doktorendorf</city>
+					<city>Docville</city>
 					<country></country>
 					<address>
 						<line>Klinikum Ost</line>
 						<line>Chefarzt</line>
-						<line>Dr. Peter Friedrich</line>
-						<line>Am Klinikum 31</line>
-						<line>47929 Doktorendorf</line>
+						<line>Dr. Peter Fox</line>
+						<line>Clinical Center 31</line>
+						<line>47929 Docville</line>
 					</address>
-					<role>Kunde</role>
+					<role>Customer</role>
 					<email>pf.klinikum.ost@email.web</email>
 					<phone>01989-2050</phone>
 					<fax>01989-2001</fax>
@@ -163,7 +163,7 @@
 						<billingno>RE12-30062020</billingno>
 						<partnerid>20698101</partnerid>
 						<contractsId>GK13-2005-01.99-KL</contractsId>
-						<contact_type>Post</contact_type>
+						<contact_type>Mail</contact_type>
 						<time_data>
 							<letterdate>30.06.2020</letterdate>
 							<next_payoff>July 2021</next_payoff>
@@ -172,30 +172,29 @@
 						<section>
 							<consumption_point>
 								<counter>DE2458452125558654005212001458452</counter>
-								<appartment>Nebengebäude</appartment>
-								<addresssupplement>Klinikum Ost - Anfahrt über die
-									Seitenzufahrt, Hermandesstr.</addresssupplement>
-								<Street>Am Klinikum</Street>
+								<appartment>Outbuilding</appartment>
+								<addresssupplement>Clinic East - approach via the 
+									side access road, Hermandesstr.</addresssupplement>
+								<Street>Clinical Center</Street>
 								<houseno>31</houseno>
 								<zip>47929</zip>
-								<city>Doktorendorf</city>
+								<city>Docville</city>
 								<carrier>
 									<companyname1>Energy Net Transports</companyname1>
 									<companyname2></companyname2>
 									<houseno>59</houseno>
 									<addresssupplement></addresssupplement>
-									<Street>Alfred-Döblin-Platz</Street>
+									<Street>Karl-Marx-Place</Street>
 									<zip>79100</zip>
 									<city>Freiburg</city>
 								</carrier>
 							</consumption_point>
 							<billing_text>
-								<line>Der offene Rechnungsbetrag für die vergangene Abrechnungsperiode
-									beträgt $value$.</line>
-								<line>Unsere Nachforderung wird in 14 Tagen von Ihrem Konto abgebucht.</line>
+								<line>The outstanding invoice amount for the past billing period is $value$.</line>
+								<line>Our additional claim will be debited from your account in 14 days.</line>
 								<line></line>
-								<line>Eine detailierte Übersicht der Rechnungspositionen, entnehmen Sie bitte den Folgeseiten.</line>
-								<line>Sollten Sie Fragen haben, wenden Sie sich bitte an Ihre Geschäftskundenberaterin, Gundula Guttman.</line>
+								<line>For a detailed overview of the invoice items, please refer to the following pages.</line>
+								<line>If you have any questions, please contact your business customer advisor, Gina Guttman.</line>
 							</billing_text>
 							<contracts>
 								<contract>
@@ -309,7 +308,7 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Abwasser</name>
+								<name>Waster water</name>
 								<usage>87,00</usage>
 								<unit>m3</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -365,7 +364,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Abwasser</name>
+									<name>Waster water</name>
 									<netamount>1600,00</netamount>
 									<salestax>0,00</salestax>
 									<presum>1600,00</presum>
@@ -394,7 +393,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Abwasser</name>
+									<name>Waster water</name>
 									<netamount>400,00</netamount>
 									<salestax>0,00</salestax>
 									<presum>400,00</presum>

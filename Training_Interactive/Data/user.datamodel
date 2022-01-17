@@ -61,13 +61,13 @@
 var position = $CurrentUser.position;
 if(position.toString() == 'Kundenservice'){
 	if($document.Metadata.DocumentLanguage.toString() == "en_US"){
-		result = 'Customer Service';
+		result = 'Customer Support';
 	}
 	else{
 		result = $CurrentUser.position;
 	}
 }
-if(position.toString() == 'Vertragscenter'){
+if(position.toString() == 'contract center'){
 	if($document.Metadata.DocumentLanguage.toString() == "en_US"){
 		result = 'Contract Center';
 	}

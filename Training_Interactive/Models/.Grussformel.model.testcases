@@ -45,10 +45,10 @@
       <DataNode name="Mail">
        <DataNode name="User">
         <DataNode name="User">
-         <Value><![CDATA[string:Gundula Guttman]]></Value>
+         <Value><![CDATA[string:Gina Guttman]]></Value>
         </DataNode>
         <DataNode name="Position">
-         <Value><![CDATA[string:Vertragscenter]]></Value>
+         <Value><![CDATA[string:contract center]]></Value>
         </DataNode>
         <DataNode name="EMail">
          <Value><![CDATA[string:g.guttman@sam.web]]></Value>
@@ -63,7 +63,7 @@
          <Value><![CDATA[string:Role]]></Value>
         </DataNode>
         <DataNode name="Name">
-         <Value><![CDATA[string:Gundula Guttman]]></Value>
+         <Value><![CDATA[string:Gina Guttman]]></Value>
         </DataNode>
        </DataNode>
        <DataNode name="Absender">

@@ -18,7 +18,7 @@
         <Value><![CDATA[string:2020-99.128]]></Value>
        </DataNode>
        <DataNode name="contact_type" valueChanged="fromDataSource">
-        <Value><![CDATA[string:Post]]></Value>
+        <Value><![CDATA[string:Mail]]></Value>
        </DataNode>
        <DataNode name="partnerid" valueChanged="fromDataSource">
         <Value><![CDATA[string:202101040815]]></Value>
@@ -97,7 +97,7 @@
           <Value><![CDATA[string:DE991576948356412594537854239542015]]></Value>
          </DataNode>
          <DataNode name="appartment" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Haupteingang]]></Value>
+          <Value><![CDATA[string:Main entrance]]></Value>
          </DataNode>
          <DataNode name="addresssupplement" valueChanged="fromDataSource">
           <Value><![CDATA[string:]]></Value>
@@ -129,7 +129,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Street" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Alfred-Döblin-Platz]]></Value>
+           <Value><![CDATA[string:Karl-Marx-Place]]></Value>
           </DataNode>
           <DataNode name="zip" valueChanged="fromDataSource">
            <Value><![CDATA[string:79100]]></Value>
@@ -447,7 +447,7 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="Role" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Kunde]]></Value>
+         <Value><![CDATA[string:Customer]]></Value>
         </DataNode>
         <DataNode name="Email" valueChanged="fromDataSource">
          <Value><![CDATA[string:Steinmetz.Arjak@email.web]]></Value>
@@ -474,7 +474,7 @@
       </DataNode>
       <DataNode name="User">
        <DataNode name="Name">
-        <Value><![CDATA[string:Karolina Reutlinger]]></Value>
+        <Value><![CDATA[string:Karen Rentlinger]]></Value>
        </DataNode>
        <DataNode name="Signature">
         <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_reutlinger.png]]></Value>
@@ -509,7 +509,7 @@
            <Value><![CDATA[string:sam.energy]]></Value>
           </DataNode>
           <DataNode name="Street" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Alfred-Döblin-Platz 59]]></Value>
+           <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
           </DataNode>
           <DataNode name="Zip" valueChanged="fromDataSource">
            <Value><![CDATA[string:79100]]></Value>
@@ -523,7 +523,7 @@
             <Value><![CDATA[string:99887766]]></Value>
            </DataNode>
            <DataNode name="UserID" valueChanged="fromDataSource">
-            <Value><![CDATA[string:reutlinger]]></Value>
+            <Value><![CDATA[string:rentlinger]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
             <Value><![CDATA[string:Frau]]></Value>
@@ -532,16 +532,16 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Firstname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Karolina]]></Value>
+            <Value><![CDATA[string:Karen]]></Value>
            </DataNode>
            <DataNode name="Lastname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Reutlinger]]></Value>
+            <Value><![CDATA[string:Rentlinger]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Privatkundenservice]]></Value>
+            <Value><![CDATA[string:Private Customer Support]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
             <Value><![CDATA[string:59]]></Value>
@@ -550,7 +550,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Street" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Alfred-Döblin-Platz]]></Value>
+            <Value><![CDATA[string:Karl-Marx-Place]]></Value>
            </DataNode>
            <DataNode name="Zip" valueChanged="fromDataSource">
             <Value><![CDATA[string:79100]]></Value>
@@ -567,23 +567,23 @@
              <Value><![CDATA[string:sam.energy]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Karolina Reutlinger]]></Value>
+             <Value><![CDATA[string:Karen Rentlinger]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Privatkundenservice]]></Value>
+             <Value><![CDATA[string:Private Customer Support]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Alfred-Döblin-Platz 59]]></Value>
+             <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:79100 Freiburg]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Role" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Kundenberaterin]]></Value>
+            <Value><![CDATA[string:Customer Advisor]]></Value>
            </DataNode>
            <DataNode name="Email" valueChanged="fromDataSource">
-            <Value><![CDATA[string:k.reutlinger@sam.web]]></Value>
+            <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
             <Value><![CDATA[string:0815-47111234]]></Value>
@@ -646,7 +646,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Kunde]]></Value>
+            <Value><![CDATA[string:Customer]]></Value>
            </DataNode>
            <DataNode name="Email" valueChanged="fromDataSource">
             <Value><![CDATA[string:Steinmetz.Arjak@email.web]]></Value>
@@ -944,7 +944,7 @@
                  <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_reutlinger.png]]></Value>
                 </DataNode>
                 <DataNode name="Name">
-                 <Value><![CDATA[string:Karolina Reutlinger]]></Value>
+                 <Value><![CDATA[string:Karen Rentlinger]]></Value>
                 </DataNode>
                </DataNode>
               </Data>
@@ -2283,7 +2283,7 @@
             <Value><![CDATA[string:Peter]]></Value>
            </DataNode>
            <DataNode name="Lastname">
-            <Value><![CDATA[string:Friedrich]]></Value>
+            <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
             <Value><![CDATA[string:]]></Value>
@@ -2298,13 +2298,13 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Street">
-            <Value><![CDATA[string:Am Klinikum 31]]></Value>
+            <Value><![CDATA[string:Clinical Center 31]]></Value>
            </DataNode>
            <DataNode name="Zip">
             <Value><![CDATA[string:47929]]></Value>
            </DataNode>
            <DataNode name="City">
-            <Value><![CDATA[string:Doktorendorf]]></Value>
+            <Value><![CDATA[string:Docville]]></Value>
            </DataNode>
            <DataNode name="Country">
             <Value><![CDATA[string:]]></Value>
@@ -2321,13 +2321,13 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line">
-             <Value><![CDATA[string:Dr. Peter Friedrich]]></Value>
+             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Am Klinikum 31]]></Value>
+             <Value><![CDATA[string:Clinical Center 31]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:47929 Doktorendorf]]></Value>
+             <Value><![CDATA[string:47929 Docville]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="SalutatoryAddress">
@@ -2353,10 +2353,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Friedrich]]></Value>
+           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Friedrich, Peter]]></Value>
+           <Value><![CDATA[string:Fox, Peter]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -3000,7 +3000,7 @@
             <Value><![CDATA[string:Peter]]></Value>
            </DataNode>
            <DataNode name="Lastname">
-            <Value><![CDATA[string:Friedrich]]></Value>
+            <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
             <Value><![CDATA[string:]]></Value>
@@ -3015,13 +3015,13 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Street">
-            <Value><![CDATA[string:Am Klinikum 31]]></Value>
+            <Value><![CDATA[string:Clinical Center 31]]></Value>
            </DataNode>
            <DataNode name="Zip">
             <Value><![CDATA[string:47929]]></Value>
            </DataNode>
            <DataNode name="City">
-            <Value><![CDATA[string:Doktorendorf]]></Value>
+            <Value><![CDATA[string:Docville]]></Value>
            </DataNode>
            <DataNode name="Country">
             <Value><![CDATA[string:]]></Value>
@@ -3038,13 +3038,13 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line">
-             <Value><![CDATA[string:Dr. Peter Friedrich]]></Value>
+             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Am Klinikum 31]]></Value>
+             <Value><![CDATA[string:Clinical Center 31]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:47929 Doktorendorf]]></Value>
+             <Value><![CDATA[string:47929 Docville]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="SalutatoryAddress">
@@ -3070,10 +3070,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Friedrich]]></Value>
+           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Friedrich, Peter]]></Value>
+           <Value><![CDATA[string:Fox, Peter]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
