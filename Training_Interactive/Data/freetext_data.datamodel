@@ -102,7 +102,23 @@ var Language = '';
 	}
 
 switch (Language) {
-case 'ENG':
+case 'GER':
+	switch (Gender) {
+	case 'M':
+		out = 'Sehr geehrter Herr ' + Firstname + ',';
+		break;
+	case 'F':
+		out = 'Sehr geehrte Frau ' + Firstname + ',';
+		break;
+	case 'D':
+		out = 'Hallo ' + Firstname + ' ' + Firstname + ',';
+		break;
+	default:
+		out = 'Guten Tag,';
+		break;
+	}
+	break;
+case 'ENG' || 'USA':
 	switch (Gender) {
 	case 'M':
 		out = 'Dear Mr ' + Firstname;
@@ -121,16 +137,16 @@ case 'ENG':
 default: 
 	switch (Gender) {
 	case 'M':
-		out = 'Sehr geehrter Herr ' + Firstname + ',';
+		out = 'Dear Mr ' + Firstname;
 		break;
 	case 'F':
-		out = 'Sehr geehrte Frau ' + Firstname + ',';
+		out = 'Dear Ms ' + Firstname;
 		break;
 	case 'D':
-		out = 'Hallo ' + Firstname + ' ' + Firstname + ',';
+		out = 'Dear ' + Firstname + ' ' + Firstname;
 		break;
 	default:
-		out = 'Guten Tag,';
+		out = 'Hello';
 		break;
 	}
 	break;
