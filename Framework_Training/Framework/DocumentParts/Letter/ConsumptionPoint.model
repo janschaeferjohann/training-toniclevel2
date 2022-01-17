@@ -51,8 +51,6 @@
      <Container>
       <Par>
        <Span>
-        <Data>$basedata.section.consumption_point.appartment</Data>
-        <Text> </Text>
         <Data>$basedata.section.consumption_point.street</Data>
         <Text> </Text>
         <Data>$basedata.section.consumption_point.houseno</Data>
