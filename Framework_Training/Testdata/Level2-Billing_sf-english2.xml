@@ -334,14 +334,12 @@
 						</items>
 						<anticipated_payments>
 							<payment_text>
-								<line>Die Abschläge werden vom Geschäftskonto DE79 1100 00001 2112 2345 66 bei der Sam Bank abgebucht.</line>
-								<line>Bitte beachten Sie, dass zu den o. g. Fälligkeitsterminen
-									keine gesonderte </line>
-								<line>schriftliche Abschlagsmitteilung gestellt wird.</line>
+								<line>The payment will be debited from your account DE79 1100 0000 1211 2222 99 at Sam Bank.</line>
+								<line>Please note that you will not receive a separate written budget billing </line>
+								<line>notice on the above due dates.</line>
 								<line></line>
-								<line>Sofern aus umsatzsteuerrechtlichen Gründen eine
-									schriftliche Abschlagsanforderung benötigt wird,</line>
-								<line>setzen Sie sich bitte mit unserem Geschäftskundenservice in Verbindung.</line>
+								<line>If a written budget request is required for VAT reasons,</line>
+								<line>please contact our Business Customer Service.</line>
 							</payment_text>
 							<paideanticipated_payments>
 								<amount_anticipated_payments>4</amount_anticipated_payments>
@@ -555,7 +553,7 @@
 								<section>electricity</section>
 								<rate>sam.business electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Offshore-Liability contribution</product_key>
+								<product_key>Offshore-Liability Contribution</product_key>
 							</product>
 							<period>
 								<from>
@@ -779,7 +777,7 @@
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Offshore-Liability contribution</product_key>
+								<product_key>Offshore-Liability Contribution</product_key>
 							</product>
 							<period>
 								<from>
