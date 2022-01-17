@@ -4777,7 +4777,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -4852,7 +4852,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9320,7 +9320,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9395,7 +9395,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -10953,7 +10953,7 @@
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+            <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11028,7 +11028,7 @@
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+            <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -12072,7 +12072,7 @@
            <Value><![CDATA[number:0.4]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -12108,7 +12108,7 @@
            <Value><![CDATA[number:2.344]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -15470,7 +15470,7 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -15995,7 +15995,7 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16902,7 +16902,7 @@
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+            <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17427,7 +17427,7 @@
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+            <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -18027,7 +18027,7 @@
            <Value><![CDATA[number:54.43042]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -18279,7 +18279,7 @@
            <Value><![CDATA[number:54.43042]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Offshore-Liability contribution]]></Value>
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
