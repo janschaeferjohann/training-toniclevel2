@@ -20,9 +20,9 @@
        <Par>
         <Style parentName="TariffSelection_Bold"></Style>
         <Span>
-         <Text>Was sind die Grundlagen Ihrer </Text>
+         <Text>What are the basics of your </Text>
          <Data>$contract</Data>
-         <Text> Rechnung</Text>
+         <Text> bill</Text>
         </Span>
        </Par>
       </Container>
@@ -48,7 +48,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Verbrauchsstelle</Text>
+       <Text>Point of consumption</Text>
       </Span>
      </Par>
     </Container>
@@ -81,7 +81,7 @@
      <Container>
       <Par>
        <Span>
-        <Text>Zählpunkt</Text>
+        <Text>Metering point</Text>
        </Span>
       </Par>
      </Container>
@@ -103,7 +103,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Zählernummer</Text>
+       <Text>Meter number</Text>
       </Span>
      </Par>
     </Container>
@@ -143,7 +143,7 @@
      <Container>
       <Par>
        <Span>
-        <Text>Netzbetreiber</Text>
+        <Text>Network operator</Text>
        </Span>
       </Par>
      </Container>
@@ -179,7 +179,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Vertragskonto</Text>
+       <Text>Contract account</Text>
       </Span>
      </Par>
     </Container>
@@ -200,7 +200,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Lieferbeginn</Text>
+       <Text>Start of delivery</Text>
       </Span>
      </Par>
     </Container>
@@ -229,7 +229,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Kündigungsfrist</Text>
+       <Text>Notice period</Text>
       </Span>
      </Par>
     </Container>
@@ -258,7 +258,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Nächster Kündigungstermin</Text>
+       <Text>Next termination date</Text>
       </Span>
      </Par>
     </Container>
@@ -287,7 +287,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>SEPA Mandant aktiv</Text>
+       <Text>SEPA client active</Text>
       </Span>
      </Par>
     </Container>
@@ -308,7 +308,7 @@
     <Container>
      <Par>
       <Span>
-       <Text>Zahlungsmodus</Text>
+       <Text>Payment mode</Text>
       </Span>
      </Par>
     </Container>
@@ -318,7 +318,7 @@
      <Par>
       <Span>
        <Data>$billing_data.instance(0).billing.billdata.anticipated_payments.nextanticipated_payments.amount_anticipated_payments</Data>
-       <Text> Abschläge pro Jahr</Text>
+       <Text> Deductions per year</Text>
       </Span>
      </Par>
     </Container>
