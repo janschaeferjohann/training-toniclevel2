@@ -45,7 +45,7 @@
              <Align>right</Align>
             </Style>
             <Span>
-             <Text>Deine Zahlungen</Text>
+             <Text>Your Payments</Text>
             </Span>
            </Par>
           </Container>
@@ -145,7 +145,7 @@
              <Align>right</Align>
             </Style>
             <Span>
-             <Text>Dein Verbrauch</Text>
+             <Text>Your consumption</Text>
             </Span>
            </Par>
           </Container>
@@ -220,7 +220,7 @@
              <Align>right</Align>
             </Style>
             <Span>
-             <Text>Deine </Text>
+             <Text>Your </Text>
              <Data>$billing_data.billing.billdata.billsum.sumArt</Data>
             </Span>
            </Par>
@@ -290,7 +290,7 @@
          <Align>right</Align>
         </Style>
         <Span>
-         <Text>Dein neuer Abschlag</Text>
+         <Text>Your new partial payment </Text>
         </Span>
        </Par>
       </Container>
