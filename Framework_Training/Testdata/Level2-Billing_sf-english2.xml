@@ -965,102 +965,102 @@
 					<energymix>						
 					<description>
 							<record>
-								<value>Kernkraft</value>
+								<value>Nuclear energy</value>
 							</record>
 							<record>
-								<value>Kohle</value>
+								<value>Coal-powered energy</value>
 							</record>
 							<record>
-								<value>Erdgas</value>
+								<value>Natural gas</value>
 							</record>
 							<record>
-								<value>Windenergie</value>
+								<value>Wind energy</value>
 							</record>
 							<record>
-								<value>Biomasse</value>
+								<value>Biomass</value>
 							</record>
 							<record>
-								<value>Sonstige Erneuerbare Energie</value>
+								<value>Other renewable energy</value>
 							</record>
 							<record>
-								<value>Waterkraft</value>
+								<value>Hydrapower</value>
 							</record>
 						</description>					
 						<nationwide>
 							<record>
-							<description>Kernkraft</description>
+							<description>Nuclear energy</description>
 							<value>13,8</value>
 							</record>
 							<record>
-							<description>Kohle</description>
+							<description>Coal-powered energy</description>
 							<value>29,3</value>
 							</record>
 							<record>
-							<description>Erdgas</description>
+							<description>Natural gas</description>
 							<value>10,5</value>
 							</record>
 							<record>
-							<description>Windenergie</description>
+							<description>Wind energy</description>
 							<value>24,9</value>
 							</record>
 							<record>
-							<description>Biomasse</description>
+							<description>Biomass</description>
 							<value>8,6</value>
 							</record>
 							<record>
-							<description>Sonstige Erneuerbare Energie</description>
+							<description>Other renewable energy</description>
 							<value>9,1</value>
 							</record>
 							<record>
-							<description>Waterkraft</description>
+							<description>Hydrapower</description>
 							<value>3,8</value>
 							</record>
 						</nationwide>
 						<product>
 							<record>
-							<description>Windenergie</description>
+							<description>Wind energy</description>
 							<value>63,7</value>
 							</record>
 							<record>
-							<description>Biomasse</description>
+							<description>Biomass</description>
 							<value>13,5</value>
 							</record>
 							<record>
-							<description>Sonstige Erneuerbare Energie</description>
+							<description>Other renewable energy</description>
 							<value>19,8</value>
 							</record>
 							<record>
-							<description>Waterkraft</description>
+							<description>Hydrapower</description>
 							<value>3</value>
 							</record>
 						</product>
 						<total>
 							<record>
-							<description>Kernkraft</description>
+							<description>Nuclear energy</description>
 							<value>14,2</value>
 							</record>
 							<record>
-							<description>Kohle</description>
+							<description>Coal-powered energy</description>
 							<value>17,5</value>
 							</record>
 							<record>
-							<description>Erdgas</description>
+							<description>Natural gas</description>
 							<value>12,9</value>
 							</record>
 							<record>
-							<description>Windenergie</description>
+							<description>Wind energy</description>
 							<value>38,6</value>
 							</record>
 							<record>
-							<description>Biomasse</description>
+							<description>Biomass</description>
 							<value>13,5</value>
 							</record>
 							<record>
-							<description>Sonstige Erneuerbare Energie</description>
+							<description>Other renewable energy</description>
 							<value>2,1</value>
 							</record>
 							<record>
-							<description>Waterkraft</description>
+							<description>Hydrapower</description>
 							<value>1,2</value>
 							</record>
 						</total>
@@ -1071,55 +1071,55 @@
 							<previous_usage>14234</previous_usage>
 							<small>
 								<record>
-								<description>Gut</description>
+								<description>Fine</description>
 								<value>1300</value>
 								</record>
 								<record>
-								<description>Durchschnitt</description>
+								<description>Average</description>
 								<value>2000</value>
 								</record>
 								<record>
-								<description>Hoch</description>
+								<description>High</description>
 								<value>3000</value>
 								</record>
 								<record>
-								<description>Sehr hoch</description>
+								<description>Very high</description>
 								<value>4000</value>
 								</record>
 							</small>
 							<medium>
 								<record>
-								<description>Gut</description>
+								<description>Fine</description>
 								<value>2000</value>
 								</record>
 								<record>
-								<description>Durchschnitt</description>
+								<description>Average</description>
 								<value>2800</value>
 								</record>
 								<record>
-								<description>Hoch</description>
+								<description>High</description>
 								<value>3600</value>
 								</record>
 								<record>
-								<description>Sehr hoch</description>
+								<description>Very high</description>
 								<value>4400</value>
 								</record>
 							</medium>
 							<big>
 								<record>
-								<description>Gut</description>
+								<description>Fine</description>
 								<value>2900</value>
 								</record>
 								<record>
-								<description>Durchschnitt</description>
+								<description>Average</description>
 								<value>4000</value>
 								</record>
 								<record>
-								<description>Hoch</description>
+								<description>High</description>
 								<value>5000</value>
 								</record>
 								<record>
-								<description>Sehr hoch</description>
+								<description>Very high</description>
 								<value>6000</value>
 								</record>
 							</big>

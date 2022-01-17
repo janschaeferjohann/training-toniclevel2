@@ -3735,7 +3735,7 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Klimaneutrale Wärme]]></Value>
+            <Value><![CDATA[string:climate-neutral heat]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
             <Value><![CDATA[string:Heat]]></Value>
@@ -5596,7 +5596,7 @@
            <Value><![CDATA[string:heat]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Klimaneutrale Wärme]]></Value>
+           <Value><![CDATA[string:climate-neutral heat]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAM-ITK-900400]]></Value>
@@ -5926,7 +5926,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,300]]></Value>
@@ -5935,7 +5935,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -5944,7 +5944,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,000]]></Value>
@@ -5953,7 +5953,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -5965,7 +5965,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -5974,7 +5974,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,800]]></Value>
@@ -5983,7 +5983,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,600]]></Value>
@@ -5992,7 +5992,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,400]]></Value>
@@ -6004,7 +6004,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,900]]></Value>
@@ -6013,7 +6013,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -6022,7 +6022,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:5,000]]></Value>
@@ -6031,7 +6031,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:6,000]]></Value>
@@ -6047,43 +6047,43 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -6092,7 +6092,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:138]]></Value>
@@ -6101,7 +6101,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:293]]></Value>
@@ -6110,7 +6110,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:105]]></Value>
@@ -6119,7 +6119,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:249]]></Value>
@@ -6128,7 +6128,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:86]]></Value>
@@ -6137,7 +6137,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:91]]></Value>
@@ -6146,7 +6146,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -6158,7 +6158,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -6167,7 +6167,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -6176,7 +6176,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -6185,7 +6185,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:53.7]]></Value>
@@ -6194,7 +6194,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13.5]]></Value>
@@ -6203,7 +6203,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:19.8]]></Value>
@@ -6212,7 +6212,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13]]></Value>
@@ -6224,7 +6224,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:142]]></Value>
@@ -6233,7 +6233,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:175]]></Value>
@@ -6242,7 +6242,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:129]]></Value>
@@ -6251,7 +6251,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:386]]></Value>
@@ -6260,7 +6260,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:135]]></Value>
@@ -6269,7 +6269,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:21]]></Value>
@@ -6278,7 +6278,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
@@ -10324,7 +10324,7 @@
          </DataNode>
         </DataNode>
         <DataNode name="billlines">
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
@@ -10399,7 +10399,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
@@ -10474,7 +10474,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
@@ -10549,7 +10549,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
@@ -10624,7 +10624,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
@@ -10699,7 +10699,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
@@ -10774,7 +10774,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
@@ -10849,7 +10849,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
@@ -10924,7 +10924,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
@@ -10999,7 +10999,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
@@ -11074,7 +11074,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
@@ -11149,7 +11149,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
@@ -11224,7 +11224,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
@@ -11299,7 +11299,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
@@ -12696,7 +12696,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,300]]></Value>
@@ -12705,7 +12705,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -12714,7 +12714,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,000]]></Value>
@@ -12723,7 +12723,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -12735,7 +12735,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -12744,7 +12744,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,800]]></Value>
@@ -12753,7 +12753,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,600]]></Value>
@@ -12762,7 +12762,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,400]]></Value>
@@ -12774,7 +12774,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,900]]></Value>
@@ -12783,7 +12783,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -12792,7 +12792,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:5,000]]></Value>
@@ -12801,7 +12801,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:6,000]]></Value>
@@ -12817,43 +12817,43 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -12862,7 +12862,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:138]]></Value>
@@ -12871,7 +12871,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:293]]></Value>
@@ -12880,7 +12880,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:105]]></Value>
@@ -12889,7 +12889,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:249]]></Value>
@@ -12898,7 +12898,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:86]]></Value>
@@ -12907,7 +12907,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:91]]></Value>
@@ -12916,7 +12916,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -12928,7 +12928,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -12937,7 +12937,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -12946,7 +12946,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -12955,7 +12955,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:53.7]]></Value>
@@ -12964,7 +12964,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13.5]]></Value>
@@ -12973,7 +12973,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:19.8]]></Value>
@@ -12982,7 +12982,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13]]></Value>
@@ -12994,7 +12994,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:142]]></Value>
@@ -13003,7 +13003,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:175]]></Value>
@@ -13012,7 +13012,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:129]]></Value>
@@ -13021,7 +13021,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:386]]></Value>
@@ -13030,7 +13030,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:135]]></Value>
@@ -13039,7 +13039,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:21]]></Value>
@@ -13048,7 +13048,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
@@ -16573,7 +16573,7 @@
          </DataNode>
         </DataNode>
         <DataNode name="billlines">
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
@@ -16648,7 +16648,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
@@ -16723,7 +16723,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
@@ -16798,7 +16798,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
@@ -16873,7 +16873,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
@@ -16948,7 +16948,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
@@ -17023,7 +17023,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
@@ -17098,7 +17098,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,001]]></Value>
@@ -17173,7 +17173,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,002]]></Value>
@@ -17248,7 +17248,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,003]]></Value>
@@ -17323,7 +17323,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,004]]></Value>
@@ -17398,7 +17398,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,005]]></Value>
@@ -17473,7 +17473,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,006]]></Value>
@@ -17548,7 +17548,7 @@
            </DataNode>
           </DataNode>
          </DataNode>
-         <DataNode name="strom">
+         <DataNode name="electricity">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="positionid">
            <Value><![CDATA[number:30,062,020,007]]></Value>
@@ -18720,7 +18720,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,300]]></Value>
@@ -18729,7 +18729,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -18738,7 +18738,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,000]]></Value>
@@ -18747,7 +18747,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -18759,7 +18759,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,000]]></Value>
@@ -18768,7 +18768,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,800]]></Value>
@@ -18777,7 +18777,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:3,600]]></Value>
@@ -18786,7 +18786,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,400]]></Value>
@@ -18798,7 +18798,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gut]]></Value>
+            <Value><![CDATA[string:Fine]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:2,900]]></Value>
@@ -18807,7 +18807,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Durchschnitt]]></Value>
+            <Value><![CDATA[string:Average]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:4,000]]></Value>
@@ -18816,7 +18816,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Hoch]]></Value>
+            <Value><![CDATA[string:High]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:5,000]]></Value>
@@ -18825,7 +18825,7 @@
           <DataNode name="record">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="description" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Sehr hoch]]></Value>
+            <Value><![CDATA[string:Very high]]></Value>
            </DataNode>
            <DataNode name="value" valueChanged="fromDataSource">
             <Value><![CDATA[number:6,000]]></Value>
@@ -18841,43 +18841,43 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -18886,7 +18886,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:138]]></Value>
@@ -18895,7 +18895,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:293]]></Value>
@@ -18904,7 +18904,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:105]]></Value>
@@ -18913,7 +18913,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:249]]></Value>
@@ -18922,7 +18922,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:86]]></Value>
@@ -18931,7 +18931,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:91]]></Value>
@@ -18940,7 +18940,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:38]]></Value>
@@ -18952,7 +18952,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:63.7]]></Value>
@@ -18961,7 +18961,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:13.5]]></Value>
@@ -18970,7 +18970,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:19.8]]></Value>
@@ -18979,7 +18979,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:3]]></Value>
@@ -18991,7 +18991,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kernkraft]]></Value>
+           <Value><![CDATA[string:Nuclear energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:142]]></Value>
@@ -19000,7 +19000,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Kohle]]></Value>
+           <Value><![CDATA[string:Coal-powered energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:175]]></Value>
@@ -19009,7 +19009,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Erdgas]]></Value>
+           <Value><![CDATA[string:Natural gas]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:129]]></Value>
@@ -19018,7 +19018,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Windenergie]]></Value>
+           <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:386]]></Value>
@@ -19027,7 +19027,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Biomasse]]></Value>
+           <Value><![CDATA[string:Biomass]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:135]]></Value>
@@ -19036,7 +19036,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sonstige Erneuerbare Energie]]></Value>
+           <Value><![CDATA[string:Other renewable energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:21]]></Value>
@@ -19045,7 +19045,7 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waterkraft]]></Value>
+           <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
            <Value><![CDATA[number:12]]></Value>
