@@ -1,4 +1,4 @@
-<RootPart xmlns="urn:kwsoft:mtext:tonic:dom">
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Billing\Templates\Billing.template">
  <DataDefinition>
   <ParamDef name="TaskControl" ref="\\Framework\Data\TaskControl.datamodel" dataMappingRef="\\Framework\Data\TaskControl.mapping">
    <Description></Description>
@@ -44,17 +44,12 @@
         <Par>
          <Style parentName="TextSpaceAfter"></Style>
          <Span>
-          <Text>Vielen Dank für dein Vertrauen.</Text>
+          <Text>Thank you for your trust.
+We have calculated the following amounts for the entire period:</Text>
          </Span>
         </Par>
         <ContainerPart>
          <DataDefinition></DataDefinition>
-         <Par>
-          <Style parentName="TextSpaceAfter"></Style>
-          <Span>
-           <Text>Für den gesamten Zeitraum haben wir folgende Beträge ermittelt.:</Text>
-          </Span>
-         </Par>
          <ContainerPartRef uri="Models\BillingSummary.model">
           <Param name="billing_data">$billing_data</Param>
           <Param name="billing_data">$billing_data</Param>
@@ -80,7 +75,7 @@
           <KeepWithNext>true</KeepWithNext>
          </Style>
          <Span>
-          <Text>Für das kommende Abrechnungsjahr ergeben sich aus dem bisherigen Verbrauch folgende neue Abschläge:</Text>
+          <Text>For the coming billing year, the following new deductions result from the previous consumption:</Text>
          </Span>
         </Par>
         <ContainerPartRef uri="Models\BillingTableCommanderyPayments.model">
@@ -90,7 +85,7 @@
         <Par>
          <Style parentName="TextSpaceBefore"></Style>
          <Span>
-          <Text>Abbuchungstermine für das kommende Jahr</Text>
+          <Text>Debit dates for the coming year</Text>
          </Span>
         </Par>
         <Par>
@@ -454,7 +449,7 @@
                    <Align>center</Align>
                   </Style>
                   <Span>
-                   <Text>Möchtest du die Abschlags-Höhe anpassen, oder die Abschlags-Termine, ruf uns einfach an.</Text>
+                   <Text>If you would like to adjust the amount or the dates of the payment, just give us a call.</Text>
                   </Span>
                  </Par>
                 </Container>
