@@ -334,7 +334,7 @@
    <Style>
     <FontSize>10000.0mpt</FontSize>
    </Style>
-   <Text>Grundpreis</Text>
+   <Text>Basic price</Text>
   </Span>
   <Span>
    <Style>

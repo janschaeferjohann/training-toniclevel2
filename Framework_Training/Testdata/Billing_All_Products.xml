@@ -807,7 +807,7 @@
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -839,7 +839,7 @@
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMZNR00012321578</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -903,7 +903,7 @@
 								<section>gas</section>
 								<rate>Super Gas</rate>
 								<meter>SAMGNR00122325847</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -935,7 +935,7 @@
 								<section>water</section>
 								<rate>Easy fresh Water</rate>
 								<meter>SAMW00002300811</meter>
-								<product_key>Verbrauchspreis</product_key>
+								<product_key>Consumer price</product_key>
 							</product>
 							<period>
 								<from>
@@ -967,7 +967,7 @@
 								<section>water</section>
 								<rate>Easy fresh Water</rate>
 								<meter>SAMW00002300811</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -999,7 +999,7 @@
 								<section>sewage</section>
 								<rate>Easy fresh Water</rate>
 								<meter>SAMW00002300811</meter>
-								<product_key>Verbrauchspreis</product_key>
+								<product_key>Consumer price</product_key>
 							</product>
 							<period>
 								<from>

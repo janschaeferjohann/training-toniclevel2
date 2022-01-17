@@ -5077,7 +5077,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5152,7 +5152,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5302,7 +5302,7 @@
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5377,7 +5377,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5452,7 +5452,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5527,7 +5527,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -5602,7 +5602,7 @@
            <Value><![CDATA[string:SAM-ITK-900400]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9620,7 +9620,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9695,7 +9695,7 @@
            <Value><![CDATA[string:SAMZNR00012321578]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9845,7 +9845,7 @@
            <Value><![CDATA[string:SAMGNR00122325847]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9920,7 +9920,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -9995,7 +9995,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -10070,7 +10070,7 @@
            <Value><![CDATA[string:SAMW00002300811]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -11253,7 +11253,7 @@
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11328,7 +11328,7 @@
             <Value><![CDATA[string:SAMZNR00012321578]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11478,7 +11478,7 @@
             <Value><![CDATA[string:SAMGNR00122325847]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11553,7 +11553,7 @@
             <Value><![CDATA[string:SAMW00002300811]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Verbrauchspreis]]></Value>
+            <Value><![CDATA[string:Consumer price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11628,7 +11628,7 @@
             <Value><![CDATA[string:SAMW00002300811]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -11703,7 +11703,7 @@
             <Value><![CDATA[string:SAMW00002300811]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Verbrauchspreis]]></Value>
+            <Value><![CDATA[string:Consumer price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -12216,7 +12216,7 @@
            <Value><![CDATA[number:39.890410959]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -12252,7 +12252,7 @@
            <Value><![CDATA[number:40.109589041]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Gas">
@@ -12324,7 +12324,7 @@
            <Value><![CDATA[number:100]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -12360,7 +12360,7 @@
            <Value><![CDATA[number:130.5]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -12396,7 +12396,7 @@
            <Value><![CDATA[number:40]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -12432,7 +12432,7 @@
            <Value><![CDATA[number:113.1]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -15620,7 +15620,7 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16145,7 +16145,7 @@
            <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16214,13 +16214,13 @@
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Frischwasser]]></Value>
+           <Value><![CDATA[string:Fresh Water]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16289,13 +16289,13 @@
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Frischwasser]]></Value>
+           <Value><![CDATA[string:Fresh Water]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -16370,7 +16370,7 @@
            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -17052,7 +17052,7 @@
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17577,7 +17577,7 @@
             <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17646,13 +17646,13 @@
             <Value><![CDATA[string:water]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Frischwasser]]></Value>
+            <Value><![CDATA[string:Fresh Water]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Grundpreis]]></Value>
+            <Value><![CDATA[string:Basic price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17721,13 +17721,13 @@
             <Value><![CDATA[string:water]]></Value>
            </DataNode>
            <DataNode name="rate">
-            <Value><![CDATA[string:Frischwasser]]></Value>
+            <Value><![CDATA[string:Fresh Water]]></Value>
            </DataNode>
            <DataNode name="meter">
             <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Verbrauchspreis]]></Value>
+            <Value><![CDATA[string:Consumer price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -17802,7 +17802,7 @@
             <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
            </DataNode>
            <DataNode name="product_key">
-            <Value><![CDATA[string:Verbrauchspreis]]></Value>
+            <Value><![CDATA[string:Consumer price]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="period">
@@ -18099,7 +18099,7 @@
            <Value><![CDATA[number:242.45890411]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Electricity">
@@ -18351,7 +18351,7 @@
            <Value><![CDATA[number:40.109589041]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -18360,7 +18360,7 @@
            <Value><![CDATA[string:true]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:Frischwasser - Water]]></Value>
+           <Value><![CDATA[string:Fresh Water - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
@@ -18387,7 +18387,7 @@
            <Value><![CDATA[number:45]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Grundpreis]]></Value>
+           <Value><![CDATA[string:Basic price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -18396,7 +18396,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="Tariff">
-           <Value><![CDATA[string:Frischwasser - Water]]></Value>
+           <Value><![CDATA[string:Fresh Water - Water]]></Value>
           </DataNode>
           <DataNode name="Name">
            <Value><![CDATA[string:water]]></Value>
@@ -18423,7 +18423,7 @@
            <Value><![CDATA[number:1,142.19]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Water">
@@ -18459,7 +18459,7 @@
            <Value><![CDATA[number:1,636.11]]></Value>
           </DataNode>
           <DataNode name="PriceType">
-           <Value><![CDATA[string:Verbrauchspreis]]></Value>
+           <Value><![CDATA[string:Consumer price]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>

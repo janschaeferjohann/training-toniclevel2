@@ -620,7 +620,7 @@
 								<section>electricity</section>
 								<rate>sam.business Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -844,7 +844,7 @@
 								<section>electricity</section>
 								<rate>Easy Eco-Electricity</rate>
 								<meter>SAMSZ56456456</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -874,9 +874,9 @@
 							</postype>
 							<product>
 								<section>water</section>
-								<rate>Frischwasser</rate>
+								<rate>Fresh Water</rate>
 								<meter>SAM-WZ-23.5584</meter>
-								<product_key>Grundpreis</product_key>
+								<product_key>Basic price</product_key>
 							</product>
 							<period>
 								<from>
@@ -906,9 +906,9 @@
 							</postype>
 							<product>
 								<section>water</section>
-								<rate>Frischwasser</rate>
+								<rate>Fresh Water</rate>
 								<meter>SAM-WZ-23.5584</meter>
-								<product_key>Verbrauchspreis</product_key>
+								<product_key>Consumer price</product_key>
 							</product>
 							<period>
 								<from>
@@ -940,7 +940,7 @@
 								<section>sewage</section>
 								<rate>Schmutzwassergebühr</rate>
 								<meter>SAM-WZ-23.5584</meter>
-								<product_key>Verbrauchspreis</product_key>
+								<product_key>Consumer price</product_key>
 							</product>
 							<period>
 								<from>
