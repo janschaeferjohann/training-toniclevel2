@@ -14,7 +14,7 @@
      </Style>
      <Text>Page </Text>
      <PageNumber></PageNumber>
-     <Text> from </Text>
+     <Text> of </Text>
      <PageCount></PageCount>
     </Span>
    </Par>

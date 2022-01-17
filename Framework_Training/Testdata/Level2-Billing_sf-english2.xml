@@ -106,7 +106,7 @@
 						<iban>DE79110000001211223456</iban>
 					</bank_account>
 					<Sepa>
-						<direct_debit>Ja</direct_debit>
+						<direct_debit>Yes</direct_debit>
 					</Sepa>
 				</Partner>
 			</recipient>

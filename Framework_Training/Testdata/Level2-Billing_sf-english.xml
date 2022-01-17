@@ -103,7 +103,7 @@
 						<iban>DE79110000001211222299</iban>
 					</bank_account>
 					<Sepa>
-						<direct_debit>Ja</direct_debit>
+						<direct_debit>Yes<</direct_debit>
 					</Sepa>
 				</Partner>
 			</recipient>
@@ -133,7 +133,7 @@
 			<casedata>
 				<billing>
 					<basedata>
-						<summary>Ja</summary>
+						<summary>Yes</summary>
 						<billingno>RE12-30062020</billingno>
 						<partnerid>202017070815</partnerid>
 						<contractsId>2012-03.22</contractsId>
@@ -147,7 +147,7 @@
 							<consumption_point>
 								<counter>DE421598652325415125452698456254218</counter>
 								<appartment></appartment>
-								<addresssupplement>EG Links</addresssupplement>
+								<addresssupplement>1st floor left</addresssupplement>
 								<Street>Deichstr.</Street>
 								<houseno>12</houseno>
 								<zip>25938</zip>

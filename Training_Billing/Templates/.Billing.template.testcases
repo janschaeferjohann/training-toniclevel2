@@ -3621,7 +3621,7 @@
        <DataNode name="basedata">
         <Value><![CDATA[string:]]></Value>
         <DataNode name="summary" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Ja]]></Value>
+         <Value><![CDATA[string:Yes]]></Value>
         </DataNode>
         <DataNode name="billingno" valueChanged="fromDataSource">
          <Value><![CDATA[string:RE12-30062020]]></Value>
@@ -3735,7 +3735,7 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:climate-neutral heat]]></Value>
+            <Value><![CDATA[string:Climate-neutral Heat]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
             <Value><![CDATA[string:Heat]]></Value>
@@ -3769,7 +3769,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="addresssupplement" valueChanged="fromDataSource">
-           <Value><![CDATA[string:EG Links]]></Value>
+           <Value><![CDATA[string:1st floor left]]></Value>
           </DataNode>
           <DataNode name="street" valueChanged="fromDataSource">
            <Value><![CDATA[string:Deichstr.]]></Value>
@@ -3811,19 +3811,19 @@
          <DataNode name="billing_text">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Die Gutschrift für die vergangene Abrechnungsperiode beträgt $value$ EUR.]]></Value>
+           <Value><![CDATA[string:The credit for the past billing period is $value$ EUR.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Die Gutschrift wird innerhalb der nächsten 14 Tage auf dein Konto überwiesen.]]></Value>
+           <Value><![CDATA[string:The credit will be transferred to your account within the next 14 days.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Die detaillierten Berechnungen findest du auf den Folgeseiten. Solltest du Fragen haben, ruf uns bitte]]></Value>
+           <Value><![CDATA[string:You can find the detailed calculations on the following pages. If you have any questions,]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:einfach an. Oder nutze doch einfach das Kundenportal.]]></Value>
+           <Value><![CDATA[string:please call us. Or use the customer portal.]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -3844,7 +3844,7 @@
          <DataNode name="sepa">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="direct_debit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ja]]></Value>
+           <Value><![CDATA[string:Yes]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="iban_formatted">
@@ -4108,22 +4108,22 @@
          <DataNode name="payment_text">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Der Abschlag wird von deinem Konto DE79 1100 0000 1211 2222 99 bei der Sam Bank abgebucht.]]></Value>
+           <Value><![CDATA[string:The payment will be debited from your account DE79 1100 0000 1211 2222 99 at Sam Bank.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Bitte beachte, dass du zu den o. g. Fälligkeitsterminen keine gesonderte]]></Value>
+           <Value><![CDATA[string:Please note that you will not receive a separate written budget billing]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:schriftliche Abschlagsmitteilung erhältst.]]></Value>
+           <Value><![CDATA[string:notice on the above due dates.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Sofern du aus umsatzsteuerrechtlichen Gründen eine schriftliche Abschlagsanforderung benötigst,]]></Value>
+           <Value><![CDATA[string:If you need a written request for an estimate for VAT reasons, you are welcome to request]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kannst du diese gerne bei uns anfordern.]]></Value>
+           <Value><![CDATA[string:it from us.]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -4162,7 +4162,7 @@
            <Value><![CDATA[string:financial statement]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:privatee]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -5655,9 +5655,6 @@
           <DataNode name="name" valueChanged="fromDataSource">
            <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:1,372]]></Value>
           </DataNode>
@@ -5694,35 +5691,20 @@
           <DataNode name="basic_price">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Jahr]]></Value>
+            <Value><![CDATA[string:Year]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:95.8]]></Value>
            </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[string:114,00]]></Value>
-           </DataNode>
           </DataNode>
           <DataNode name="work_price">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="price" valueChanged="fromDataSource">
-            <Value><![CDATA[string:35,2700]]></Value>
-           </DataNode>
-           <DataNode name="price_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Ct/kWh]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[string:28,5787]]></Value>
-           </DataNode>
           </DataNode>
          </DataNode>
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
            <Value><![CDATA[string:Gas]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Super Gas]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:19,512]]></Value>
@@ -5760,26 +5742,14 @@
           <DataNode name="basic_price">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Jahr]]></Value>
+            <Value><![CDATA[string:Year]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:81]]></Value>
            </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[string:100,00]]></Value>
-           </DataNode>
           </DataNode>
           <DataNode name="work_price">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="price" valueChanged="fromDataSource">
-            <Value><![CDATA[string:17,00]]></Value>
-           </DataNode>
-           <DataNode name="price_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Ct/kWh]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[string:13,77]]></Value>
-           </DataNode>
           </DataNode>
          </DataNode>
          <DataNode name="item">
@@ -5823,26 +5793,14 @@
           <DataNode name="basic_price">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Jahr]]></Value>
+            <Value><![CDATA[string:Year]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:81]]></Value>
            </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[string:100,00]]></Value>
-           </DataNode>
           </DataNode>
           <DataNode name="work_price">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="price" valueChanged="fromDataSource">
-            <Value><![CDATA[string:17,00]]></Value>
-           </DataNode>
-           <DataNode name="price_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Ct/kWh]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[string:13,77]]></Value>
-           </DataNode>
           </DataNode>
          </DataNode>
          <DataNode name="item">
@@ -5886,30 +5844,34 @@
           <DataNode name="basic_price">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Jahr]]></Value>
+            <Value><![CDATA[string:Year]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:81]]></Value>
            </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[string:100,00]]></Value>
-           </DataNode>
           </DataNode>
           <DataNode name="work_price">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="price" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0,45]]></Value>
-           </DataNode>
-           <DataNode name="price_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Ct/l]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[string:13,77]]></Value>
-           </DataNode>
           </DataNode>
          </DataNode>
         </DataNode>
-        <DataNode name="difference"></DataNode>
+        <DataNode name="difference">
+         <DataNode name="Diff">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="Amount">
+           <Value><![CDATA[number:45.54]]></Value>
+          </DataNode>
+          <DataNode name="Amount">
+           <Value><![CDATA[number:32.6]]></Value>
+          </DataNode>
+          <DataNode name="Amount">
+           <Value><![CDATA[number:-9.63]]></Value>
+          </DataNode>
+          <DataNode name="Amount">
+           <Value><![CDATA[number:10.95]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
        </DataNode>
        <DataNode name="reference">
         <Value><![CDATA[string:]]></Value>
@@ -6296,7 +6258,7 @@
          <Value><![CDATA[string:1]]></Value>
         </DataNode>
         <DataNode name="flag_water">
-         <Value><![CDATA[string:0]]></Value>
+         <Value><![CDATA[string:1]]></Value>
         </DataNode>
         <DataNode name="flag_heat">
          <Value><![CDATA[string:1]]></Value>
@@ -6550,7 +6512,7 @@
             <Value><![CDATA[string:0815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
-            <Value><![CDATA[string:mtx:Graphics/signature_reutlinger.png]]></Value>
+            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="SenderAddress">
@@ -6650,8 +6612,8 @@
           <DataNode name="isValid">
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Petersen]]></Value>
+          <DataNode name="SalutatoryAddress" valueChanged="manually">
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Petersen, Jan]]></Value>
@@ -6745,9 +6707,6 @@
            <Value><![CDATA[string:]]></Value>
            <DataNode name="UserID" valueChanged="fromDataSource">
             <Value><![CDATA[string:10203040]]></Value>
-           </DataNode>
-           <DataNode name="Druckername" valueChanged="fromDataSource">
-            <Value><![CDATA[string:batch]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="CENTRALPRINTING">
@@ -6873,7 +6832,7 @@
             <Value><![CDATA[string:0815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
-            <Value><![CDATA[string:mtx:Graphics/signature_reutlinger.png]]></Value>
+            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="SenderAddress">
@@ -6974,7 +6933,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Petersen]]></Value>
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Petersen, Jan]]></Value>
@@ -7129,8 +7088,8 @@
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
        <Value><![CDATA[string:\library\Training_Billing\Templates\Billing.template]]></Value>
       </DataNode>
-      <DataNode name="Language">
-       <Value><![CDATA[string:de]]></Value>
+      <DataNode name="Language" valueChanged="manually">
+       <Value><![CDATA[string:en]]></Value>
       </DataNode>
      </DataNode>
     </Data>
@@ -7287,7 +7246,26 @@
                    <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount.instance(3)" loopNode="true" name="amount"></DataNodeRef>
                   </Data>
                  </TablePartInstance>
-                 <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
+                 <TablePartInstance partIndex="2">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(0)" loopNode="true" name="Amount"></DataNodeRef>
+                  </Data>
+                 </TablePartInstance>
+                 <TablePartInstance partIndex="2">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(1)" loopNode="true" name="Amount"></DataNodeRef>
+                  </Data>
+                 </TablePartInstance>
+                 <TablePartInstance partIndex="2">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(2)" loopNode="true" name="Amount"></DataNodeRef>
+                  </Data>
+                 </TablePartInstance>
+                 <TablePartInstance partIndex="2">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(3)" loopNode="true" name="Amount"></DataNodeRef>
+                  </Data>
+                 </TablePartInstance>
                 </ContainerPartInstance>
                </ContainerPartInstance>
               </ContainerPartInstance>
@@ -7782,7 +7760,168 @@
             </DocumentPartInstance>
            </DocumentPartInstance>
           </DocumentPartInstance>
-          <DocumentPartInstance partIndex="3" visible="false"></DocumentPartInstance>
+          <DocumentPartInstance partIndex="3">
+           <DocumentPartInstance partIndex="0">
+            <DocumentPartInstance partIndex="0">
+             <ContainerPartInstance partIndex="0">
+              <Data>
+               <DataNode name="contract">
+                <Value><![CDATA[string:Water]]></Value>
+               </DataNode>
+               <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
+              </Data>
+              <ContainerPartInstance partIndex="0">
+               <ContainerPartInstance partIndex="0">
+                <Data>
+                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
+                 <DataNodeRef ref="$billing_data.template.Tablelines.water" name="lines"></DataNodeRef>
+                </Data>
+                <ContainerPartInstance partIndex="0">
+                 <TablePartInstance partIndex="0">
+                  <TablePartInstance partIndex="0">
+                   <Data>
+                    <DataNodeRef ref="$items.item.instance(0)" loopNode="true" name="item"></DataNodeRef>
+                   </Data>
+                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+                  </TablePartInstance>
+                  <TablePartInstance partIndex="0">
+                   <Data>
+                    <DataNodeRef ref="$items.item.instance(1)" loopNode="true" name="item"></DataNodeRef>
+                   </Data>
+                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+                  </TablePartInstance>
+                  <TablePartInstance partIndex="0">
+                   <Data>
+                    <DataNodeRef ref="$items.item.instance(2)" loopNode="true" name="item"></DataNodeRef>
+                   </Data>
+                   <TablePartInstance partIndex="0"></TablePartInstance>
+                  </TablePartInstance>
+                  <TablePartInstance partIndex="0">
+                   <Data>
+                    <DataNodeRef ref="$items.item.instance(3)" loopNode="true" name="item"></DataNodeRef>
+                   </Data>
+                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+                  </TablePartInstance>
+                 </TablePartInstance>
+                 <TablePartInstance partIndex="1" visible="false"></TablePartInstance>
+                </ContainerPartInstance>
+               </ContainerPartInstance>
+               <ContainerPartInstance partIndex="1">
+                <Data>
+                 <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
+                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
+                </Data>
+                <ContainerPartInstance partIndex="0">
+                 <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+                 <RowPartInstance partIndex="1">
+                  <RowPartInstance partIndex="0">
+                   <ContainerPartInstance partIndex="0">
+                    <Data>
+                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
+                    </Data>
+                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                   </ContainerPartInstance>
+                   <ContainerPartInstance partIndex="0">
+                    <Data>
+                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
+                    </Data>
+                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                   </ContainerPartInstance>
+                   <ContainerPartInstance partIndex="0">
+                    <Data>
+                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
+                    </Data>
+                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                   </ContainerPartInstance>
+                   <ContainerPartInstance partIndex="0">
+                    <Data>
+                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
+                    </Data>
+                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                   </ContainerPartInstance>
+                  </RowPartInstance>
+                 </RowPartInstance>
+                 <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
+                 <ContainerPartInstance partIndex="3">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="3">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="3">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="3">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="4">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="4">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="4">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="4">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="5">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="5">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="5">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="5">
+                  <Data>
+                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                </ContainerPartInstance>
+               </ContainerPartInstance>
+              </ContainerPartInstance>
+             </ContainerPartInstance>
+            </DocumentPartInstance>
+           </DocumentPartInstance>
+          </DocumentPartInstance>
           <DocumentPartInstance partIndex="4">
            <DocumentPartInstance partIndex="0">
             <DocumentPartInstance partIndex="0">
@@ -12578,7 +12717,7 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="addresssupplement" valueChanged="fromDataSource">
-           <Value><![CDATA[string:EG Links]]></Value>
+           <Value><![CDATA[string:1st floor left]]></Value>
           </DataNode>
           <DataNode name="Street" valueChanged="fromDataSource">
            <Value><![CDATA[string:Deichstr.]]></Value>
@@ -12670,7 +12809,7 @@
          <DataNode name="sepa">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="direct_debit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ja]]></Value>
+           <Value><![CDATA[string:Yes]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="iban_formatted">
@@ -18694,7 +18833,7 @@
          <DataNode name="sepa">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="direct_debit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ja]]></Value>
+           <Value><![CDATA[string:Yes]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="iban_formatted">

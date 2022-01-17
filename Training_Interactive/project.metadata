@@ -43,7 +43,7 @@
                            operator="ANY"
                            validation-type="LIST">
                   <Values>
-                     <Value content="Ja" valId="1"/>
+                     <Value content="Yes" valId="1"/>
                      <Value content="Nein" valId="2"/>
                   </Values>
                </Validation>

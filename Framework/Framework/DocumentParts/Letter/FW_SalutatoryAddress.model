@@ -15,17 +15,17 @@
  <Par>
   <Translations>
    <Translation>
-    <Language language="en" country="US" variant=""></Language>
+    <Language language="de" country="DE" variant=""></Language>
     <Span>
      <Data>$Recipient.SalutatoryAddress</Data>
-     <Text></Text>
+     <Text>,</Text>
     </Span>
    </Translation>
   </Translations>
   <Style parentName="FW_SalutatoryAddress"></Style>
   <Span>
    <Data>$Recipient.SalutatoryAddress</Data>
-   <Text>,</Text>
+   <Text></Text>
   </Span>
  </Par>
 </ContainerPart>

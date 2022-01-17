@@ -243,12 +243,12 @@ var Convert =  {
 var FW_I18n = {
 		getDocumentLanguage: function() {
 			if ($document && $document.Metadata && $document.Metadata.DocumentLanguage) return $document.Metadata.DocumentLanguage;
-			else return "de";
+			else return "en";
 		},
 		toLanguage: function (value) {
 			var _value = "" + value; // Ensure javascript string
 			if (_value == "") {
-				return "de";
+				return "en";
 			}
 			var pos = _value.indexOf("_");
 			if (pos > 0) {
