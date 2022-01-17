@@ -113,10 +113,9 @@
      <Style>
       <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
      </Style>
-     <Text>Seite</Text>
-     <Text> </Text>
+     <Text>Page </Text>
      <PageNumber scope="document"></PageNumber>
-     <Text> von </Text>
+     <Text> from </Text>
      <PageCount></PageCount>
      <Text>  </Text>
     </Span>

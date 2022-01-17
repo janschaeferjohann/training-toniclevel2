@@ -15,7 +15,7 @@
         <Par>
          <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Verbrauchsstelle</Text>
+          <Text>Point of consumption</Text>
          </Span>
         </Par>
        </Container>
@@ -25,7 +25,7 @@
         <Par>
          <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Vertragskonto</Text>
+          <Text>Contract account</Text>
          </Span>
         </Par>
        </Container>
@@ -36,7 +36,7 @@
    <Columns>
     <Column>
      <Style>
-      <ColumnWidth>344004.0mpt</ColumnWidth>
+      <ColumnWidth>340254.0mpt</ColumnWidth>
      </Style>
     </Column>
     <Column>
@@ -85,7 +85,7 @@
       <Par>
        <Style parentName="FW_InfoArea"></Style>
        <Span>
-        <Text>(Bei Zahlungen bitte stets angeben)</Text>
+        <Text>(For payments please always specify)</Text>
        </Span>
       </Par>
      </Container>

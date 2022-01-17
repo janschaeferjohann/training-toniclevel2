@@ -12,15 +12,10 @@
      <Style>
       <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
      </Style>
-     <Text>Seite </Text>
+     <Text>Page </Text>
      <PageNumber></PageNumber>
-     <Text> von </Text>
+     <Text> from </Text>
      <PageCount></PageCount>
-    </Span>
-   </Par>
-   <Par>
-    <Span>
-     <Text></Text>
     </Span>
    </Par>
   </StaticContainer>
