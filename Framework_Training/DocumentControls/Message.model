@@ -105,7 +105,7 @@
   <DataDefinition></DataDefinition>
   <UIContribution>
    <GuideArea>
-    <Folder title="Dokument finalisieren" title-en_US="Finalize the document">
+    <Folder title="Finalize the document" title-de_DE="Dokument finalisieren">
      <ActionLink title="PDF Preview" inputAreaGroupID="">
       <Script><![CDATA[$context.save(); $context.export('application/pdf');]]></Script>
      </ActionLink>
