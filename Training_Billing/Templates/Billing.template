@@ -526,7 +526,7 @@ We have calculated the following amounts for the entire period:</Text>
    <Param name="Message">$TaskControl.Message.instance(0)</Param>
    <Param name="Subject2"></Param>
    <Param name="Subject3"></Param>
-   <Param name="Subject1">"Deine Verbrauchsabrechnung"</Param>
+   <Param name="Subject1">"Your consumption billing"</Param>
    <Param name="Subject1">$Subject1</Param>
    <Param name="Subject1">$Subject1</Param>
   </DocumentPartRef>
