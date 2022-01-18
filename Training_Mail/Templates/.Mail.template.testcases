@@ -64,7 +64,7 @@
       </DataNode>
       <DataNode name="Customer">
        <DataNode name="Salutation_local">
-        <Value><![CDATA[string:Guten Tag,]]></Value>
+        <Value><![CDATA[string:Hello,]]></Value>
        </DataNode>
       </DataNode>
      </DataNode>
@@ -72,7 +72,7 @@
     <SectionPartInstance partIndex="0">
      <Data>
       <DataNode name="Greeting">
-       <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+       <Value><![CDATA[string:Kind regards]]></Value>
       </DataNode>
       <DataNodeRef ref="$Mail" name="Mail"></DataNodeRef>
      </Data>

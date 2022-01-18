@@ -40,7 +40,7 @@
     <SectionPartInstance partIndex="0">
      <Data>
       <DataNode name="Grussformel">
-       <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+       <Value><![CDATA[string:Kind regards]]></Value>
       </DataNode>
       <DataNode name="Mail">
        <DataNode name="User">

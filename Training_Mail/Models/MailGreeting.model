@@ -8,7 +8,7 @@
    <Description></Description>
    <Input text-prefix="" text-suffix=""></Input>
    <Output text-prefix="" text-suffix=""></Output>
-   <Script><![CDATA['Mit freundlichen Grüßen']]></Script>
+   <Script><![CDATA['Kind regards']]></Script>
   </DataNodeDef>
  </DataDefinition>
  <ModificationRights>
@@ -61,7 +61,7 @@
   <Par>
   <Style parentName="TextNormal"></Style>
    <Span>
-    <Text>Telefon: </Text>
+    <Text>Phone: </Text>
     <Text></Text>
    </Span>
   </Par>

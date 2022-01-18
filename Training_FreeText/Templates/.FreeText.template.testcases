@@ -466,7 +466,7 @@
         <Value><![CDATA[bool:true]]></Value>
        </DataNode>
        <DataNode name="SalutatoryAddress">
-        <Value><![CDATA[string:Sehr geehrter Herr Steinmetz]]></Value>
+        <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
        </DataNode>
        <DataNode name="NameFirstname">
         <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
@@ -477,7 +477,7 @@
         <Value><![CDATA[string:Karen Rentlinger]]></Value>
        </DataNode>
        <DataNode name="Signature">
-        <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_reutlinger.png]]></Value>
+        <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
        </DataNode>
       </DataNode>
       <DataNode name="template">
@@ -663,7 +663,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Steinmetz]]></Value>
+           <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
@@ -934,14 +934,14 @@
              <ContainerPartInstance partIndex="5">
               <Data>
                <DataNode name="ComplimentaryClose">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Signature">
-                <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_reutlinger.png]]></Value>
+                <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
                </DataNode>
                <DataNode name="user">
                 <DataNode name="Signature">
-                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_reutlinger.png]]></Value>
+                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
                 </DataNode>
                 <DataNode name="Name">
                  <Value><![CDATA[string:Karen Rentlinger]]></Value>
@@ -1114,7 +1114,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -1211,7 +1211,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -1307,7 +1307,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Frau Aguilar]]></Value>
+           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Aguilar, Marla]]></Value>
@@ -1513,7 +1513,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -1610,7 +1610,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -1706,7 +1706,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Frau Aguilar]]></Value>
+           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Aguilar, Marla]]></Value>
@@ -1986,7 +1986,7 @@
               <SectionPartInstance partIndex="7">
                <Data>
                 <DataNode name="Grussformel">
-                 <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                 <Value><![CDATA[string:Kind regards]]></Value>
                 </DataNode>
                 <DataNode name="Unterschrift">
                  <Value><![CDATA[string:mtx://Framework/Graphics/signature_EH.png]]></Value>
@@ -2084,7 +2084,7 @@
              <SectionPartInstance partIndex="6">
               <Data>
                <DataNode name="Grussformel">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Unterschrift">
                 <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
@@ -2256,7 +2256,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -2353,7 +2353,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Mr. Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Fox, Peter]]></Value>
@@ -2440,7 +2440,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -2611,7 +2611,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -2708,7 +2708,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms.  Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -2795,7 +2795,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -2973,7 +2973,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -3070,7 +3070,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Mr. Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Fox, Peter]]></Value>
@@ -3157,7 +3157,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -3382,7 +3382,7 @@
              <SectionPartInstance partIndex="6">
               <Data>
                <DataNode name="Grussformel">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Unterschrift">
                 <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>

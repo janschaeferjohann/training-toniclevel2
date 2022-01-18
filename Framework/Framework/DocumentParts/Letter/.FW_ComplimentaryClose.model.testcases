@@ -119,7 +119,7 @@
          <Value><![CDATA[bool:false]]></Value>
         </DataNode>
         <DataNode name="SalutatoryAddress">
-         <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+         <Value><![CDATA[string:Dear Sir or Madam]]></Value>
         </DataNode>
         <DataNode name="NameFirstname">
          <Value><![CDATA[string:]]></Value>
