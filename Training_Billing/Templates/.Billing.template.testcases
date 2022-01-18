@@ -3621,30 +3621,30 @@
        <DataNode name="basedata">
         <Value><![CDATA[string:]]></Value>
         <DataNode name="summary" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Yes]]></Value>
+         <Value><![CDATA[string:Nein]]></Value>
         </DataNode>
         <DataNode name="billingno" valueChanged="fromDataSource">
          <Value><![CDATA[string:RE12-30062020]]></Value>
         </DataNode>
         <DataNode name="contractsID" valueChanged="fromDataSource">
-         <Value><![CDATA[string:2012-03.22]]></Value>
+         <Value><![CDATA[string:GK13-2005-01.99-KL]]></Value>
         </DataNode>
         <DataNode name="contact_type" valueChanged="fromDataSource">
          <Value><![CDATA[string:Mail]]></Value>
         </DataNode>
         <DataNode name="partnerid" valueChanged="fromDataSource">
-         <Value><![CDATA[string:202017070815]]></Value>
+         <Value><![CDATA[string:20698101]]></Value>
         </DataNode>
         <DataNode name="time_data">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="letterdate" valueChanged="fromDataSource">
-          <Value><![CDATA[date:May 30, 2021, 12:00:00 AM]]></Value>
+          <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
          </DataNode>
          <DataNode name="next_payoff" valueChanged="fromDataSource">
-          <Value><![CDATA[string:July 2022]]></Value>
+          <Value><![CDATA[string:July 2021]]></Value>
          </DataNode>
          <DataNode name="next_meter_reading" valueChanged="fromDataSource">
-          <Value><![CDATA[string:June 2022]]></Value>
+          <Value><![CDATA[string:June 2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="section">
@@ -3654,19 +3654,19 @@
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+            <Value><![CDATA[string:sam.business electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
             <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
-            <Value><![CDATA[string:2012-03.22]]></Value>
+            <Value><![CDATA[string:GK13-2005-01.99-KL]]></Value>
            </DataNode>
            <DataNode name="begin_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.03.2012]]></Value>
+            <Value><![CDATA[string:01.01.2005]]></Value>
            </DataNode>
            <DataNode name="termination_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:31.08.2021]]></Value>
+            <Value><![CDATA[string:31.12.2019]]></Value>
            </DataNode>
            <DataNode name="noticeperiod" valueChanged="fromDataSource">
             <Value><![CDATA[string:6 Weeks]]></Value>
@@ -3675,22 +3675,22 @@
             <Value><![CDATA[string:6 Months]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
-            <Value><![CDATA[string:88845258]]></Value>
+            <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="contract">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Super Gas]]></Value>
+            <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
            </DataNode>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gas]]></Value>
+            <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
-            <Value><![CDATA[string:2012-03.22]]></Value>
+            <Value><![CDATA[string:GK01-2010-01.00-Green]]></Value>
            </DataNode>
            <DataNode name="begin_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.03.2012]]></Value>
+            <Value><![CDATA[string:01.01.2020]]></Value>
            </DataNode>
            <DataNode name="termination_date" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.08.2020]]></Value>
@@ -3702,7 +3702,7 @@
             <Value><![CDATA[string:6 Months]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
-            <Value><![CDATA[string:51124258]]></Value>
+            <Value><![CDATA[string:SAMSZ56456456]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="contract">
@@ -3714,10 +3714,10 @@
             <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="contractsId" valueChanged="fromDataSource">
-            <Value><![CDATA[string:2012-03.22]]></Value>
+            <Value><![CDATA[string:GK13-2005-01.99-KL]]></Value>
            </DataNode>
            <DataNode name="begin_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.03.2012]]></Value>
+            <Value><![CDATA[string:01.01.2005]]></Value>
            </DataNode>
            <DataNode name="termination_date" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.08.2020]]></Value>
@@ -3729,59 +3729,32 @@
             <Value><![CDATA[string:6 Months]]></Value>
            </DataNode>
            <DataNode name="counter" valueChanged="fromDataSource">
-            <Value><![CDATA[string:SW25258]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="contract">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="rate" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Climate-neutral Heat]]></Value>
-           </DataNode>
-           <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Heat]]></Value>
-           </DataNode>
-           <DataNode name="contractsId" valueChanged="fromDataSource">
-            <Value><![CDATA[string:2012-03.22]]></Value>
-           </DataNode>
-           <DataNode name="begin_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.03.2012]]></Value>
-           </DataNode>
-           <DataNode name="termination_date" valueChanged="fromDataSource">
-            <Value><![CDATA[string:31.08.2020]]></Value>
-           </DataNode>
-           <DataNode name="noticeperiod" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Weeks]]></Value>
-           </DataNode>
-           <DataNode name="renewal" valueChanged="fromDataSource">
-            <Value><![CDATA[string:6 Months]]></Value>
-           </DataNode>
-           <DataNode name="counter" valueChanged="fromDataSource">
-            <Value><![CDATA[string:SH54633]]></Value>
+            <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
            </DataNode>
           </DataNode>
          </DataNode>
          <DataNode name="consumption_point">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="counter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:DE421598652325415125452698456254218]]></Value>
+           <Value><![CDATA[string:DE2458452125558654005212001458452]]></Value>
           </DataNode>
           <DataNode name="appartment" valueChanged="fromDataSource">
-           <Value><![CDATA[string:]]></Value>
+           <Value><![CDATA[string:Outbuilding]]></Value>
           </DataNode>
           <DataNode name="addresssupplement" valueChanged="fromDataSource">
-           <Value><![CDATA[string:1st floor left]]></Value>
+           <Value><![CDATA[string:Clinic East - approach via the side access road, Hermandesstr.]]></Value>
           </DataNode>
           <DataNode name="street" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Deichstr.]]></Value>
+           <Value><![CDATA[string:Clinical Center]]></Value>
           </DataNode>
           <DataNode name="houseno" valueChanged="fromDataSource">
-           <Value><![CDATA[string:12]]></Value>
+           <Value><![CDATA[string:31]]></Value>
           </DataNode>
           <DataNode name="zip" valueChanged="fromDataSource">
-           <Value><![CDATA[string:25938]]></Value>
+           <Value><![CDATA[string:47929]]></Value>
           </DataNode>
           <DataNode name="city" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Wyk auf Föhr]]></Value>
+           <Value><![CDATA[string:Docville]]></Value>
           </DataNode>
           <DataNode name="carrier">
            <Value><![CDATA[string:]]></Value>
@@ -3811,26 +3784,26 @@
          <DataNode name="billing_text">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:The credit for the past billing period is $value$ EUR.]]></Value>
+           <Value><![CDATA[string:The outstanding invoice amount for the past billing period is $value$.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:The credit will be transferred to your account within the next 14 days.]]></Value>
+           <Value><![CDATA[string:Our additional claim will be debited from your account in 14 days.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:You can find the detailed calculations on the following pages. If you have any questions,]]></Value>
+           <Value><![CDATA[string:For a detailed overview of the invoice items, please refer to the following pages.]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:please call us. Or use the customer portal.]]></Value>
+           <Value><![CDATA[string:If you have any questions, please contact your business customer advisor, Gina Guttman.]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="bank_account">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="owner" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Jan Petersen]]></Value>
+          <Value><![CDATA[string:Klinikum Ost]]></Value>
          </DataNode>
          <DataNode name="bank" valueChanged="fromDataSource">
           <Value><![CDATA[string:Sam Bank]]></Value>
@@ -3839,7 +3812,7 @@
           <Value><![CDATA[string:SAMBA000001]]></Value>
          </DataNode>
          <DataNode name="iban" valueChanged="fromDataSource">
-          <Value><![CDATA[string:DE79110000001211222299]]></Value>
+          <Value><![CDATA[string:DE79110000001211223456]]></Value>
          </DataNode>
          <DataNode name="sepa">
           <Value><![CDATA[string:]]></Value>
@@ -3848,11 +3821,11 @@
           </DataNode>
          </DataNode>
          <DataNode name="iban_formatted">
-          <Value><![CDATA[string:DE79 1100 0000 1211 2222 99]]></Value>
+          <Value><![CDATA[string:DE79 1100 0000 1211 2234 56]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="partnerid_formatted">
-         <Value><![CDATA[string:202017070815]]></Value>
+         <Value><![CDATA[string:20698101]]></Value>
         </DataNode>
        </DataNode>
        <DataNode name="billdata">
@@ -3862,13 +3835,13 @@
          <DataNode name="paidanticipated_payments">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount_anticipated_payments" valueChanged="fromDataSource">
-           <Value><![CDATA[string:12]]></Value>
+           <Value><![CDATA[string:4]]></Value>
           </DataNode>
           <DataNode name="previous_sum" valueChanged="fromDataSource">
-           <Value><![CDATA[number:2,140]]></Value>
+           <Value><![CDATA[number:13,800]]></Value>
           </DataNode>
           <DataNode name="pre_monthly_amount" valueChanged="fromDataSource">
-           <Value><![CDATA[string:178,34]]></Value>
+           <Value><![CDATA[string:3450,00]]></Value>
           </DataNode>
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
@@ -3876,34 +3849,13 @@
             <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:405]]></Value>
+            <Value><![CDATA[number:8,910]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:95]]></Value>
+            <Value><![CDATA[number:2,090]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:500]]></Value>
-           </DataNode>
-           <DataNode name="tax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:19]]></Value>
-           </DataNode>
-           <DataNode name="tax_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:%]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="amount">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gas]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:1,093.5]]></Value>
-           </DataNode>
-           <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:265.5]]></Value>
-           </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:1,359]]></Value>
+            <Value><![CDATA[number:11,000]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
             <Value><![CDATA[number:19]]></Value>
@@ -3918,13 +3870,13 @@
             <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:120.9]]></Value>
+            <Value><![CDATA[number:1,116]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:9.1]]></Value>
+            <Value><![CDATA[number:84]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:130]]></Value>
+            <Value><![CDATA[number:1,200]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
             <Value><![CDATA[number:7]]></Value>
@@ -3936,41 +3888,41 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Heat]]></Value>
+            <Value><![CDATA[string:Waster water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:486]]></Value>
+            <Value><![CDATA[number:1,600]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:114]]></Value>
+            <Value><![CDATA[number:0]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:600]]></Value>
+            <Value><![CDATA[number:1,600]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:19]]></Value>
+            <Value><![CDATA[number:0]]></Value>
            </DataNode>
            <DataNode name="tax_unit" valueChanged="fromDataSource">
             <Value><![CDATA[string:%]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="netamount_sum">
-           <Value><![CDATA[number:2,105.4]]></Value>
+           <Value><![CDATA[number:11,626]]></Value>
           </DataNode>
           <DataNode name="salestax_sum">
-           <Value><![CDATA[number:483.6]]></Value>
+           <Value><![CDATA[number:2,174]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="nextanticipated_payments">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount_anticipated_payments" valueChanged="fromDataSource">
-           <Value><![CDATA[string:12]]></Value>
+           <Value><![CDATA[string:4]]></Value>
           </DataNode>
           <DataNode name="next_sum" valueChanged="fromDataSource">
-           <Value><![CDATA[number:2,520]]></Value>
+           <Value><![CDATA[number:16,250]]></Value>
           </DataNode>
           <DataNode name="next_amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:210]]></Value>
+           <Value><![CDATA[number:4,062.5]]></Value>
           </DataNode>
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
@@ -3978,34 +3930,13 @@
             <Value><![CDATA[string:Electricity]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:33.61]]></Value>
+            <Value><![CDATA[number:2,268]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:6.39]]></Value>
+            <Value><![CDATA[number:532]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:40]]></Value>
-           </DataNode>
-           <DataNode name="tax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:19]]></Value>
-           </DataNode>
-           <DataNode name="tax_unit" valueChanged="fromDataSource">
-            <Value><![CDATA[string:%]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="amount">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Gas]]></Value>
-           </DataNode>
-           <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:92.44]]></Value>
-           </DataNode>
-           <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:17.56]]></Value>
-           </DataNode>
-           <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:110]]></Value>
+            <Value><![CDATA[number:2,800]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
             <Value><![CDATA[number:19]]></Value>
@@ -4020,13 +3951,13 @@
             <Value><![CDATA[string:Water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:9.35]]></Value>
+            <Value><![CDATA[number:267.37]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:0.65]]></Value>
+            <Value><![CDATA[number:20.13]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:10]]></Value>
+            <Value><![CDATA[number:287.5]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
             <Value><![CDATA[number:7]]></Value>
@@ -4038,19 +3969,19 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Heat]]></Value>
+            <Value><![CDATA[string:Waster water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:42.02]]></Value>
+            <Value><![CDATA[number:400]]></Value>
            </DataNode>
            <DataNode name="salestax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:7.98]]></Value>
+            <Value><![CDATA[number:0]]></Value>
            </DataNode>
            <DataNode name="presum" valueChanged="fromDataSource">
-            <Value><![CDATA[number:50]]></Value>
+            <Value><![CDATA[number:400]]></Value>
            </DataNode>
            <DataNode name="tax" valueChanged="fromDataSource">
-            <Value><![CDATA[number:19]]></Value>
+            <Value><![CDATA[number:0]]></Value>
            </DataNode>
            <DataNode name="tax_unit" valueChanged="fromDataSource">
             <Value><![CDATA[string:%]]></Value>
@@ -4062,47 +3993,23 @@
             <Value><![CDATA[date:Jul 1, 2020, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Aug 1, 2020, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Sep 1, 2020, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
             <Value><![CDATA[date:Oct 1, 2020, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Nov 1, 2020, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 1, 2020, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="anticipated_payment" valueChanged="fromDataSource">
             <Value><![CDATA[date:Jan 1, 2021, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Feb 1, 2021, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
             <Value><![CDATA[date:Mar 1, 2021, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Apr 1, 2021, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:May 1, 2021, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="anticipated_payment" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 1, 2021, 12:00:00 AM]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="salestax_sum">
-           <Value><![CDATA[number:32.58]]></Value>
+           <Value><![CDATA[number:552.13]]></Value>
           </DataNode>
           <DataNode name="netamount_sum">
-           <Value><![CDATA[number:177.42]]></Value>
+           <Value><![CDATA[number:2,935.37]]></Value>
           </DataNode>
           <DataNode name="anticipated_Payments_count">
-           <Value><![CDATA[number:12]]></Value>
+           <Value><![CDATA[number:4]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="payment_text">
@@ -4120,32 +4027,32 @@
            <Value><![CDATA[string:]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:If you need a written request for an estimate for VAT reasons, you are welcome to request]]></Value>
+           <Value><![CDATA[string:If a written budget request is required for VAT reasons,]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:it from us.]]></Value>
+           <Value><![CDATA[string:please contact our Business Customer Service.]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="billsum">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="netamount" valueChanged="fromDataSource">
-          <Value><![CDATA[number:2,122.02]]></Value>
+          <Value><![CDATA[number:14,128.03]]></Value>
          </DataNode>
          <DataNode name="salestax" valueChanged="fromDataSource">
-          <Value><![CDATA[number:387.52]]></Value>
+          <Value><![CDATA[number:2,151.05]]></Value>
          </DataNode>
          <DataNode name="sum" valueChanged="fromDataSource">
-          <Value><![CDATA[number:2,509.54]]></Value>
+          <Value><![CDATA[number:16,279.08]]></Value>
          </DataNode>
          <DataNode name="anticipated_paymentsum" valueChanged="fromDataSource">
-          <Value><![CDATA[number:2,589]]></Value>
+          <Value><![CDATA[number:13,800]]></Value>
          </DataNode>
          <DataNode name="endsum" valueChanged="fromDataSource">
-          <Value><![CDATA[number:-79.46]]></Value>
+          <Value><![CDATA[number:2,479.08]]></Value>
          </DataNode>
          <DataNode name="sumArt" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Credit]]></Value>
+          <Value><![CDATA[string:Rechnung]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="billposition">
@@ -4159,10 +4066,10 @@
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:privatee]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4171,13 +4078,13 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Initial price]]></Value>
+           <Value><![CDATA[string:energy rate]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="period">
@@ -4194,7 +4101,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4204,94 +4111,19 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:13.2]]></Value>
+           <Value><![CDATA[number:9.87]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:26.4]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,001]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:2]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Initial price]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:13.25]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:155.29]]></Value>
+           <Value><![CDATA[number:2,686.141227]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -4304,15 +4136,15 @@
           <Value><![CDATA[number:30,062,020,002]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:3]]></Value>
+          <Value><![CDATA[string:2]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4321,10 +4153,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:EEG apportionment]]></Value>
@@ -4344,7 +4176,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4354,7 +4186,7 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
@@ -4366,82 +4198,7 @@
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:12.4]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,002]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:4]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:EEG apportionment]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:6.1725]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:72.3417]]></Value>
+           <Value><![CDATA[number:1,687.34302]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -4454,7 +4211,7 @@
           <Value><![CDATA[number:30,062,020,003]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:5]]></Value>
+          <Value><![CDATA[string:3]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
@@ -4462,7 +4219,7 @@
            <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4471,10 +4228,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:KWKG-apportionment]]></Value>
@@ -4494,7 +4251,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4504,7 +4261,7 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
@@ -4516,82 +4273,7 @@
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.35]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,003]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:6]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:KWKG-apportionment]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.205]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:2.4026]]></Value>
+           <Value><![CDATA[number:47.6266175]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -4604,15 +4286,15 @@
           <Value><![CDATA[number:30,062,020,004]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:7]]></Value>
+          <Value><![CDATA[string:4]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4621,10 +4303,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Electricitysteuer]]></Value>
@@ -4644,7 +4326,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4654,7 +4336,7 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
@@ -4666,82 +4348,7 @@
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:4.1]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,004]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:8]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Electricitysteuer]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:2.1]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:24.612]]></Value>
+           <Value><![CDATA[number:557.911805]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -4754,15 +4361,15 @@
           <Value><![CDATA[number:30,062,020,005]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:9]]></Value>
+          <Value><![CDATA[string:5]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4771,10 +4378,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
@@ -4794,7 +4401,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4804,7 +4411,7 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
@@ -4816,82 +4423,7 @@
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.4]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,005]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:10]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.2]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:2.344]]></Value>
+           <Value><![CDATA[number:54.43042]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -4904,15 +4436,15 @@
           <Value><![CDATA[number:30,062,020,006]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:11]]></Value>
+          <Value><![CDATA[string:6]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -4921,10 +4453,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:ElectricityNEV]]></Value>
@@ -4944,7 +4476,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -4954,7 +4486,7 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:200]]></Value>
+           <Value><![CDATA[number:27,215.21]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
@@ -4966,82 +4498,7 @@
            <Value><![CDATA[string:Ct/kWh]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.18]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,006]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:12]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:electricity]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:ElectricityNEV]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,172]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.092]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1.07824]]></Value>
+           <Value><![CDATA[number:24.493689]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -5054,15 +4511,15 @@
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:13]]></Value>
+          <Value><![CDATA[string:7]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -5071,10 +4528,10 @@
            <Value><![CDATA[string:electricity]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+           <Value><![CDATA[string:sam.business electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Basic price]]></Value>
@@ -5094,7 +4551,7 @@
           <DataNode name="tilldate">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Dec 31, 20, 12:00:00 AM]]></Value>
+            <Value><![CDATA[date:Dec 31, 19, 12:00:00 AM]]></Value>
            </DataNode>
            <DataNode name="long" valueChanged="fromDataSource">
             <Value><![CDATA[string:31.12.2019, 24:00]]></Value>
@@ -5110,13 +4567,463 @@
            <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:80]]></Value>
+           <Value><![CDATA[number:486.25]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:39.890410959]]></Value>
+           <Value><![CDATA[number:242.45890411]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,001]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:1]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:energy rate]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:13.2]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:3,592.40772]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,002]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:2]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:EEG apportionment]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:6.2]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:1,687.34302]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,003]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:3]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:KWKG-apportionment]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:0.175]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:47.6266175]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,004]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:4]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Electricitysteuer]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:2.05]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:557.911805]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,005]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:5]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Offshore-Liability Contribution]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:0.2]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:54.43042]]></Value>
+          </DataNode>
+          <DataNode name="salestax" valueChanged="fromDataSource">
+           <Value><![CDATA[number:19]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="billposition">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="positionid" valueChanged="fromDataSource">
+          <Value><![CDATA[number:30,062,020,006]]></Value>
+         </DataNode>
+         <DataNode name="posno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:6]]></Value>
+         </DataNode>
+         <DataNode name="postype">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="type" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Annual accounts]]></Value>
+          </DataNode>
+          <DataNode name="class" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Business]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="product">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="section" valueChanged="fromDataSource">
+           <Value><![CDATA[string:electricity]]></Value>
+          </DataNode>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="meter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
+          </DataNode>
+          <DataNode name="product_key" valueChanged="fromDataSource">
+           <Value><![CDATA[string:ElectricityNEV]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="period">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="from">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jan 1, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:01.01.2020, 00:00]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="tilldate">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="short" valueChanged="fromDataSource">
+            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
+           </DataNode>
+           <DataNode name="long" valueChanged="fromDataSource">
+            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="position">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="amount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:27,215.21]]></Value>
+          </DataNode>
+          <DataNode name="amount_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:kWh]]></Value>
+          </DataNode>
+          <DataNode name="price" valueChanged="fromDataSource">
+           <Value><![CDATA[number:0.09]]></Value>
+          </DataNode>
+          <DataNode name="price_unit" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Ct/kWh]]></Value>
+          </DataNode>
+          <DataNode name="netamount" valueChanged="fromDataSource">
+           <Value><![CDATA[number:24.493689]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -5129,15 +5036,15 @@
           <Value><![CDATA[number:30,062,020,007]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:14]]></Value>
+          <Value><![CDATA[string:7]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -5149,7 +5056,7 @@
            <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMZNR00012321578]]></Value>
+           <Value><![CDATA[string:SAMSZ56456456]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Basic price]]></Value>
@@ -5204,102 +5111,27 @@
           <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:15]]></Value>
+          <Value><![CDATA[string:8]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:gas]]></Value>
+           <Value><![CDATA[string:water]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Super Gas]]></Value>
+           <Value><![CDATA[string:Fresh Water]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMGNR00122325847]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:energy rate]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.07.2019, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19,512]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:kWh]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:5.2]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Ct/kWh]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,014.624]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,009]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:16]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:gas]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Super Gas]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMGNR00122325847]]></Value>
+           <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Basic price]]></Value>
@@ -5335,34 +5167,34 @@
            <Value><![CDATA[string:Days]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:100]]></Value>
+           <Value><![CDATA[number:45]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:Eur/Year]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:100]]></Value>
+           <Value><![CDATA[number:45]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
+           <Value><![CDATA[number:7]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
         <DataNode name="billposition">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,009]]></Value>
+          <Value><![CDATA[number:30,062,020,008]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:17]]></Value>
+          <Value><![CDATA[string:9]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
@@ -5371,10 +5203,10 @@
            <Value><![CDATA[string:water]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy fresh Water]]></Value>
+           <Value><![CDATA[string:Fresh Water]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMW00002300811]]></Value>
+           <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Consumer price]]></Value>
@@ -5404,169 +5236,19 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:87]]></Value>
+           <Value><![CDATA[number:1,029]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:m3]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1.5]]></Value>
+           <Value><![CDATA[number:1.11]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:Eur/m3]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:130.5]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:7]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,010]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:18]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:water]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy fresh Water]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMW00002300811]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Basic price]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.07.2019, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:365]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Days]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:40]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/Year]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:40]]></Value>
-          </DataNode>
-          <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:7]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-        <DataNode name="billposition">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,010]]></Value>
-         </DataNode>
-         <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:19]]></Value>
-         </DataNode>
-         <DataNode name="postype">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
-          </DataNode>
-          <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="product">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:sewage]]></Value>
-          </DataNode>
-          <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Easy fresh Water]]></Value>
-          </DataNode>
-          <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAMW00002300811]]></Value>
-          </DataNode>
-          <DataNode name="product_key" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Consumer price]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="period">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="from">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jul 1, 19, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:01.07.2019, 00:00]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="tilldate">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="short" valueChanged="fromDataSource">
-            <Value><![CDATA[date:Jun 30, 20, 12:00:00 AM]]></Value>
-           </DataNode>
-           <DataNode name="long" valueChanged="fromDataSource">
-            <Value><![CDATA[string:30.06.2020, 24:00]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="position">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:87]]></Value>
-          </DataNode>
-          <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:m3]]></Value>
-          </DataNode>
-          <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1.3]]></Value>
-          </DataNode>
-          <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/m3]]></Value>
-          </DataNode>
-          <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:113.1]]></Value>
+           <Value><![CDATA[number:1,142.19]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -5576,30 +5258,30 @@
         <DataNode name="billposition">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="positionid" valueChanged="fromDataSource">
-          <Value><![CDATA[number:30,062,020,010]]></Value>
+          <Value><![CDATA[number:30,062,020,009]]></Value>
          </DataNode>
          <DataNode name="posno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:20]]></Value>
+          <Value><![CDATA[string:10]]></Value>
          </DataNode>
          <DataNode name="postype">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="type" valueChanged="fromDataSource">
-           <Value><![CDATA[string:financial statement]]></Value>
+           <Value><![CDATA[string:Annual accounts]]></Value>
           </DataNode>
           <DataNode name="class" valueChanged="fromDataSource">
-           <Value><![CDATA[string:private]]></Value>
+           <Value><![CDATA[string:Business]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="product">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="section" valueChanged="fromDataSource">
-           <Value><![CDATA[string:heat]]></Value>
+           <Value><![CDATA[string:sewage]]></Value>
           </DataNode>
           <DataNode name="rate" valueChanged="fromDataSource">
-           <Value><![CDATA[string:climate-neutral heat]]></Value>
+           <Value><![CDATA[string:Schmutzwassergebühr]]></Value>
           </DataNode>
           <DataNode name="meter" valueChanged="fromDataSource">
-           <Value><![CDATA[string:SAM-ITK-900400]]></Value>
+           <Value><![CDATA[string:SAM-WZ-23.5584]]></Value>
           </DataNode>
           <DataNode name="product_key" valueChanged="fromDataSource">
            <Value><![CDATA[string:Consumer price]]></Value>
@@ -5629,19 +5311,19 @@
          <DataNode name="position">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="amount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:3,900]]></Value>
+           <Value><![CDATA[number:1,029]]></Value>
           </DataNode>
           <DataNode name="amount_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:l]]></Value>
+           <Value><![CDATA[string:m3]]></Value>
           </DataNode>
           <DataNode name="price" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0.45]]></Value>
+           <Value><![CDATA[number:1.59]]></Value>
           </DataNode>
           <DataNode name="price_unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Eur/l]]></Value>
+           <Value><![CDATA[string:Eur/m3]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,755]]></Value>
+           <Value><![CDATA[number:1,636.11]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
            <Value><![CDATA[number:0]]></Value>
@@ -5665,13 +5347,13 @@
            <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
           </DataNode>
           <DataNode name="periodtilldate" valueChanged="fromDataSource">
-           <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
+           <Value><![CDATA[date:Dec 31, 2019, 12:00:00 AM]]></Value>
           </DataNode>
           <DataNode name="countfrom" valueChanged="fromDataSource">
            <Value><![CDATA[number:13,007]]></Value>
           </DataNode>
           <DataNode name="counttilldate" valueChanged="fromDataSource">
-           <Value><![CDATA[number:14,379]]></Value>
+           <Value><![CDATA[number:13,979]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
            <Value><![CDATA[number:381.89854]]></Value>
@@ -5704,34 +5386,34 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Gas]]></Value>
+           <Value><![CDATA[string:Electricity]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19,512]]></Value>
+           <Value><![CDATA[number:1,372]]></Value>
           </DataNode>
           <DataNode name="unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:kWh]]></Value>
           </DataNode>
           <DataNode name="periodfrom" valueChanged="fromDataSource">
-           <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
+           <Value><![CDATA[date:Jan 1, 2020, 12:00:00 AM]]></Value>
           </DataNode>
           <DataNode name="periodtilldate" valueChanged="fromDataSource">
            <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
           </DataNode>
           <DataNode name="countfrom" valueChanged="fromDataSource">
-           <Value><![CDATA[number:370,006]]></Value>
+           <Value><![CDATA[number:13,979]]></Value>
           </DataNode>
           <DataNode name="counttilldate" valueChanged="fromDataSource">
-           <Value><![CDATA[number:387,518]]></Value>
+           <Value><![CDATA[number:14,379]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,114.624]]></Value>
+           <Value><![CDATA[number:381.89854]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:211.77856]]></Value>
+           <Value><![CDATA[number:72.56072]]></Value>
           </DataNode>
           <DataNode name="presum" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,326.40256]]></Value>
+           <Value><![CDATA[number:454.45926]]></Value>
           </DataNode>
           <DataNode name="tax" valueChanged="fromDataSource">
            <Value><![CDATA[number:19]]></Value>
@@ -5745,7 +5427,7 @@
             <Value><![CDATA[string:Year]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
-            <Value><![CDATA[number:81]]></Value>
+            <Value><![CDATA[number:95.8]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="work_price">
@@ -5806,13 +5488,13 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Heat]]></Value>
+           <Value><![CDATA[string:Waster water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
-           <Value><![CDATA[number:1,100]]></Value>
+           <Value><![CDATA[number:87]]></Value>
           </DataNode>
           <DataNode name="unit" valueChanged="fromDataSource">
-           <Value><![CDATA[string:l]]></Value>
+           <Value><![CDATA[string:m3]]></Value>
           </DataNode>
           <DataNode name="periodfrom" valueChanged="fromDataSource">
            <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
@@ -5821,22 +5503,22 @@
            <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
           </DataNode>
           <DataNode name="countfrom" valueChanged="fromDataSource">
-           <Value><![CDATA[number:4,700]]></Value>
+           <Value><![CDATA[number:180]]></Value>
           </DataNode>
           <DataNode name="counttilldate" valueChanged="fromDataSource">
-           <Value><![CDATA[number:5,800]]></Value>
+           <Value><![CDATA[number:267]]></Value>
           </DataNode>
           <DataNode name="netamount" valueChanged="fromDataSource">
-           <Value><![CDATA[number:495]]></Value>
+           <Value><![CDATA[number:155.9]]></Value>
           </DataNode>
           <DataNode name="salestax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:94.05]]></Value>
+           <Value><![CDATA[number:0]]></Value>
           </DataNode>
           <DataNode name="presum" valueChanged="fromDataSource">
-           <Value><![CDATA[number:589.05]]></Value>
+           <Value><![CDATA[number:155.9]]></Value>
           </DataNode>
           <DataNode name="tax" valueChanged="fromDataSource">
-           <Value><![CDATA[number:19]]></Value>
+           <Value><![CDATA[number:0]]></Value>
           </DataNode>
           <DataNode name="tax_unit" valueChanged="fromDataSource">
            <Value><![CDATA[string:%]]></Value>
@@ -5859,16 +5541,13 @@
          <DataNode name="Diff">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="Amount">
-           <Value><![CDATA[number:45.54]]></Value>
+           <Value><![CDATA[number:10,545.54]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[number:32.6]]></Value>
+           <Value><![CDATA[number:745.54]]></Value>
           </DataNode>
           <DataNode name="Amount">
-           <Value><![CDATA[number:-9.63]]></Value>
-          </DataNode>
-          <DataNode name="Amount">
-           <Value><![CDATA[number:10.95]]></Value>
+           <Value><![CDATA[number:1,460.37]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -5878,10 +5557,10 @@
         <DataNode name="electricity">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="usage" valueChanged="fromDataSource">
-          <Value><![CDATA[number:1,381]]></Value>
+          <Value><![CDATA[number:16,234]]></Value>
          </DataNode>
          <DataNode name="previous_usage" valueChanged="fromDataSource">
-          <Value><![CDATA[number:1,431]]></Value>
+          <Value><![CDATA[number:14,234]]></Value>
          </DataNode>
          <DataNode name="small">
           <Value><![CDATA[string:]]></Value>
@@ -6120,37 +5799,10 @@
          <DataNode name="record">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Nuclear energy]]></Value>
-          </DataNode>
-          <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="record">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Coal-powered energy]]></Value>
-          </DataNode>
-          <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="record">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="description" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Natural gas]]></Value>
-          </DataNode>
-          <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[number:0]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="record">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="description" valueChanged="fromDataSource">
            <Value><![CDATA[string:Wind energy]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[number:53.7]]></Value>
+           <Value><![CDATA[number:63.7]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="record">
@@ -6177,7 +5829,7 @@
            <Value><![CDATA[string:Hydrapower]]></Value>
           </DataNode>
           <DataNode name="value" valueChanged="fromDataSource">
-           <Value><![CDATA[number:13]]></Value>
+           <Value><![CDATA[number:3]]></Value>
           </DataNode>
          </DataNode>
         </DataNode>
@@ -6255,13 +5907,13 @@
          <Value><![CDATA[string:1]]></Value>
         </DataNode>
         <DataNode name="flag_gas">
-         <Value><![CDATA[string:1]]></Value>
+         <Value><![CDATA[string:0]]></Value>
         </DataNode>
         <DataNode name="flag_water">
          <Value><![CDATA[string:1]]></Value>
         </DataNode>
         <DataNode name="flag_heat">
-         <Value><![CDATA[string:1]]></Value>
+         <Value><![CDATA[string:0]]></Value>
         </DataNode>
        </DataNode>
        <DataNode name="prepaymentslist">
@@ -6271,67 +5923,19 @@
           <Value><![CDATA[string:01.07.]]></Value>
          </DataNode>
          <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
+          <Value><![CDATA[number:4,062.5]]></Value>
          </DataNode>
          <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column2">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.08.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2020]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column3">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.09.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2020]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column4">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="Date">
           <Value><![CDATA[string:01.10.]]></Value>
          </DataNode>
          <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2020]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column1">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.11.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2020]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column2">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.12.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
+          <Value><![CDATA[number:4,062.5]]></Value>
          </DataNode>
          <DataNode name="Month">
           <Value><![CDATA[string:2020]]></Value>
@@ -6343,67 +5947,19 @@
           <Value><![CDATA[string:01.01.]]></Value>
          </DataNode>
          <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
+          <Value><![CDATA[number:4,062.5]]></Value>
          </DataNode>
          <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="column4">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.02.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2021]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column1">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="Date">
           <Value><![CDATA[string:01.03.]]></Value>
          </DataNode>
          <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2021]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column2">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.04.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2021]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column3">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.05.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
-         </DataNode>
-         <DataNode name="Month">
-          <Value><![CDATA[string:2021]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="column4">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Date">
-          <Value><![CDATA[string:01.06.]]></Value>
-         </DataNode>
-         <DataNode name="Amount">
-          <Value><![CDATA[number:210]]></Value>
+          <Value><![CDATA[number:4,062.5]]></Value>
          </DataNode>
          <DataNode name="Month">
           <Value><![CDATA[string:2021]]></Value>
@@ -6440,10 +5996,10 @@
           <DataNode name="User">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="PartnerID" valueChanged="fromDataSource">
-            <Value><![CDATA[string:99887766]]></Value>
+            <Value><![CDATA[string:GK-235214]]></Value>
            </DataNode>
            <DataNode name="UserID" valueChanged="fromDataSource">
-            <Value><![CDATA[string:rentlinger]]></Value>
+            <Value><![CDATA[string:guttman]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
             <Value><![CDATA[string:Frau]]></Value>
@@ -6452,16 +6008,16 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Firstname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Karen]]></Value>
+            <Value><![CDATA[string:Gina]]></Value>
            </DataNode>
            <DataNode name="Lastname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Rentlinger]]></Value>
+            <Value><![CDATA[string:Guttman]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Private Customer Support]]></Value>
+            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
             <Value><![CDATA[string:59]]></Value>
@@ -6487,10 +6043,10 @@
              <Value><![CDATA[string:sam.energy]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Karen Rentlinger]]></Value>
+             <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Private Customer Support]]></Value>
+             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -6503,16 +6059,16 @@
             <Value><![CDATA[string:Customer Advisor]]></Value>
            </DataNode>
            <DataNode name="Email" valueChanged="fromDataSource">
-            <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+            <Value><![CDATA[string:g.guttman@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:0815-47111999]]></Value>
            </DataNode>
            <DataNode name="Fax" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:0815-47114799]]></Value>
            </DataNode>
            <DataNode name="Signature">
-            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
+            <Value><![CDATA[string:mtx:Graphics/signature_guttman.png]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="SenderAddress">
@@ -6528,7 +6084,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -6540,7 +6096,7 @@
           <DataNode name="Partner">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="PartnerID" valueChanged="fromDataSource">
-            <Value><![CDATA[string:202017070815]]></Value>
+            <Value><![CDATA[string:20698101]]></Value>
            </DataNode>
            <DataNode name="UserID" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -6549,34 +6105,34 @@
             <Value><![CDATA[string:Herr]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Dr.]]></Value>
            </DataNode>
            <DataNode name="Firstname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Jan]]></Value>
+            <Value><![CDATA[string:Peter]]></Value>
            </DataNode>
            <DataNode name="Lastname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Petersen]]></Value>
+            <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
-            <Value><![CDATA[string:12]]></Value>
+            <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement" valueChanged="fromDataSource">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Chefarzt]]></Value>
            </DataNode>
            <DataNode name="Street" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Deichstr.]]></Value>
+            <Value><![CDATA[string:Clinical Center]]></Value>
            </DataNode>
            <DataNode name="Zip" valueChanged="fromDataSource">
-            <Value><![CDATA[string:25938]]></Value>
+            <Value><![CDATA[string:47929]]></Value>
            </DataNode>
            <DataNode name="City" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wyk auf Föhr]]></Value>
+            <Value><![CDATA[string:Docville]]></Value>
            </DataNode>
            <DataNode name="Country" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -6584,26 +6140,32 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Jan Petersen]]></Value>
+             <Value><![CDATA[string:Klinikum Ost]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Deichstr. 12]]></Value>
+             <Value><![CDATA[string:Chefarzt]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:25938 Wyk auf Föhr]]></Value>
+             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
+            </DataNode>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Clinical Center 31]]></Value>
+            </DataNode>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:47929 Docville]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Role" valueChanged="fromDataSource">
             <Value><![CDATA[string:Customer]]></Value>
            </DataNode>
            <DataNode name="Email" valueChanged="fromDataSource">
-            <Value><![CDATA[string:petersen.jan@email.web]]></Value>
+            <Value><![CDATA[string:pf.klinikum.ost@email.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
-            <Value><![CDATA[string:+49 123 546789]]></Value>
+            <Value><![CDATA[string:01989-2050]]></Value>
            </DataNode>
            <DataNode name="Fax" valueChanged="fromDataSource">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:01989-2001]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:]]></Value>
@@ -6612,11 +6174,11 @@
           <DataNode name="isValid">
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
-          <DataNode name="SalutatoryAddress" valueChanged="manually">
-           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Petersen, Jan]]></Value>
+           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -6688,7 +6250,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -6729,6 +6291,41 @@
            <Value><![CDATA[string:LOCALPRINTING_10100]]></Value>
           </DataNode>
          </DataNode>
+         <DataNode name="OutputSettings">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="OutputChannel" valueChanged="fromDataSource">
+           <Value><![CDATA[string:ARCHIVE]]></Value>
+          </DataNode>
+          <DataNode name="ARCHIVE">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="PartnerID" valueChanged="fromDataSource">
+            <Value><![CDATA[string:20698101]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="LOCALPRINTING">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="UserID"></DataNode>
+          </DataNode>
+          <DataNode name="CENTRALPRINTING">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Zip"></DataNode>
+           <DataNode name="CountryCode"></DataNode>
+           <DataNode name="PartnerID"></DataNode>
+          </DataNode>
+          <DataNode name="FAX">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Sender"></DataNode>
+           <DataNode name="Recipient"></DataNode>
+          </DataNode>
+          <DataNode name="EMAIL">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Sender"></DataNode>
+           <DataNode name="Recipient"></DataNode>
+          </DataNode>
+          <DataNode name="InstanceID">
+           <Value><![CDATA[string:ARCHIVE_10101]]></Value>
+          </DataNode>
+         </DataNode>
          <DataNode name="No">
           <Value><![CDATA[number:1]]></Value>
          </DataNode>
@@ -6760,10 +6357,10 @@
           <DataNode name="User">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="PartnerID">
-            <Value><![CDATA[string:99887766]]></Value>
+            <Value><![CDATA[string:GK-235214]]></Value>
            </DataNode>
            <DataNode name="UserID">
-            <Value><![CDATA[string:rentlinger]]></Value>
+            <Value><![CDATA[string:guttman]]></Value>
            </DataNode>
            <DataNode name="Salutation">
             <Value><![CDATA[string:Frau]]></Value>
@@ -6772,16 +6369,16 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Firstname">
-            <Value><![CDATA[string:Karen]]></Value>
+            <Value><![CDATA[string:Gina]]></Value>
            </DataNode>
            <DataNode name="Lastname">
-            <Value><![CDATA[string:Rentlinger]]></Value>
+            <Value><![CDATA[string:Guttman]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
-            <Value><![CDATA[string:Private Customer Support]]></Value>
+            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
            </DataNode>
            <DataNode name="HouseNo">
             <Value><![CDATA[string:59]]></Value>
@@ -6807,10 +6404,10 @@
              <Value><![CDATA[string:sam.energy]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Karen Rentlinger]]></Value>
+             <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Private Customer Support]]></Value>
+             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
             </DataNode>
             <DataNode name="Line">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -6823,16 +6420,16 @@
             <Value><![CDATA[string:Customer Advisor]]></Value>
            </DataNode>
            <DataNode name="Email">
-            <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+            <Value><![CDATA[string:g.guttman@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:0815-47111999]]></Value>
            </DataNode>
            <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:0815-47114799]]></Value>
            </DataNode>
            <DataNode name="Signature">
-            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
+            <Value><![CDATA[string:mtx:Graphics/signature_guttman.png]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="SenderAddress">
@@ -6848,7 +6445,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -6860,7 +6457,7 @@
           <DataNode name="Partner">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="PartnerID">
-            <Value><![CDATA[string:202017070815]]></Value>
+            <Value><![CDATA[string:20698101]]></Value>
            </DataNode>
            <DataNode name="UserID">
             <Value><![CDATA[string:]]></Value>
@@ -6869,34 +6466,34 @@
             <Value><![CDATA[string:Herr]]></Value>
            </DataNode>
            <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Dr.]]></Value>
            </DataNode>
            <DataNode name="Firstname">
-            <Value><![CDATA[string:Jan]]></Value>
+            <Value><![CDATA[string:Peter]]></Value>
            </DataNode>
            <DataNode name="Lastname">
-            <Value><![CDATA[string:Petersen]]></Value>
+            <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="HouseNo">
-            <Value><![CDATA[string:12]]></Value>
+            <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:Chefarzt]]></Value>
            </DataNode>
            <DataNode name="Street">
-            <Value><![CDATA[string:Deichstr.]]></Value>
+            <Value><![CDATA[string:Clinical Center]]></Value>
            </DataNode>
            <DataNode name="Zip">
-            <Value><![CDATA[string:25938]]></Value>
+            <Value><![CDATA[string:47929]]></Value>
            </DataNode>
            <DataNode name="City">
-            <Value><![CDATA[string:Wyk auf Föhr]]></Value>
+            <Value><![CDATA[string:Docville]]></Value>
            </DataNode>
            <DataNode name="Country">
             <Value><![CDATA[string:]]></Value>
@@ -6904,26 +6501,32 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line">
-             <Value><![CDATA[string:Jan Petersen]]></Value>
+             <Value><![CDATA[string:Klinikum Ost]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Deichstr. 12]]></Value>
+             <Value><![CDATA[string:Chefarzt]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:25938 Wyk auf Föhr]]></Value>
+             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Clinical Center 31]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:47929 Docville]]></Value>
             </DataNode>
            </DataNode>
            <DataNode name="Role">
             <Value><![CDATA[string:Customer]]></Value>
            </DataNode>
            <DataNode name="Email">
-            <Value><![CDATA[string:petersen.jan@email.web]]></Value>
+            <Value><![CDATA[string:pf.klinikum.ost@email.web]]></Value>
            </DataNode>
            <DataNode name="Phone">
-            <Value><![CDATA[string:+49 123 546789]]></Value>
+            <Value><![CDATA[string:01989-2050]]></Value>
            </DataNode>
            <DataNode name="Fax">
-            <Value><![CDATA[string:]]></Value>
+            <Value><![CDATA[string:01989-2001]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:]]></Value>
@@ -6933,10 +6536,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
+           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Petersen, Jan]]></Value>
+           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -7008,7 +6611,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -7047,6 +6650,41 @@
           </DataNode>
           <DataNode name="InstanceID">
            <Value><![CDATA[string:LOCALPRINTING_10100]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="OutputSettings">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="OutputChannel">
+           <Value><![CDATA[string:ARCHIVE]]></Value>
+          </DataNode>
+          <DataNode name="ARCHIVE">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="PartnerID">
+            <Value><![CDATA[string:20698101]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="LOCALPRINTING">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="UserID"></DataNode>
+          </DataNode>
+          <DataNode name="CENTRALPRINTING">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Zip"></DataNode>
+           <DataNode name="CountryCode"></DataNode>
+           <DataNode name="PartnerID"></DataNode>
+          </DataNode>
+          <DataNode name="FAX">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Sender"></DataNode>
+           <DataNode name="Recipient"></DataNode>
+          </DataNode>
+          <DataNode name="EMAIL">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="Sender"></DataNode>
+           <DataNode name="Recipient"></DataNode>
+          </DataNode>
+          <DataNode name="InstanceID">
+           <Value><![CDATA[string:ARCHIVE_10101]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="No">
@@ -7088,7 +6726,7 @@
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
        <Value><![CDATA[string:\library\Training_Billing\Templates\Billing.template]]></Value>
       </DataNode>
-      <DataNode name="Language" valueChanged="manually">
+      <DataNode name="Language">
        <Value><![CDATA[string:en]]></Value>
       </DataNode>
      </DataNode>
@@ -7171,6 +6809,18 @@
                   </Data>
                   <ContainerPartInstance partIndex="0"></ContainerPartInstance>
                  </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="0">
+                  <Data>
+                   <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(3)" loopNode="true" name="line"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+                 </ContainerPartInstance>
+                 <ContainerPartInstance partIndex="0">
+                  <Data>
+                   <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(4)" loopNode="true" name="line"></DataNodeRef>
+                  </Data>
+                  <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+                 </ContainerPartInstance>
                 </ContainerPartInstance>
                 <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
                </ContainerPartInstance>
@@ -7241,11 +6891,6 @@
                    <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount.instance(2)" loopNode="true" name="amount"></DataNodeRef>
                   </Data>
                  </TablePartInstance>
-                 <TablePartInstance partIndex="1">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount.instance(3)" loopNode="true" name="amount"></DataNodeRef>
-                  </Data>
-                 </TablePartInstance>
                  <TablePartInstance partIndex="2">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(0)" loopNode="true" name="Amount"></DataNodeRef>
@@ -7259,11 +6904,6 @@
                  <TablePartInstance partIndex="2">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(2)" loopNode="true" name="Amount"></DataNodeRef>
-                  </Data>
-                 </TablePartInstance>
-                 <TablePartInstance partIndex="2">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.billdata.difference.Diff.Amount.instance(3)" loopNode="true" name="Amount"></DataNodeRef>
                   </Data>
                  </TablePartInstance>
                 </ContainerPartInstance>
@@ -7319,11 +6959,6 @@
                   <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount.instance(2)" loopNode="true" name="amount"></DataNodeRef>
                  </Data>
                 </TablePartInstance>
-                <TablePartInstance partIndex="0">
-                 <Data>
-                  <DataNodeRef ref="$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount.instance(3)" loopNode="true" name="amount"></DataNodeRef>
-                 </Data>
-                </TablePartInstance>
                </ContainerPartInstance>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="9">
@@ -7355,11 +6990,6 @@
                   <DataNodeRef ref="$anticipated_payments.nextanticipated_payments.amount.instance(2)" loopNode="true" name="amount"></DataNodeRef>
                  </Data>
                 </TablePartInstance>
-                <TablePartInstance partIndex="0">
-                 <Data>
-                  <DataNodeRef ref="$anticipated_payments.nextanticipated_payments.amount.instance(3)" loopNode="true" name="amount"></DataNodeRef>
-                 </Data>
-                </TablePartInstance>
                </ContainerPartInstance>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="11">
@@ -7367,29 +6997,9 @@
                 <DataNodeRef ref="$billing_data.template.prepaymentslist.column1.instance(0)" loopNode="true" name="column1"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
-              <ContainerPartInstance partIndex="11">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column1.instance(1)" loopNode="true" name="column1"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="11">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column1.instance(2)" loopNode="true" name="column1"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
               <ContainerPartInstance partIndex="12">
                <Data>
                 <DataNodeRef ref="$billing_data.template.prepaymentslist.column2.instance(0)" loopNode="true" name="column2"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="12">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column2.instance(1)" loopNode="true" name="column2"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="12">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column2.instance(2)" loopNode="true" name="column2"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="13">
@@ -7397,29 +7007,9 @@
                 <DataNodeRef ref="$billing_data.template.prepaymentslist.column3.instance(0)" loopNode="true" name="column3"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
-              <ContainerPartInstance partIndex="13">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column3.instance(1)" loopNode="true" name="column3"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="13">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column3.instance(2)" loopNode="true" name="column3"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
               <ContainerPartInstance partIndex="14">
                <Data>
                 <DataNodeRef ref="$billing_data.template.prepaymentslist.column4.instance(0)" loopNode="true" name="column4"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="14">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column4.instance(1)" loopNode="true" name="column4"></DataNodeRef>
-               </Data>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="14">
-               <Data>
-                <DataNodeRef ref="$billing_data.template.prepaymentslist.column4.instance(2)" loopNode="true" name="column4"></DataNodeRef>
                </Data>
               </ContainerPartInstance>
               <ContainerPartInstance partIndex="15"></ContainerPartInstance>
@@ -7465,7 +7055,7 @@
                    <Data>
                     <DataNodeRef ref="$items.item.instance(1)" loopNode="true" name="item"></DataNodeRef>
                    </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
+                   <TablePartInstance partIndex="0"></TablePartInstance>
                   </TablePartInstance>
                   <TablePartInstance partIndex="0">
                    <Data>
@@ -7510,12 +7100,6 @@
                     </Data>
                     <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                    </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
                   </RowPartInstance>
                  </RowPartInstance>
                  <TablePartInstance partIndex="2"></TablePartInstance>
@@ -7537,12 +7121,6 @@
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
                  <ContainerPartInstance partIndex="4">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
@@ -7561,12 +7139,6 @@
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
                  <ContainerPartInstance partIndex="5">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
@@ -7582,12 +7154,6 @@
                  <ContainerPartInstance partIndex="5">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
@@ -7598,168 +7164,7 @@
             </DocumentPartInstance>
            </DocumentPartInstance>
           </DocumentPartInstance>
-          <DocumentPartInstance partIndex="2">
-           <DocumentPartInstance partIndex="0">
-            <DocumentPartInstance partIndex="0">
-             <ContainerPartInstance partIndex="0">
-              <Data>
-               <DataNode name="contract">
-                <Value><![CDATA[string:Gas]]></Value>
-               </DataNode>
-               <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0">
-                <Data>
-                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.template.Tablelines.gas" name="lines"></DataNodeRef>
-                </Data>
-                <ContainerPartInstance partIndex="0">
-                 <TablePartInstance partIndex="0">
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(0)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(1)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(2)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(3)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                 </TablePartInstance>
-                 <TablePartInstance partIndex="1" visible="false"></TablePartInstance>
-                </ContainerPartInstance>
-               </ContainerPartInstance>
-               <ContainerPartInstance partIndex="1">
-                <Data>
-                 <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
-                </Data>
-                <ContainerPartInstance partIndex="0">
-                 <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                 <RowPartInstance partIndex="1">
-                  <RowPartInstance partIndex="0">
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                  </RowPartInstance>
-                 </RowPartInstance>
-                 <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                </ContainerPartInstance>
-               </ContainerPartInstance>
-              </ContainerPartInstance>
-             </ContainerPartInstance>
-            </DocumentPartInstance>
-           </DocumentPartInstance>
-          </DocumentPartInstance>
+          <DocumentPartInstance partIndex="2" visible="false"></DocumentPartInstance>
           <DocumentPartInstance partIndex="3">
            <DocumentPartInstance partIndex="0">
             <DocumentPartInstance partIndex="0">
@@ -7834,12 +7239,6 @@
                     </Data>
                     <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                    </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
                   </RowPartInstance>
                  </RowPartInstance>
                  <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
@@ -7861,12 +7260,6 @@
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
                  <ContainerPartInstance partIndex="4">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
@@ -7885,12 +7278,6 @@
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
                  <ContainerPartInstance partIndex="5">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
@@ -7906,12 +7293,6 @@
                  <ContainerPartInstance partIndex="5">
                   <Data>
                    <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
                   </Data>
                   <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                  </ContainerPartInstance>
@@ -7922,168 +7303,7 @@
             </DocumentPartInstance>
            </DocumentPartInstance>
           </DocumentPartInstance>
-          <DocumentPartInstance partIndex="4">
-           <DocumentPartInstance partIndex="0">
-            <DocumentPartInstance partIndex="0">
-             <ContainerPartInstance partIndex="0">
-              <Data>
-               <DataNode name="contract">
-                <Value><![CDATA[string:Heat]]></Value>
-               </DataNode>
-               <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0">
-                <Data>
-                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
-                 <DataNodeRef ref="$billing_data.template.Tablelines.heat" name="lines"></DataNodeRef>
-                </Data>
-                <ContainerPartInstance partIndex="0">
-                 <TablePartInstance partIndex="0">
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(0)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(1)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(2)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                  </TablePartInstance>
-                  <TablePartInstance partIndex="0">
-                   <Data>
-                    <DataNodeRef ref="$items.item.instance(3)" loopNode="true" name="item"></DataNodeRef>
-                   </Data>
-                   <TablePartInstance partIndex="0"></TablePartInstance>
-                  </TablePartInstance>
-                 </TablePartInstance>
-                 <TablePartInstance partIndex="1" visible="false"></TablePartInstance>
-                </ContainerPartInstance>
-               </ContainerPartInstance>
-               <ContainerPartInstance partIndex="1">
-                <Data>
-                 <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$contract" name="contract"></DataNodeRef>
-                </Data>
-                <ContainerPartInstance partIndex="0">
-                 <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
-                 <RowPartInstance partIndex="1">
-                  <RowPartInstance partIndex="0">
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                   <ContainerPartInstance partIndex="0">
-                    <Data>
-                     <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                    </Data>
-                    <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                   </ContainerPartInstance>
-                  </RowPartInstance>
-                 </RowPartInstance>
-                 <TablePartInstance partIndex="2" visible="false"></TablePartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="3">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="4">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(0)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(1)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(2)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="5">
-                  <Data>
-                   <DataNodeRef ref="$billing_data.billing.basedata.section.contracts.contract.instance(3)" loopNode="true" name="contract"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                </ContainerPartInstance>
-               </ContainerPartInstance>
-              </ContainerPartInstance>
-             </ContainerPartInstance>
-            </DocumentPartInstance>
-           </DocumentPartInstance>
-          </DocumentPartInstance>
+          <DocumentPartInstance partIndex="4" visible="false"></DocumentPartInstance>
          </DocumentPartInstance>
         </DocumentPartInstance>
        </DocumentPartInstance>
@@ -8095,7 +7315,7 @@
   </Root>
   <DataSourceProperties>
    <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="billing_data.FILE_NAME"></Property>
-   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english2.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
  <TestCase name="Billing_RE2020" includeInRegressionTool="false">
