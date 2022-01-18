@@ -408,7 +408,7 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="Salutation" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Herr]]></Value>
+         <Value><![CDATA[string:Mr.]]></Value>
         </DataNode>
         <DataNode name="Title" valueChanged="fromDataSource">
          <Value><![CDATA[string:]]></Value>
@@ -466,7 +466,7 @@
         <Value><![CDATA[bool:true]]></Value>
        </DataNode>
        <DataNode name="SalutatoryAddress">
-        <Value><![CDATA[string:Dear Herr Steinmetz]]></Value>
+        <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
        </DataNode>
        <DataNode name="NameFirstname">
         <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
@@ -483,22 +483,22 @@
         <Value><![CDATA[string:]]></Value>
        </DataNode>
        <DataNode name="EMail">
-        <Value><![CDATA[string:]]></Value>
+        <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
        </DataNode>
        <DataNode name="Fax">
-        <Value><![CDATA[string:]]></Value>
+        <Value><![CDATA[string:0815/47114249]]></Value>
        </DataNode>
        <DataNode name="Phone">
-        <Value><![CDATA[string:]]></Value>
+        <Value><![CDATA[string:0815/47111234]]></Value>
        </DataNode>
        <DataNode name="Name">
-        <Value><![CDATA[string: ]]></Value>
+        <Value><![CDATA[string:Karen Rentlinger]]></Value>
        </DataNode>
        <DataNode name="Signature">
-        <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_.png]]></Value>
+        <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
        </DataNode>
        <DataNode name="Language">
-        <Value><![CDATA[string:]]></Value>
+        <Value><![CDATA[string:GER]]></Value>
        </DataNode>
       </DataNode>
       <DataNode name="Attachment">
@@ -508,19 +508,19 @@
       </DataNode>
       <DataNode name="mail">
        <DataNode name="Sender">
-        <Value><![CDATA[string:]]></Value>
+        <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
        </DataNode>
       </DataNode>
       <DataNode name="template">
        <DataNode name="Date">
-        <Value><![CDATA[date:Jan 18, 2022, 1:09:05 PM]]></Value>
+        <Value><![CDATA[date:Jan 18, 2022, 2:37:27 PM]]></Value>
        </DataNode>
        <DataNode name="Salutation_local">
         <Value><![CDATA[string:Hello]]></Value>
        </DataNode>
        <DataNode name="Text">
         <DataNode name="green_text">
-         <Value><![CDATA[string:Emissionfrei in eine gryne Zukunft - Ein schonungsvoller und bewusster Umgang mit unserer Umwelt sowie die nachhaltige Nutzung von Ressourcen sind wichtige Aufgaben, mit denen wir uns bei der sam.energy schon seit vielen Jahren befassen. Nicht umsonst lautet unsere Umweltphilosophie: 'Dem Menschen, der Natur und der Region verpflichtet'.]]></Value>
+         <Value><![CDATA[string:Emission-free into a green future - A careful and conscious handling of our environment as well as the sustainable use of resources are important tasks that we at sam.energy have been dealing with for many years. It is not for nothing that our environmental philosophy is: 'Committed to people, nature and the region'.]]></Value>
         </DataNode>
        </DataNode>
       </DataNode>
@@ -559,7 +559,7 @@
             <Value><![CDATA[string:rentlinger]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Frau]]></Value>
+            <Value><![CDATA[string:Ms.]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -659,7 +659,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -717,7 +717,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Herr Steinmetz]]></Value>
+           <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
@@ -905,7 +905,7 @@
             <Value><![CDATA[string:rentlinger]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
+            <Value><![CDATA[string:Ms.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -1005,7 +1005,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -1063,7 +1063,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Herr Steinmetz]]></Value>
+           <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
@@ -1236,7 +1236,7 @@
        <Value><![CDATA[string:Created]]></Value>
       </DataNode>
       <DataNode name="ValidationState" valueChanged="manually">
-       <Value><![CDATA[string:ERROR]]></Value>
+       <Value><![CDATA[string:OK]]></Value>
       </DataNode>
       <DataNode name="Editor">
        <Value><![CDATA[string:]]></Value>
@@ -1347,11 +1347,11 @@
                 <Value><![CDATA[string:Sincerely yours]]></Value>
                </DataNode>
                <DataNode name="Signature">
-                <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_.png]]></Value>
+                <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
                </DataNode>
                <DataNode name="user">
                 <DataNode name="Signature">
-                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_.png]]></Value>
+                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
                 </DataNode>
                 <DataNode name="User">
                  <Value><![CDATA[string:Karen Rentlinger]]></Value>
@@ -1363,19 +1363,19 @@
                  <Value><![CDATA[string:]]></Value>
                 </DataNode>
                 <DataNode name="EMail">
-                 <Value><![CDATA[string:]]></Value>
+                 <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
                 </DataNode>
                 <DataNode name="Fax">
-                 <Value><![CDATA[string:]]></Value>
+                 <Value><![CDATA[string:0815/47114249]]></Value>
                 </DataNode>
                 <DataNode name="Phone">
-                 <Value><![CDATA[string:]]></Value>
+                 <Value><![CDATA[string:0815/47111234]]></Value>
                 </DataNode>
                 <DataNode name="Name">
-                 <Value><![CDATA[string: ]]></Value>
+                 <Value><![CDATA[string:Karen Rentlinger]]></Value>
                 </DataNode>
                 <DataNode name="Language">
-                 <Value><![CDATA[string:]]></Value>
+                 <Value><![CDATA[string:GER]]></Value>
                 </DataNode>
                </DataNode>
               </Data>

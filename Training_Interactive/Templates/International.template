@@ -1,4 +1,4 @@
-<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Interactive\Templates\International.template" title="Interaktive Freitext Vorlage" title-en_US="interactiv Freetext template" description="Freitextvorlage für Sam AG und sam.energy - Mehrsprachig" description-en_US="Free text template for Sam AG and sam.energy - multilanguage">
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Interactive\Templates\International.template" title="Interaktive Freitext Vorlage" title-de_DE="interactiv Freetext template" description="Freitextvorlage für Sam AG und sam.energy - Mehrsprachig" description-de_DE="Free text template for Sam AG and sam.energy - multilanguage">
  <DataDefinition>
   <ParamDef name="TaskControl" ref="Data\TaskControl.datamodel" dataMappingRef="Data\TaskControl.mapping">
    <Description></Description>
@@ -40,50 +40,49 @@
     <Values></Values>
    </Validation>
   </DataNodeDef>
-  <DataNodeDef name="Zeige_Betreff" data-type="boolean">
+  <DataNodeDef name="Show_Subject" data-type="boolean">
    <Description></Description>
    <Input true-value="true" false-value="false"></Input>
    <Output true-value="true" false-value="false"></Output>
    <Script></Script>
-   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Zeige Betreff" label-en_US="show subject">
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Zeige Betreff" label-de_DE="show subject">
     <Values></Values>
-    <ErrorMessage translation-en_US="no valid value">Kein gültiger Wert eingetragen</ErrorMessage>
+    <ErrorMessage translation-de_DE="no valid value">Kein gültiger Wert eingetragen</ErrorMessage>
    </Validation>
   </DataNodeDef>
  </DataDefinition>
  <UIContribution>
   <GuideArea>
-   <ContentLink title="Text bearbeiten" title-en_US="edit text" targetId="Freetext" dataNode=""></ContentLink>
-   <ActionLink title="Sprache Wechseln" title-en_US="change language" inputAreaGroupID="">
+   <ContentLink title="Edit text" title-de_DE="Text bearbeiten" targetId="Freetext" dataNode=""></ContentLink>
+   <ActionLink title="Change language" title-de_DE="Sprache Wechseln" inputAreaGroupID="">
     <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
     <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
+	case 'de_DE':
+	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
+	break;
+	default:
+	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+}]]></Script>
+   </ActionLink>
+<!--    <ActionLink title="Change language" inputAreaGroupID="">
+    <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
+    <Script><![CDATA[
+    switch ($Metadata.DocumentLanguage.toString()) {
 	case 'en_US':
 	$context.setDataValue($Metadata.DocumentLanguage, '')
 	break;
 	default:
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
-   </ActionLink>
-   <ActionLink title="change language" inputAreaGroupID="">
-    <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
-    <Script><![CDATA[
-    switch ($Metadata.DocumentLanguage.toString()) {
-	case '':
-	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
-	break;
-	default:
-	$context.setDataValue($Metadata.DocumentLanguage, '')
-}
-    ]]></Script>
-   </ActionLink>
-  </GuideArea>
+   </ActionLink> -->
+   </GuideArea>
   <InputArea>
-   <Field title="Betreff Bearbeiten" title-en_US="enter subject" dataNode="$Zeige_Betreff"></Field>
-   <Group title="Subject">
-    <VisibleIf><![CDATA[$Zeige_Betreff.valueOff()]]></VisibleIf>
-    <Field title="Subject line #1" dataNode="$Subject1"></Field>
-    <Field title="Betreff Zeile 2" title-en_US="subject #2" dataNode="$Subject2"></Field>
-    <Field title="Betreff Zeile 3" title-en_US="subject #3" dataNode="$Subject3"></Field>
+   <Field title="Enter subject" title-de_DE="Betreff bearbeiten" dataNode="$Show_Subject"></Field>
+   <Group title="Subject" title-de_DE="Betreff">
+    <VisibleIf><![CDATA[$Show_Subject.valueOff()]]></VisibleIf>
+    <Field title="Subject #1" title-de_DE="Betreff Zeile 1" dataNode="$Subject1"></Field>
+    <Field title="Subject #2" title-de_DE="Betreff Zeile 2" dataNode="$Subject2"></Field>
+    <Field title="Subject #3" title-de_DE="Betreff Zeile 3" dataNode="$Subject3"></Field>
    </Group>
   </InputArea>
  </UIContribution>

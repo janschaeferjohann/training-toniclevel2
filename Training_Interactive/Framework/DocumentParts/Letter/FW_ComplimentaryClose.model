@@ -43,7 +43,7 @@ else {
    <ModificationRight role="_EVERYONE_" operations="EDIT"></ModificationRight>
   </Denied>
  </ModificationRights>
- <Container id="Grussformel">
+ <Container id="Salutation">
   <Style>
    <RegionRef>Body</RegionRef>
   </Style>

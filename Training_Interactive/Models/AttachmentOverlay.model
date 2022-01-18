@@ -7,23 +7,23 @@
  </DataDefinition>
  <UIContribution>
   <GuideArea>
-   <ContentLink title="Anlagen" title-en_US="attachments" dataNode="$freetext_data.Attachment.Show_Attachment"></ContentLink>
-   <ContentLink title="Anlagen auswählen" title-en_US="choose attachments" targetId="" dataNode="$freetext_data.Attachment.Attachment_Explanation">
+   <ContentLink title="Attachments" title-de_DE="Anlagen" dataNode="$freetext_data.Attachment.Show_Attachment"></ContentLink>
+   <ContentLink title="Choose attachments" title-de_DE="Anlagen auswählen" targetId="" dataNode="$freetext_data.Attachment.Attachment_Explanation">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </ContentLink>
   </GuideArea>
   <InputArea>
-   <Field title="Anlagen anzeigen" title-en_US="Show Attachments" dataNode="$freetext_data.Attachment.Show_Attachment"></Field>
-   <Field title="Explanations Electricity" title-en_US="Explanation Energy" dataNode="$freetext_data.Attachment.Attachment_Explanation">
+   <Field title="Show Attachments" title-de_DE="Anlagen anzeigen" dataNode="$freetext_data.Attachment.Show_Attachment"></Field>
+   <Field title="Explanation Energy" title-de_DE="Erläuterungen Elektrizität" dataNode="$freetext_data.Attachment.Attachment_Explanation">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
-   <Field title="Energiemix Anlage" title-en_US="Energy mix for the Easy Eco" dataNode="$freetext_data.Attachment.Attachment_EnergyMix">
+   <Field title="Energy mix for the Easy Eco" title-de_DE="Energiemix Anlage" dataNode="$freetext_data.Attachment.Attachment_EnergyMix">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
-   <Field title="GVV Anlage" title-en_US="BSO - Basic Supply Ordinance" dataNode="$freetext_data.Attachment.Attachment_GVV">
+   <Field title="BSO - Basic Supply Ordinance" title-de_DE="GVV Anlage" dataNode="$freetext_data.Attachment.Attachment_GVV">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
-   <Field title="Priceliste Anlage" title-en_US="Electricity tariff price sheet" dataNode="$freetext_data.Attachment.Attachment_Pricelist">
+   <Field title="Electricity tariff price sheet" title-de_DE="Priceliste Anlage" dataNode="$freetext_data.Attachment.Attachment_Pricelist">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
   </InputArea>

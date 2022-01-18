@@ -59,25 +59,25 @@
          </Format>
          <Script>var result = '';
 var position = $CurrentUser.position;
-if(position.toString() == 'Kundenservice'){
-	if($document.Metadata.DocumentLanguage.toString() == "en_US"){
-		result = 'Customer Support';
+if(position.toString() == 'Customer Support'){
+	if($document.Metadata.DocumentLanguage.toString() == "de_DE"){
+		result = 'Kundenservice';
 	}
 	else{
 		result = $CurrentUser.position;
 	}
 }
-if(position.toString() == 'contract center'){
-	if($document.Metadata.DocumentLanguage.toString() == "en_US"){
-		result = 'Contract Center';
+if(position.toString() == 'Contract center'){
+	if($document.Metadata.DocumentLanguage.toString() == "de_DE"){
+		result = 'Vertragscenter';
 	}
 	else{
 		result = $CurrentUser.position;
 	}
 }
-if(position.toString() == 'Leitung'){
-	if($document.Metadata.DocumentLanguage.toString() == "en_US"){
-		result = 'Management';
+if(position.toString() == 'Management'){
+	if($document.Metadata.DocumentLanguage.toString() == "de_DE"){
+		result = 'Leitung';
 	}
 	else{
 		result = $CurrentUser.position;
@@ -199,7 +199,9 @@ result;</Script>
                      dialog-field=""
                      label=""
                      operator="ANY"
-                     validation-type="ANY_VALUE"/>
+                     validation-type="ANY_VALUE">
+            <Values/>
+         </Validation>
          <Format>
             <Input/>
             <Output/>

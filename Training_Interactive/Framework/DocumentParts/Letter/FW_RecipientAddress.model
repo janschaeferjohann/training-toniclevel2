@@ -4,23 +4,23 @@
    <Description></Description>
    <Script></Script>
   </ParamDef>
-  <DataNodeDef name="Zeige_Empfaenger" data-type="boolean">
+  <DataNodeDef name="Show_Recipient" data-type="boolean">
    <Description></Description>
    <Input true-value="true" false-value="false"></Input>
    <Output true-value="true" false-value="false"></Output>
    <Script></Script>
-   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Zeige Empfänger" label-en_US="show recipient">
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Show recipient" label-en_US="Zeige Empfänger">
     <Values></Values>
-    <ErrorMessage translation-en_US="no valid value">Kein gültiger Wert</ErrorMessage>
+    <ErrorMessage translation-de_DE="Kein gültiger Wert">no valid value</ErrorMessage>
    </Validation>
   </DataNodeDef>
  </DataDefinition>
  <UIContribution>
   <GuideArea></GuideArea>
   <InputArea>
-   <Field title="Empfänger bearbeiten" title-en_US="edit recipient" dataNode="$Zeige_Empfaenger"></Field>
-   <Group title="Empfänger" title-en_US="Recipient">
-    <VisibleIf><![CDATA[$Zeige_Empfaenger.valueOff()]]></VisibleIf>
+   <Field title="Edit recipient" title-de_DE="Empfänger bearbeiten" dataNode="$Show_Recipient"></Field>
+   <Group title="Recipient" title-de_DE="Empfänger">
+    <VisibleIf><![CDATA[$Show_Recipient.valueOff()]]></VisibleIf>
     <Field dataNode="$Recipient.Partner.CompanyName1"></Field>
     <Field dataNode="$Recipient.Partner.Firstname"></Field>
     <Field dataNode="$Recipient.Partner.Lastname"></Field>

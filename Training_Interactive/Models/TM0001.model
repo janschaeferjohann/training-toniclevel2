@@ -9,15 +9,15 @@
  <Par>
   <Translations>
    <Translation>
-    <Language language="en" country="US" variant=""></Language>
+    <Language language="de" country="DE" variant=""></Language>
     <Span>
-     <Text>Our new environmental campaign:</Text>
+     <Text>Unsere neue Umwelt-Kampagne:</Text>
     </Span>
    </Translation>
   </Translations>
   <Style parentName="TextSpaceBeforeAndAfter_12pt"></Style>
   <Span>
-   <Text>Unsere neue Umwelt-Kampagne:</Text>
+   <Text>Our new environmental campaign:</Text>
   </Span>
  </Par>
  <Par>
