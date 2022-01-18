@@ -219,7 +219,7 @@
 								</contract>
 								<contract>
 									<rate>Easy fresh Water</rate>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<contractsId>GK13-2005-01.99-KL</contractsId>
 									<begin_date>01.01.2005</begin_date>
 									<termination_date>31.08.2020</termination_date>
@@ -260,30 +260,30 @@
 							<item>
 								<name>Electricity</name>
 								<rate>Easy Eco-Electricity</rate>
-								<usage>1372,00</usage>
+								<usage>1043,00</usage>
 								<unit>kWh</unit>
 								<periodfrom>01.01.2020</periodfrom>
 								<periodtilldate>30.06.2020</periodtilldate>
 								<countfrom>13979.00</countfrom>
 								<counttilldate>14379.00</counttilldate>
-								<netamount>381,89854</netamount>
-								<salestax>72,56072</salestax>
-								<presum>454,45926</presum>
+								<netamount>343,56784</netamount>
+								<salestax>69,60725</salestax>
+								<presum>413,17509</presum>
 								<tax>19</tax>
 								<tax_unit>%</tax_unit>
 								<basic_price>
 									<unit>Year</unit>
-									<netamount>95,80</netamount>
-									<presum>114,00</presum>
+									<netamount>78,50</netamount>
+									<presum>104,00</presum>
 								</basic_price>
 								<work_price>
-									<price>35,2700</price>
+									<price>33,1800</price>
 									<price_unit>Ct/kWh</price_unit>
-									<netamount>28,5787</netamount>
+									<netamount>26,7875</netamount>
 								</work_price>
 							</item>
 							<item>
-								<name>Water</name>
+								<name>Fresh Water</name>
 								<rate>Easy fresh Water</rate>
 								<usage>87,00</usage>
 								<unit>m3</unit>
@@ -354,7 +354,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<netamount>1116,00</netamount>
 									<salestax>84,00</salestax>
 									<presum>1200,00</presum>
@@ -383,7 +383,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<netamount>267,37</netamount>
 									<salestax>20,13</salestax>
 									<presum>287,50</presum>
@@ -407,9 +407,9 @@
 							</nextanticipated_payments>
 						</anticipated_payments>
 						<billsum>
-							<netamount>14128,03</netamount>
-							<salestax>2151,05</salestax>
-							<sum>16279,08</sum>
+							<netamount>151,3</netamount>
+							<salestax>1011,87</salestax>
+							<sum>1163,17</sum>
 							<anticipated_paymentsum>13800,00</anticipated_paymentsum>
 							<endsum>2479,08</endsum>
 							<sumArt>Billing</sumArt>

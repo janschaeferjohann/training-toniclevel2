@@ -192,7 +192,7 @@
 								</contract>
 								<contract>
 									<rate>Easy fresh Water</rate>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<contractsId>2012-03.22</contractsId>
 									<begin_date>01.03.2012</begin_date>
 									<termination_date>31.08.2020</termination_date>
@@ -266,7 +266,7 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Water</name>
+								<name>Fresh Water</name>
 								<usage>87,00</usage>
 								<unit>m3</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -344,7 +344,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<netamount>120,90</netamount>
 									<salestax>9,10</salestax>
 									<presum>130,00</presum>
@@ -381,7 +381,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Water</name>
+									<name>Fresh Water</name>
 									<netamount>9,35</netamount>
 									<salestax>0,65</salestax>
 									<presum>10,00</presum>
