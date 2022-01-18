@@ -5,10 +5,10 @@
          <Node can-overwrite="true"
                data-type="TEXT"
                hierarchical="FLAT"
-               meta-restype="1"
+               meta-restype="5"
                meta-restype-docinst="0"
                multiple="false"
-               name="auswählbar"
+               name="selectable"
                searchable="false">
             <Settings>
                <Validation allow-empty-value="true"
@@ -18,7 +18,7 @@
                            validation-type="LIST">
                   <Values>
                      <Value content="Yes" valId="1"/>
-                     <Value content="Nein" valId="2"/>
+                     <Value content="No" valId="2"/>
                   </Values>
                </Validation>
                <Format>
@@ -35,7 +35,7 @@
          <DataModelResourceName name="~\Metadata.metadataembedded"/>
          <NodeInst name="Metadata" value="">
             <Children>
-               <NodeInst name="auswählbar" value=""/>
+               <NodeInst name="selectable" value=""/>
             </Children>
          </NodeInst>
       </SerializedDataProvider>
