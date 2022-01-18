@@ -41,7 +41,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -401,7 +401,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -1238,7 +1238,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -1635,7 +1635,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -2353,7 +2353,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -2462,7 +2462,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -2708,7 +2708,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -3068,7 +3068,7 @@
             <Value><![CDATA[string:HB]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -3179,7 +3179,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -3888,7 +3888,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,600]]></Value>
@@ -3969,7 +3969,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:400]]></Value>
@@ -5488,7 +5488,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waster water]]></Value>
+           <Value><![CDATA[string:Waste water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -6017,7 +6017,7 @@
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
+            <Value><![CDATA[string:Business customer support]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
             <Value><![CDATA[string:59]]></Value>
@@ -6046,7 +6046,7 @@
              <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
+             <Value><![CDATA[string:Business customer support Energy]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -6102,7 +6102,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -6175,7 +6175,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Clinic East]]></Value>
@@ -6378,7 +6378,7 @@
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
-            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
+            <Value><![CDATA[string:Business customer support]]></Value>
            </DataNode>
            <DataNode name="HouseNo">
             <Value><![CDATA[string:59]]></Value>
@@ -6407,7 +6407,7 @@
              <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
+             <Value><![CDATA[string:Business customer support Energy]]></Value>
             </DataNode>
             <DataNode name="Line">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -6463,7 +6463,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -6536,7 +6536,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Clinic East]]></Value>
@@ -7408,7 +7408,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:160]]></Value>
@@ -7510,7 +7510,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:12.92]]></Value>
@@ -9633,7 +9633,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waster water]]></Value>
+           <Value><![CDATA[string:Waste water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -12561,7 +12561,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -12881,7 +12881,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:]]></Value>
@@ -14143,7 +14143,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:1,600]]></Value>
@@ -14224,7 +14224,7 @@
           <DataNode name="amount">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="name" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Waster water]]></Value>
+            <Value><![CDATA[string:Waste water]]></Value>
            </DataNode>
            <DataNode name="netamount" valueChanged="fromDataSource">
             <Value><![CDATA[number:400]]></Value>
@@ -14437,7 +14437,7 @@
            <Value><![CDATA[string:Sofern aus umsatzsteuerrechtlichen Gründen eine schriftliche Abschlagsanforderung benötigt wird,]]></Value>
           </DataNode>
           <DataNode name="line" valueChanged="fromDataSource">
-           <Value><![CDATA[string:setzen Sie sich bitte mit unserem Geschäftskundenservice in Verbindung.]]></Value>
+           <Value><![CDATA[string:setzen Sie sich bitte mit unserem Business customer support in Verbindung.]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="Discounttext">
@@ -14474,7 +14474,7 @@
           <DataNode name="Textblock">
            <Value><![CDATA[string:]]></Value>
            <DataNode name="Abschlagszeile">
-            <Value><![CDATA[string:setzen Sie sich bitte mit unserem Geschäftskundenservice in Verbindung.]]></Value>
+            <Value><![CDATA[string:setzen Sie sich bitte mit unserem Business customer support in Verbindung.]]></Value>
            </DataNode>
           </DataNode>
          </DataNode>
@@ -15882,7 +15882,7 @@
          <DataNode name="item">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="name" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Waster water]]></Value>
+           <Value><![CDATA[string:Waste water]]></Value>
           </DataNode>
           <DataNode name="usage" valueChanged="fromDataSource">
            <Value><![CDATA[number:87]]></Value>
@@ -18473,7 +18473,7 @@
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
+            <Value><![CDATA[string:Business customer support]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
             <Value><![CDATA[string:59]]></Value>
@@ -18502,7 +18502,7 @@
              <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
+             <Value><![CDATA[string:Business customer support Energy]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -18558,7 +18558,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -18834,7 +18834,7 @@
             <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
-            <Value><![CDATA[string:Geschäftskundenservice]]></Value>
+            <Value><![CDATA[string:Business customer support]]></Value>
            </DataNode>
            <DataNode name="HouseNo">
             <Value><![CDATA[string:59]]></Value>
@@ -18863,7 +18863,7 @@
              <Value><![CDATA[string:Gina Guttman]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Geschäftskundenservice Energy]]></Value>
+             <Value><![CDATA[string:Business customer support Energy]]></Value>
             </DataNode>
             <DataNode name="Line">
              <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
@@ -18919,7 +18919,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:Dr.]]></Value>
