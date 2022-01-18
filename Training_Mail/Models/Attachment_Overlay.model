@@ -7,10 +7,10 @@
  </DataDefinition>
  <UIContribution>
   <GuideArea>
-   <ContentLink title="Anlagen" targetId="" dataNode="$Mail.Attachment.Show_Attachment"></ContentLink>
+   <ContentLink title="Attachments" title-de_DE="Anlagen" targetId="" dataNode="$Mail.Attachment.Show_Attachment"></ContentLink>
   </GuideArea>
   <InputArea>
-   <Field title="Anlagen anzeigen" dataNode="$Mail.Attachment.Show_Attachment"></Field>
+   <Field title="Show Attachments" title-de_DE="Anlagen anzeigen" dataNode="$Mail.Attachment.Show_Attachment"></Field>
   </InputArea>
  </UIContribution>
  <ModificationRights>

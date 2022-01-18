@@ -7,13 +7,13 @@
  </DataDefinition>
  <UIContribution>
   <GuideArea>
-   <ContentLink title="Anlagen auswählen" title-en_GB="choose attachments" targetId="" dataNode="$Mail.Attachment.Attachment_AVB"></ContentLink>
+   <ContentLink title="choose attachments" title-de_DE="Anlagen auswählen" targetId="" dataNode="$Mail.Attachment.Attachment_AVB"></ContentLink>
   </GuideArea>
   <InputArea>
-   <Field title="AVB - Allgemeine Versorgungsbedingungen" title-en_GB="GCS - General Conditions of Supply" dataNode="$Mail.Attachment.Attachment_AVB"></Field>
-   <Field title="Energiemix Anlage" title-en_GB="Energy mix for the &quot;Easy Eco" dataNode="$Mail.Attachment.Attachment_EnergyMix"></Field>
-   <Field title="GVV Anlage" title-en_GB="BSO - Basic Supply Ordinance" dataNode="$Mail.Attachment.Attachment_GVV"></Field>
-   <Field title="Priceliste Anlage" title-en_GB="Electricity tariff price sheet" dataNode="$Mail.Attachment.Attachment_Pricelist"></Field>
+   <Field title="GCS - General Conditions of Supply" title-de_DE="AVB - Allgemeine Versorgungsbedingungen" dataNode="$Mail.Attachment.Attachment_AVB"></Field>
+   <Field title="Energy mix for the &quot;Easy Eco" title-de_DE="Energiemix Anlage" dataNode="$Mail.Attachment.Attachment_EnergyMix"></Field>
+   <Field title="BSO - Basic Supply Ordinance" title-de_DE="GVV Anlage" dataNode="$Mail.Attachment.Attachment_GVV"></Field>
+   <Field title="Electricity tariff price sheet" title-de_DE="Priceliste Anlage" dataNode="$Mail.Attachment.Attachment_Pricelist"></Field>
   </InputArea>
  </UIContribution>
 </DocumentPart>

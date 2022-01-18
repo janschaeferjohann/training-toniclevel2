@@ -13,7 +13,7 @@
    <ContentLink title="Text bearbeiten" targetId="Mailtext" dataNode=""></ContentLink>
   </GuideArea>
   <InputArea>
-   <Group title="Empfänger" title-en_GB="reciever">
+   <Group title="reciever" title-de_DE="Empfänger">
     <Field dataNode="$Mail.Recipient"></Field>
     <Field dataNode="$Mail.Customer.Salutation"></Field>
     <Field dataNode="$Mail.Customer.Title"></Field>

@@ -9,8 +9,8 @@
                          uuid="7596a362-ca4a-4b08-a4cd-2b2f3aeb2e64"
                          value="-_everyone_"/>
                <NodeInst name="ModelRoles"
-                         uuid="57e01302-d248-4d6f-bb52-25ec6dc14403"
-                         value="MText.Leitung"/>
+                         uuid="bc3ad198-9226-43af-9d82-3f292708441a"
+                         value="MText.Management"/>
             </Children>
          </NodeInst>
       </SerializedDataProvider>

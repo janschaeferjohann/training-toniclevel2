@@ -3,19 +3,19 @@
  <Par>
   <Style parentName="TextNormal"></Style>
   <Span>
-   <Text>Sonderkondition für deinen Vertrag:</Text>
+   <Text>Special condition for your contract:</Text>
   </Span>
  </Par>
  <Par>
   <Style parentName="TextNormal"></Style>
   <Span>
-   <Text>Halbe Leistung und doppelte Kosten!</Text>
+   <Text>Half the power and twice the cost!</Text>
   </Span>
  </Par>
  <Par>
   <Style parentName="TextSpaceAfter"></Style>
   <Span>
-   <Text>Reibungshitze erzeugt auch Wärme!</Text>
+   <Text>Frictional heat also generates heat!</Text>
   </Span>
  </Par>
  <Par>

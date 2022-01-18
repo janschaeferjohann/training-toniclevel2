@@ -9,11 +9,11 @@
                          uuid="cfcf1a8c-c14c-4e60-8283-b4970b8dc580"
                          value="-_everyone_"/>
                <NodeInst name="ModelRoles"
-                         uuid="92ef9f14-5f38-4661-8e72-f7a21d5a58a3"
-                         value="MText.Kundenservice"/>
+                         uuid="5299b73d-2721-40a7-89c3-b1edcf92d7a8"
+                         value="MText.Management"/>
                <NodeInst name="ModelRoles"
-                         uuid="fe39a8ed-b5b7-4b56-a042-b5cfe80d091b"
-                         value="MText.Leitung"/>
+                         uuid="1d878d26-5ce9-46c6-a87c-f2b1ceb43216"
+                         value="MText.Customer support"/>
             </Children>
          </NodeInst>
       </SerializedDataProvider>
