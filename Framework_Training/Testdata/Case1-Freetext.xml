@@ -14,7 +14,7 @@
 				<Partner>
 					<partnerid>99887766</partnerid>
 					<userid>rentlinger</userid>
-					<salutation>Frau</salutation>
+					<salutation>Ms.</salutation>
 					<title></title>
 					<firstname>Karen</firstname>
 					<lastname>Rentlinger</lastname>
@@ -42,7 +42,7 @@
 				<user>
 					<partnerid>99887766</partnerid>
 					<userid>rentlinger</userid>
-					<salutation>Frau</salutation>
+					<salutation>Ms.</salutation>
 					<title></title>
 					<firstname>Karen</firstname>
 					<lastname>Rentlinger</lastname>
@@ -73,7 +73,7 @@
 				<Partner>
 					<partnerid>202101040815</partnerid>
 					<userid></userid>
-					<salutation>Herr</salutation>
+					<salutation>Mr.</salutation>
 					<title></title>
 					<firstname>Arjak</firstname>
 					<lastname>Steinmetz</lastname>
