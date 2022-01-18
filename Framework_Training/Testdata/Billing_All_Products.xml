@@ -281,7 +281,7 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Waster water</name>
+								<name>Waste water</name>
 								<rate>Easy fresh Water</rate>
 								<usage>87,00</usage>
 								<unit>m3</unit>
@@ -344,7 +344,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Waster water</name>
+									<name>Waste water</name>
 									<netamount>160,00</netamount>
 									<salestax>0,00</salestax>
 									<presum>160,00</presum>
@@ -381,7 +381,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Waster water</name>
+									<name>Waste water</name>
 									<netamount>12,92</netamount>
 									<salestax>0,00</salestax>
 									<presum>12,92</presum>

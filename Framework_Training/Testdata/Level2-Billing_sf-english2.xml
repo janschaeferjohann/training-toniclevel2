@@ -19,7 +19,7 @@
 					<firstname>Gina</firstname>
 					<lastname>Guttman</lastname>
 					<companyname1>sam.energy</companyname1>
-					<companyname2>Geschäftskundenservice</companyname2>
+					<companyname2>Business customer support</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
 					<Street>Karl-Marx-Place</Street>
@@ -29,7 +29,7 @@
 					<address>
 						<line>sam.energy</line>
 						<line>Gina Guttman</line>
-						<line>Geschäftskundenservice Energy</line>
+						<line>Business customer support Energy</line>
 						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
@@ -50,7 +50,7 @@
 					<firstname>Gina</firstname>
 					<lastname>Guttman</lastname>
 					<companyname1>sam.energy</companyname1>
-					<companyname2>Geschäftskundenservice</companyname2>
+					<companyname2>Business customer support</companyname2>
 					<houseno>59</houseno>
 					<addresssupplement></addresssupplement>
 					<Street>Karl-Marx-Place</Street>
@@ -60,7 +60,7 @@
 					<address>
 						<line>sam.energy</line>
 						<line>Gina Guttman</line>
-						<line>Geschäftskundenservice Energy</line>
+						<line>Business customer support Energy</line>
 						<line>Karl-Marx-Place 59</line>
 						<line>79100 Freiburg</line>
 					</address>
@@ -308,7 +308,7 @@
 								</work_price>
 							</item>
 							<item>
-								<name>Waster water</name>
+								<name>Waste water</name>
 								<usage>87,00</usage>
 								<unit>m3</unit>
 								<periodfrom>01.07.2019</periodfrom>
@@ -362,7 +362,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Waster water</name>
+									<name>Waste water</name>
 									<netamount>1600,00</netamount>
 									<salestax>0,00</salestax>
 									<presum>1600,00</presum>
@@ -391,7 +391,7 @@
 									<tax_unit>%</tax_unit>
 								</amount>
 								<amount>
-									<name>Waster water</name>
+									<name>Waste water</name>
 									<netamount>400,00</netamount>
 									<salestax>0,00</salestax>
 									<presum>400,00</presum>
@@ -412,7 +412,7 @@
 							<sum>16279,08</sum>
 							<anticipated_paymentsum>13800,00</anticipated_paymentsum>
 							<endsum>2479,08</endsum>
-							<sumArt>Rechnung</sumArt>
+							<sumArt>Billing</sumArt>
 						</billsum>
 						<billposition>
 							<positionid>30062020001</positionid>
