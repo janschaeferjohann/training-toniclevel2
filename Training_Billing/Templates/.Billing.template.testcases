@@ -104,7 +104,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -132,7 +132,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -229,7 +229,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -316,7 +316,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -464,7 +464,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -494,7 +494,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -591,7 +591,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -678,7 +678,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -795,7 +795,7 @@
           <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasterwater">
+          <DataNode name="flag_wastewater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_heat">
@@ -924,7 +924,7 @@
              <SectionPartInstance partIndex="10">
               <Data>
                <DataNode name="ComplimentaryClose">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Signature">
                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_HB.png]]></Value>
@@ -998,7 +998,7 @@
           <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasterwater">
+          <DataNode name="flag_wastewater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_heat">
@@ -1301,7 +1301,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -1329,7 +1329,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -1426,7 +1426,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -1522,7 +1522,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Aguilar]]></Value>
+           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Aguilar, Marla]]></Value>
@@ -1698,7 +1698,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -1728,7 +1728,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -1825,7 +1825,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -1921,7 +1921,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Aguilar]]></Value>
+           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Aguilar, Marla]]></Value>
@@ -2169,7 +2169,7 @@
               <SectionPartInstance partIndex="6">
                <Data>
                 <DataNode name="ComplimentaryClose">
-                 <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                 <Value><![CDATA[string:Kind regards]]></Value>
                 </DataNode>
                 <DataNode name="Signature">
                  <Value><![CDATA[string:mtx:Graphics/signature_HB.png]]></Value>
@@ -2272,7 +2272,7 @@
              <SectionPartInstance partIndex="10">
               <Data>
                <DataNode name="ComplimentaryClose">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Signature">
                 <Value><![CDATA[string:mtx:Graphics/signature_HB.png]]></Value>
@@ -2416,7 +2416,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -2444,7 +2444,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -2541,7 +2541,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Fox, Peter]]></Value>
@@ -2628,7 +2628,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -2771,7 +2771,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -2799,7 +2799,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -2896,7 +2896,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Frau Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Mercurial, Maria]]></Value>
@@ -2983,7 +2983,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -3131,7 +3131,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -3161,7 +3161,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -3258,7 +3258,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Fox, Peter]]></Value>
@@ -3345,7 +3345,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -3570,7 +3570,7 @@
              <SectionPartInstance partIndex="6">
               <Data>
                <DataNode name="Grussformel">
-                <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                <Value><![CDATA[string:Kind regards]]></Value>
                </DataNode>
                <DataNode name="Unterschrift">
                 <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
@@ -6114,7 +6114,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+            <Value><![CDATA[string:Clinic East]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -6178,7 +6178,7 @@
            <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+           <Value><![CDATA[string:Clinic East]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -6475,7 +6475,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
-            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+            <Value><![CDATA[string:Clinic East]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
             <Value><![CDATA[string:]]></Value>
@@ -6539,7 +6539,7 @@
            <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+           <Value><![CDATA[string:Clinic East]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -6735,7 +6735,7 @@
      <Data>
       <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
       <DataNode name="Subject1">
-       <Value><![CDATA[string:Deine Verbrauchsabrechnung]]></Value>
+       <Value><![CDATA[string:Your consumption billing]]></Value>
       </DataNode>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
@@ -12004,7 +12004,7 @@
           <DataNode name="flag_water">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_wasterwater">
+          <DataNode name="flag_wastewater">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
           <DataNode name="flag_heat">
@@ -12543,7 +12543,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -12628,7 +12628,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Petersen]]></Value>
+           <Value><![CDATA[string:Dear Mr.  Petersen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Petersen, Jan]]></Value>
@@ -12703,7 +12703,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -12863,7 +12863,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -12948,7 +12948,7 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Petersen]]></Value>
+           <Value><![CDATA[string:Dear Mr.  Petersen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:Petersen, Jan]]></Value>
@@ -13023,7 +13023,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -13112,7 +13112,7 @@
      <Data>
       <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
       <DataNode name="Subject1">
-       <Value><![CDATA[string:Deine Verbrauchsabrechnung]]></Value>
+       <Value><![CDATA[string:Your consumption billing]]></Value>
       </DataNode>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
@@ -13148,7 +13148,7 @@
                <DataNode name="flag_water">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_wasterwater">
+               <DataNode name="flag_wastewater">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
                <DataNode name="flag_heat">
@@ -13412,7 +13412,7 @@
               <SectionPartInstance partIndex="15">
                <Data>
                 <DataNode name="ComplimentaryClose">
-                 <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                 <Value><![CDATA[string:Kind regards]]></Value>
                 </DataNode>
                 <DataNode name="Signature">
                  <Value><![CDATA[string:mtx:Graphics/signature_reutlinger.png]]></Value>
@@ -13442,7 +13442,7 @@
             <DocumentPartInstance partIndex="0">
              <ContainerPartInstance partIndex="0">
               <Data>
-               <DataNode name="Sparte">
+               <DataNode name="Division">
                 <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
                <DataNode name="snapExample">
@@ -13453,7 +13453,7 @@
               <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0">
                 <Data>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Electricity" name="lines"></DataNodeRef>
                 </Data>
@@ -13625,7 +13625,7 @@
                <ContainerPartInstance partIndex="1">
                 <Data>
                  <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0"></TablePartInstance>
@@ -13718,7 +13718,7 @@
             <DocumentPartInstance partIndex="0">
              <ContainerPartInstance partIndex="0">
               <Data>
-               <DataNode name="Sparte">
+               <DataNode name="Division">
                 <Value><![CDATA[string:Heat]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
@@ -13726,7 +13726,7 @@
               <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0">
                 <Data>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Heat" name="lines"></DataNodeRef>
                 </Data>
@@ -13787,7 +13787,7 @@
                <ContainerPartInstance partIndex="1">
                 <Data>
                  <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
@@ -13880,7 +13880,7 @@
             <DocumentPartInstance partIndex="0">
              <ContainerPartInstance partIndex="0">
               <Data>
-               <DataNode name="Sparte">
+               <DataNode name="Division">
                 <Value><![CDATA[string:Water]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
@@ -13888,7 +13888,7 @@
               <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0">
                 <Data>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Water" name="lines"></DataNodeRef>
                 </Data>
@@ -13972,7 +13972,7 @@
                <ContainerPartInstance partIndex="1">
                 <Data>
                  <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0" visible="false"></TablePartInstance>
@@ -18028,7 +18028,7 @@
           <DataNode name="flag_water">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
-          <DataNode name="flag_wasterwater">
+          <DataNode name="flag_wastewater">
            <Value><![CDATA[string:1]]></Value>
           </DataNode>
           <DataNode name="flag_heat">
@@ -18540,7 +18540,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -18570,7 +18570,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+            <Value><![CDATA[string:Clinic East]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -18631,10 +18631,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+           <Value><![CDATA[string:Clinic East]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -18706,7 +18706,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -18901,7 +18901,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -18931,7 +18931,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
-            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+            <Value><![CDATA[string:Clinic East]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
             <Value><![CDATA[string:]]></Value>
@@ -18992,10 +18992,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrter Herr Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
+           <Value><![CDATA[string:Clinic East]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -19067,7 +19067,7 @@
            <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Sehr geehrte Damen und Herren]]></Value>
+           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
            <Value><![CDATA[string:]]></Value>
@@ -19191,7 +19191,7 @@
      <Data>
       <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
       <DataNode name="Subject1">
-       <Value><![CDATA[string:Deine Verbrauchsabrechnung]]></Value>
+       <Value><![CDATA[string:Your consumption billing]]></Value>
       </DataNode>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
@@ -19227,7 +19227,7 @@
                <DataNode name="flag_water">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
-               <DataNode name="flag_wasterwater">
+               <DataNode name="flag_wastewater">
                 <Value><![CDATA[string:0]]></Value>
                </DataNode>
                <DataNode name="flag_heat">
@@ -19458,7 +19458,7 @@
               <SectionPartInstance partIndex="15">
                <Data>
                 <DataNode name="ComplimentaryClose">
-                 <Value><![CDATA[string:Mit freundlichen Grüßen]]></Value>
+                 <Value><![CDATA[string:Kind regards]]></Value>
                 </DataNode>
                 <DataNode name="Signature">
                  <Value><![CDATA[string:mtx:Graphics/signature_guttman.png]]></Value>
@@ -19488,7 +19488,7 @@
             <DocumentPartInstance partIndex="0">
              <ContainerPartInstance partIndex="0">
               <Data>
-               <DataNode name="Sparte">
+               <DataNode name="Division">
                 <Value><![CDATA[string:Electricity]]></Value>
                </DataNode>
                <DataNode name="snapExample">
@@ -19499,7 +19499,7 @@
               <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0">
                 <Data>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Electricity" name="lines"></DataNodeRef>
                 </Data>
@@ -19659,7 +19659,7 @@
                <ContainerPartInstance partIndex="1">
                 <Data>
                  <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0"></TablePartInstance>
@@ -19753,7 +19753,7 @@
             <DocumentPartInstance partIndex="0">
              <ContainerPartInstance partIndex="0">
               <Data>
-               <DataNode name="Sparte">
+               <DataNode name="Division">
                 <Value><![CDATA[string:Water]]></Value>
                </DataNode>
                <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
@@ -19761,7 +19761,7 @@
               <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0">
                 <Data>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.items" name="items"></DataNodeRef>
                  <DataNodeRef ref="$billing_data.billing.billdata.DivisionLine.Water" name="lines"></DataNodeRef>
                 </Data>
@@ -19833,7 +19833,7 @@
                <ContainerPartInstance partIndex="1">
                 <Data>
                  <DataNodeRef ref="$billing_data" name="billing_data"></DataNodeRef>
-                 <DataNodeRef ref="$Sparte" name="Sparte"></DataNodeRef>
+                 <DataNodeRef ref="$Division" name="Division"></DataNodeRef>
                 </Data>
                 <ContainerPartInstance partIndex="0">
                  <TablePartInstance partIndex="0" visible="false"></TablePartInstance>

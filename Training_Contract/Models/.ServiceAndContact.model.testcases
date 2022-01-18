@@ -52,7 +52,7 @@
           <DataNode name="flag_water">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
-          <DataNode name="flag_wasterwater">
+          <DataNode name="flag_wastewater">
            <Value><![CDATA[string:0]]></Value>
           </DataNode>
           <DataNode name="flag_heat">

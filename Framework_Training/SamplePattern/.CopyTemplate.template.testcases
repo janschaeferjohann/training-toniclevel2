@@ -1037,7 +1037,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -1434,7 +1434,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -2179,7 +2179,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -2534,7 +2534,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
@@ -2894,7 +2894,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Role">
-            <Value><![CDATA[string:rückwärts]]></Value>
+            <Value><![CDATA[string:backwards]]></Value>
            </DataNode>
            <DataNode name="Email">
             <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
