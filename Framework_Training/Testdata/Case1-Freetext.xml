@@ -75,23 +75,23 @@
 					<userid></userid>
 					<salutation>Mr.</salutation>
 					<title></title>
-					<firstname>Arjak</firstname>
-					<lastname>Steinmetz</lastname>
+					<firstname>John</firstname>
+					<lastname>Doe</lastname>
 					<companyname1></companyname1>
 					<companyname2></companyname2>
-					<houseno>1a</houseno>
+					<houseno>21</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Am Wolfsgehege</Street>
-					<zip>08015</zip>
-					<city>Wolfshausen</city>
+					<Street>Baker Street</Street>
+					<zip>NW1 5RZ</zip>
+					<city>London</city>
 					<country></country>
 					<address></address>
 					<role>Customer</role>
-					<email>Steinmetz.Arjak@email.web</email>
+					<email>Doe.John@email.web</email>
 					<phone>+49 123 546789</phone>
 					<fax></fax>
 					<bank_account>
-						<owner>Arjak Steinmetz</owner>
+						<owner>John Doe</owner>
 						<bank>Sam Bank</bank>
 						<bic>SAMBA000001</bic>
 						<iban>DE79110000001211222299</iban>
@@ -121,7 +121,7 @@
 				</FAX>
 				<EMAIL>
 					<sender>k.rentlinger@sam.web</sender>
-					<recipient>Steinmetz.Arjak@email.web</recipient>
+					<recipient>Doe.John@email.web</recipient>
 				</EMAIL>
 			</outputcontrol>
 			<outputcontrol>
@@ -144,7 +144,7 @@
 				</FAX>
 				<EMAIL>
 					<sender>k.rentlinger@sam.web</sender>
-					<recipient>Steinmetz.Arjak@email.web</recipient>
+					<recipient>Doe.John@email.web</recipient>
 				</EMAIL>
 			</outputcontrol>
 			<casedata>
@@ -165,10 +165,10 @@
 								<counter>DE991576948356412594537854239542015</counter>
 								<appartment>Main entrance</appartment>
 								<addresssupplement></addresssupplement>
-								<Street>Am Wolfsgehege.</Street>
-								<houseno>1a</houseno>
-								<zip>08015</zip>
-								<city>Wolfshausen</city>
+								<Street>Baker Street, Regents Park</Street>
+								<houseno>21</houseno>
+								<zip>NW1 5RZ</zip>
+								<city>London</city>
 								<carrier>
 									<companyname1>PowerNet Transport</companyname1>
 									<companyname2></companyname2>
