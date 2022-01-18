@@ -31,6 +31,9 @@
  <SectionStyle name="Form">
   <PageLayouts parentRef="Framework\DocumentParts\Form\Form.pageLayouts"></PageLayouts>
  </SectionStyle>
+ <SectionStyle name="Mail">
+  <PageLayouts parentRef="Framework\DocumentParts\Mail\Mail.pageLayouts"></PageLayouts>
+ </SectionStyle>
  <CellStyle name="CellWithoutBottomLine">
   <Margin top="0.0mpt" right="0.1cm" bottom="0.0mpt" left="0.1cm"></Margin>
  </CellStyle>
