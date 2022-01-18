@@ -14,7 +14,7 @@
 				<Partner>
 					<partnerid>99887766</partnerid>
 					<userid>rentlinger</userid>
-					<salutation>Frau</salutation>
+					<salutation>Ms.</salutation>
 					<title></title>
 					<firstname>Karen</firstname>
 					<lastname>Rentlinger</lastname>
@@ -39,12 +39,12 @@
 					<phone>0815-47111234</phone>
 					<fax>0815-47114249</fax>
 				</Partner>
-				<salutatoryaddress>Hallo Hans,</salutatoryaddress>
+				<salutatoryaddress>Hello Hans,</salutatoryaddress>
 				<Namefirstname>Hans Brackhaus</Namefirstname>
 				<user>
 					<partnerid>99887766</partnerid>
 					<userid>rentlinger</userid>
-					<salutation>Frau</salutation>
+					<salutation>Ms.</salutation>
 					<title></title>
 					<firstname>Karen</firstname>
 					<lastname>Rentlinger</lastname>
@@ -75,7 +75,7 @@
 				<Partner>
 					<partnerid>202017070815</partnerid>
 					<userid></userid>
-					<salutation>Herr</salutation>
+					<salutation>Mr.</salutation>
 					<title></title>
 					<firstname>Jan</firstname>
 					<lastname>Petersen</lastname>
@@ -103,7 +103,7 @@
 						<iban>DE79110000001211222299</iban>
 					</bank_account>
 					<Sepa>
-						<direct_debit>Yes<</direct_debit>
+						<direct_debit>Yes</direct_debit>
 					</Sepa>
 				</Partner>
 			</recipient>
