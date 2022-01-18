@@ -37,7 +37,7 @@
   <Right distance="0.0mpt" anchorSide="same"></Right>
   <Bottom distance="733323.0mpt" anchorSide="same"></Bottom>
  </Region>
- <Region name="recipientspezifikation">
+ <Region name="recipientspecification">
   <Left distance="56692.0mpt" anchorSide="same"></Left>
   <Top distance="155904.0mpt" anchorSide="same"></Top>
   <Right distance="297640.0mpt" anchorSide="same"></Right>

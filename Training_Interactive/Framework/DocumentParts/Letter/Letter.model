@@ -61,7 +61,7 @@
    <Style>
     <RegionRef>logo</RegionRef>
    </Style>
-   <ContainerExtensionDef id="AnschreibenLogo"></ContainerExtensionDef>
+   <ContainerExtensionDef id="CoverLetterLogo"></ContainerExtensionDef>
    <Image uri="mtx://Framework_Training/Graphics/sam.energy-logo.png"></Image>
   </StaticContainer>
   <StaticContainer>
@@ -72,7 +72,7 @@
   </StaticContainer>
   <StaticContainer>
    <Style>
-    <RegionRef>recipientspezifikation</RegionRef>
+    <RegionRef>recipientspecification</RegionRef>
    </Style>
   </StaticContainer>
   <StaticContainer>
@@ -111,10 +111,10 @@
      <Style>
       <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
      </Style>
-     <Text>Seite</Text>
+     <Text>Page</Text>
      <Text> </Text>
      <PageNumber scope="document"></PageNumber>
-     <Text> von </Text>
+     <Text> of </Text>
      <PageCount></PageCount>
      <Text>  </Text>
     </Span>
@@ -144,7 +144,7 @@
   </StaticContainer>
   <StaticContainer>
    <Style>
-    <RegionRef>seiten</RegionRef>
+    <RegionRef>pages</RegionRef>
    </Style>
    <Par>
     <Style>
@@ -154,7 +154,7 @@
      <Style>
       <FontSize>11000.0mpt</FontSize>
      </Style>
-     <Text>Weiter auf Seite </Text>
+     <Text>Continue on Page </Text>
      <PageNumber scope="document" position="next"></PageNumber>
     </Span>
    </Par>

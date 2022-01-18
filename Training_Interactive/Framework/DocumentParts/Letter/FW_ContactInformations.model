@@ -21,15 +21,15 @@
  <Par>
   <Translations>
    <Translation>
-    <Language language="en" country="US" variant=""></Language>
+    <Language language="de" country="DE" variant=""></Language>
     <Span>
-     <Text>Your personal contact: </Text>
+     <Text>Ihre Ansprechnpartner/in:</Text>
     </Span>
    </Translation>
   </Translations>
   <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
-   <Text>Ihre Ansprechnpartner/in:</Text>
+   <Text>Your personal contact: </Text>
   </Span>
  </Par>
  <Par>
@@ -76,15 +76,15 @@
      <Par>
       <Translations>
        <Translation>
-        <Language language="en" country="US" variant=""></Language>
+        <Language language="de" country="DE" variant=""></Language>
         <Span>
-         <Text>Phone:</Text>
+         <Text>Telefon:</Text>
         </Span>
        </Translation>
       </Translations>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefon:</Text>
+       <Text>Phone:</Text>
       </Span>
      </Par>
     </Container>
@@ -107,15 +107,15 @@
      <Par>
       <Translations>
        <Translation>
-        <Language language="en" country="US" variant=""></Language>
+        <Language language="de" country="DE" variant=""></Language>
         <Span>
-         <Text>Fax:</Text>
+         <Text>Telefax:</Text>
         </Span>
        </Translation>
       </Translations>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefax:</Text>
+       <Text>Fax:</Text>
       </Span>
      </Par>
     </Container>
@@ -138,15 +138,15 @@
      <Par>
       <Translations>
        <Translation>
-        <Language language="en" country="US" variant=""></Language>
+        <Language language="de" country="DE" variant=""></Language>
         <Span>
-         <Text>E-mail:</Text>
+         <Text>E-Mail:</Text>
         </Span>
        </Translation>
       </Translations>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>E-Mail:</Text>
+       <Text>E-mail:</Text>
       </Span>
      </Par>
     </Container>
@@ -168,9 +168,9 @@
  <Par>
   <Translations>
    <Translation>
-    <Language language="en" country="US" variant=""></Language>
+    <Language language="de" country="DE" variant=""></Language>
     <Span>
-     <Text>Date:</Text>
+     <Text>Datum:</Text>
     </Span>
    </Translation>
   </Translations>

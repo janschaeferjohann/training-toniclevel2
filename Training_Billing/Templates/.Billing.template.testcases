@@ -3803,7 +3803,7 @@
         <DataNode name="bank_account">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="owner" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Klinikum Ost]]></Value>
+          <Value><![CDATA[string:Clinic East]]></Value>
          </DataNode>
          <DataNode name="bank" valueChanged="fromDataSource">
           <Value><![CDATA[string:Sam Bank]]></Value>
@@ -4052,7 +4052,7 @@
           <Value><![CDATA[number:2,479.08]]></Value>
          </DataNode>
          <DataNode name="sumArt" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Rechnung]]></Value>
+          <Value><![CDATA[string:Billing]]></Value>
          </DataNode>
         </DataNode>
         <DataNode name="billposition">
@@ -6102,7 +6102,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Mr.]]></Value>
+            <Value><![CDATA[string:Herr]]></Value>
            </DataNode>
            <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -6114,7 +6114,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Clinic East]]></Value>
+            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
            </DataNode>
            <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -6123,7 +6123,7 @@
             <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Chefarzt]]></Value>
+            <Value><![CDATA[string:Chief physician]]></Value>
            </DataNode>
            <DataNode name="Street" valueChanged="fromDataSource">
             <Value><![CDATA[string:Clinical Center]]></Value>
@@ -6140,10 +6140,10 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Klinikum Ost]]></Value>
+             <Value><![CDATA[string:Clinic East]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Chefarzt]]></Value>
+             <Value><![CDATA[string:Chief physician]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:Dr. Peter Fox]]></Value>
@@ -6175,10 +6175,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Clinic East]]></Value>
+           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -6463,7 +6463,7 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Salutation">
-            <Value><![CDATA[string:Mr.]]></Value>
+            <Value><![CDATA[string:Herr]]></Value>
            </DataNode>
            <DataNode name="Title">
             <Value><![CDATA[string:Dr.]]></Value>
@@ -6475,7 +6475,7 @@
             <Value><![CDATA[string:Fox]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
-            <Value><![CDATA[string:Clinic East]]></Value>
+            <Value><![CDATA[string:Krankenhaus Ost]]></Value>
            </DataNode>
            <DataNode name="CompanyName2">
             <Value><![CDATA[string:]]></Value>
@@ -6484,7 +6484,7 @@
             <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:Chefarzt]]></Value>
+            <Value><![CDATA[string:Chief physician]]></Value>
            </DataNode>
            <DataNode name="Street">
             <Value><![CDATA[string:Clinical Center]]></Value>
@@ -6501,10 +6501,10 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line">
-             <Value><![CDATA[string:Klinikum Ost]]></Value>
+             <Value><![CDATA[string:Clinic East]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Chefarzt]]></Value>
+             <Value><![CDATA[string:Chief physician]]></Value>
             </DataNode>
             <DataNode name="Line">
              <Value><![CDATA[string:Dr. Peter Fox]]></Value>
@@ -6536,10 +6536,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Dr. Fox]]></Value>
+           <Value><![CDATA[string:Dear Herr Dr. Fox]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Clinic East]]></Value>
+           <Value><![CDATA[string:Krankenhaus Ost]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -6735,7 +6735,7 @@
      <Data>
       <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
       <DataNode name="Subject1">
-       <Value><![CDATA[string:Your consumption billing]]></Value>
+       <Value><![CDATA[string:Deine Verbrauchsabrechnung]]></Value>
       </DataNode>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
       <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
@@ -17961,7 +17961,7 @@
            <Value><![CDATA[string:Outbuilding]]></Value>
           </DataNode>
           <DataNode name="addresssupplement" valueChanged="fromDataSource">
-           <Value><![CDATA[string:Klinikum Ost - Anfahrt über die Seitenzufahrt, Hermandesstr.]]></Value>
+           <Value><![CDATA[string:Clinic East - Anfahrt über die Seitenzufahrt, Hermandesstr.]]></Value>
           </DataNode>
           <DataNode name="Street" valueChanged="fromDataSource">
            <Value><![CDATA[string:Clinical Center]]></Value>
@@ -18039,7 +18039,7 @@
         <DataNode name="bank_account">
          <Value><![CDATA[string:]]></Value>
          <DataNode name="owner" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Klinikum Ost]]></Value>
+          <Value><![CDATA[string:Clinic East]]></Value>
          </DataNode>
          <DataNode name="bank" valueChanged="fromDataSource">
           <Value><![CDATA[string:Sam Bank]]></Value>
@@ -18579,7 +18579,7 @@
             <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Chefarzt]]></Value>
+            <Value><![CDATA[string:Chief physician]]></Value>
            </DataNode>
            <DataNode name="Street" valueChanged="fromDataSource">
             <Value><![CDATA[string:Clinical Center]]></Value>
@@ -18596,10 +18596,10 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Klinikum Ost]]></Value>
+             <Value><![CDATA[string:Clinic East]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
-             <Value><![CDATA[string:Chefarzt]]></Value>
+             <Value><![CDATA[string:Chief physician]]></Value>
             </DataNode>
             <DataNode name="Line" valueChanged="fromDataSource">
              <Value><![CDATA[string:Dr. Peter Fox]]></Value>
@@ -18940,7 +18940,7 @@
             <Value><![CDATA[string:31]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:Chefarzt]]></Value>
+            <Value><![CDATA[string:Chief physician]]></Value>
            </DataNode>
            <DataNode name="Street">
             <Value><![CDATA[string:Clinical Center]]></Value>
@@ -18957,10 +18957,10 @@
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
             <DataNode name="Line">
-             <Value><![CDATA[string:Klinikum Ost]]></Value>
+             <Value><![CDATA[string:Clinic East]]></Value>
             </DataNode>
             <DataNode name="Line">
-             <Value><![CDATA[string:Chefarzt]]></Value>
+             <Value><![CDATA[string:Chief physician]]></Value>
             </DataNode>
             <DataNode name="Line">
              <Value><![CDATA[string:Dr. Peter Fox]]></Value>

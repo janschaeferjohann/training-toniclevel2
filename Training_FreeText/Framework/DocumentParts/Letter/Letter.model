@@ -76,7 +76,7 @@
   </StaticContainer>
   <StaticContainer>
    <Style>
-    <RegionRef>recipientspezifikation</RegionRef>
+    <RegionRef>recipientspecification</RegionRef>
    </Style>
   </StaticContainer>
   <StaticContainer>
@@ -148,7 +148,7 @@
   </StaticContainer>
   <StaticContainer>
    <Style>
-    <RegionRef>seiten</RegionRef>
+    <RegionRef>pages</RegionRef>
    </Style>
    <Par>
     <Style>

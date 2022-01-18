@@ -10,7 +10,7 @@
    <RegionRef>Body</RegionRef>
    <RegionRef>subject</RegionRef>
    <RegionRef>logo</RegionRef>
-   <RegionRef>recipientspezifikation</RegionRef>
+   <RegionRef>recipientspecification</RegionRef>
    <RegionRef>letterinfo</RegionRef>
    <RegionRef>FooterLogo</RegionRef>
    <RegionRef>consumption_point</RegionRef>
