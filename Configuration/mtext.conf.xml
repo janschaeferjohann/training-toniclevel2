@@ -71,7 +71,7 @@
 					resource="\\Configuration\Watermarks\#Watermark-Preview.mtxm"
 					page-orientation="portrait"
 					page-side="any"
-					layer="Background" />
+					layer="AboveText" />
 			</watermarkGroup>
 		</destination>
 		<!-- Destination with reserved name prefix "export-" + target format name 
