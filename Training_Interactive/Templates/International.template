@@ -45,7 +45,7 @@
    <Input true-value="true" false-value="false"></Input>
    <Output true-value="true" false-value="false"></Output>
    <Script></Script>
-   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="Zeige Betreff" label-de_DE="show subject">
+   <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="show subject" label-de_DE="Zeige Betreff">
     <Values></Values>
     <ErrorMessage translation-de_DE="no valid value">Kein gültiger Wert eingetragen</ErrorMessage>
    </Validation>
