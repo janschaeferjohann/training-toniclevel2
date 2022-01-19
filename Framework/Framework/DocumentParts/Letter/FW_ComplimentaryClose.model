@@ -86,7 +86,7 @@ else {
    </ContainerPart>
   </ContainerPart>
   <Par>
-   <Style parentName="TextSpaceBefore">
+   <Style parentName="TextAbstandVor">
     <KeepWithPrevious>true</KeepWithPrevious>
    </Style>
    <Span>
