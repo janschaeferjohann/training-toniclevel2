@@ -77,27 +77,27 @@
 					<userid></userid>
 					<salutation>Mr.</salutation>
 					<title></title>
-					<firstname>Jan</firstname>
-					<lastname>Petersen</lastname>
+					<firstname>Ian</firstname>
+					<lastname>McKellen</lastname>
 					<companyname1></companyname1>
 					<companyname2></companyname2>
-					<houseno>12</houseno>
+					<houseno>40</houseno>
 					<addresssupplement></addresssupplement>
-					<Street>Deichstr.</Street>
-					<zip>25938</zip>
-					<city>Wyk auf Föhr</city>
+					<Street>Whitfield Street</Street>
+					<zip>W1T 2RH</zip>
+					<city>London</city>
 					<country></country>
 					<address>
-						<line>Jan Petersen</line>
-						<line>Deichstr. 12</line>
-						<line>25938 Wyk auf Föhr</line>
+						<line>Ian McKellen</line>
+						<line>Whitfield Street 12</line>
+						<line>W1T 2RH London</line>
 					</address>
 					<role>Customer</role>
-					<email>petersen.jan@email.web</email>
+					<email>mckkellen.ian@email.web</email>
 					<phone>+49 123 546789</phone>
 					<fax></fax>
 					<bank_account>
-						<owner>Jan Petersen</owner>
+						<owner>Ian McKellen</owner>
 						<bank>Sam Bank</bank>
 						<bic>SAMBA000001</bic>
 						<iban>DE79110000001211222299</iban>
@@ -127,7 +127,7 @@
 				</FAX>
 				<EMAIL>
 					<sender>k.rentlinger@sam.web</sender>
-					<recipient>petersen.jan@email.web</recipient>
+					<recipient>mckkellen.ian@email.web</recipient>
 				</EMAIL>
 			</outputcontrol>
 			<casedata>
@@ -147,11 +147,11 @@
 							<consumption_point>
 								<counter>DE421598652325415125452698456254218</counter>
 								<appartment></appartment>
-								<addresssupplement>1st floor left</addresssupplement>
-								<Street>Deichstr.</Street>
-								<houseno>12</houseno>
-								<zip>25938</zip>
-								<city>Wyk auf Föhr</city>
+								<addresssupplement></addresssupplement>
+								<Street>Whitfield Street</Street>
+								<houseno>40</houseno>
+								<zip>W1T 2RH</zip>
+								<city>London</city>
 								<carrier>
 									<companyname1>Energy Net Transports</companyname1>
 									<companyname2></companyname2>
