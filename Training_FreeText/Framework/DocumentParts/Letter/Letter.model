@@ -61,17 +61,15 @@
    <Style>
     <RegionRef>logo</RegionRef>
    </Style>
-   <ContainerExtensionDef id="AnschreibenLogo"></ContainerExtensionDef>
-   <Image uri="mtx://Training_FreeText/Graphics/logo.png"></Image>
+   <ContainerExtensionDef id="CoverLetterLogo"></ContainerExtensionDef>
+   <Image uri="mtx://Framework_Training/Graphics/sam.energy-logo.png"></Image>
   </StaticContainer>
   <StaticContainer>
    <Style>
     <RegionRef>contactinformation</RegionRef>
    </Style>
-   <ContainerPartRef uri="Framework\DocumentParts\Letter\FW_ContactInformations.model">
-    <Param name="freetext_data"></Param>
+   <ContainerPartRef uri="Framework/DocumentParts/Letter/FW_ContactInformations.model">
     <Param name="Sender">$Sender</Param>
-    <Param name="Message">$Message</Param>
    </ContainerPartRef>
   </StaticContainer>
   <StaticContainer>
@@ -115,10 +113,10 @@
      <Style>
       <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
      </Style>
-     <Text>Seite</Text>
+     <Text>Page</Text>
      <Text> </Text>
      <PageNumber scope="document"></PageNumber>
-     <Text> von </Text>
+     <Text> of </Text>
      <PageCount></PageCount>
      <Text>  </Text>
     </Span>
@@ -158,7 +156,7 @@
      <Style>
       <FontSize>11000.0mpt</FontSize>
      </Style>
-     <Text>Weiter auf Seite </Text>
+     <Text>Continue on Page </Text>
      <PageNumber scope="document" position="next"></PageNumber>
     </Span>
    </Par>

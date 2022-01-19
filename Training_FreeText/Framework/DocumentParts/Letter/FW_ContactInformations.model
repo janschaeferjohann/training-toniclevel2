@@ -1,9 +1,5 @@
 <ContainerPart xmlns="urn:kwsoft:mtext:tonic:dom">
  <DataDefinition>
-  <ParamDef name="freetext_data" ref="Data\freetext_data.datamodel" provided="true">
-   <Description></Description>
-   <Script></Script>
-  </ParamDef>
   <ParamDef name="Sender" ref="\\Framework\Data\Sender.datamodel">
    <Description></Description>
    <Script></Script>
@@ -20,20 +16,44 @@
   </Span>
  </Par>
  <Par>
+  <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
    <Text></Text>
   </Span>
  </Par>
  <Par>
+  <Translations>
+   <Translation>
+    <Language language="en" country="US" variant=""></Language>
+    <Span>
+     <Text>Your personal contact: </Text>
+    </Span>
+   </Translation>
+   <Translation>
+    <Language language="de" country="DE" variant=""></Language>
+    <Span>
+     <Text>Contact person:</Text>
+    </Span>
+   </Translation>
+  </Translations>
   <Style parentName="FW_InfoAreaBold"></Style>
   <Span>
-   <Text>Ihre Ansprechnpartner/in:</Text>
+   <Text>Your contact person:</Text>
   </Span>
  </Par>
  <Par>
   <Style parentName="FW_InfoArea"></Style>
   <Span>
+   <Data>$Sender.User.CompanyName2</Data>
    <Text></Text>
+  </Span>
+ </Par>
+ <Par>
+  <Style parentName="FW_InfoArea"></Style>
+  <Span>
+   <Data>$Sender.User.Firstname</Data>
+   <Text> </Text>
+   <Data>$Sender.User.Lastname</Data>
   </Span>
  </Par>
  <Par>
@@ -62,7 +82,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefon:</Text>
+       <Text>Phone:</Text>
       </Span>
      </Par>
     </Container>
@@ -72,6 +92,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
+       <Data>$Sender.User.Phone</Data>
        <Text></Text>
       </Span>
      </Par>
@@ -84,7 +105,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
-       <Text>Telefax:</Text>
+       <Text>Fax:</Text>
       </Span>
      </Par>
     </Container>
@@ -94,6 +115,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
+       <Data>$Sender.User.Fax</Data>
        <Text></Text>
       </Span>
      </Par>
@@ -116,6 +138,7 @@
      <Par>
       <Style parentName="FW_InfoArea"></Style>
       <Span>
+       <Data>$Sender.User.Email</Data>
        <Text></Text>
       </Span>
      </Par>
@@ -130,9 +153,10 @@
   </Span>
  </Par>
  <Par>
-  <Style parentName="FW_InfoArea"></Style>
+  <Style parentName="TextNormal"></Style>
   <Span>
-   <Data>$freetext_data.template.Date</Data>
+   <Data>$Message.LetterDate</Data>
+   <Data></Data>
    <Text></Text>
   </Span>
  </Par>

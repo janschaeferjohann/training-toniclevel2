@@ -4,10 +4,20 @@
    <Description></Description>
    <Input text-prefix="" text-suffix=""></Input>
    <Output text-prefix="" text-suffix=""></Output>
-   <Script><![CDATA["Mit freundlichen Grüßen"]]></Script>
+   <Script><![CDATA[load("Scripts\\Base.js");
+if (FW_I18n.toLanguage($Metadata.DocumentLanguage) == "en") {
+	"Sincerely yours";
+}
+else {
+	"Mit freundlichen Grüßen"
+} ]]></Script>
    <Validation validation-type="any_value" operator="any" allow-empty-value="true" dialog-field="combobox" label="ComplimentaryClose">
     <Values>
      <Value content="Mit freundlichen Grüßen"></Value>
+     <Value content="best regards"></Value>
+     <Value content="Kind regards"></Value>
+     <Value content="Sincerely yours"></Value>
+     <Value content="Yours truly"></Value>
     </Values>
    </Validation>
   </DataNodeDef>
@@ -33,7 +43,7 @@
    <ModificationRight role="_EVERYONE_" operations="EDIT"></ModificationRight>
   </Denied>
  </ModificationRights>
- <Container id="Grussformel">
+ <Container id="Salutation">
   <Style>
    <RegionRef>Body</RegionRef>
   </Style>
