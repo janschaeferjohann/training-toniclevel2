@@ -1,4 +1,4 @@
-<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Interactive\Templates\International.template" title="Interaktive Freitext Vorlage" title-de_DE="interactiv Freetext template" description="Freitextvorlage für Sam AG und sam.energy - Mehrsprachig" description-de_DE="Free text template for Sam AG and sam.energy - multilanguage">
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Interactive\Templates\International.template" title="Interactive free text template" title-de_DE="interactiv Freetext template" description="Free text template for Sam AG and sam.energy - multilingual" description-en_US="Free text template for Sam AG and sam.energy - multilingual" description-de_DE="Free text template for Sam AG and sam.energy - Mehrsprachig">
  <DataDefinition>
   <ParamDef name="TaskControl" ref="Data\TaskControl.datamodel" dataMappingRef="Data\TaskControl.mapping">
    <Description></Description>
@@ -64,7 +64,7 @@
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink>
-<!--    <ActionLink title="Change language" inputAreaGroupID="">
+   <!--    <ActionLink title="Change language" inputAreaGroupID="">
     <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
     <Script><![CDATA[
     switch ($Metadata.DocumentLanguage.toString()) {
@@ -75,7 +75,7 @@
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink> -->
-   </GuideArea>
+  </GuideArea>
   <InputArea>
    <Field title="Enter subject" title-de_DE="Betreff bearbeiten" dataNode="$Show_Subject"></Field>
    <Group title="Subject" title-de_DE="Betreff">

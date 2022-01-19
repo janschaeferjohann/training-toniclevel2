@@ -1,4 +1,4 @@
-<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" title="sam Mailvorlage" description="Standard Mail Vorlage">
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Training_Mail\Templates\Mail.template" title="sam mail template" description="Default mail template" description-en_US="Default mail template">
  <DataDefinition>
   <ParamDef name="Mail" ref="\\Framework_Training\Data\mail.datamodel" dataMappingRef="">
    <Description></Description>
