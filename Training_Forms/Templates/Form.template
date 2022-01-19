@@ -84,7 +84,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>32049.0mpt</ColumnWidth>
+        <ColumnWidth>11284.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -119,7 +119,7 @@
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
           </Style>
-          <Text> Lieferantenwechsel</Text>
+          <Text> Change of supplier</Text>
          </Span>
         </Par>
        </Container>
@@ -132,7 +132,7 @@
         <Par>
          <Style parentName="FormText"></Style>
          <Span>
-          <Text>Aktueller Lieferant:</Text>
+          <Text>Current supplier:</Text>
          </Span>
         </Par>
        </Container>
@@ -171,7 +171,7 @@
         <Par>
          <Style parentName="FormText"></Style>
          <Span>
-          <Text>Kundennummer dort:</Text>
+          <Text>Customer no there:</Text>
          </Span>
         </Par>
        </Container>
@@ -196,12 +196,12 @@
      <Columns>
       <Column>
        <Style>
-        <ColumnWidth>50541.0mpt</ColumnWidth>
+        <ColumnWidth>63141.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>62728.0mpt</ColumnWidth>
+        <ColumnWidth>32728.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -211,17 +211,17 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>19247.0mpt</ColumnWidth>
+        <ColumnWidth>11284.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>69497.0mpt</ColumnWidth>
+        <ColumnWidth>95297.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>62747.0mpt</ColumnWidth>
+        <ColumnWidth>72947.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -231,7 +231,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>19158.0mpt</ColumnWidth>
+        <ColumnWidth>11284.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -249,6 +249,7 @@
       </Style>
       <Cell>
        <Style>
+        <Padding top="0.0cm" right="0.0cm" bottom="0.0cm" left="0.0cm"></Padding>
         <VerticalAlignment>last</VerticalAlignment>
        </Style>
        <Container>
@@ -258,9 +259,8 @@
           <Style>
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
           </Style>
-          <!-- <Data>$Form.Art.Einzug</Data> -->
           <InlineField dataNode="$Form.type.moveIn"></InlineField>
-          <Text> Einzug</Text>
+          <Text> Collection</Text>
          </Span>
         </Par>
        </Container>
@@ -273,7 +273,7 @@
         <Par>
          <Style parentName="FormText"></Style>
          <Span>
-          <Text>Einzugsdatum:</Text>
+          <Text>date:</Text>
          </Span>
         </Par>
        </Container>
@@ -314,7 +314,7 @@
           </Style>
           <!-- <Data>$Form.Art.Neuanlage</Data> -->
           <InlineField dataNode="$Form.type.new_Installation"></InlineField>
-          <Text> Neuanlage</Text>
+          <Text> New installation</Text>
          </Span>
         </Par>
        </Container>
@@ -327,7 +327,7 @@
         <Par>
          <Style parentName="FormText"></Style>
          <Span>
-          <Text>Einbaudatum:</Text>
+          <Text>Installation date:</Text>
          </Span>
         </Par>
        </Container>
@@ -367,7 +367,7 @@
            <ReduceMultipleBlanks>false</ReduceMultipleBlanks>
           </Style>
           <InlineField dataNode="$Form.type.change_Of_Tariff"></InlineField>
-          <Text> Tariffwechsel</Text>
+          <Text> Tariff change</Text>
          </Span>
         </Par>
        </Container>
@@ -436,7 +436,7 @@
         <Par>
          <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Wohlfühlstrom Öko</Text>
+          <Text>Feel-good energy Eco</Text>
          </Span>
         </Par>
        </Container>
@@ -489,13 +489,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Stadtgebiet Freiburg </Text>
+              <Text>City area Freiburg </Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text> (Netzgebiet des sam.net - Stadtverbundes)</Text>
+              <Text> (Network area of the sam.net - city association)</Text>
              </Span>
             </Par>
            </Container>
@@ -508,7 +508,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -561,7 +561,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Umlandgemeinden Breisgau</Text>
+              <Text>Surrounding communities Breisgau</Text>
              </Span>
             </Par>
             <Par>
@@ -570,7 +570,7 @@
               <Text></Text>
              </Span>
              <Span>
-              <Text>(Netzgebiet der WackyNet AG)</Text>
+              <Text>(Network area der WackyNet AG)</Text>
              </Span>
             </Par>
            </Container>
@@ -583,7 +583,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -681,7 +681,7 @@
         <Par>
          <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Wohlfühlstrom Ökofix 2022</Text>
+          <Text>Feel-good energy Ecofix 2022</Text>
           <Text></Text>
          </Span>
         </Par>
@@ -735,13 +735,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Stadtgebiet Freiburg</Text>
+              <Text>City area Freiburg</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>(Netzgebiet des sam.net - Stadtverbundes)</Text>
+              <Text>(Network area of the sam.net - city association)</Text>
              </Span>
             </Par>
            </Container>
@@ -754,7 +754,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -811,13 +811,13 @@
               <Style>
                <Margin top="0.0mpt" right="0.0mpt" bottom="0.0mpt" left="0.0mpt"></Margin>
               </Style>
-              <Text>Umlandgemeinden Breisgau</Text>
+              <Text>Surrounding communities Breisgau</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>(Netzgebiet der WackyNet AG)</Text>
+              <Text>(Network area of the WackyNet AG)</Text>
              </Span>
             </Par>
            </Container>
@@ -830,7 +830,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -933,7 +933,7 @@
         <Par>
          <Style parentName="FW_InfoAreaBold"></Style>
          <Span>
-          <Text>Wohlfühlstrom</Text>
+          <Text>Feel-good energy</Text>
          </Span>
         </Par>
         <Par>
@@ -955,7 +955,7 @@
           </Column>
           <Column>
            <Style>
-            <ColumnWidth>234912.0mpt</ColumnWidth>
+            <ColumnWidth>231912.0mpt</ColumnWidth>
            </Style>
           </Column>
           <Column>
@@ -992,13 +992,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Stadtgebiet Freiburg</Text>
+              <Text>City area Freiburg</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>(Netzgebiet des sam.net - Stadtnetzverbundes)</Text>
+              <Text>(Network area of the sam.net - city network)</Text>
              </Span>
             </Par>
            </Container>
@@ -1011,7 +1011,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -1068,13 +1068,13 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Umlandgemeinden Breisgau</Text>
+              <Text>Surrounding communities Breisgau</Text>
              </Span>
             </Par>
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>(Netzgebiet der WackyNet AG)</Text>
+              <Text>(Network area of the WackyNet AG)</Text>
              </Span>
             </Par>
            </Container>
@@ -1087,7 +1087,7 @@
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>energy rate</Text>
+              <Text>Energy rate</Text>
              </Span>
             </Par>
             <Par>
@@ -1132,7 +1132,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>24408.0mpt</ColumnWidth>
+        <ColumnWidth>21408.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -1142,7 +1142,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>22158.0mpt</ColumnWidth>
+        <ColumnWidth>14958.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -1152,7 +1152,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>28158.0mpt</ColumnWidth>
+        <ColumnWidth>39558.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -1172,7 +1172,7 @@
       </Column>
       <Column>
        <Style>
-        <ColumnWidth>44658.0mpt</ColumnWidth>
+        <ColumnWidth>42858.0mpt</ColumnWidth>
        </Style>
       </Column>
       <Column>
@@ -1223,7 +1223,7 @@
           <Align>left</Align>
          </Style>
          <Span>
-          <Text>Frau</Text>
+          <Text>Mrs.</Text>
          </Span>
         </Par>
        </Container>
@@ -1246,7 +1246,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Herr</Text>
+          <Text>Mr.</Text>
          </Span>
         </Par>
        </Container>
@@ -1269,7 +1269,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Firma</Text>
+          <Text>Company</Text>
          </Span>
         </Par>
        </Container>
@@ -1292,7 +1292,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Andere:</Text>
+          <Text>Other:</Text>
          </Span>
         </Par>
        </Container>
@@ -1325,7 +1325,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Zahlung am</Text>
+          <Text>Payment on</Text>
          </Span>
         </Par>
        </Container>
@@ -1345,7 +1345,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>1. des Months</Text>
+          <Text>1. of month</Text>
          </Span>
         </Par>
        </Container>
@@ -1365,7 +1365,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>15. des Months</Text>
+          <Text>15. of month</Text>
          </Span>
         </Par>
        </Container>
@@ -1439,7 +1439,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Zahlung per</Text>
+          <Text>Payment per</Text>
          </Span>
         </Par>
        </Container>
@@ -1459,7 +1459,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Überweisung</Text>
+          <Text>Transfer</Text>
          </Span>
         </Par>
        </Container>
@@ -1479,7 +1479,7 @@
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Lastschrift</Text>
+          <Text>Debit</Text>
          </Span>
         </Par>
        </Container>
@@ -1522,7 +1522,7 @@
             <PdfOnBlur>
 if (!/^([ \u00c0-\u01ffa-zA-Z\.' \-]{3,})+$/.test(event.value)) {
     event.target.textColor = color.red;
-    app.alert({cMsg: "Bitte einen gültigen Namen eingeben!", cTitle: "Name Validierung" });
+    app.alert({cMsg: "Please enter a valid name", cTitle: "Name validation" });
 }    
 else {
     event.target.textColor = color.black;
@@ -1531,7 +1531,7 @@ else {
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Name, Firstname</Text>
+          <Text>Lastname, Firstname</Text>
          </Span>
         </Par>
        </Container>
@@ -1550,8 +1550,7 @@ else {
         <Par>
          <Style parentName="FormTextSmall"></Style>
          <Span>
-          <Text>Der nachstehend genannte Kontoinhaber ermächtigt Zahlungen von dessen Konto der sam Bank Lastschrift einzuziehen. Zugleich weist er sein Kreditinstitut an,
-diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
+          <Text>The account holder named below authorises the sam Bank to debit payments from his account. At the same time he instructs his bank to honour this direct debit (SEPA direct debit mandate).</Text>
          </Span>
         </Par>
        </Container>
@@ -1575,7 +1574,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Straße, Hausnummer</Text>
+          <Text>Street, Number</Text>
          </Span>
         </Par>
        </Container>
@@ -1618,7 +1617,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Kontoinhaber / in (Name, Firstname)</Text>
+          <Text>Account holder (Lastname, Firstname)</Text>
          </Span>
         </Par>
        </Container>
@@ -1642,7 +1641,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Geburtsdatum</Text>
+          <Text>Date of birth</Text>
          </Span>
         </Par>
        </Container>
@@ -1670,7 +1669,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Name der Bank</Text>
+          <Text>Bank name</Text>
          </Span>
         </Par>
        </Container>
@@ -1694,7 +1693,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Telefonnummer</Text>
+          <Text>Phone number</Text>
          </Span>
         </Par>
        </Container>
@@ -1724,7 +1723,7 @@ diese Lastschrift einzulösen (SEPA-Lastschriftmandat) .</Text>
             <PdfOnBlur>
 if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(event.value)) {
 	event.target.textColor = color.red;
-	app.alert({cMsg: "Bitte eine valide Emailadresse eingeben!", cTitle: "Email Validierung" });
+	app.alert({cMsg: "Please enter a valid e-mail address!", cTitle: "E-mail validation" });
 }     
 else {
 	event.target.textColor = color.black;
@@ -1734,7 +1733,7 @@ else {
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>E-Mail</Text>
+          <Text>E-mail</Text>
          </Span>
         </Par>
        </Container>
@@ -1795,7 +1794,7 @@ else {
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Zählernummer</Text>
+          <Text>Meter number</Text>
          </Span>
         </Par>
        </Container>
@@ -1823,7 +1822,7 @@ else {
             <Height>0.5cm</Height>
            </Style>
           </InlineField>
-          <Text>Zählerstand</Text>
+          <Text>Meter reading</Text>
          </Span>
         </Par>
        </Container>
@@ -1910,7 +1909,7 @@ else {
             <Par>
              <Style parentName="FormTextSmall"></Style>
              <Span>
-              <Text>Unterschrift</Text>
+              <Text>Signature</Text>
              </Span>
             </Par>
             <Image uri="mtx://Framework_Training/Graphics/Icons/check.PNG">
