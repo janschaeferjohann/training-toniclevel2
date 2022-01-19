@@ -7,7 +7,7 @@
     <FontSize>15000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>UNSER ANTEIL IST ÖKOSTROM.</Text>
+   <Text>OUR SHARE IS GREEN POWER.</Text>
   </Span>
  </Par>
  <Par>
@@ -30,7 +30,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Wenn Sie nicht nur Rhythmus, sondern auch Klimaschutz im Blut haben, ist unser</Text>
+   <Text>If you have not only rhythm but also climate protection in your blood, our</Text>
   </Span>
   <Span>
    <Style>
@@ -47,7 +47,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Ecostrom</Text>
+   <Text>Green Power</Text>
   </Span>
   <Span>
    <Style>
@@ -63,7 +63,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>genau das Richtige für Sie. Sam.energy Easy  Ecostrom stammt zu</Text>
+   <Text>is exactly the right thing for you. Sam.energy Easy  Grenn Power comes to</Text>
   </Span>
   <Span>
    <Style>
@@ -104,7 +104,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>– und atomstromfrei erzeugt und trägt das begehrte Green Fan-Label. Mit der Investition in neue Anlagen treiben wir zudem die Energiewende aktiv voran. </Text>
+   <Text>– and nuclear power-free and bears the coveted Green Fan label. By investing in new installations, we are also actively driving forward the energy transition. </Text>
   </Span>
  </Par>
  <Par>
@@ -117,7 +117,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Haben Sie Lust, zusammen mit uns die Electricityherstellung ein Stück klimafreundlicher zu gestalten? Hier geht’s zu unserem </Text>
+   <Text>Would you like to join us in making electricity production a little more climate-friendly? Click here to go to our </Text>
   </Span>
   <Span>
    <Style>
@@ -125,7 +125,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>  Top Angebot.</Text>
+   <Text>  Top offer.</Text>
   </Span>
  </Par>
 </ContainerPart>

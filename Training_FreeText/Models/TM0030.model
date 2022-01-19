@@ -8,7 +8,7 @@
     <FontSize>15000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>STROMMIX DEUTSCHLAND: DAS WAR DIE NETTOSTROMERZEUGUNG IM JAHR 2020.</Text>
+   <Text>ELECTRICITY MIX GERMANY: THIS WAS THE NET ELECTRICITY GENERATION IN 2020.</Text>
   </Span>
  </Par>
  <Par>
@@ -21,7 +21,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Über das gesamte Jahr</Text>
+   <Text>Throughout the year</Text>
   </Span>
   <Span>
    <Style>
@@ -54,7 +54,7 @@
     <FontSize>11000.0mpt</FontSize>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>wurden rund</Text>
+   <Text>were around</Text>
   </Span>
   <Span>
    <Style>
@@ -88,7 +88,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Terrawattstunden</Text>
+   <Text>Terrawatt hours</Text>
   </Span>
   <Span>
    <Style>
@@ -122,7 +122,7 @@
     <FontStyle>bold</FontStyle>
     <TextColor>rgb(0,0,0)</TextColor>
    </Style>
-   <Text>Netstrom</Text>
+   <Text>Net electricity</Text>
   </Span>
   <Span>
    <Style>
