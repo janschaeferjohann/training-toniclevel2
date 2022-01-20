@@ -103,16 +103,16 @@
           <Value><![CDATA[string:]]></Value>
          </DataNode>
          <DataNode name="street" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Am Wolfsgehege.]]></Value>
+          <Value><![CDATA[string:Baker Street, Regents Park]]></Value>
          </DataNode>
          <DataNode name="houseno" valueChanged="fromDataSource">
-          <Value><![CDATA[string:1a]]></Value>
+          <Value><![CDATA[string:21]]></Value>
          </DataNode>
          <DataNode name="zip" valueChanged="fromDataSource">
-          <Value><![CDATA[string:08015]]></Value>
+          <Value><![CDATA[string:NW1 5RZ]]></Value>
          </DataNode>
          <DataNode name="city" valueChanged="fromDataSource">
-          <Value><![CDATA[string:Wolfshausen]]></Value>
+          <Value><![CDATA[string:London]]></Value>
          </DataNode>
          <DataNode name="carrier">
           <Value><![CDATA[string:]]></Value>
@@ -414,10 +414,10 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="Firstname" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Arjak]]></Value>
+         <Value><![CDATA[string:John]]></Value>
         </DataNode>
         <DataNode name="Lastname" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Steinmetz]]></Value>
+         <Value><![CDATA[string:Doe]]></Value>
         </DataNode>
         <DataNode name="CompanyName1" valueChanged="fromDataSource">
          <Value><![CDATA[string:]]></Value>
@@ -426,19 +426,19 @@
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="HouseNo" valueChanged="fromDataSource">
-         <Value><![CDATA[string:1a]]></Value>
+         <Value><![CDATA[string:21]]></Value>
         </DataNode>
         <DataNode name="AddressSupplement" valueChanged="fromDataSource">
          <Value><![CDATA[string:]]></Value>
         </DataNode>
         <DataNode name="Street" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Am Wolfsgehege]]></Value>
+         <Value><![CDATA[string:Baker Street]]></Value>
         </DataNode>
         <DataNode name="Zip" valueChanged="fromDataSource">
-         <Value><![CDATA[string:08015]]></Value>
+         <Value><![CDATA[string:NW1 5RZ]]></Value>
         </DataNode>
         <DataNode name="City" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Wolfshausen]]></Value>
+         <Value><![CDATA[string:London]]></Value>
         </DataNode>
         <DataNode name="Country" valueChanged="fromDataSource">
          <Value><![CDATA[string:]]></Value>
@@ -450,7 +450,7 @@
          <Value><![CDATA[string:Customer]]></Value>
         </DataNode>
         <DataNode name="Email" valueChanged="fromDataSource">
-         <Value><![CDATA[string:Steinmetz.Arjak@email.web]]></Value>
+         <Value><![CDATA[string:Doe.John@email.web]]></Value>
         </DataNode>
         <DataNode name="Phone" valueChanged="fromDataSource">
          <Value><![CDATA[string:+49 123 546789]]></Value>
@@ -466,10 +466,10 @@
         <Value><![CDATA[bool:true]]></Value>
        </DataNode>
        <DataNode name="SalutatoryAddress">
-        <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
+        <Value><![CDATA[string:Dear Mr. Doe]]></Value>
        </DataNode>
        <DataNode name="NameFirstname">
-        <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
+        <Value><![CDATA[string:Doe, John]]></Value>
        </DataNode>
       </DataNode>
       <DataNode name="User">
@@ -498,7 +498,7 @@
         <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
        </DataNode>
        <DataNode name="Language">
-        <Value><![CDATA[string:GER]]></Value>
+        <Value><![CDATA[string:USA]]></Value>
        </DataNode>
       </DataNode>
       <DataNode name="Attachment">
@@ -513,7 +513,7 @@
       </DataNode>
       <DataNode name="template">
        <DataNode name="Date">
-        <Value><![CDATA[date:Jan 18, 2022, 2:37:27 PM]]></Value>
+        <Value><![CDATA[date:Jan 20, 2022, 10:27:26 AM]]></Value>
        </DataNode>
        <DataNode name="Salutation_local">
         <Value><![CDATA[string:Hello]]></Value>
@@ -665,10 +665,10 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Firstname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Arjak]]></Value>
+            <Value><![CDATA[string:John]]></Value>
            </DataNode>
            <DataNode name="Lastname" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Steinmetz]]></Value>
+            <Value><![CDATA[string:Doe]]></Value>
            </DataNode>
            <DataNode name="CompanyName1" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -677,19 +677,19 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="HouseNo" valueChanged="fromDataSource">
-            <Value><![CDATA[string:1a]]></Value>
+            <Value><![CDATA[string:21]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Street" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Am Wolfsgehege]]></Value>
+            <Value><![CDATA[string:Baker Street]]></Value>
            </DataNode>
            <DataNode name="Zip" valueChanged="fromDataSource">
-            <Value><![CDATA[string:08015]]></Value>
+            <Value><![CDATA[string:NW1 5RZ]]></Value>
            </DataNode>
            <DataNode name="City" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Wolfshausen]]></Value>
+            <Value><![CDATA[string:London]]></Value>
            </DataNode>
            <DataNode name="Country" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
@@ -701,7 +701,7 @@
             <Value><![CDATA[string:Customer]]></Value>
            </DataNode>
            <DataNode name="Email" valueChanged="fromDataSource">
-            <Value><![CDATA[string:Steinmetz.Arjak@email.web]]></Value>
+            <Value><![CDATA[string:Doe.John@email.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
             <Value><![CDATA[string:+49 123 546789]]></Value>
@@ -717,10 +717,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
+           <Value><![CDATA[string:Dear Mr. Doe]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
+           <Value><![CDATA[string:Doe, John]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -1011,10 +1011,10 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Firstname">
-            <Value><![CDATA[string:Arjak]]></Value>
+            <Value><![CDATA[string:John]]></Value>
            </DataNode>
            <DataNode name="Lastname">
-            <Value><![CDATA[string:Steinmetz]]></Value>
+            <Value><![CDATA[string:Doe]]></Value>
            </DataNode>
            <DataNode name="CompanyName1">
             <Value><![CDATA[string:]]></Value>
@@ -1023,19 +1023,19 @@
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="HouseNo">
-            <Value><![CDATA[string:1a]]></Value>
+            <Value><![CDATA[string:21]]></Value>
            </DataNode>
            <DataNode name="AddressSupplement">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Street">
-            <Value><![CDATA[string:Am Wolfsgehege]]></Value>
+            <Value><![CDATA[string:Baker Street]]></Value>
            </DataNode>
            <DataNode name="Zip">
-            <Value><![CDATA[string:08015]]></Value>
+            <Value><![CDATA[string:NW1 5RZ]]></Value>
            </DataNode>
            <DataNode name="City">
-            <Value><![CDATA[string:Wolfshausen]]></Value>
+            <Value><![CDATA[string:London]]></Value>
            </DataNode>
            <DataNode name="Country">
             <Value><![CDATA[string:]]></Value>
@@ -1047,7 +1047,7 @@
             <Value><![CDATA[string:Customer]]></Value>
            </DataNode>
            <DataNode name="Email">
-            <Value><![CDATA[string:Steinmetz.Arjak@email.web]]></Value>
+            <Value><![CDATA[string:Doe.John@email.web]]></Value>
            </DataNode>
            <DataNode name="Phone">
             <Value><![CDATA[string:+49 123 546789]]></Value>
@@ -1063,10 +1063,10 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Mr. Steinmetz]]></Value>
+           <Value><![CDATA[string:Dear Mr. Doe]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Steinmetz, Arjak]]></Value>
+           <Value><![CDATA[string:Doe, John]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
@@ -1375,7 +1375,7 @@
                  <Value><![CDATA[string:Karen Rentlinger]]></Value>
                 </DataNode>
                 <DataNode name="Language">
-                 <Value><![CDATA[string:GER]]></Value>
+                 <Value><![CDATA[string:USA]]></Value>
                 </DataNode>
                </DataNode>
               </Data>
@@ -1425,20 +1425,735 @@
    <Property value="\\Framework_Training\Testdata\Case1-Freetext.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
- <TestCase name="1 Instance with recipient proxy (local printing)" includeInRegressionTool="false">
-  <Root base="Framework_TONIC_Demo">
-   <DocumentDescription></DocumentDescription>
+ <TestCase name="TestCase2" includeInRegressionTool="false">
+  <Root base="Training_Interactive">
    <RootPartInstance partIndex="0">
     <Data>
+     <DataNode name="freetext_data">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="basedata">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="summary" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Yes]]></Value>
+       </DataNode>
+       <DataNode name="billingno" valueChanged="fromDataSource">
+        <Value><![CDATA[string:RE12-30062020]]></Value>
+       </DataNode>
+       <DataNode name="contractsID" valueChanged="fromDataSource">
+        <Value><![CDATA[string:2012-03.22]]></Value>
+       </DataNode>
+       <DataNode name="contact_type" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Mail]]></Value>
+       </DataNode>
+       <DataNode name="partnerid" valueChanged="fromDataSource">
+        <Value><![CDATA[string:202017070815]]></Value>
+       </DataNode>
+       <DataNode name="time_data">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="letterdate" valueChanged="fromDataSource">
+         <Value><![CDATA[date:May 30, 2021, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="next_payoff" valueChanged="fromDataSource">
+         <Value><![CDATA[string:July 2022]]></Value>
+        </DataNode>
+        <DataNode name="next_meter_reading" valueChanged="fromDataSource">
+         <Value><![CDATA[string:June 2022]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="section">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="contracts">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="contract">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy Eco-Electricity]]></Value>
+          </DataNode>
+          <DataNode name="name" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Electricity]]></Value>
+          </DataNode>
+          <DataNode name="contractsId" valueChanged="fromDataSource">
+           <Value><![CDATA[string:2012-03.22]]></Value>
+          </DataNode>
+          <DataNode name="begin_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:01.03.2012]]></Value>
+          </DataNode>
+          <DataNode name="termination_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:31.08.2021]]></Value>
+          </DataNode>
+          <DataNode name="noticeperiod" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Weeks]]></Value>
+          </DataNode>
+          <DataNode name="renewal" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Months]]></Value>
+          </DataNode>
+          <DataNode name="counter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:88845258]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="contract">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Super Gas]]></Value>
+          </DataNode>
+          <DataNode name="name" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Gas]]></Value>
+          </DataNode>
+          <DataNode name="contractsId" valueChanged="fromDataSource">
+           <Value><![CDATA[string:2012-03.22]]></Value>
+          </DataNode>
+          <DataNode name="begin_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:01.03.2012]]></Value>
+          </DataNode>
+          <DataNode name="termination_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:31.08.2020]]></Value>
+          </DataNode>
+          <DataNode name="noticeperiod" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Weeks]]></Value>
+          </DataNode>
+          <DataNode name="renewal" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Months]]></Value>
+          </DataNode>
+          <DataNode name="counter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:51124258]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="contract">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Easy fresh Water]]></Value>
+          </DataNode>
+          <DataNode name="name" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Fresh Water]]></Value>
+          </DataNode>
+          <DataNode name="contractsId" valueChanged="fromDataSource">
+           <Value><![CDATA[string:2012-03.22]]></Value>
+          </DataNode>
+          <DataNode name="begin_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:01.03.2012]]></Value>
+          </DataNode>
+          <DataNode name="termination_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:31.08.2020]]></Value>
+          </DataNode>
+          <DataNode name="noticeperiod" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Weeks]]></Value>
+          </DataNode>
+          <DataNode name="renewal" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Months]]></Value>
+          </DataNode>
+          <DataNode name="counter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SW25258]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="contract">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="rate" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Climate-neutral Heat]]></Value>
+          </DataNode>
+          <DataNode name="name" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Heat]]></Value>
+          </DataNode>
+          <DataNode name="contractsId" valueChanged="fromDataSource">
+           <Value><![CDATA[string:2012-03.22]]></Value>
+          </DataNode>
+          <DataNode name="begin_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:01.03.2012]]></Value>
+          </DataNode>
+          <DataNode name="termination_date" valueChanged="fromDataSource">
+           <Value><![CDATA[string:31.08.2020]]></Value>
+          </DataNode>
+          <DataNode name="noticeperiod" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Weeks]]></Value>
+          </DataNode>
+          <DataNode name="renewal" valueChanged="fromDataSource">
+           <Value><![CDATA[string:6 Months]]></Value>
+          </DataNode>
+          <DataNode name="counter" valueChanged="fromDataSource">
+           <Value><![CDATA[string:SH54633]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+        <DataNode name="consumption_point">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="counter" valueChanged="fromDataSource">
+          <Value><![CDATA[string:DE421598652325415125452698456254218]]></Value>
+         </DataNode>
+         <DataNode name="appartment" valueChanged="fromDataSource">
+          <Value><![CDATA[string:]]></Value>
+         </DataNode>
+         <DataNode name="addresssupplement" valueChanged="fromDataSource">
+          <Value><![CDATA[string:]]></Value>
+         </DataNode>
+         <DataNode name="street" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Whitfield Street]]></Value>
+         </DataNode>
+         <DataNode name="houseno" valueChanged="fromDataSource">
+          <Value><![CDATA[string:40]]></Value>
+         </DataNode>
+         <DataNode name="zip" valueChanged="fromDataSource">
+          <Value><![CDATA[string:W1T 2RH]]></Value>
+         </DataNode>
+         <DataNode name="city" valueChanged="fromDataSource">
+          <Value><![CDATA[string:London]]></Value>
+         </DataNode>
+         <DataNode name="carrier">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="companyname1" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Energy Net Transports]]></Value>
+          </DataNode>
+          <DataNode name="companyname2" valueChanged="fromDataSource">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+          <DataNode name="houseno" valueChanged="fromDataSource">
+           <Value><![CDATA[string:59]]></Value>
+          </DataNode>
+          <DataNode name="addresssupplement" valueChanged="fromDataSource">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+          <DataNode name="street" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Karl-Marx-Place]]></Value>
+          </DataNode>
+          <DataNode name="zip" valueChanged="fromDataSource">
+           <Value><![CDATA[string:79100]]></Value>
+          </DataNode>
+          <DataNode name="city" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Freiburg]]></Value>
+          </DataNode>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="partnerid_formatted">
+        <Value><![CDATA[string:202017070815]]></Value>
+       </DataNode>
+       <DataNode name="bank_account">
+        <DataNode name="iban_formatted">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="items">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="item">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="name" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Electricity]]></Value>
+        </DataNode>
+        <DataNode name="usage" valueChanged="fromDataSource">
+         <Value><![CDATA[number:1,372]]></Value>
+        </DataNode>
+        <DataNode name="unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:kWh]]></Value>
+        </DataNode>
+        <DataNode name="periodfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="periodtilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="countfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[number:13,007]]></Value>
+        </DataNode>
+        <DataNode name="counttilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[number:14,379]]></Value>
+        </DataNode>
+        <DataNode name="netamount" valueChanged="fromDataSource">
+         <Value><![CDATA[number:381.89854]]></Value>
+        </DataNode>
+        <DataNode name="salestax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:72.56072]]></Value>
+        </DataNode>
+        <DataNode name="presum" valueChanged="fromDataSource">
+         <Value><![CDATA[number:454.45926]]></Value>
+        </DataNode>
+        <DataNode name="tax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:19]]></Value>
+        </DataNode>
+        <DataNode name="tax_unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:%]]></Value>
+        </DataNode>
+        <DataNode name="basic_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Year]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:95.8]]></Value>
+         </DataNode>
+         <DataNode name="price"></DataNode>
+        </DataNode>
+        <DataNode name="work_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit"></DataNode>
+         <DataNode name="to_price"></DataNode>
+         <DataNode name="to_netamount"></DataNode>
+         <DataNode name="from_price"></DataNode>
+         <DataNode name="from_netamount"></DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="item">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="name" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Gas]]></Value>
+        </DataNode>
+        <DataNode name="usage" valueChanged="fromDataSource">
+         <Value><![CDATA[number:19,512]]></Value>
+        </DataNode>
+        <DataNode name="unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:kWh]]></Value>
+        </DataNode>
+        <DataNode name="periodfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="periodtilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="countfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[number:370,006]]></Value>
+        </DataNode>
+        <DataNode name="counttilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[number:387,518]]></Value>
+        </DataNode>
+        <DataNode name="netamount" valueChanged="fromDataSource">
+         <Value><![CDATA[number:1,114.624]]></Value>
+        </DataNode>
+        <DataNode name="salestax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:211.77856]]></Value>
+        </DataNode>
+        <DataNode name="presum" valueChanged="fromDataSource">
+         <Value><![CDATA[number:1,326.40256]]></Value>
+        </DataNode>
+        <DataNode name="tax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:19]]></Value>
+        </DataNode>
+        <DataNode name="tax_unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:%]]></Value>
+        </DataNode>
+        <DataNode name="basic_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Year]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:81]]></Value>
+         </DataNode>
+         <DataNode name="price"></DataNode>
+        </DataNode>
+        <DataNode name="work_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit"></DataNode>
+         <DataNode name="to_price"></DataNode>
+         <DataNode name="to_netamount"></DataNode>
+         <DataNode name="from_price"></DataNode>
+         <DataNode name="from_netamount"></DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="item">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="name" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Fresh Water]]></Value>
+        </DataNode>
+        <DataNode name="usage" valueChanged="fromDataSource">
+         <Value><![CDATA[number:87]]></Value>
+        </DataNode>
+        <DataNode name="unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:m3]]></Value>
+        </DataNode>
+        <DataNode name="periodfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="periodtilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="countfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[number:180]]></Value>
+        </DataNode>
+        <DataNode name="counttilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[number:267]]></Value>
+        </DataNode>
+        <DataNode name="netamount" valueChanged="fromDataSource">
+         <Value><![CDATA[number:130.5]]></Value>
+        </DataNode>
+        <DataNode name="salestax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:9.135]]></Value>
+        </DataNode>
+        <DataNode name="presum" valueChanged="fromDataSource">
+         <Value><![CDATA[number:139.635]]></Value>
+        </DataNode>
+        <DataNode name="tax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:7]]></Value>
+        </DataNode>
+        <DataNode name="tax_unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:%]]></Value>
+        </DataNode>
+        <DataNode name="basic_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Year]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:81]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="work_price">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="item">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="name" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Heat]]></Value>
+        </DataNode>
+        <DataNode name="usage" valueChanged="fromDataSource">
+         <Value><![CDATA[number:1,100]]></Value>
+        </DataNode>
+        <DataNode name="unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:l]]></Value>
+        </DataNode>
+        <DataNode name="periodfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jul 1, 2019, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="periodtilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
+        </DataNode>
+        <DataNode name="countfrom" valueChanged="fromDataSource">
+         <Value><![CDATA[number:4,700]]></Value>
+        </DataNode>
+        <DataNode name="counttilldate" valueChanged="fromDataSource">
+         <Value><![CDATA[number:5,800]]></Value>
+        </DataNode>
+        <DataNode name="netamount" valueChanged="fromDataSource">
+         <Value><![CDATA[number:495]]></Value>
+        </DataNode>
+        <DataNode name="salestax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:94.05]]></Value>
+        </DataNode>
+        <DataNode name="presum" valueChanged="fromDataSource">
+         <Value><![CDATA[number:589.05]]></Value>
+        </DataNode>
+        <DataNode name="tax" valueChanged="fromDataSource">
+         <Value><![CDATA[number:19]]></Value>
+        </DataNode>
+        <DataNode name="tax_unit" valueChanged="fromDataSource">
+         <Value><![CDATA[string:%]]></Value>
+        </DataNode>
+        <DataNode name="basic_price">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Year]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:81]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="work_price">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="anticipated_payments">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="appointment" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="nextanticipated_payments">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="amount_anticipated_payments" valueChanged="fromDataSource">
+         <Value><![CDATA[string:12]]></Value>
+        </DataNode>
+        <DataNode name="next_sum" valueChanged="fromDataSource">
+         <Value><![CDATA[number:2,520]]></Value>
+        </DataNode>
+        <DataNode name="next_amount" valueChanged="fromDataSource">
+         <Value><![CDATA[number:210]]></Value>
+        </DataNode>
+        <DataNode name="amount">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="name" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Electricity]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:33.61]]></Value>
+         </DataNode>
+         <DataNode name="salestax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:6.39]]></Value>
+         </DataNode>
+         <DataNode name="presum" valueChanged="fromDataSource">
+          <Value><![CDATA[number:40]]></Value>
+         </DataNode>
+         <DataNode name="tax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:19]]></Value>
+         </DataNode>
+         <DataNode name="tax_unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:%]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="amount">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="name" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Gas]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:92.44]]></Value>
+         </DataNode>
+         <DataNode name="salestax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:17.56]]></Value>
+         </DataNode>
+         <DataNode name="presum" valueChanged="fromDataSource">
+          <Value><![CDATA[number:110]]></Value>
+         </DataNode>
+         <DataNode name="tax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:19]]></Value>
+         </DataNode>
+         <DataNode name="tax_unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:%]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="amount">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="name" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Fresh Water]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:9.35]]></Value>
+         </DataNode>
+         <DataNode name="salestax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:0.65]]></Value>
+         </DataNode>
+         <DataNode name="presum" valueChanged="fromDataSource">
+          <Value><![CDATA[number:10]]></Value>
+         </DataNode>
+         <DataNode name="tax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:7]]></Value>
+         </DataNode>
+         <DataNode name="tax_unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:%]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="amount">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="name" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Heat]]></Value>
+         </DataNode>
+         <DataNode name="netamount" valueChanged="fromDataSource">
+          <Value><![CDATA[number:42.02]]></Value>
+         </DataNode>
+         <DataNode name="salestax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:7.98]]></Value>
+         </DataNode>
+         <DataNode name="presum" valueChanged="fromDataSource">
+          <Value><![CDATA[number:50]]></Value>
+         </DataNode>
+         <DataNode name="tax" valueChanged="fromDataSource">
+          <Value><![CDATA[number:19]]></Value>
+         </DataNode>
+         <DataNode name="tax_unit" valueChanged="fromDataSource">
+          <Value><![CDATA[string:%]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="anticipated_paymentsliste">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Jul 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Aug 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Sep 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Oct 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Nov 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Dec 1, 2020, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Jan 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Feb 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Mar 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Apr 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:May 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+         <DataNode name="anticipated_payment" valueChanged="fromDataSource">
+          <Value><![CDATA[date:Jun 1, 2021, 12:00:00 AM]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="salestax_sum">
+         <Value><![CDATA[number:32.58]]></Value>
+        </DataNode>
+        <DataNode name="netamount_sum">
+         <Value><![CDATA[number:177.42]]></Value>
+        </DataNode>
+        <DataNode name="anticipated_Payments_count">
+         <Value><![CDATA[number:12]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="payment_text">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="paidanticipated_payments">
+        <DataNode name="netamount_sum">
+         <Value><![CDATA[number:0]]></Value>
+        </DataNode>
+        <DataNode name="salestax_sum">
+         <Value><![CDATA[number:0]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+      <DataNode name="recipient">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="Partner">
+        <Value><![CDATA[string:]]></Value>
+        <DataNode name="PartnerID" valueChanged="fromDataSource">
+         <Value><![CDATA[string:202017070815]]></Value>
+        </DataNode>
+        <DataNode name="UserID" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="Salutation" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Mr.]]></Value>
+        </DataNode>
+        <DataNode name="Title" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Sir]]></Value>
+        </DataNode>
+        <DataNode name="Firstname" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Ian]]></Value>
+        </DataNode>
+        <DataNode name="Lastname" valueChanged="fromDataSource">
+         <Value><![CDATA[string:McKellen]]></Value>
+        </DataNode>
+        <DataNode name="CompanyName1" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="CompanyName2" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="HouseNo" valueChanged="fromDataSource">
+         <Value><![CDATA[string:40]]></Value>
+        </DataNode>
+        <DataNode name="AddressSupplement" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="Street" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Whitfield Street]]></Value>
+        </DataNode>
+        <DataNode name="Zip" valueChanged="fromDataSource">
+         <Value><![CDATA[string:W1T 2RH]]></Value>
+        </DataNode>
+        <DataNode name="City" valueChanged="fromDataSource">
+         <Value><![CDATA[string:London]]></Value>
+        </DataNode>
+        <DataNode name="Country" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="Address">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="Line" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Ian McKellen]]></Value>
+         </DataNode>
+         <DataNode name="Line" valueChanged="fromDataSource">
+          <Value><![CDATA[string:Whitfield Street 12]]></Value>
+         </DataNode>
+         <DataNode name="Line" valueChanged="fromDataSource">
+          <Value><![CDATA[string:W1T 2RH London]]></Value>
+         </DataNode>
+        </DataNode>
+        <DataNode name="Role" valueChanged="fromDataSource">
+         <Value><![CDATA[string:Customer]]></Value>
+        </DataNode>
+        <DataNode name="Email" valueChanged="fromDataSource">
+         <Value><![CDATA[string:mckkellen.ian@email.web]]></Value>
+        </DataNode>
+        <DataNode name="Phone" valueChanged="fromDataSource">
+         <Value><![CDATA[string:+49 123 546789]]></Value>
+        </DataNode>
+        <DataNode name="Fax" valueChanged="fromDataSource">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="Signature">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="isValid">
+        <Value><![CDATA[bool:true]]></Value>
+       </DataNode>
+       <DataNode name="SalutatoryAddress">
+        <Value><![CDATA[string:Dear Mr. Sir McKellen]]></Value>
+       </DataNode>
+       <DataNode name="NameFirstname">
+        <Value><![CDATA[string:McKellen, Ian]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="User">
+       <DataNode name="User">
+        <Value><![CDATA[string:Karen Rentlinger]]></Value>
+       </DataNode>
+       <DataNode name="Role">
+        <Value><![CDATA[string:Role]]></Value>
+       </DataNode>
+       <DataNode name="Position">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="EMail">
+        <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+       </DataNode>
+       <DataNode name="Fax">
+        <Value><![CDATA[string:0815/47114249]]></Value>
+       </DataNode>
+       <DataNode name="Phone">
+        <Value><![CDATA[string:0815/47111234]]></Value>
+       </DataNode>
+       <DataNode name="Name">
+        <Value><![CDATA[string:Karen Rentlinger]]></Value>
+       </DataNode>
+       <DataNode name="Signature">
+        <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
+       </DataNode>
+       <DataNode name="Language">
+        <Value><![CDATA[string:USA]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="Attachment">
+       <DataNode name="Attachment_Listing">
+        <Value><![CDATA[string:false]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="mail">
+       <DataNode name="Sender">
+        <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="template">
+       <DataNode name="Date">
+        <Value><![CDATA[date:Jan 20, 2022, 10:26:09 AM]]></Value>
+       </DataNode>
+       <DataNode name="Salutation_local">
+        <Value><![CDATA[string:Hello]]></Value>
+       </DataNode>
+       <DataNode name="Text">
+        <DataNode name="green_text">
+         <Value><![CDATA[string:Emission-free into a green future - A careful and conscious handling of our environment as well as the sustainable use of resources are important tasks that we at sam.energy have been dealing with for many years. It is not for nothing that our environmental philosophy is: 'Committed to people, nature and the region'.]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+     </DataNode>
      <DataNode name="TaskControl">
       <Value><![CDATA[string:]]></Value>
-      <DataNode name="Creator">
-       <Value><![CDATA[string:]]></Value>
-      </DataNode>
       <DataNode name="Message">
        <Value><![CDATA[string:]]></Value>
-       <DataNode name="LetterDate">
-        <Value><![CDATA[date:Feb 29, 2020, 12:00:00 AM]]></Value>
+       <DataNode name="LetterDate" valueChanged="fromDataSource">
+        <Value><![CDATA[date:Jun 30, 2020, 12:00:00 AM]]></Value>
        </DataNode>
        <DataNode name="Instances">
         <Value><![CDATA[string:]]></Value>
@@ -1446,107 +2161,98 @@
          <Value><![CDATA[string:]]></Value>
          <DataNode name="Sender">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="Name">
-           <Value><![CDATA[string:SAM AG]]></Value>
+          <DataNode name="Name" valueChanged="fromDataSource">
+           <Value><![CDATA[string:sam.energy]]></Value>
           </DataNode>
-          <DataNode name="Street">
-           <Value><![CDATA[string:Kruppallee 42]]></Value>
+          <DataNode name="Street" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
           </DataNode>
-          <DataNode name="Zip">
-           <Value><![CDATA[string:13373]]></Value>
+          <DataNode name="Zip" valueChanged="fromDataSource">
+           <Value><![CDATA[string:79100]]></Value>
           </DataNode>
-          <DataNode name="City">
-           <Value><![CDATA[string:Essen]]></Value>
+          <DataNode name="City" valueChanged="fromDataSource">
+           <Value><![CDATA[string:Freiburg]]></Value>
           </DataNode>
           <DataNode name="User">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:14213373]]></Value>
+           <DataNode name="PartnerID" valueChanged="fromDataSource">
+            <Value><![CDATA[string:99887766]]></Value>
            </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
+           <DataNode name="UserID" valueChanged="fromDataSource">
+            <Value><![CDATA[string:rentlinger]]></Value>
            </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
+           <DataNode name="Salutation" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Ms.]]></Value>
            </DataNode>
-           <DataNode name="Title">
+           <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Hans]]></Value>
+           <DataNode name="Firstname" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Karen]]></Value>
            </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Brackhaus]]></Value>
+           <DataNode name="Lastname" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Rentlinger]]></Value>
            </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:SAM AG]]></Value>
+           <DataNode name="CompanyName1" valueChanged="fromDataSource">
+            <Value><![CDATA[string:sam.energy]]></Value>
            </DataNode>
-           <DataNode name="CompanyName2">
+           <DataNode name="CompanyName2" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Private Customer Support]]></Value>
+           </DataNode>
+           <DataNode name="HouseNo" valueChanged="fromDataSource">
+            <Value><![CDATA[string:59]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:42]]></Value>
+           <DataNode name="Street" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Karl-Marx-Place]]></Value>
            </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
+           <DataNode name="Zip" valueChanged="fromDataSource">
+            <Value><![CDATA[string:79100]]></Value>
            </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Kruppallee]]></Value>
+           <DataNode name="City" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Freiburg]]></Value>
            </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:13373]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Essen]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
+           <DataNode name="Country" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:SAM AG]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:sam.energy]]></Value>
             </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Hans Brackhaus]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Karen Rentlinger]]></Value>
             </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Kruppallee 42]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Private Customer Support]]></Value>
             </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:13373 Essen]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
+            </DataNode>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:79100 Freiburg]]></Value>
             </DataNode>
            </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
+           <DataNode name="Role" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Customer Advisor]]></Value>
            </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:backward]]></Value>
+           <DataNode name="Email" valueChanged="fromDataSource">
+            <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
+           <DataNode name="Phone" valueChanged="fromDataSource">
+            <Value><![CDATA[string:0815-47111234]]></Value>
            </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111337]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114242]]></Value>
+           <DataNode name="Fax" valueChanged="fromDataSource">
+            <Value><![CDATA[string:0815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
-            <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
+            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="SenderAddress">
-           <Value><![CDATA[string:SAM AG <A00b7> Kruppallee 42 <A00b7> 13373 Essen]]></Value>
+           <Value><![CDATA[string:sam.energy <A00b7> Karl-Marx-Place 59 <A00b7> 79100 Freiburg]]></Value>
           </DataNode>
           <DataNode name="ReturnAddress">
            <DataNode name="Partner">
@@ -1558,7 +2264,7 @@
             <Value><![CDATA[bool:false]]></Value>
            </DataNode>
            <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
+            <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
            </DataNode>
            <DataNode name="NameFirstname">
             <Value><![CDATA[string:]]></Value>
@@ -1569,83 +2275,71 @@
           <Value><![CDATA[string:]]></Value>
           <DataNode name="Partner">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
+           <DataNode name="PartnerID" valueChanged="fromDataSource">
+            <Value><![CDATA[string:202017070815]]></Value>
            </DataNode>
-           <DataNode name="UserID">
+           <DataNode name="UserID" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
+           <DataNode name="Salutation" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Mr.]]></Value>
            </DataNode>
-           <DataNode name="Title">
+           <DataNode name="Title" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Sir]]></Value>
+           </DataNode>
+           <DataNode name="Firstname" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Ian]]></Value>
+           </DataNode>
+           <DataNode name="Lastname" valueChanged="fromDataSource">
+            <Value><![CDATA[string:McKellen]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName1" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Maria]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Mercurial]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
+           <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="CompanyName2">
+           <DataNode name="HouseNo" valueChanged="fromDataSource">
+            <Value><![CDATA[string:40]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
+           <DataNode name="Street" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Whitfield Street]]></Value>
            </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:Postfach 1337]]></Value>
+           <DataNode name="Zip" valueChanged="fromDataSource">
+            <Value><![CDATA[string:W1T 2RH]]></Value>
            </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
+           <DataNode name="City" valueChanged="fromDataSource">
+            <Value><![CDATA[string:London]]></Value>
            </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98199]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Smaragdstadt]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
+           <DataNode name="Country" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Maria Mercurial]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Ian McKellen]]></Value>
             </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Postfach 1337]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:Whitfield Street 12]]></Value>
             </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:98199 Smaragdstadt]]></Value>
+            <DataNode name="Line" valueChanged="fromDataSource">
+             <Value><![CDATA[string:W1T 2RH London]]></Value>
             </DataNode>
            </DataNode>
-           <DataNode name="SalutatoryAddress">
+           <DataNode name="Role" valueChanged="fromDataSource">
+            <Value><![CDATA[string:Customer]]></Value>
+           </DataNode>
+           <DataNode name="Email" valueChanged="fromDataSource">
+            <Value><![CDATA[string:mckkellen.ian@email.web]]></Value>
+           </DataNode>
+           <DataNode name="Phone" valueChanged="fromDataSource">
+            <Value><![CDATA[string:+49 123 546789]]></Value>
+           </DataNode>
+           <DataNode name="Fax" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:forward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.mercurial@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:01989-2050]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:01989-2001]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:]]></Value>
@@ -1655,92 +2349,71 @@
            <Value><![CDATA[bool:true]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
+           <Value><![CDATA[string:Dear Mr. Sir McKellen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Mercurial, Maria]]></Value>
+           <Value><![CDATA[string:McKellen, Ian]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="RecipientProxy">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="Partner">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698117]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
+           <DataNode name="PartnerID" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
-           </DataNode>
-           <DataNode name="Title">
+           <DataNode name="UserID" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Marla]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Aguilar]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
+           <DataNode name="Salutation" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="CompanyName2">
+           <DataNode name="Title" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:17]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
+           <DataNode name="Firstname" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Am Boulevard]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98142]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Smaragdstadt]]></Value>
-           </DataNode>
-           <DataNode name="Country">
+           <DataNode name="Lastname" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="CountryCode">
+           <DataNode name="CompanyName1" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="State">
+           <DataNode name="CompanyName2" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Region">
+           <DataNode name="HouseNo" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Street" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Zip" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="City" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Country" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Address">
             <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Marla Aguilar]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Am Boulevard 17]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:98142 Smaragdstadt]]></Value>
-            </DataNode>
            </DataNode>
-           <DataNode name="SalutatoryAddress">
+           <DataNode name="Role" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:Purzelbaum]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.aguilar@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
+           <DataNode name="Email" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
-           <DataNode name="Fax">
+           <DataNode name="Phone" valueChanged="fromDataSource">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Fax" valueChanged="fromDataSource">
             <Value><![CDATA[string:]]></Value>
            </DataNode>
            <DataNode name="Signature">
@@ -1748,18 +2421,18 @@
            </DataNode>
           </DataNode>
           <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
+           <Value><![CDATA[bool:false]]></Value>
           </DataNode>
           <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
           </DataNode>
           <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Aguilar, Marla]]></Value>
+           <Value><![CDATA[string:]]></Value>
           </DataNode>
          </DataNode>
          <DataNode name="OutputSettings">
           <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
+          <DataNode name="OutputChannel" valueChanged="fromDataSource">
            <Value><![CDATA[string:LOCALPRINTING]]></Value>
           </DataNode>
           <DataNode name="ARCHIVE">
@@ -1768,8 +2441,8 @@
           </DataNode>
           <DataNode name="LOCALPRINTING">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
+           <DataNode name="UserID" valueChanged="fromDataSource">
+            <Value><![CDATA[string:10203040]]></Value>
            </DataNode>
           </DataNode>
           <DataNode name="CENTRALPRINTING">
@@ -1792,20 +2465,305 @@
            <Value><![CDATA[string:LOCALPRINTING_10100]]></Value>
           </DataNode>
          </DataNode>
+         <DataNode name="No">
+          <Value><![CDATA[number:1]]></Value>
+         </DataNode>
+         <DataNode name="Type">
+          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
+         </DataNode>
+        </DataNode>
+       </DataNode>
+       <DataNode name="No">
+        <Value><![CDATA[number:1]]></Value>
+       </DataNode>
+       <DataNode name="PrimaryInstance">
+        <DataNode name="Instance">
+         <Value><![CDATA[string:]]></Value>
+         <DataNode name="Sender">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="Name">
+           <Value><![CDATA[string:sam.energy]]></Value>
+          </DataNode>
+          <DataNode name="Street">
+           <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
+          </DataNode>
+          <DataNode name="Zip">
+           <Value><![CDATA[string:79100]]></Value>
+          </DataNode>
+          <DataNode name="City">
+           <Value><![CDATA[string:Freiburg]]></Value>
+          </DataNode>
+          <DataNode name="User">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="PartnerID">
+            <Value><![CDATA[string:99887766]]></Value>
+           </DataNode>
+           <DataNode name="UserID">
+            <Value><![CDATA[string:rentlinger]]></Value>
+           </DataNode>
+           <DataNode name="Salutation">
+            <Value><![CDATA[string:Ms.]]></Value>
+           </DataNode>
+           <DataNode name="Title">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Firstname">
+            <Value><![CDATA[string:Karen]]></Value>
+           </DataNode>
+           <DataNode name="Lastname">
+            <Value><![CDATA[string:Rentlinger]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName1">
+            <Value><![CDATA[string:sam.energy]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName2">
+            <Value><![CDATA[string:Private Customer Support]]></Value>
+           </DataNode>
+           <DataNode name="HouseNo">
+            <Value><![CDATA[string:59]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Street">
+            <Value><![CDATA[string:Karl-Marx-Place]]></Value>
+           </DataNode>
+           <DataNode name="Zip">
+            <Value><![CDATA[string:79100]]></Value>
+           </DataNode>
+           <DataNode name="City">
+            <Value><![CDATA[string:Freiburg]]></Value>
+           </DataNode>
+           <DataNode name="Country">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Address">
+            <Value><![CDATA[string:]]></Value>
+            <DataNode name="Line">
+             <Value><![CDATA[string:sam.energy]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Karen Rentlinger]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Private Customer Support]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Karl-Marx-Place 59]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:79100 Freiburg]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="Role">
+            <Value><![CDATA[string:Customer Advisor]]></Value>
+           </DataNode>
+           <DataNode name="Email">
+            <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+           </DataNode>
+           <DataNode name="Phone">
+            <Value><![CDATA[string:0815-47111234]]></Value>
+           </DataNode>
+           <DataNode name="Fax">
+            <Value><![CDATA[string:0815-47114249]]></Value>
+           </DataNode>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="SenderAddress">
+           <Value><![CDATA[string:sam.energy <A00b7> Karl-Marx-Place 59 <A00b7> 79100 Freiburg]]></Value>
+          </DataNode>
+          <DataNode name="ReturnAddress">
+           <DataNode name="Partner">
+            <DataNode name="Signature">
+             <Value><![CDATA[string:]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="isValid">
+            <Value><![CDATA[bool:false]]></Value>
+           </DataNode>
+           <DataNode name="SalutatoryAddress">
+            <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
+           </DataNode>
+           <DataNode name="NameFirstname">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+         </DataNode>
+         <DataNode name="Recipient">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="Partner">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="PartnerID">
+            <Value><![CDATA[string:202017070815]]></Value>
+           </DataNode>
+           <DataNode name="UserID">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Salutation">
+            <Value><![CDATA[string:Mr.]]></Value>
+           </DataNode>
+           <DataNode name="Title">
+            <Value><![CDATA[string:Sir]]></Value>
+           </DataNode>
+           <DataNode name="Firstname">
+            <Value><![CDATA[string:Ian]]></Value>
+           </DataNode>
+           <DataNode name="Lastname">
+            <Value><![CDATA[string:McKellen]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName1">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName2">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="HouseNo">
+            <Value><![CDATA[string:40]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Street">
+            <Value><![CDATA[string:Whitfield Street]]></Value>
+           </DataNode>
+           <DataNode name="Zip">
+            <Value><![CDATA[string:W1T 2RH]]></Value>
+           </DataNode>
+           <DataNode name="City">
+            <Value><![CDATA[string:London]]></Value>
+           </DataNode>
+           <DataNode name="Country">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Address">
+            <Value><![CDATA[string:]]></Value>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Ian McKellen]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:Whitfield Street 12]]></Value>
+            </DataNode>
+            <DataNode name="Line">
+             <Value><![CDATA[string:W1T 2RH London]]></Value>
+            </DataNode>
+           </DataNode>
+           <DataNode name="Role">
+            <Value><![CDATA[string:Customer]]></Value>
+           </DataNode>
+           <DataNode name="Email">
+            <Value><![CDATA[string:mckkellen.ian@email.web]]></Value>
+           </DataNode>
+           <DataNode name="Phone">
+            <Value><![CDATA[string:+49 123 546789]]></Value>
+           </DataNode>
+           <DataNode name="Fax">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:true]]></Value>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Dear Mr. Sir McKellen]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:McKellen, Ian]]></Value>
+          </DataNode>
+         </DataNode>
+         <DataNode name="RecipientProxy">
+          <Value><![CDATA[string:]]></Value>
+          <DataNode name="Partner">
+           <Value><![CDATA[string:]]></Value>
+           <DataNode name="PartnerID">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="UserID">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Salutation">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Title">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Firstname">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Lastname">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName1">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="CompanyName2">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="HouseNo">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="AddressSupplement">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Street">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Zip">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="City">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Country">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Address">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Role">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Email">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Phone">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Fax">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+           <DataNode name="Signature">
+            <Value><![CDATA[string:]]></Value>
+           </DataNode>
+          </DataNode>
+          <DataNode name="isValid">
+           <Value><![CDATA[bool:false]]></Value>
+          </DataNode>
+          <DataNode name="SalutatoryAddress">
+           <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
+          </DataNode>
+          <DataNode name="NameFirstname">
+           <Value><![CDATA[string:]]></Value>
+          </DataNode>
+         </DataNode>
          <DataNode name="OutputSettings">
           <Value><![CDATA[string:]]></Value>
           <DataNode name="OutputChannel">
-           <Value><![CDATA[string:ARCHIVE]]></Value>
+           <Value><![CDATA[string:LOCALPRINTING]]></Value>
           </DataNode>
           <DataNode name="ARCHIVE">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
+           <DataNode name="PartnerID"></DataNode>
           </DataNode>
           <DataNode name="LOCALPRINTING">
            <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID"></DataNode>
+           <DataNode name="UserID">
+            <Value><![CDATA[string:10203040]]></Value>
+           </DataNode>
           </DataNode>
           <DataNode name="CENTRALPRINTING">
            <Value><![CDATA[string:]]></Value>
@@ -1824,440 +2782,9 @@
            <DataNode name="Recipient"></DataNode>
           </DataNode>
           <DataNode name="InstanceID">
-           <Value><![CDATA[string:ARCHIVE_10101]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="No">
-          <Value><![CDATA[number:1]]></Value>
-         </DataNode>
-         <DataNode name="Type">
-          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
-         </DataNode>
-        </DataNode>
-       </DataNode>
-       <DataNode name="No">
-        <Value><![CDATA[number:1]]></Value>
-       </DataNode>
-       <DataNode name="PrimaryInstance">
-        <DataNode name="Instance">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Sender">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Name">
-           <Value><![CDATA[string:SAM AG]]></Value>
-          </DataNode>
-          <DataNode name="Street">
-           <Value><![CDATA[string:Kruppallee 42]]></Value>
-          </DataNode>
-          <DataNode name="Zip">
-           <Value><![CDATA[string:13373]]></Value>
-          </DataNode>
-          <DataNode name="City">
-           <Value><![CDATA[string:Essen]]></Value>
-          </DataNode>
-          <DataNode name="User">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:14213373]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Hans]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Brackhaus]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:SAM AG]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:42]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Kruppallee]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:13373]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Essen]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:SAM AG]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Hans Brackhaus]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Kruppallee 42]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:13373 Essen]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:backward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111337]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114242]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="SenderAddress">
-           <Value><![CDATA[string:SAM AG <A00b7> Kruppallee 42 <A00b7> 13373 Essen]]></Value>
-          </DataNode>
-          <DataNode name="ReturnAddress">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Partner">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Signature">
-             <Value><![CDATA[string:]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="isValid">
-            <Value><![CDATA[bool:false]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-           </DataNode>
-           <DataNode name="NameFirstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="Recipient">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Maria]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Mercurial]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:Postfach 1337]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98199]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Smaragdstadt]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Maria Mercurial]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Postfach 1337]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:98199 Smaragdstadt]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:forward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.mercurial@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:01989-2050]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:01989-2001]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ms. Mercurial]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Mercurial, Maria]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="RecipientProxy">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698117]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Marla]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Aguilar]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:17]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Am Boulevard]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98142]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Smaragdstadt]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Marla Aguilar]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Am Boulevard 17]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:98142 Smaragdstadt]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:Purzelbaum]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.aguilar@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ms. Aguilar]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Aguilar, Marla]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="OutputSettings">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
-           <Value><![CDATA[string:LOCALPRINTING]]></Value>
-          </DataNode>
-          <DataNode name="ARCHIVE">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="LOCALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="CENTRALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="InstanceID">
            <Value><![CDATA[string:LOCALPRINTING_10100]]></Value>
           </DataNode>
          </DataNode>
-         <DataNode name="OutputSettings">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
-           <Value><![CDATA[string:ARCHIVE]]></Value>
-          </DataNode>
-          <DataNode name="ARCHIVE">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="LOCALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="CENTRALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="InstanceID">
-           <Value><![CDATA[string:ARCHIVE_10101]]></Value>
-          </DataNode>
-         </DataNode>
          <DataNode name="No">
           <Value><![CDATA[number:1]]></Value>
          </DataNode>
@@ -2270,1474 +2797,44 @@
      </DataNode>
      <DataNode name="Metadata">
       <Value><![CDATA[string:]]></Value>
-      <DataNode name="Vorlage">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="Korrespondenz">
-        <Value><![CDATA[string:]]></Value>
-        <DataNode name="ErstExemplar">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Ausgabekanaele">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="ARCHIV">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="LOKALDRUCK">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="ZENTRALDRUCK">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-       </DataNode>
-       <DataNode name="auswaehlbar">
-        <Value><![CDATA[bool:true]]></Value>
-       </DataNode>
-      </DataNode>
       <DataNode name="OutputControl">
        <Value><![CDATA[string:]]></Value>
-       <DataNode name="FormattingMode">
+       <DataNode name="FormattingMode" valueChanged="fromDataSource">
         <Value><![CDATA[string:Editor]]></Value>
        </DataNode>
       </DataNode>
-      <DataNode name="State">
+      <DataNode name="State" valueChanged="fromDataSource">
        <Value><![CDATA[string:Created]]></Value>
       </DataNode>
-      <DataNode name="ValidationState">
+      <DataNode name="ValidationState" valueChanged="manually">
        <Value><![CDATA[string:ERROR]]></Value>
       </DataNode>
       <DataNode name="Editor">
        <Value><![CDATA[string:]]></Value>
-       <DataNode name="DefaultDocumentName">
+       <DataNode name="DefaultDocumentName" valueChanged="fromDataSource">
         <Value><![CDATA[string:]]></Value>
        </DataNode>
-       <DataNode name="DefaultDocumentDescription">
+       <DataNode name="DefaultDocumentDescription" valueChanged="fromDataSource">
         <Value><![CDATA[string:]]></Value>
        </DataNode>
       </DataNode>
-      <DataNode name="DocumentLanguage">
-       <Value><![CDATA[string:]]></Value>
+      <DataNode name="DocumentLanguage" valueChanged="fromDataSource">
+       <Value><![CDATA[string:USA]]></Value>
       </DataNode>
-      <DataNode name="InitialDataBinding">
-       <Value><![CDATA[string:\library\Framework_TONIC_Demo\CopyTemplates\MusterKorrespondenzMitBrief.template]]></Value>
+      <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
+       <Value><![CDATA[string:\library\Training_Interactive\Templates\International.template]]></Value>
+      </DataNode>
+      <DataNode name="Mandant" valueChanged="fromDataSource">
+       <Value><![CDATA[string:sam.energy]]></Value>
+      </DataNode>
+      <DataNode name="Language">
+       <Value><![CDATA[string:en]]></Value>
       </DataNode>
      </DataNode>
     </Data>
     <DocumentPartInstance partIndex="0">
      <Data>
       <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
-      <DataNode name="Subject1">
-       <Value><![CDATA[string:Subject line #1]]></Value>
-      </DataNode>
-     </Data>
-     <DocumentPartInstance partIndex="0">
-      <DocumentPartInstance partIndex="0">
-       <DocumentPartInstance partIndex="0">
-        <Data>
-         <DataNodeRef ref="$Message.Instances.Instance.instance(0)" name="Instance"></DataNodeRef>
-         <DataNodeRef ref="$Message.Instances.Instance.instance(0)" name="InstanceOutputSettings"></DataNodeRef>
-         <DataNodeRef ref="$Message.Instances.Instance.instance(0)" name="InstancePrimary"></DataNodeRef>
-         <DataNodeRef ref="$Message" name="Message"></DataNodeRef>
-        </Data>
-        <DocumentPartInstance partIndex="0">
-         <DocumentPartInstance partIndex="0">
-          <DocumentPartInstance partIndex="0">
-           <DocumentPartInstance partIndex="0">
-            <DocumentPartInstance partIndex="0">
-             <Data>
-              <DataNodeRef ref="$Message" name="Message"></DataNodeRef>
-              <DataNodeRef ref="$Instance" name="Instance"></DataNodeRef>
-              <DataNodeRef ref="$Instance.RecipientProxy" name="Recipient"></DataNodeRef>
-              <DataNodeRef ref="$Instance.Sender" name="Sender"></DataNodeRef>
-              <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
-              <DataNodeRef ref="$Subject2" name="Subject2"></DataNodeRef>
-              <DataNodeRef ref="$Subject3" name="Subject3"></DataNodeRef>
-             </Data>
-             <DocumentPartInstance partIndex="0">
-              <ContainerPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="1">
-               <Data>
-                <DataNodeRef ref="$Sender" name="Sender"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="2">
-               <Data>
-                <DataNodeRef ref="$Sender" name="Sender"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="3">
-               <Data>
-                <DataNodeRef ref="$Recipient" name="Recipient"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0">
-                <ContainerPartInstance partIndex="0">
-                 <ContainerPartInstance partIndex="0">
-                  <Data>
-                   <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(0)" loopNode="true" name="line"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="0">
-                  <Data>
-                   <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(1)" loopNode="true" name="line"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                 <ContainerPartInstance partIndex="0">
-                  <Data>
-                   <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(2)" loopNode="true" name="line"></DataNodeRef>
-                  </Data>
-                  <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                 </ContainerPartInstance>
-                </ContainerPartInstance>
-                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-               </ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="4">
-               <Data>
-                <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
-                <DataNodeRef ref="$Subject2" name="Subject2"></DataNodeRef>
-                <DataNodeRef ref="$Subject3" name="Subject3"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0">
-                <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-               </ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="5">
-               <Data>
-                <DataNodeRef ref="$Instance.RecipientProxy" name="Recipient"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-              <ContainerPartInstance partIndex="6">
-               <Data>
-                <DataNodeRef ref="$Instance.RecipientProxy" name="Recipient"></DataNodeRef>
-                <DataNodeRef ref="$Instance.Recipient" name="PrimaryRecipient"></DataNodeRef>
-               </Data>
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-              <SectionPartInstance partIndex="7">
-               <Data>
-                <DataNode name="Grussformel">
-                 <Value><![CDATA[string:Kind regards]]></Value>
-                </DataNode>
-                <DataNode name="Unterschrift">
-                 <Value><![CDATA[string:mtx://Framework/Graphics/signature_EH.png]]></Value>
-                </DataNode>
-                <DataNodeRef ref="$Instance.Sender" name="Sender"></DataNodeRef>
-               </Data>
-               <SectionPartInstance partIndex="0">
-                <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-               </SectionPartInstance>
-              </SectionPartInstance>
-              <SectionPartInstance partIndex="8">
-               <SectionPartInstance partIndex="0">
-                <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-               </SectionPartInstance>
-              </SectionPartInstance>
-              <ContainerPartInstance partIndex="9">
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-              </ContainerPartInstance>
-             </DocumentPartInstance>
-            </DocumentPartInstance>
-           </DocumentPartInstance>
-           <DocumentPartInstance partIndex="1">
-            <Data>
-             <DataNodeRef ref="$Message" name="Message"></DataNodeRef>
-             <DataNodeRef ref="$Instance" name="Instance"></DataNodeRef>
-             <DataNodeRef ref="$Instance.Recipient" name="Recipient"></DataNodeRef>
-             <DataNodeRef ref="$Instance.Sender" name="Sender"></DataNodeRef>
-             <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
-             <DataNodeRef ref="$Subject2" name="Subject2"></DataNodeRef>
-             <DataNodeRef ref="$Subject3" name="Subject3"></DataNodeRef>
-            </Data>
-            <DocumentPartInstance partIndex="0">
-             <ContainerPartInstance partIndex="0">
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="1">
-              <Data>
-               <DataNodeRef ref="$Sender" name="Sender"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="2">
-              <Data>
-               <DataNodeRef ref="$Sender" name="Sender"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="3">
-              <Data>
-               <DataNodeRef ref="$Recipient" name="Recipient"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0">
-                <ContainerPartInstance partIndex="0">
-                 <Data>
-                  <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(0)" loopNode="true" name="line"></DataNodeRef>
-                 </Data>
-                 <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                </ContainerPartInstance>
-                <ContainerPartInstance partIndex="0">
-                 <Data>
-                  <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(1)" loopNode="true" name="line"></DataNodeRef>
-                 </Data>
-                 <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                </ContainerPartInstance>
-                <ContainerPartInstance partIndex="0">
-                 <Data>
-                  <DataNodeRef ref="$Recipient.Partner.Address.Line.instance(2)" loopNode="true" name="line"></DataNodeRef>
-                 </Data>
-                 <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-                </ContainerPartInstance>
-               </ContainerPartInstance>
-               <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-              </ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="4">
-              <Data>
-               <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
-               <DataNodeRef ref="$Subject2" name="Subject2"></DataNodeRef>
-               <DataNodeRef ref="$Subject3" name="Subject3"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-               <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-              </ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="5">
-              <Data>
-               <DataNodeRef ref="$Instance.Recipient" name="Recipient"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-             <SectionPartInstance partIndex="6">
-              <Data>
-               <DataNode name="Grussformel">
-                <Value><![CDATA[string:Kind regards]]></Value>
-               </DataNode>
-               <DataNode name="Unterschrift">
-                <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
-               </DataNode>
-               <DataNodeRef ref="$Instance.Sender" name="Sender"></DataNodeRef>
-              </Data>
-              <SectionPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-               <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-              </SectionPartInstance>
-             </SectionPartInstance>
-             <SectionPartInstance partIndex="7">
-              <SectionPartInstance partIndex="0">
-               <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
-               <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-              </SectionPartInstance>
-             </SectionPartInstance>
-             <ContainerPartInstance partIndex="8">
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-            </DocumentPartInstance>
-           </DocumentPartInstance>
-          </DocumentPartInstance>
-         </DocumentPartInstance>
-        </DocumentPartInstance>
-       </DocumentPartInstance>
-      </DocumentPartInstance>
-      <DocumentPartInstance partIndex="1" visible="false"></DocumentPartInstance>
-      <DocumentPartInstance partIndex="2"></DocumentPartInstance>
-     </DocumentPartInstance>
-    </DocumentPartInstance>
-   </RootPartInstance>
-  </Root>
-  <DataSourceProperties>
-   <Property value="\\Framework_TONIC_Demo\Data\auftrag_1korr_1ex_1altempf_lokal_archiv.xml" name="Auftragssteuerung.FILE_NAME"></Property>
-   <Property value="\\Framework_TONIC_Demo\Data\auftrag_1korr_1ex_1altempf_lokal_archiv.xml" name="TaskControl.FILE_NAME"></Property>
-  </DataSourceProperties>
- </TestCase>
- <TestCase name="2 instances" includeInRegressionTool="false">
-  <Root base="Framework_TONIC_Demo">
-   <DocumentDescription></DocumentDescription>
-   <RootPartInstance partIndex="0">
-    <Data>
-     <DataNode name="TaskControl">
-      <Value><![CDATA[string:]]></Value>
-      <DataNode name="Creator">
-       <Value><![CDATA[string:]]></Value>
-      </DataNode>
-      <DataNode name="Message">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="LetterDate">
-        <Value><![CDATA[date:Feb 29, 2020, 12:00:00 AM]]></Value>
-       </DataNode>
-       <DataNode name="Instances">
-        <Value><![CDATA[string:]]></Value>
-        <DataNode name="Instance">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Sender">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Name">
-           <Value><![CDATA[string:SAM AG]]></Value>
-          </DataNode>
-          <DataNode name="Street">
-           <Value><![CDATA[string:Kruppallee 42]]></Value>
-          </DataNode>
-          <DataNode name="Zip">
-           <Value><![CDATA[string:13373]]></Value>
-          </DataNode>
-          <DataNode name="City">
-           <Value><![CDATA[string:Essen]]></Value>
-          </DataNode>
-          <DataNode name="User">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:14213373]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Hans]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Brackhaus]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:SAM AG]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:42]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Kruppallee]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:13373]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Essen]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:SAM AG]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Hans Brackhaus]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Kruppallee 42]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:13373 Essen]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:backward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111337]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114242]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="SenderAddress">
-           <Value><![CDATA[string:SAM AG <A00b7> Kruppallee 42 <A00b7> 13373 Essen]]></Value>
-          </DataNode>
-          <DataNode name="ReturnAddress">
-           <DataNode name="Partner">
-            <DataNode name="Signature">
-             <Value><![CDATA[string:]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="isValid">
-            <Value><![CDATA[bool:false]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-           </DataNode>
-           <DataNode name="NameFirstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="Recipient">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:Dr.]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Peter]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Fox]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Clinical Center 31]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:47929]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Docville]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Clinical Center 31]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:47929 Docville]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:forward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.mercurial@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:01989-2050]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:01989-2001]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Mr. Dr. Fox]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Fox, Peter]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="RecipientProxy">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="OutputSettings">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
-           <Value><![CDATA[string:CENTRALPRINTING]]></Value>
-          </DataNode>
-          <DataNode name="ARCHIVE">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID"></DataNode>
-          </DataNode>
-          <DataNode name="LOCALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID"></DataNode>
-          </DataNode>
-          <DataNode name="CENTRALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Batch">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:47929]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender"></DataNode>
-           <DataNode name="Recipient"></DataNode>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender"></DataNode>
-           <DataNode name="Recipient"></DataNode>
-          </DataNode>
-          <DataNode name="InstanceID">
-           <Value><![CDATA[string:CENTRALPRINTING_10100]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="No">
-          <Value><![CDATA[number:1]]></Value>
-         </DataNode>
-         <DataNode name="Type">
-          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
-         </DataNode>
-        </DataNode>
-        <DataNode name="Instance">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Sender">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Name">
-           <Value><![CDATA[string:SAM AG]]></Value>
-          </DataNode>
-          <DataNode name="Street">
-           <Value><![CDATA[string:Kruppallee 42]]></Value>
-          </DataNode>
-          <DataNode name="Zip">
-           <Value><![CDATA[string:13373]]></Value>
-          </DataNode>
-          <DataNode name="City">
-           <Value><![CDATA[string:Essen]]></Value>
-          </DataNode>
-          <DataNode name="User">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:14213373]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Hans]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Brackhaus]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:SAM AG]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:42]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Kruppallee]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:13373]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Essen]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:SAM AG]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Hans Brackhaus]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Kruppallee 42]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:13373 Essen]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:backward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111337]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114242]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="SenderAddress">
-           <Value><![CDATA[string:SAM AG <A00b7> Kruppallee 42 <A00b7> 13373 Essen]]></Value>
-          </DataNode>
-          <DataNode name="ReturnAddress">
-           <DataNode name="Partner">
-            <DataNode name="Signature">
-             <Value><![CDATA[string:]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="isValid">
-            <Value><![CDATA[bool:false]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-           </DataNode>
-           <DataNode name="NameFirstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="Recipient">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Frau]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Maria]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Mercurial]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:Postfach 1337]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98199]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Smaragdstadt]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Maria Mercurial]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Postfach 1337]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:98199 Smaragdstadt]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:forward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.mercurial@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:01989-2050]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:01989-2001]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Ms.  Mercurial]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Mercurial, Maria]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="RecipientProxy">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="OutputSettings">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
-           <Value><![CDATA[string:CENTRALPRINTING]]></Value>
-          </DataNode>
-          <DataNode name="ARCHIVE">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID"></DataNode>
-          </DataNode>
-          <DataNode name="LOCALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID"></DataNode>
-          </DataNode>
-          <DataNode name="CENTRALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Batch">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:98199]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender"></DataNode>
-           <DataNode name="Recipient"></DataNode>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender"></DataNode>
-           <DataNode name="Recipient"></DataNode>
-          </DataNode>
-          <DataNode name="InstanceID">
-           <Value><![CDATA[string:CENTRALPRINTING_10200]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="No">
-          <Value><![CDATA[number:2]]></Value>
-         </DataNode>
-         <DataNode name="Type">
-          <Value><![CDATA[string:OTHER_INSTANCE]]></Value>
-         </DataNode>
-        </DataNode>
-       </DataNode>
-       <DataNode name="No">
-        <Value><![CDATA[number:1]]></Value>
-       </DataNode>
-       <DataNode name="PrimaryInstance">
-        <DataNode name="Instance">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Sender">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Name">
-           <Value><![CDATA[string:SAM AG]]></Value>
-          </DataNode>
-          <DataNode name="Street">
-           <Value><![CDATA[string:Kruppallee 42]]></Value>
-          </DataNode>
-          <DataNode name="Zip">
-           <Value><![CDATA[string:13373]]></Value>
-          </DataNode>
-          <DataNode name="City">
-           <Value><![CDATA[string:Essen]]></Value>
-          </DataNode>
-          <DataNode name="User">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:14213373]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:HB]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Hans]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Brackhaus]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:SAM AG]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:42]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Kruppallee]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:13373]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Essen]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:SAM AG]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Hans Brackhaus]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Kruppallee 42]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:13373 Essen]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:backward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:h.brackhaus@sam-ag.com]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111337]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114242]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="SenderAddress">
-           <Value><![CDATA[string:SAM AG <A00b7> Kruppallee 42 <A00b7> 13373 Essen]]></Value>
-          </DataNode>
-          <DataNode name="ReturnAddress">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Partner">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Signature">
-             <Value><![CDATA[string:]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="isValid">
-            <Value><![CDATA[bool:false]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-           </DataNode>
-           <DataNode name="NameFirstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-         </DataNode>
-         <DataNode name="Recipient">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:Herr]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:Dr.]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:Peter]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:Fox]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:Clinical Center 31]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:47929]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:Docville]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Dr. Peter Fox]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:Clinical Center 31]]></Value>
-            </DataNode>
-            <DataNode name="Line">
-             <Value><![CDATA[string:47929 Docville]]></Value>
-            </DataNode>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:forward]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:m.mercurial@fasa.sr]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:01989-2050]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:01989-2001]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Mr. Dr. Fox]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:Fox, Peter]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="RecipientProxy">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="Partner">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Salutation">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Title">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Firstname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Lastname">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName1">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CompanyName2">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="HouseNo">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="AddressSupplement">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Street">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="City">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Country">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="State">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Region">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Address">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="SalutatoryAddress">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Role">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Email">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Phone">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Fax">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Signature">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="isValid">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-          <DataNode name="SalutatoryAddress">
-           <Value><![CDATA[string:Dear Sir or Madam]]></Value>
-          </DataNode>
-          <DataNode name="NameFirstname">
-           <Value><![CDATA[string:]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="OutputSettings">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="OutputChannel">
-           <Value><![CDATA[string:CENTRALPRINTING]]></Value>
-          </DataNode>
-          <DataNode name="ARCHIVE">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="LOCALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="UserID">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="CENTRALPRINTING">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Batch">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Zip">
-            <Value><![CDATA[string:47929]]></Value>
-           </DataNode>
-           <DataNode name="CountryCode">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="PartnerID">
-            <Value><![CDATA[string:20698101]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[string:]]></Value>
-           <DataNode name="Sender">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-           <DataNode name="Recipient">
-            <Value><![CDATA[string:]]></Value>
-           </DataNode>
-          </DataNode>
-          <DataNode name="InstanceID">
-           <Value><![CDATA[string:CENTRALPRINTING_10100]]></Value>
-          </DataNode>
-         </DataNode>
-         <DataNode name="No">
-          <Value><![CDATA[number:1]]></Value>
-         </DataNode>
-         <DataNode name="Type">
-          <Value><![CDATA[string:PRIMARY_INSTANCE]]></Value>
-         </DataNode>
-        </DataNode>
-       </DataNode>
-      </DataNode>
-     </DataNode>
-     <DataNode name="Metadata">
-      <Value><![CDATA[string:]]></Value>
-      <DataNode name="Vorlage">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="Korrespondenz">
-        <Value><![CDATA[string:]]></Value>
-        <DataNode name="ErstExemplar">
-         <Value><![CDATA[string:]]></Value>
-         <DataNode name="Ausgabekanaele">
-          <Value><![CDATA[string:]]></Value>
-          <DataNode name="ARCHIV">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="LOKALDRUCK">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="ZENTRALDRUCK">
-           <Value><![CDATA[bool:true]]></Value>
-          </DataNode>
-          <DataNode name="FAX">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-          <DataNode name="EMAIL">
-           <Value><![CDATA[bool:false]]></Value>
-          </DataNode>
-         </DataNode>
-        </DataNode>
-       </DataNode>
-       <DataNode name="auswaehlbar">
-        <Value><![CDATA[bool:true]]></Value>
-       </DataNode>
-      </DataNode>
-      <DataNode name="OutputControl">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="FormattingMode">
-        <Value><![CDATA[string:Editor]]></Value>
-       </DataNode>
-      </DataNode>
-      <DataNode name="State">
-       <Value><![CDATA[string:Created]]></Value>
-      </DataNode>
-      <DataNode name="ValidationState">
-       <Value><![CDATA[string:ERROR]]></Value>
-      </DataNode>
-      <DataNode name="Editor">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="DefaultDocumentName">
-        <Value><![CDATA[string:]]></Value>
-       </DataNode>
-       <DataNode name="DefaultDocumentDescription">
-        <Value><![CDATA[string:]]></Value>
-       </DataNode>
-      </DataNode>
-      <DataNode name="DocumentLanguage">
-       <Value><![CDATA[string:]]></Value>
-      </DataNode>
-      <DataNode name="InitialDataBinding">
-       <Value><![CDATA[string:\library\Framework_TONIC_Demo\CopyTemplates\MusterKorrespondenzMitBrief.template]]></Value>
-      </DataNode>
-     </DataNode>
-    </Data>
-    <DocumentPartInstance partIndex="0">
-     <Data>
-      <DataNodeRef ref="$TaskControl.Message.instance(0)" name="Message"></DataNodeRef>
-      <DataNode name="Subject1">
-       <Value><![CDATA[string:Subject line #1]]></Value>
-      </DataNode>
      </Data>
      <DocumentPartInstance partIndex="0">
       <DocumentPartInstance partIndex="0">
@@ -3774,12 +2871,6 @@
              </ContainerPartInstance>
              <ContainerPartInstance partIndex="2">
               <Data>
-               <DataNodeRef ref="$Sender" name="Sender"></DataNodeRef>
-              </Data>
-              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
-             </ContainerPartInstance>
-             <ContainerPartInstance partIndex="3">
-              <Data>
                <DataNodeRef ref="$Recipient" name="Recipient"></DataNodeRef>
               </Data>
               <ContainerPartInstance partIndex="0">
@@ -3806,7 +2897,7 @@
                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
               </ContainerPartInstance>
              </ContainerPartInstance>
-             <ContainerPartInstance partIndex="4">
+             <ContainerPartInstance partIndex="3">
               <Data>
                <DataNodeRef ref="$Subject1" name="Subject1"></DataNodeRef>
                <DataNodeRef ref="$Subject2" name="Subject2"></DataNodeRef>
@@ -3817,34 +2908,69 @@
                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
               </ContainerPartInstance>
              </ContainerPartInstance>
-             <ContainerPartInstance partIndex="5">
+             <ContainerPartInstance partIndex="4">
+              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+             </ContainerPartInstance>
+             <ContainerPartInstance partIndex="5" visible="false"></ContainerPartInstance>
+             <ContainerPartInstance partIndex="6">
               <Data>
-               <DataNodeRef ref="$Instance.Recipient" name="Recipient"></DataNodeRef>
+               <DataNodeRef ref="$freetext_data.template.Text" name="Text"></DataNodeRef>
               </Data>
               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
              </ContainerPartInstance>
-             <SectionPartInstance partIndex="6">
+             <ContainerPartInstance partIndex="7">
+              <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+             </ContainerPartInstance>
+             <ContainerPartInstance partIndex="8">
               <Data>
-               <DataNode name="Grussformel">
-                <Value><![CDATA[string:Kind regards]]></Value>
+               <DataNode name="ComplimentaryClose">
+                <Value><![CDATA[string:Sincerely yours]]></Value>
                </DataNode>
-               <DataNode name="Unterschrift">
-                <Value><![CDATA[string:mtx://Framework/Graphics/signature_HB.png]]></Value>
+               <DataNode name="Signature">
+                <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
                </DataNode>
-               <DataNodeRef ref="$Instance.Sender" name="Sender"></DataNodeRef>
+               <DataNode name="user">
+                <DataNode name="Signature">
+                 <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
+                </DataNode>
+                <DataNode name="User">
+                 <Value><![CDATA[string:Karen Rentlinger]]></Value>
+                </DataNode>
+                <DataNode name="Role">
+                 <Value><![CDATA[string:Role]]></Value>
+                </DataNode>
+                <DataNode name="Position">
+                 <Value><![CDATA[string:]]></Value>
+                </DataNode>
+                <DataNode name="EMail">
+                 <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+                </DataNode>
+                <DataNode name="Fax">
+                 <Value><![CDATA[string:0815/47114249]]></Value>
+                </DataNode>
+                <DataNode name="Phone">
+                 <Value><![CDATA[string:0815/47111234]]></Value>
+                </DataNode>
+                <DataNode name="Name">
+                 <Value><![CDATA[string:Karen Rentlinger]]></Value>
+                </DataNode>
+                <DataNode name="Language">
+                 <Value><![CDATA[string:USA]]></Value>
+                </DataNode>
+               </DataNode>
               </Data>
-              <SectionPartInstance partIndex="0">
+              <ContainerPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0"></ContainerPartInstance>
                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
-              </SectionPartInstance>
-             </SectionPartInstance>
-             <SectionPartInstance partIndex="7">
+              </ContainerPartInstance>
+             </ContainerPartInstance>
+             <SectionPartInstance partIndex="9">
               <SectionPartInstance partIndex="0">
                <ContainerPartInstance partIndex="0" visible="false"></ContainerPartInstance>
                <ContainerPartInstance partIndex="1" visible="false"></ContainerPartInstance>
               </SectionPartInstance>
              </SectionPartInstance>
-             <ContainerPartInstance partIndex="8">
+             <ContainerPartInstance partIndex="10">
               <ContainerPartInstance partIndex="0"></ContainerPartInstance>
              </ContainerPartInstance>
             </DocumentPartInstance>
@@ -3858,11 +2984,24 @@
       <DocumentPartInstance partIndex="2"></DocumentPartInstance>
      </DocumentPartInstance>
     </DocumentPartInstance>
+    <DocumentPartInstance partIndex="1">
+     <DocumentPartInstance partIndex="0"></DocumentPartInstance>
+    </DocumentPartInstance>
+    <DocumentPartInstance partIndex="2">
+     <Data>
+      <DataNodeRef ref="$freetext_data" name="freetext_data"></DataNodeRef>
+     </Data>
+     <DocumentPartInstance partIndex="0">
+      <DocumentPartInstance partIndex="0" visible="false"></DocumentPartInstance>
+      <DocumentPartInstance partIndex="1" visible="false"></DocumentPartInstance>
+      <DocumentPartInstance partIndex="2" visible="false"></DocumentPartInstance>
+      <DocumentPartInstance partIndex="3" visible="false"></DocumentPartInstance>
+     </DocumentPartInstance>
+    </DocumentPartInstance>
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="\\Framework_TONIC_Demo\Data\auftrag_1korr_2ex_1empf_zentral.xml" name="Auftragssteuerung.FILE_NAME"></Property>
-   <Property value="\\Framework_TONIC_Demo\Data\auftrag_1korr_2ex_1empf_zentral.xml" name="TaskControl.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english.xml" name="TaskControl.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
 </TestCases>

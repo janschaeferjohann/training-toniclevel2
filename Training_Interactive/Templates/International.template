@@ -54,8 +54,8 @@
  <UIContribution>
   <GuideArea>
    <ContentLink title="Edit text" title-de_DE="Text bearbeiten" targetId="Freetext" dataNode=""></ContentLink>
-   <ActionLink title="Sprache wechseln" title-en_US="Change language" inputAreaGroupID="">
-    <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
+   <ActionLink title="Sprache ändern in Englisch" title-en_US="Change language to English" inputAreaGroupID="">
+    <VisibleIf><![CDATA[$freetext_data.User.Language == 'USA']]></VisibleIf>
     <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
 	case '':
 	$context.setDataValue($Metadata.DocumentLanguage, '')
@@ -64,7 +64,7 @@
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink>
-   <ActionLink title="Change language" title-de_DE="Sprache ändern" inputAreaGroupID="">
+   <ActionLink title="Change language to German" title-de_DE="Sprache ändern in Deutsch" inputAreaGroupID="">
     <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
     <Script><![CDATA[
     switch ($Metadata.DocumentLanguage.toString()) {
@@ -80,7 +80,7 @@
   <InputArea>
    <Field title="Enter subject" title-de_DE="Betreff bearbeiten" dataNode="$Show_Subject"></Field>
    <Group title="Subject" title-de_DE="Betreff">
-    <VisibleIf><![CDATA[$Show_Subject.valueOff()]]></VisibleIf>
+    <VisibleIf><![CDATA[$Subject1 !=""]]></VisibleIf>
     <Field title="Subject #1" title-de_DE="Betreff Zeile 1" dataNode="$Subject1"></Field>
     <Field title="Subject #2" title-de_DE="Betreff Zeile 2" dataNode="$Subject2"></Field>
     <Field title="Subject #3" title-de_DE="Betreff Zeile 3" dataNode="$Subject3"></Field>
