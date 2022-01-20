@@ -15,6 +15,7 @@
                      <NodeInst name="Selectable" value="true"/>
                   </Children>
                </NodeInst>
+               <NodeInst name="DocumentLanguage" value="USA"/>
             </Children>
          </NodeInst>
       </SerializedDataProvider>
