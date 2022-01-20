@@ -7,7 +7,7 @@
             <Children>
                <NodeInst name="OutputControl" value="">
                   <Children>
-                     <NodeInst name="FormattingMode" value="OMS"/>
+                     <NodeInst name="FormattingMode" value="Editor"/>
                   </Children>
                </NodeInst>
                <NodeInst name="Template" value="">
