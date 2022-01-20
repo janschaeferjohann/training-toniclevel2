@@ -4,6 +4,10 @@
    <DocumentDescription></DocumentDescription>
    <RootPartInstance partIndex="0">
     <Data>
+     <DataNode name="Mail">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="Sender"></DataNode>
+     </DataNode>
      <DataNode name="Metadata">
       <Value><![CDATA[string:]]></Value>
       <DataNode name="OutputControl">
@@ -33,39 +37,8 @@
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
        <Value><![CDATA[string:\library\Training_Mail\Templates\Mail.template]]></Value>
       </DataNode>
-     </DataNode>
-     <DataNode name="Mail">
-      <DataNode name="Sender">
-       <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
-      </DataNode>
-      <DataNode name="User" valueChanged="manually">
-       <Value><![CDATA[string:]]></Value>
-       <DataNode name="EMail">
-        <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
-       </DataNode>
-       <DataNode name="User">
-        <Value><![CDATA[string:Karen Rentlinger]]></Value>
-       </DataNode>
-       <DataNode name="Role">
-        <Value><![CDATA[string:Role]]></Value>
-       </DataNode>
-       <DataNode name="Position">
-        <Value><![CDATA[string:Kundenservice]]></Value>
-       </DataNode>
-       <DataNode name="Fax">
-        <Value><![CDATA[string:0815/47114249]]></Value>
-       </DataNode>
-       <DataNode name="Phone">
-        <Value><![CDATA[string:0815/47111234]]></Value>
-       </DataNode>
-       <DataNode name="Name">
-        <Value><![CDATA[string:Karen Rentlinger]]></Value>
-       </DataNode>
-      </DataNode>
-      <DataNode name="Customer">
-       <DataNode name="Salutation_local">
-        <Value><![CDATA[string:Hello,]]></Value>
-       </DataNode>
+      <DataNode name="Language">
+       <Value><![CDATA[string:en]]></Value>
       </DataNode>
      </DataNode>
     </Data>
@@ -81,7 +54,7 @@
    </RootPartInstance>
   </Root>
   <DataSourceProperties>
-   <Property value="" name="Mail.FILE_NAME"></Property>
+   <Property value="\\Framework_Training\Testdata\Level2-Billing_sf-english2.xml" name="Mail.FILE_NAME"></Property>
   </DataSourceProperties>
  </TestCase>
 </TestCases>
