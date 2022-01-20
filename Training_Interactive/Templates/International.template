@@ -61,7 +61,7 @@
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 	break;
 	default:
-	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
+	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink>
    <ActionLink title="Change language" inputAreaGroupID="">
@@ -72,7 +72,7 @@
 	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
 	break;
 	default:
-	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
 }]]></Script>
    </ActionLink>
   </GuideArea>

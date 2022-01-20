@@ -1,6 +1,7 @@
 <TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
  <TestCase name="testcase" includeInRegressionTool="false">
   <Root base="Training_Interactive">
+   <DocumentDescription></DocumentDescription>
    <RootPartInstance partIndex="0">
     <Data>
      <DataNode name="Metadata">
@@ -26,8 +27,8 @@
         <Value><![CDATA[string:]]></Value>
        </DataNode>
       </DataNode>
-      <DataNode name="DocumentLanguage" valueChanged="fromDataSource">
-       <Value><![CDATA[string:]]></Value>
+      <DataNode name="DocumentLanguage" valueChanged="manually">
+       <Value><![CDATA[string:USA]]></Value>
       </DataNode>
       <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
        <Value><![CDATA[string:\library\Training_Interactive\Models\TM0001.model.template]]></Value>
@@ -36,16 +37,14 @@
        <Value><![CDATA[string:]]></Value>
       </DataNode>
       <DataNode name="Language">
-       <Value><![CDATA[string:de]]></Value>
+       <Value><![CDATA[string:en]]></Value>
       </DataNode>
      </DataNode>
     </Data>
     <ContainerPartInstance partIndex="0">
      <Data>
       <DataNode name="Text">
-       <DataNode name="green_text">
-        <Value><![CDATA[string:Emissionfrei in eine grüne Zukunft - Ein schonungsvoller und bewusster Umgang mit unserer Umwelt sowie die nachhaltige Nutzung von Ressourcen sind wichtige Aufgaben, mit denen wir uns bei der sam.energy schon seit vielen Jahren befassen. Nicht umsonst lautet unsere Umweltphilosophie: 'Dem Menschen, der Natur und der Region verpflichtet'.]]></Value>
-       </DataNode>
+       <DataNode name="green_text"></DataNode>
       </DataNode>
      </Data>
      <ContainerPartInstance partIndex="0"></ContainerPartInstance>
