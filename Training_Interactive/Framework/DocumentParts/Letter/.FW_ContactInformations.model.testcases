@@ -1,0 +1,75 @@
+<TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
+ <TestCase name="testcase" includeInRegressionTool="false">
+  <Root base="Training_Interactive">
+   <RootPartInstance partIndex="0">
+    <Data>
+     <DataNode name="Metadata">
+      <Value><![CDATA[string:]]></Value>
+      <DataNode name="OutputControl">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="FormattingMode" valueChanged="fromDataSource">
+        <Value><![CDATA[string:Editor]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="State" valueChanged="fromDataSource">
+       <Value><![CDATA[string:Created]]></Value>
+      </DataNode>
+      <DataNode name="ValidationState" valueChanged="manually">
+       <Value><![CDATA[string:OK]]></Value>
+      </DataNode>
+      <DataNode name="Editor">
+       <Value><![CDATA[string:]]></Value>
+       <DataNode name="DefaultDocumentName" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+       <DataNode name="DefaultDocumentDescription" valueChanged="fromDataSource">
+        <Value><![CDATA[string:]]></Value>
+       </DataNode>
+      </DataNode>
+      <DataNode name="DocumentLanguage" valueChanged="manually">
+       <Value><![CDATA[string:USA]]></Value>
+      </DataNode>
+      <DataNode name="InitialDataBinding" valueChanged="fromDataSource">
+       <Value><![CDATA[string:\library\Training_Interactive\Framework\DocumentParts\Letter\FW_ContactInformations.model.template]]></Value>
+      </DataNode>
+      <DataNode name="Mandant" valueChanged="fromDataSource">
+       <Value><![CDATA[string:]]></Value>
+      </DataNode>
+      <DataNode name="Language">
+       <Value><![CDATA[string:en]]></Value>
+      </DataNode>
+     </DataNode>
+    </Data>
+    <ContainerPartInstance partIndex="0">
+     <Data>
+      <DataNode name="freetext_data">
+       <DataNode name="User">
+        <DataNode name="Position">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="User">
+         <Value><![CDATA[string:Karen Rentlinger]]></Value>
+        </DataNode>
+        <DataNode name="Phone">
+         <Value><![CDATA[string:0815/47111234]]></Value>
+        </DataNode>
+        <DataNode name="Fax">
+         <Value><![CDATA[string:0815/47114249]]></Value>
+        </DataNode>
+        <DataNode name="EMail">
+         <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="template">
+        <DataNode name="Date">
+         <Value><![CDATA[date:Jan 20, 2022, 8:52:59 AM]]></Value>
+        </DataNode>
+       </DataNode>
+      </DataNode>
+     </Data>
+     <ContainerPartInstance partIndex="0"></ContainerPartInstance>
+    </ContainerPartInstance>
+   </RootPartInstance>
+  </Root>
+ </TestCase>
+</TestCases>
