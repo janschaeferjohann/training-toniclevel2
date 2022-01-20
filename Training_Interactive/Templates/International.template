@@ -54,10 +54,10 @@
  <UIContribution>
   <GuideArea>
    <ContentLink title="Edit text" title-de_DE="Text bearbeiten" targetId="Freetext" dataNode=""></ContentLink>
-   <ActionLink title="Sprache Wechseln" title-en_US="Change language" inputAreaGroupID="">
+   <ActionLink title="Sprache wechseln" title-en_US="Change language" inputAreaGroupID="">
     <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
     <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
-	case 'en_US':
+	case '':
 	$context.setDataValue($Metadata.DocumentLanguage, '')
 	break;
 	default:
