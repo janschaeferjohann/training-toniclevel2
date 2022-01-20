@@ -79,8 +79,8 @@
   </GuideArea>
   <InputArea>
    <Field title="Enter subject" title-de_DE="Betreff bearbeiten" dataNode="$Show_Subject"></Field>
+    <VisibleIf><![CDATA[$Show_Subject.valueOff()]]></VisibleIf>
    <Group title="Subject" title-de_DE="Betreff">
-    <VisibleIf><![CDATA[$Subject1 !=""]]></VisibleIf>
     <Field title="Subject #1" title-de_DE="Betreff Zeile 1" dataNode="$Subject1"></Field>
     <Field title="Subject #2" title-de_DE="Betreff Zeile 2" dataNode="$Subject2"></Field>
     <Field title="Subject #3" title-de_DE="Betreff Zeile 3" dataNode="$Subject3"></Field>
