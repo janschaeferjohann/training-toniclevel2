@@ -14,7 +14,7 @@
        <HyperlinkUnderline>true</HyperlinkUnderline>
        <HyperlinkColor>rgb(0,113,188)</HyperlinkColor>
       </Style>
-      <Text>website</Text>
+      <Text>Webseite</Text>
      </Span>
      <Span>
       <Text>.</Text>
@@ -31,7 +31,7 @@
      <HyperlinkUnderline>true</HyperlinkUnderline>
      <HyperlinkColor>rgb(9,26,255)</HyperlinkColor>
     </Style>
-    <Text>Webseite</Text>
+    <Text>website</Text>
    </Span>
    <Span>
     <Text>.</Text>
