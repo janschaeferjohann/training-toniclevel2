@@ -6,17 +6,17 @@
   </AttachmentSectionStyle>
  </Style>
  <DocumentPart>
-  <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "en_US"]]></VisibleIf>
+  <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "de_DE"]]></VisibleIf>
   <DataDefinition></DataDefinition>
-  <AttachmentSection url="\\Framework_Training\Graphics\EnergyMix_EN.pdf">
+  <AttachmentSection url="\\Framework_Training\Graphics\EnergieMix_DE.pdf">
    <StaticContainer>
     <Style>
      <RegionRef>letterinfo</RegionRef>
     </Style>
     <Par>
      <Span>
-      <Marker name="Anlagen" rendered="false">
-       <Text>Energy mix for the "Easy Eco Energy"</Text>
+      <Marker name="Attachments" rendered="false">
+       <Text>Energiemix für den Tariff "Easy Eco Electricity"</Text>
       </Marker>
      </Span>
     </Par>
@@ -26,15 +26,15 @@
  <DocumentPart>
   <VisibleIf><![CDATA[else]]></VisibleIf>
   <DataDefinition></DataDefinition>
-  <AttachmentSection url="\\Framework_Training\Graphics\EnergieMix_DE.pdf">
+  <AttachmentSection url="\\Framework_Training\Graphics\EnergyMix_EN.pdf">
    <StaticContainer>
     <Style>
      <RegionRef>letterinfo</RegionRef>
     </Style>
     <Par>
      <Span>
-      <Marker name="Anlagen" rendered="false">
-       <Text>Energiemix für den Tariff "Easy Eco Electricity"</Text>
+      <Marker name="Attachments" rendered="false">
+       <Text>Energy mix for the "Easy Eco Energy"</Text>
       </Marker>
      </Span>
     </Par>

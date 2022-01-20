@@ -14,8 +14,8 @@
     </Style>
     <Par>
      <Span>
-      <Marker name="Anlagen">
-       <Text>Wichtige Begriffe erklärt</Text>
+      <Marker name="Attachments">
+       <Text>Important terms explained</Text>
       </Marker>
      </Span>
     </Par>

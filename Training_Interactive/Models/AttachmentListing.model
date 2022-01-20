@@ -3,31 +3,10 @@
  <Par>
   <Style parentName="TextSpaceBefore_12pt"></Style>
   <ParPart>
-   <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "ENG"]]></VisibleIf>
+   <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "GER"]]></VisibleIf>
    <DataDefinition></DataDefinition>
    <Span>
-    <MarkerRef occurrence="all" operation="script" name="Anlagen">
-     <Script><![CDATA[
-     	if (count < 1) {
-          	result = ' ';
-        }
-        else if(count == 1){
-        	result = 'Enclosed you will find the requested information material:';
-        }
-        else if (count > 1){
-	     
-	    	result = 'Enclosed you will find the requested information material:';
-	    }
-       ]]></Script>
-    </MarkerRef>
-    <Text></Text>
-   </Span>
-  </ParPart>
-  <ParPart>
-   <VisibleIf><![CDATA[else]]></VisibleIf>
-   <DataDefinition></DataDefinition>
-   <Span>
-    <MarkerRef occurrence="all" operation="script" name="Anlagen">
+    <MarkerRef occurrence="all" operation="script" name="Attachments">
      <Script><![CDATA[
      	if (count < 1) {
           	result = ' ';
@@ -44,9 +23,30 @@
     <Text></Text>
    </Span>
   </ParPart>
+  <ParPart>
+   <VisibleIf><![CDATA[else]]></VisibleIf>
+   <DataDefinition></DataDefinition>
+   <Span>
+    <MarkerRef occurrence="all" operation="script" name="Attachments">
+     <Script><![CDATA[
+     	if (count < 1) {
+          	result = ' ';
+        }
+        else if(count == 1){
+        	result = 'Enclosed you will find the requested information material:';
+        }
+        else if (count > 1){
+	     
+	    	result = 'Enclosed you will find the requested information material:';
+	    }
+       ]]></Script>
+    </MarkerRef>
+    <Text></Text>
+   </Span>
+  </ParPart>
  </Par>
  <ContainerPart>
-  <ForEachMarker scope="document">Anlagen</ForEachMarker>
+  <ForEachMarker scope="document">Attachments</ForEachMarker>
   <DataDefinition></DataDefinition>
   <Numbering id="1">
    <Style parentName="Bullet"></Style>
@@ -54,7 +54,7 @@
   <Par>
    <NumberingRef numberingId="1" level="1"></NumberingRef>
    <Span>
-    <MarkerRef occurrence="all" scope="loop" operation="sum" name="Anlagen"></MarkerRef>
+    <MarkerRef occurrence="all" scope="loop" operation="sum" name="Attachments"></MarkerRef>
     <Text></Text>
    </Span>
   </Par>

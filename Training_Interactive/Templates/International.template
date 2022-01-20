@@ -47,33 +47,34 @@
    <Script></Script>
    <Validation validation-type="any_value" operator="any" allow-empty-value="true" label="show subject" label-de_DE="Zeige Betreff">
     <Values></Values>
-    <ErrorMessage translation-de_DE="no valid value">Kein gültiger Wert eingetragen</ErrorMessage>
+    <ErrorMessage translation-de_DE="Kein gültiger Wert eingetragen">no valid value</ErrorMessage>
    </Validation>
   </DataNodeDef>
  </DataDefinition>
  <UIContribution>
   <GuideArea>
    <ContentLink title="Edit text" title-de_DE="Text bearbeiten" targetId="Freetext" dataNode=""></ContentLink>
-   <ActionLink title="Change language" title-de_DE="Sprache Wechseln" inputAreaGroupID="">
+   <ActionLink title="Sprache Wechseln" title-en_US="Change language" inputAreaGroupID="">
     <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
     <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
-	case 'de_DE':
-	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+	case 'en_US':
+	$context.setDataValue($Metadata.DocumentLanguage, '')
 	break;
 	default:
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink>
-   <ActionLink title="Change language" inputAreaGroupID="">
+   <ActionLink title="Change language" title-de_DE="Sprache ändern" inputAreaGroupID="">
     <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
     <Script><![CDATA[
     switch ($Metadata.DocumentLanguage.toString()) {
-	case 'en_US':
-	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
+	case '':
+	$context.setDataValue($Metadata.DocumentLanguage, '')
 	break;
 	default:
 	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
-}]]></Script>
+}
+    ]]></Script>
    </ActionLink>
   </GuideArea>
   <InputArea>

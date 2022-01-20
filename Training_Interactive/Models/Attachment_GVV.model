@@ -6,17 +6,17 @@
   </AttachmentSectionStyle>
  </Style>
  <DocumentPart>
-  <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "en_US"]]></VisibleIf>
+  <VisibleIf><![CDATA[$Metadata.DocumentLanguage == "de_DE"]]></VisibleIf>
   <DataDefinition></DataDefinition>
-  <AttachmentSection url="\\Framework_Training\Graphics\BSO - Basic Supply Ordinance.pdf">
+  <AttachmentSection url="\\Framework_Training\Graphics\GVV - Grundversorgungs-Verordnung.pdf">
    <StaticContainer>
     <Style>
      <RegionRef>letterinfo</RegionRef>
     </Style>
     <Par>
      <Span>
-      <Marker name="Anlagen">
-       <Text>BSO - Basic Supply Ordinance</Text>
+      <Marker name="Attachments">
+       <Text>GVV - Grundversorgungsverordnung</Text>
       </Marker>
      </Span>
     </Par>
@@ -26,15 +26,15 @@
  <DocumentPart>
   <VisibleIf><![CDATA[else]]></VisibleIf>
   <DataDefinition></DataDefinition>
-  <AttachmentSection url="\\Framework_Training\Graphics\GVV - Grundversorgungs-Verordnung.pdf">
+  <AttachmentSection url="\\Framework_Training\Graphics\BSO - Basic Supply Ordinance.pdf">
    <StaticContainer>
     <Style>
      <RegionRef>letterinfo</RegionRef>
     </Style>
     <Par>
      <Span>
-      <Marker name="Anlagen">
-       <Text>GVV - Grundversorgungsverordnung</Text>
+      <Marker name="Attachments">
+       <Text>BSO - Basic Supply Ordinance</Text>
       </Marker>
      </Span>
     </Par>
