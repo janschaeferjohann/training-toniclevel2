@@ -58,23 +58,23 @@
     <VisibleIf><![CDATA[$freetext_data.User.Language == 'GER']]></VisibleIf>
     <Script><![CDATA[switch ($Metadata.DocumentLanguage.toString()) {
 	case 'de_DE':
+	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
+	break;
+	default:
+	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
+}]]></Script>
+   </ActionLink>
+   <ActionLink title="Change language" inputAreaGroupID="">
+    <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
+    <Script><![CDATA[
+    switch ($Metadata.DocumentLanguage.toString()) {
+	case 'en_US':
 	$context.setDataValue($Metadata.DocumentLanguage, 'de_DE')
 	break;
 	default:
 	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
 }]]></Script>
    </ActionLink>
-   <!--    <ActionLink title="Change language" inputAreaGroupID="">
-    <VisibleIf><![CDATA[$CurrentUser.language == 'USA']]></VisibleIf>
-    <Script><![CDATA[
-    switch ($Metadata.DocumentLanguage.toString()) {
-	case 'en_US':
-	$context.setDataValue($Metadata.DocumentLanguage, '')
-	break;
-	default:
-	$context.setDataValue($Metadata.DocumentLanguage, 'en_US')
-}]]></Script>
-   </ActionLink> -->
   </GuideArea>
   <InputArea>
    <Field title="Enter subject" title-de_DE="Betreff bearbeiten" dataNode="$Show_Subject"></Field>
