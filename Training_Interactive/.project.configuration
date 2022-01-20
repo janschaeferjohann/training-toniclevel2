@@ -4,5 +4,6 @@
    <description/>
    <icon/>
    <testDocument/>
-   <languages>en_US</languages>
+   <languages>de_DE</languages>
+   <dataprovisioning/>
 </configuration>

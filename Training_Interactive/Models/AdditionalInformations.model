@@ -4,9 +4,9 @@
   <Par>
    <Translations>
     <Translation>
-     <Language language="en" country="US" variant=""></Language>
+     <Language language="de" country="DE" variant=""></Language>
      <Span>
-      <Text>You can find more information on our </Text>
+    <Text>Weitere Informationen finden Sie auf unserer </Text>
      </Span>
      <Span>
       <Hyperlink><![CDATA["http://www.kwsoft.de"]]></Hyperlink>
@@ -23,7 +23,7 @@
    </Translations>
    <Style parentName="TextSpaceBefore_12pt"></Style>
    <Span>
-    <Text>Weitere Informationen finden Sie auf unserer </Text>
+      <Text>You can find more information on our </Text>
    </Span>
    <Span>
     <Hyperlink><![CDATA["http://www.kwsoft.de"]]></Hyperlink>
@@ -40,9 +40,9 @@
   <Par>
    <Translations>
     <Translation>
-     <Language language="en" country="US" variant=""></Language>
+     <Language language="de" country="DE" variant=""></Language>
      <Span>
-      <Text>You can also contact us by </Text>
+      <Text>Sie können uns auch gerne per </Text>
      </Span>
      <Span>
       <Hyperlink><![CDATA["mailto:info@kwsoft.de"]]></Hyperlink>
@@ -50,16 +50,16 @@
        <HyperlinkUnderline>true</HyperlinkUnderline>
        <HyperlinkColor>rgb(0,113,188)</HyperlinkColor>
       </Style>
-      <Text>mail</Text>
+      <Text>Mail</Text>
      </Span>
-     <Span>
-      <Text>.</Text>
-     </Span>
+   <Span>
+    <Text> erreichen.</Text>
+   </Span>
     </Translation>
    </Translations>
    <Style parentName="TextSpaceAfter"></Style>
    <Span>
-    <Text>Sie können uns auch gerne per </Text>
+    <Text>You can also contact us by </Text>
    </Span>
    <Span>
     <Hyperlink><![CDATA["mailto:info@kwsoft.de"]]></Hyperlink>
@@ -67,10 +67,10 @@
      <HyperlinkUnderline>true</HyperlinkUnderline>
      <HyperlinkColor>rgb(9,26,255)</HyperlinkColor>
     </Style>
-    <Text>Mail</Text>
+    <Text>mail</Text>
    </Span>
    <Span>
-    <Text> erreichen.</Text>
+    <Text>.</Text>
    </Span>
   </Par>
  </Container>

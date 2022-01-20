@@ -21,6 +21,14 @@
   </Span>
  </Par>
  <Par>
+  <Translations>
+   <Translation>
+    <Language language="de" country="DE" variant=""></Language>
+    <Span>
+     <Text>WIR SIND GRÜN!</Text>
+    </Span>
+   </Translation>
+  </Translations>
   <Style parentName="Header_blue1"></Style>
   <Span>
    <Text>WE ARE GREEN!</Text>
