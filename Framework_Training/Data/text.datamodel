@@ -24,8 +24,6 @@ if ((Language == 'GER') || (Language == 'de_DE')) {
     } else {	
 	out = "Emission-free into a green future - A careful and conscious handling of our environment as well as the sustainable use of resources are important tasks that we at sam.energy have been dealing with for many years. It is not for nothing that our environmental philosophy is: 'Committed to people, nature and the region'."
 		}
-	}
-}
 out;</Script>
       </Settings>
    </Node>
