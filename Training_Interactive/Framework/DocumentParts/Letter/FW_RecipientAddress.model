@@ -19,7 +19,7 @@
   <GuideArea></GuideArea>
   <InputArea>
    <Field title="Edit recipient" title-de_DE="Empfänger bearbeiten" dataNode="$Show_Recipient"></Field>
-     <VisibleIf><![CDATA[$Show_Recipient.valueOff()]]></VisibleIf>
+     <VisibleIf><![CDATA[$Show_Recipient.valueOf()]]></VisibleIf>
    <Group title="Recipient" title-de_DE="Empfänger">
     <Field dataNode="$Recipient.Partner.CompanyName1"></Field>
     <Field dataNode="$Recipient.Partner.Firstname"></Field>
