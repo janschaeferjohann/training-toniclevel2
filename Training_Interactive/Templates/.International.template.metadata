@@ -10,7 +10,7 @@
                      <NodeInst name="Selectable" value="true"/>
                   </Children>
                </NodeInst>
-               <NodeInst name="DocumentLanguage" value=""/>
+               <NodeInst name="DocumentLanguage" value="USA"/>
                <NodeInst name="Mandant" value="sam.energy"/>
             </Children>
          </NodeInst>
