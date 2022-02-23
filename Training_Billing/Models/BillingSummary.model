@@ -89,7 +89,7 @@
        </Column>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TableHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlue"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.items.item]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -175,7 +175,7 @@
       <Columns>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TableHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlue"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.anticipated_payments.paidanticipated_payments.amount]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -251,7 +251,7 @@
       <Columns>
        <Column id="presum"></Column>
       </Columns>
-      <Style parentName="TableHeaderFooterBlau"></Style>
+      <Style parentName="TableHeaderFooterBlue"></Style>
       <TablePart>
        <ForEach><![CDATA[$billing_data.billing.billdata.difference.Diff.Amount]]></ForEach>
        <DataDefinition></DataDefinition>
@@ -305,7 +305,7 @@
     </Style>
    </Column>
   </Columns>
-  <Style parentName="TableHeaderFooterBlau"></Style>
+  <Style parentName="TableHeaderFooterBlue"></Style>
   <Row>
    <Cell>
     <Container>

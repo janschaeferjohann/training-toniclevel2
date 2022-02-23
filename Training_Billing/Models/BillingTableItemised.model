@@ -233,7 +233,7 @@
    </Column>
    <Column id="netamount"></Column>
   </Columns>
-  <Style parentName="TableHeaderFooterBlau"></Style>
+  <Style parentName="TableHeaderFooterBlue"></Style>
   <TablePart>
    <DataDefinition></DataDefinition>
    <TablePart>

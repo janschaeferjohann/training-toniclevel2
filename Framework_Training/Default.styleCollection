@@ -160,7 +160,7 @@
   <SpaceBefore resolution="overwrite">0.0cm</SpaceBefore>
   <SpaceAfter resolution="overwrite">0.0cm</SpaceAfter>
  </TableStyle>
- <TableStyle name="TableHeaderFooterBlau" parentName="TableWeiß">
+ <TableStyle name="TableHeaderFooterBlue" parentName="TableWhite">
   <TableHeaderStyle>
    <RowStyle>
     <BackgroundColor>rgb(228,243,252)</BackgroundColor>
@@ -193,7 +193,7 @@
    <BackgroundColor>rgb(230,233,237)</BackgroundColor>
   </RowStyle>
  </TableStyle>
- <TableStyle name="TableWeiß" parentName="TableMatrixSmallPadding">
+ <TableStyle name="TableWhite" parentName="TableMatrixSmallPadding">
   <TableHeaderStyle>
    <Border>
     <Bottom width="500.0mpt" color="rgb(0,0,0)" style="solid"></Bottom>
