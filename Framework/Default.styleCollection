@@ -321,7 +321,7 @@
 			<FontFamily>SANS</FontFamily>
 		</SpanStyle>
 	</ParStyle>
-	<NumberingStyle name="AVB">
+	<NumberingStyle name="GCS">
 		<Levels>
 			<Level
 				number="1"
