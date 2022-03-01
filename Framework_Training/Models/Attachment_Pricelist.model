@@ -14,8 +14,8 @@
    </Style>
    <Par>
     <Span>
-     <Marker name="Anlagen">
-      <Text>Price sheet Electricitytarife</Text>
+     <Marker name="Attachments">
+      <Text>Price sheet Electricity tariffs</Text>
      </Marker>
     </Span>
    </Par>

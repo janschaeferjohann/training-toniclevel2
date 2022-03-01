@@ -351,7 +351,7 @@
    <charts:LegendPosition>none</charts:LegendPosition>
   </charts:ChartStyle>
  </ImageStyle>
- <AttachmentSectionStyle name="Anlage_AVB">
+ <AttachmentSectionStyle name="Attachment_GTC">
   <PageLayouts parentRef="Framework\DocumentParts\Attachment\Attachment_letter.pageLayouts"></PageLayouts>
  </AttachmentSectionStyle>
  <ParStyle name="TextSpaceAfter_12pt" parentName="Standard">
