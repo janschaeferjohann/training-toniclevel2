@@ -23,7 +23,7 @@
    <Field title="BSO - Basic Supply Ordinance" title-de_DE="GVV Anlage" dataNode="$freetext_data.Attachment.Attachment_GVV">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
-   <Field title="Electricity tariff price sheet" title-de_DE="Priceliste Anlage" dataNode="$freetext_data.Attachment.Attachment_Pricelist">
+   <Field title="Electricity tariff price sheet" title-de_DE="Preisliste Anlage" dataNode="$freetext_data.Attachment.Attachment_Pricelist">
     <VisibleIf><![CDATA[$freetext_data.Attachment.Show_Attachment.valueOf()]]></VisibleIf>
    </Field>
   </InputArea>
