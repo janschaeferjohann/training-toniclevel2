@@ -1,6 +1,7 @@
 <TestCases xmlns="urn:kwsoft:mtext:tonic:dom" activeTestCase="testcase">
  <TestCase name="testcase" includeInRegressionTool="false">
   <Root base="Training_Interactive">
+   <DocumentDescription></DocumentDescription>
    <RootPartInstance partIndex="0">
     <Data>
      <DataNode name="Metadata">
@@ -50,19 +51,52 @@
         <DataNode name="User">
          <Value><![CDATA[string:Karen Rentlinger]]></Value>
         </DataNode>
-        <DataNode name="Phone">
-         <Value><![CDATA[string:0815/47111234]]></Value>
+        <DataNode name="Phone" valueChanged="manually">
+         <Value><![CDATA[string:+49 815/47111234]]></Value>
         </DataNode>
-        <DataNode name="Fax">
-         <Value><![CDATA[string:0815/47114249]]></Value>
+        <DataNode name="Fax" valueChanged="manually">
+         <Value><![CDATA[string:+49 815/47114249]]></Value>
         </DataNode>
         <DataNode name="EMail">
          <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
         </DataNode>
+        <DataNode name="Role">
+         <Value><![CDATA[string:Role]]></Value>
+        </DataNode>
+        <DataNode name="Name">
+         <Value><![CDATA[string:Karen Rentlinger]]></Value>
+        </DataNode>
+        <DataNode name="Signature">
+         <Value><![CDATA[string:mtx://Framework_Training/Graphics/signature_rentlinger.png]]></Value>
+        </DataNode>
+        <DataNode name="Language">
+         <Value><![CDATA[string:USA]]></Value>
+        </DataNode>
        </DataNode>
        <DataNode name="template">
         <DataNode name="Date">
-         <Value><![CDATA[date:Jan 20, 2022, 8:52:59 AM]]></Value>
+         <Value><![CDATA[date:Mar 1, 2022, 6:15:05 PM]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="basedata">
+        <DataNode name="partnerid_formatted">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+       </DataNode>
+       <DataNode name="recipient">
+        <DataNode name="isValid">
+         <Value><![CDATA[bool:false]]></Value>
+        </DataNode>
+        <DataNode name="SalutatoryAddress">
+         <Value><![CDATA[string:Dear Ladies and Gentlemen]]></Value>
+        </DataNode>
+        <DataNode name="NameFirstname">
+         <Value><![CDATA[string:]]></Value>
+        </DataNode>
+        <DataNode name="Partner">
+         <DataNode name="Signature">
+          <Value><![CDATA[string:]]></Value>
+         </DataNode>
         </DataNode>
        </DataNode>
       </DataNode>
