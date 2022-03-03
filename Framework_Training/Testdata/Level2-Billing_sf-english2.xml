@@ -36,8 +36,8 @@
 					<salutatoryaddress></salutatoryaddress>
 					<role>Customer Advisor</role>
 					<email>g.guttman@sam.web</email>
-					<phone>0815-47111999</phone>
-					<fax>0815-47114799</fax>
+					<phone>+49 815-47111999</phone>
+					<fax>+49 815-47114799</fax>
 				</Partner>
 				<!--<salutatoryaddress>Hello Mr. Brackhaus,</salutatoryaddress>
 				<Namefirstname>Hans Brackhaus</Namefirstname>
@@ -67,8 +67,8 @@
 					<salutatoryaddress></salutatoryaddress>
 					<role>Customer Advisor</role>
 					<email>g.guttman@sam.web</email>
-					<phone>0815-47111999</phone>
-					<fax>0815-47114799</fax>
+					<phone>+49 815-47111999</phone>
+					<fax>+49 815-47114799</fax>
 				</user>
 			</sender>
 			<recipient>

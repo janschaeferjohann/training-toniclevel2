@@ -1,4 +1,4 @@
-<RootPart xmlns="urn:kwsoft:mtext:tonic:dom">
+<RootPart xmlns="urn:kwsoft:mtext:tonic:dom" id="\library\Framework_Training\SamplePattern\CopyTemplate.template">
  <DataDefinition>
   <ParamDef name="TaskControl" ref="\\Framework\Data\TaskControl.datamodel" dataMappingRef="\\Framework\Data\TaskControl.mapping">
    <Description></Description>
@@ -22,7 +22,7 @@
        <ContainerExtension id="CoverLetter Content">
         <Par>
          <Span>
-          <Text>&lt;&lt;hier Text einfügen&gt;&gt;</Text>
+          <Text>&lt;&lt;Please enter text here&gt;&gt;</Text>
          </Span>
         </Par>
        </ContainerExtension>

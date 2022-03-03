@@ -36,8 +36,8 @@
 					<salutatoryaddress></salutatoryaddress>
 					<role>Customer Advisor</role>
 					<email>k.rentlinger@sam.web</email>
-					<phone>0815-47111234</phone>
-					<fax>0815-47114249</fax>
+					<phone>+49 815-47111234</phone>
+					<fax>+49 815-47114249</fax>
 				</Partner>
 				<salutatoryaddress>Hello Hans,</salutatoryaddress>
 				<Namefirstname>Hans Brackhaus</Namefirstname>
@@ -66,8 +66,8 @@
 					<salutatoryaddress></salutatoryaddress>
 					<role>Customer Advisor</role>
 					<email>k.rentlinger@sam.web</email>
-					<phone>0815-47111234</phone>
-					<fax>0815-47114249</fax>
+					<phone>+49 815-47111234</phone>
+					<fax>+49 815-47114249</fax>
 				</user>
 			</sender>
 			<recipient>

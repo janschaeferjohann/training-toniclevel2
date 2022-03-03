@@ -619,10 +619,10 @@
             <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:+49 815-47111234]]></Value>
            </DataNode>
            <DataNode name="Fax" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:+49 815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
@@ -965,10 +965,10 @@
             <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:+49 815-47111234]]></Value>
            </DataNode>
            <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:+49 815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
@@ -2242,10 +2242,10 @@
             <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:+49 815-47111234]]></Value>
            </DataNode>
            <DataNode name="Fax" valueChanged="fromDataSource">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:+49 815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
@@ -2562,10 +2562,10 @@
             <Value><![CDATA[string:k.rentlinger@sam.web]]></Value>
            </DataNode>
            <DataNode name="Phone">
-            <Value><![CDATA[string:0815-47111234]]></Value>
+            <Value><![CDATA[string:+49 815-47111234]]></Value>
            </DataNode>
            <DataNode name="Fax">
-            <Value><![CDATA[string:0815-47114249]]></Value>
+            <Value><![CDATA[string:+49 815-47114249]]></Value>
            </DataNode>
            <DataNode name="Signature">
             <Value><![CDATA[string:mtx:Graphics/signature_rentlinger.png]]></Value>
